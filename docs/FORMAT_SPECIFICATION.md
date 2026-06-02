@@ -82,13 +82,47 @@ Each record is 15 bytes:
 ```
 Offset  Size  Description
 ------  ----  -----------
-0x00    8     Filename (ASCII, null-padded to 8 bytes)
+0x00    8     Encoded filename (see below — NOT plain ASCII)
 0x08    4     File offset within archive (uint32 LE)
 0x0C    3     Metadata (purpose varies)
 ```
 
 The record table starts at byte 13 (0x0D) and contains `record_count` entries.
 Total record table size = `record_count × 15` bytes.
+
+Each record's `offset` points **exactly** at an `\x01IDICOMP\x01` marker, so a
+record maps 1:1 to a data block (and thus to the HTML page or GIF it contains).
+
+#### Encoded Filename
+
+The 8-byte name field is **not** ASCII (an early draft of this spec assumed it
+was; that was wrong). The first 6 bytes pack the filename as **8 symbols of 6
+bits each**, read big-endian / MSB-first (6 × 8 = 48 bits = 8 × 6). The
+trailing 2 bytes are a constant type marker (`0x62 0xC6` for the archives
+examined) and carry no name data.
+
+Symbol alphabet:
+
+| Value | Meaning |
+|-------|---------|
+| 0 | padding / end of name |
+| 1–10 | digits `'0'`–`'9'` (value − 1) |
+| 11–36 | letters `'A'`–`'Z'` (value − 11) |
+| 37 | underscore `'_'` |
+
+Decoding example — bytes `78 60 5E 08 10 4B`:
+
+```
+0x78605E08104B  = 011110 000110 000001 011110 000010 000001 000001 001011
+                =   30      6      1     30      2      1      1     11
+                =   'T'    '5'    '0'   'T'    '1'    '0'    '0'   'A'   -> "T50T100A"
+```
+
+This recovers the real filename (e.g. `T50T100A.gif`), which is what `<IMG SRC>`
+tags in the decompressed HTML reference. Without decoding it, extracted images
+can only be named by block index and cannot be linked back to the procedures
+that show them. Validated against 65 figures whose image dimensions uniquely
+identify their block; see `decode_record_name()` in `extract_ford_arc.py`.
 
 ### Data Blocks
 

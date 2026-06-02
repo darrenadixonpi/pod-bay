@@ -34,9 +34,10 @@ The dev environment here is **Windows**, but the extractor scripts were written 
 ## Architecture
 
 The extraction pipeline is three independent scripts chained by their file outputs (not imports). `extract_ford_arc.py` + `extract_ford_mdb.py` produce a directory of artifacts; `build_skill.py` consumes that directory by globbing for files (`*_manual.txt`, `*_section_index.json`, `*.csv`) — it does **not** take structured arguments pointing at specific files. So the contract between stages is filename conventions, documented in `docs/CONTRIBUTING.md` under "Required outputs":
-- `<arc>_manual.txt` — one page per `=`-separator block
+- `<arc>_manual.txt` — one page per `=`-separator block; service illustrations are preserved inline as `[FIGURE: name.gif]` markers
 - `<arc>_section_index.json` — array of `{section, name, page_count, total_chars, first_page, last_page}`
-- `images/` — extracted GIFs
+- `<arc>_figures.json` — array of `{page, section, figures:[...]}` mapping each page to the illustrations it references (the manual→diagram linkage `get_diagram` resolves against)
+- `images/` — extracted GIFs, **named by their real filename** (e.g. `Y5111B.gif`) so `[FIGURE: ...]` markers resolve to files
 - `<mdb>_<TABLE>.csv` / `.json` — wiring tables (CELLS, COMP, CONN, GRND, SPLICE, and their `*REF` cross-reference tables)
 
 A new manufacturer extractor is expected to emit these same outputs so `build_skill.py` and downstream consumers stay format-agnostic. See `docs/ARCHITECTURE.md` for the planned full system (format-detection router → extraction handlers → unified knowledge base → RAG → LLM tool layer → mobile app) and the manufacturer-agnostic Claude tool interface (`search_manual`, `get_section`, `get_diagram`, `lookup_component`, `highlight_zone`).
@@ -51,6 +52,8 @@ The heart of the Ford extractor is `decompress_ford()` in `extract_ford_arc.py`.
 ### Archive structure (parse_arc_header / extract_blocks)
 
 `.ARC` files: `POD BAY` (or `BAY POD` v2) magic, uint32 record count at offset 9, then 15-byte records, then data. Data blocks are located by scanning for the `\x01IDICOMP\x01` marker, each followed by a **signed int16 block size**: positive = compressed, negative = raw (e.g. GIFs, already LZW-compressed), zero = end-of-stream. Content type (html/gif/wcf/xml) is sniffed from the first decompressed/raw bytes.
+
+Each 15-byte record is `[8-byte name][uint32 offset][3-byte meta]`, and **record offsets land exactly on `IDICOMP` markers** — that's how a block is mapped to its filename (`name_by_pos` in `main()`). The 8-byte name is **not** plain ASCII: `decode_record_name()` unpacks the first 6 bytes as 8× 6-bit symbols (big-endian, MSB-first; `0`=pad, `1–10`=digits, `11–36`=`A–Z`, `37`=`_`); the trailing 2 bytes are a constant type marker. This decoding is what lets GIFs be named `Y5111B.gif` instead of `image_0001.gif`, which is the entire basis of the diagram linkage. Validated against 65 figures whose unique image dimensions pin them to one block.
 
 ## Ford file naming
 

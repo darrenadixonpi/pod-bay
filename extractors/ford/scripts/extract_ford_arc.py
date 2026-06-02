@@ -117,6 +117,39 @@ def decompress_ford(compressed: bytes) -> bytearray:
     return output
 
 
+def decode_record_name(name8: bytes) -> str:
+    """Decode the 8-byte record name field into the real filename stem.
+
+    Reverse-engineered: the first 6 bytes pack 8 characters as 6-bit symbols,
+    big-endian / MSB-first (48 bits total). The trailing 2 bytes are a constant
+    type marker and are ignored. Symbol alphabet:
+
+        0       padding / end of name
+        1..10   digits '0'..'9'
+        11..36  letters 'A'..'Z'
+        37      underscore '_'
+
+    Validated against 65 figures whose image dimensions uniquely identify their
+    archive block (e.g. b'\\x78\\x60\\x5e\\x08\\x10\\x4b' -> "T50T100A").
+    Returns the stem without extension (callers append '.gif').
+    """
+    bits = int.from_bytes(name8[:6], 'big')
+    out = []
+    for i in range(8):
+        sym = (bits >> (42 - i * 6)) & 0x3F
+        if sym == 0:
+            continue
+        if 1 <= sym <= 10:
+            out.append(chr(ord('0') + sym - 1))
+        elif 11 <= sym <= 36:
+            out.append(chr(ord('A') + sym - 11))
+        elif sym == 37:
+            out.append('_')
+        else:
+            out.append('?')  # unknown symbol; should not occur in practice
+    return ''.join(out)
+
+
 def parse_arc_header(data: bytes) -> dict:
     """
     Parse the POD BAY archive header.
@@ -149,10 +182,9 @@ def parse_arc_header(data: bytes) -> dict:
         file_offset = struct.unpack_from('<I', data, offset + 8)[0]
         meta = data[offset + 12:offset + 15]
 
-        name = name_raw.rstrip(b'\x00').decode('ascii', errors='replace')
         records.append({
             'index': i,
-            'name': name,
+            'name': decode_record_name(name_raw),
             'offset': file_offset,
             'meta': meta.hex()
         })
@@ -267,8 +299,34 @@ def extract_html_pages(blocks: list) -> list:
     return pages, errors
 
 
+# UI / navigation chrome images that are not service illustrations.
+_NAV_GIF_RE = re.compile(
+    r'^(arrowbak|arrowfwd|arrow|ani_|spacer|blank|dot|bullet|line|hr|'
+    r'logo|home|print|back|next|btn|nav)', re.IGNORECASE)
+
+
+def _figure_name(src: str) -> str:
+    """Normalize an <img src> to its bare filename."""
+    return src.replace('\\', '/').rsplit('/', 1)[-1]
+
+
+def is_content_figure(src: str) -> bool:
+    """True for service illustrations, False for UI/navigation chrome."""
+    return not _NAV_GIF_RE.match(_figure_name(src))
+
+
+def extract_figures(html: str) -> list:
+    """Ordered list of service-illustration filenames referenced by a page."""
+    figs = []
+    for m in re.finditer(r'<img[^>]*?\bsrc\s*=\s*"([^"]+)"', html, re.IGNORECASE):
+        name = _figure_name(m.group(1))
+        if is_content_figure(name) and name not in figs:
+            figs.append(name)
+    return figs
+
+
 def html_to_text(html: str) -> str:
-    """Convert HTML to plain text, preserving structure."""
+    """Convert HTML to plain text, preserving structure and figure references."""
     text = html
     # Remove scripts and styles
     text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL | re.IGNORECASE)
@@ -278,6 +336,11 @@ def html_to_text(html: str) -> str:
     text = text.replace('&lt;', '<').replace('&gt;', '>')
     text = text.replace('&reg;', '\u00ae').replace('&deg;', '\u00b0')
     text = text.replace('&plusmn;', '\u00b1')
+    # Preserve service illustrations as inline figure markers (drop UI chrome).
+    def _img_repl(m):
+        src = _figure_name(m.group(1))
+        return f'\n[FIGURE: {src}]\n' if is_content_figure(src) else ' '
+    text = re.sub(r'<img[^>]*?\bsrc\s*=\s*"([^"]+)"[^>]*>', _img_repl, text, flags=re.IGNORECASE)
     # Convert block elements to newlines
     text = re.sub(r'<br\s*/?>', '\n', text, flags=re.IGNORECASE)
     text = re.sub(r'</?(?:p|div|tr|li|h[1-6]|ol|ul|table|td|th|hr)[^>]*>', '\n', text, flags=re.IGNORECASE)
@@ -300,30 +363,42 @@ def extract_section_info(text: str) -> dict:
     return {'section': section, 'name': name}
 
 
+def _gif_filename(block: dict) -> str:
+    """Name a GIF by its decoded record name; fall back to block index."""
+    name = block.get('name')
+    if name and re.fullmatch(r'[A-Z0-9_]+', name):
+        return f'{name}.gif'
+    return f'image_{block["index"]:04d}.gif'
+
+
 def extract_gifs(blocks: list, output_dir: Path):
-    """Extract all GIF images from the archive."""
+    """Extract all GIF images, named by their real (decoded) filename.
+
+    Returns the set of written filenames so the caller can validate that figure
+    references in the manual text resolve to actual files.
+    """
     gif_dir = output_dir / 'images'
     gif_dir.mkdir(exist_ok=True)
 
-    gif_count = 0
+    written = set()
     for block in blocks:
-        if block['type'] in ('gif_raw',):
-            # Raw GIF - save directly
-            gif_path = gif_dir / f'image_{block["index"]:04d}.gif'
-            gif_path.write_bytes(block['content'])
-            gif_count += 1
+        data = None
+        if block['type'] == 'gif_raw':
+            data = block['content']
         elif block['type'] == 'gif' and block['compressed']:
-            # Compressed GIF - decompress first
             try:
                 result = decompress_ford(block['content'])
                 if result[:3] == b'GIF':
-                    gif_path = gif_dir / f'image_{block["index"]:04d}.gif'
-                    gif_path.write_bytes(result)
-                    gif_count += 1
+                    data = result
             except Exception:
-                pass
+                data = None
+        if data is None:
+            continue
+        fname = _gif_filename(block)
+        (gif_dir / fname).write_bytes(data)
+        written.add(fname)
 
-    return gif_count
+    return written
 
 
 def main():
@@ -362,8 +437,13 @@ def main():
         print(f"  Magic: {header['magic']}")
         print(f"  Records: {header['record_count']}")
 
-        # Extract blocks
+        # Extract blocks and attach each block's real filename via the record
+        # table (record offsets land exactly on IDICOMP markers = block starts).
         blocks = extract_blocks(data)
+        name_by_pos = {r['offset']: r['name'] for r in header['records']}
+        for b in blocks:
+            b['name'] = name_by_pos.get(b['position'])
+
         block_types = {}
         for b in blocks:
             block_types[b['type']] = block_types.get(b['type'], 0) + 1
@@ -387,6 +467,7 @@ def main():
             page['plain_text'] = plain
             page['section'] = info['section']
             page['section_name'] = info['name']
+            page['figures'] = extract_figures(page['html'])
 
             if info['section']:
                 if info['section'] not in section_data:
@@ -439,10 +520,36 @@ def main():
             json.dump(index, f, indent=2)
         print(f"  Section index: {index_path} ({len(index)} sections)")
 
-        # Extract images
+        # Extract images (named by their real decoded filename)
+        written = set()
         if args.extract_images:
-            gif_count = extract_gifs(blocks, output_dir)
-            print(f"  Images extracted: {gif_count}")
+            written = extract_gifs(blocks, output_dir)
+            print(f"  Images extracted: {len(written)}")
+
+        # Write figures index: which illustrations each page references, and
+        # whether the referenced file was extracted. This is the manual->diagram
+        # linkage that get_diagram relies on.
+        figures_index = []
+        all_referenced = set()
+        for page in pages:
+            if not page.get('figures'):
+                continue
+            all_referenced.update(page['figures'])
+            figures_index.append({
+                'page': page['block_index'],
+                'section': page.get('section') or None,
+                'figures': page['figures'],
+            })
+        fig_path = output_dir / f'{arc_name}_figures.json'
+        with open(fig_path, 'w') as f:
+            json.dump(figures_index, f, indent=2)
+        print(f"  Figures index: {fig_path} "
+              f"({len(figures_index)} pages reference {len(all_referenced)} illustrations)")
+        if written:
+            missing = {f for f in all_referenced if f not in written}
+            print(f"    referenced figures resolved to files: "
+                  f"{len(all_referenced) - len(missing)}/{len(all_referenced)}"
+                  + (f" (missing {len(missing)})" if missing else ""))
 
         # Print section summary
         if args.verbose and section_data:

@@ -58,14 +58,19 @@ TOOLS = [
     {
         "name": "get_diagram",
         "description": (
-            "Retrieve a technical diagram by figure id. NOTE: diagram-to-"
-            "procedure linkage is not yet available; this currently reports the "
-            "available diagram files rather than resolving a specific figure."
+            "Resolve a technical illustration to a viewable image. Pass a figure "
+            "filename exactly as it appears inline in the manual text as "
+            "[FIGURE: name.gif] (e.g. 'Y5111B.gif'). Returns a URL plus where the "
+            "figure appears. Call this when a procedure references a figure so "
+            "the user can see it."
         ),
         "input_schema": {
             "type": "object",
             "properties": {
-                "figure_id": {"type": "string", "description": "Figure id from the manual"},
+                "figure_id": {
+                    "type": "string",
+                    "description": "Figure filename from a [FIGURE: ...] marker, e.g. 'Y5111B.gif'",
+                },
             },
             "required": ["figure_id"],
         },

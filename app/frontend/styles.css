@@ -69,6 +69,11 @@ button.example {
 }
 button.example:hover { border-color: var(--accent); }
 
+.answer-figures { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+.answer-figures figure { margin: 0; background: #fff; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); max-width: 260px; }
+.answer-figures img { width: 100%; display: block; cursor: zoom-in; }
+.answer-figures figcaption { font-size: 11px; color: var(--muted); padding: 4px 6px; background: var(--panel-2); font-family: ui-monospace, monospace; }
+
 .thinking { color: var(--muted); font-style: italic; }
 .dot-flash::after { content: "…"; animation: dots 1.2s steps(4, end) infinite; }
 @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }

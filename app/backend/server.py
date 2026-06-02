@@ -6,6 +6,7 @@ POST /chat  { "messages": [{"role": "user", "content": "..."}, ...] }
 
 Run:  ANTHROPIC_API_KEY=... uvicorn server:app --reload --port 8000
 """
+import json
 import os
 
 from pathlib import Path
@@ -36,6 +37,11 @@ wiring database for this exact vehicle. Ground every answer in them:
 - For electrical work, use lookup_component to give the part number, physical
   location, connector id, and zone.
 - Cite the manual section number (e.g. "Section 06-03") in your answer.
+- The manual text contains inline figure markers like [FIGURE: Y5111B.gif].
+  When a figure is directly relevant to what you're explaining, call
+  get_diagram with that exact filename so the user can see it, and refer to it
+  in your answer (e.g. "see the exploded view"). Prefer the 1-3 most relevant
+  figures rather than every one mentioned.
 - Walk the user through diagnosis step by step. Adapt detail to their apparent
   skill level. Surface the manual's safety warnings when relevant.
 - If the manual does not cover something, say so rather than guessing."""
@@ -48,6 +54,7 @@ class ChatRequest(BaseModel):
 class ChatResponse(BaseModel):
     reply: str
     tool_calls: list[dict]
+    diagrams: list[dict] = []  # resolved figures: {figure_id, url}
 
 
 def _cached_system():
@@ -82,6 +89,7 @@ def vehicle():
 def chat(req: ChatRequest):
     messages = list(req.messages)
     trace = []
+    diagrams = []  # resolved figures to show in the UI
 
     for _ in range(MAX_TOOL_ROUNDS):
         resp = client.messages.create(
@@ -94,7 +102,7 @@ def chat(req: ChatRequest):
 
         if resp.stop_reason != "tool_use":
             text = "".join(b.text for b in resp.content if b.type == "text")
-            return ChatResponse(reply=text, tool_calls=trace)
+            return ChatResponse(reply=text, tool_calls=trace, diagrams=diagrams)
 
         # Execute every tool call in this turn and feed results back.
         messages.append({"role": "assistant", "content": [b.model_dump() for b in resp.content]})
@@ -104,6 +112,11 @@ def chat(req: ChatRequest):
                 continue
             output = tools.run_tool(block.name, block.input)
             trace.append({"tool": block.name, "input": block.input})
+            # Collect resolved diagrams so the UI can render them inline.
+            if block.name == "get_diagram":
+                parsed = json.loads(output)
+                if parsed.get("resolved") and not any(d["url"] == parsed["url"] for d in diagrams):
+                    diagrams.append({"figure_id": parsed["figure_id"], "url": parsed["url"]})
             results.append({
                 "type": "tool_result",
                 "tool_use_id": block.id,
@@ -114,6 +127,7 @@ def chat(req: ChatRequest):
     return ChatResponse(
         reply="(stopped: exceeded tool-call budget without a final answer)",
         tool_calls=trace,
+        diagrams=diagrams,
     )
 
 

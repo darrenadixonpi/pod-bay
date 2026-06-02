@@ -51,6 +51,26 @@ def _section_index():
     return json.loads(config.SECTION_INDEX.read_text(encoding="utf-8"))
 
 
+@lru_cache(maxsize=1)
+def _diagram_files():
+    """Map lowercased diagram filename -> actual filename on disk."""
+    return {p.name.lower(): p.name for p in config.DIAGRAMS_DIR.glob("*.gif")}
+
+
+@lru_cache(maxsize=1)
+def _figure_locations():
+    """Map lowercased figure filename -> list of {page, section} that show it."""
+    locs = {}
+    if not config.FIGURES_INDEX.exists():
+        return locs
+    for entry in json.loads(config.FIGURES_INDEX.read_text(encoding="utf-8")):
+        for fig in entry.get("figures", []):
+            locs.setdefault(fig.lower(), []).append(
+                {"page": entry.get("page"), "section": entry.get("section")}
+            )
+    return locs
+
+
 def _tokenize(s: str):
     return _WORD_RE.findall(s.lower())
 
@@ -151,19 +171,27 @@ def lookup_component(query: str) -> dict:
 
 
 def get_diagram(figure_id: str) -> dict:
-    """STUB — manual-text→diagram linkage was lost during extraction.
+    """Resolve a figure filename (e.g. 'Y5111B.gif') to a servable image.
 
-    The HTML→text step strips <img> tags and the extracted GIFs are named by
-    sequential block index rather than figure id, so we cannot resolve a
-    figure id to a file yet. Returns the list of available diagram files so the
-    UI can at least offer them by section. Fixing this requires re-extracting
-    with <img src> preserved (see CLAUDE.md / get_diagram gap).
+    Figure references appear inline in the manual text as [FIGURE: name.gif].
+    Resolution is case-insensitive (manual src casing is inconsistent). Returns
+    a URL the UI can load plus the page(s)/section(s) where the figure appears.
     """
-    diagrams = sorted(p.name for p in config.DIAGRAMS_DIR.glob("*.gif"))
+    fid = figure_id.strip()
+    if not fid.lower().endswith(".gif"):
+        fid += ".gif"
+    key = fid.lower()
+
+    actual = _diagram_files().get(key)
+    if not actual:
+        return {
+            "figure_id": figure_id,
+            "resolved": False,
+            "reason": f"No diagram file named {fid}.",
+        }
     return {
-        "figure_id": figure_id,
-        "resolved": False,
-        "reason": "Diagram-to-procedure linkage not yet available (extractor gap).",
-        "available_diagram_count": len(diagrams),
-        "available_diagrams": diagrams,
+        "figure_id": actual,
+        "resolved": True,
+        "url": f"/diagrams/{actual}",
+        "appears_in": _figure_locations().get(key, []),
     }

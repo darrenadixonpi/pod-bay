@@ -57,15 +57,15 @@ vehicle with `PODBAY_VEHICLE` (default `1996-mercury-grand-marquis`).
 - `search_manual(query, max_results)` → ranked page snippets (keyword scored) ✅
 - `get_section(section_id)` → full section text ✅
 - `lookup_component(query)` → EVTM part #, location, connector, zone ✅
-- `get_diagram(figure_id)` → **stub.** Manual-text→diagram linkage was lost in
-  extraction (`<img>` tags stripped; GIFs named by block index, not figure id).
-  Returns the available diagram files. Fixing it requires re-extracting with
-  `<img src>` preserved — see the get_diagram gap noted in `CLAUDE.md`.
+- `get_diagram(figure_id)` → resolves a `[FIGURE: name.gif]` reference (as it
+  appears inline in the manual text) to a `/diagrams/<file>` URL plus the
+  page/section it appears in. Case-insensitive. ✅ The UI renders these inline
+  under the answer. (Relies on `figures.json` + the correctly-named GIFs the
+  upgraded extractor now produces.)
 
 ## Next steps
 
 - Swap keyword search for vector search behind the same `retrieval.py`
   signatures (ChromaDB or sqlite-vss) once retrieval quality demands it.
-- Fix the diagram linkage in the Ford extractor, then make `get_diagram` real.
 - `highlight_zone` (3D) is intentionally not implemented yet — deferred until a
   model viewer exists; the tool contract in `docs/ARCHITECTURE.md` reserves it.

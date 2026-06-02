@@ -38,6 +38,7 @@ DIAGRAMS_DIR = VEHICLE_DIR / "diagrams"
 WORKSHOP_MANUAL = REFERENCES_DIR / "workshop_manual.txt"
 OWNERS_MANUAL = REFERENCES_DIR / "owners_manual.txt"
 SECTION_INDEX = REFERENCES_DIR / "section_index.json"
+FIGURES_INDEX = REFERENCES_DIR / "figures.json"
 
 # Human-readable label used in the system prompt.
 VEHICLE_LABEL = "1996 Mercury Grand Marquis (4.6L SOHC V8, Panther platform)"

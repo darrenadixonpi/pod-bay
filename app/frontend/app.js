@@ -120,6 +120,23 @@ async function send(text) {
     });
 
     pending.innerHTML = marked.parse(res.reply);
+    if (res.diagrams && res.diagrams.length) {
+      const figs = document.createElement("div");
+      figs.className = "answer-figures";
+      for (const d of res.diagrams) {
+        const fig = document.createElement("figure");
+        const img = document.createElement("img");
+        img.loading = "lazy";
+        img.src = d.url;
+        img.alt = d.figure_id;
+        img.addEventListener("click", () => openLightbox(d.url));
+        const cap = document.createElement("figcaption");
+        cap.textContent = d.figure_id;
+        fig.append(img, cap);
+        figs.append(fig);
+      }
+      pending.append(figs);
+    }
     history.push({ role: "assistant", content: res.reply });
     renderTrace(res.tool_calls);
   } catch (e) {

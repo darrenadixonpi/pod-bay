@@ -29,6 +29,15 @@ output/
 wiring_data/
 *.tar.gz
 
+# Proprietary OEM source archives (extract from media you own; never commit)
+*.ARC
+*.arc
+*.MDB
+*.mdb
+*.ova
+*.vmdk
+*.iso
+
 # Large data files that should use Git LFS or be downloaded separately
 # Uncomment these if the vehicle data is too large for your repo:
 # vehicles/*/references/workshop_manual.txt
