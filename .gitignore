@@ -7,6 +7,10 @@ build/
 .venv/
 venv/
 
+# Secrets
+.env
+*.env
+
 # IDE
 .vscode/
 .idea/
