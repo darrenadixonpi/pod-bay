@@ -10,6 +10,9 @@ const sendBtn = document.getElementById("send");
 
 // Conversation history sent to the backend each turn (text only).
 const history = [];
+// Richer transcript for debugging export: each turn with tool calls + diagrams.
+const transcript = [];
+let vehicleLabel = "";
 
 // Friendly labels for the tool-call trace.
 const TOOL_LABELS = {
@@ -23,6 +26,7 @@ const TOOL_LABELS = {
 async function init() {
   try {
     const v = await fetch("/api/vehicle").then((r) => r.json());
+    vehicleLabel = v.label;
     document.getElementById("vehicle-label").textContent = v.label;
     renderDiagrams(v.diagrams);
   } catch (e) {
@@ -102,6 +106,7 @@ function renderTrace(toolCalls) {
 async function send(text) {
   addMessage("user", text);
   history.push({ role: "user", content: text });
+  transcript.push({ role: "user", content: text, at: new Date().toISOString() });
   input.value = "";
   autosize();
   sendBtn.disabled = true;
@@ -120,10 +125,18 @@ async function send(text) {
     });
 
     pending.innerHTML = marked.parse(res.reply);
-    if (res.diagrams && res.diagrams.length) {
+    // Make any images the model embedded inline zoomable.
+    pending.querySelectorAll("img").forEach((img) =>
+      img.addEventListener("click", () => openLightbox(img.src))
+    );
+    // Only append diagrams the model did NOT already embed inline (avoids the
+    // duplicate render that produced the stretched "blank" figure).
+    const reply = res.reply || "";
+    const extra = (res.diagrams || []).filter((d) => !reply.includes(d.url));
+    if (extra.length) {
       const figs = document.createElement("div");
       figs.className = "answer-figures";
-      for (const d of res.diagrams) {
+      for (const d of extra) {
         const fig = document.createElement("figure");
         const img = document.createElement("img");
         img.loading = "lazy";
@@ -138,9 +151,17 @@ async function send(text) {
       pending.append(figs);
     }
     history.push({ role: "assistant", content: res.reply });
+    transcript.push({
+      role: "assistant",
+      content: res.reply,
+      tool_calls: res.tool_calls || [],
+      diagrams: res.diagrams || [],
+      at: new Date().toISOString(),
+    });
     renderTrace(res.tool_calls);
   } catch (e) {
     pending.innerHTML = `<span class="thinking">⚠️ ${escapeHtml(e.message)} — is the backend running with an API key?</span>`;
+    transcript.push({ role: "assistant", error: e.message, at: new Date().toISOString() });
   } finally {
     sendBtn.disabled = false;
     messagesEl.scrollTop = messagesEl.scrollHeight;
@@ -180,6 +201,33 @@ document.querySelectorAll(".tab").forEach((tab) =>
     document.getElementById(tab.dataset.tab).classList.add("active");
   })
 );
+
+// Export the full conversation (messages + tool calls + diagrams) as JSON.
+const exportBtn = document.getElementById("export");
+exportBtn.addEventListener("click", () => {
+  if (!transcript.length) {
+    exportBtn.textContent = "nothing yet";
+    setTimeout(() => (exportBtn.textContent = "⬇ Export"), 1200);
+    return;
+  }
+  const payload = {
+    exported_at: new Date().toISOString(),
+    vehicle: vehicleLabel,
+    page_url: location.href,
+    turn_count: transcript.length,
+    transcript,            // human-facing turns with tool calls + diagrams
+    raw_history: history,  // exact messages sent to /api/chat
+  };
+  const stamp = new Date().toISOString().replace(/[:.]/g, "-").slice(0, 19);
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `podbay-conversation-${stamp}.json`;
+  document.body.append(a);
+  a.click();
+  a.remove();
+  URL.revokeObjectURL(a.href);
+});
 
 // Lightbox for diagrams
 const lightbox = document.createElement("div");
