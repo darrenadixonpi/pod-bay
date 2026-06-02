@@ -21,13 +21,16 @@ The long-term vision: a mobile app where you describe what's wrong with your car
 | Component | Status |
 |-----------|--------|
 | Ford IDICOMP decompressor | ✅ Complete — 0% error rate across all tested archives |
-| Ford ARC archive extractor | ✅ Complete — handles STA, ETA, and other .ARC files |
+| Ford ARC archive extractor | ✅ Complete — decodes record filenames, preserves inline `[FIGURE: …]` markers, emits a page→figures index |
 | Ford MDB wiring DB exporter | ✅ Complete — exports all EVTM tables to CSV/JSON |
 | Vehicle skill builder | ✅ Complete — packages data for LLM consumption |
-| 1996 Grand Marquis data | ✅ Complete — 2,146 pages + 286 components + 50 diagrams |
+| 1996 Grand Marquis data | ✅ Complete — 2,146 pages + 286 components + 2,163 diagrams |
+| Retrieval backend + Claude tool-use | ✅ MVP (`app/backend/`) — keyword search, get_section, lookup_component, get_diagram over the Grand Marquis; FastAPI `/api/chat` |
+| Web chat UI | ✅ MVP (`app/frontend/`) — chat + inline factory diagrams + tool-call trace |
+| Manual→diagram linkage | ✅ Complete — figures resolve to images and render inline |
+| Vector/RAG search | 🔲 Planned — keyword retrieval today; swap in behind `retrieval.py` |
 | Multi-manufacturer extractors | 🔲 Planned — Toyota TIS, GM SI, BMW ISTA+, others |
-| RAG retrieval backend | 🔲 Planned |
-| 3D model viewer | 🔲 Planned |
+| 3D model viewer | 🔲 Planned — `highlight_zone` tool reserved |
 | Mobile app | 🔲 Planned |
 
 ## Repository structure
