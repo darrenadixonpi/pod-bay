@@ -1,28 +1,44 @@
 # Backend
 
-RAG retrieval server and Claude tool-calling interface.
+RAG retrieval server and Claude tool-calling interface. Also serves the
+single-page web UI in `app/frontend/` from the same process.
 
 **Status:** MVP implemented for the `1996-mercury-grand-marquis` data. Keyword
 retrieval over the workshop manual + EVTM wiring tables, wired into a Claude
-tool-use loop behind a FastAPI `/chat` endpoint.
+tool-use loop behind a FastAPI `/api/chat` endpoint, with a browser chat UI.
 
 ## Run
 
 ```bash
 pip install -r requirements.txt
-export ANTHROPIC_API_KEY=sk-...           # PowerShell: $env:ANTHROPIC_API_KEY="sk-..."
+
+# Put your key in a gitignored .env (loaded automatically on startup):
+echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env       # or create app/backend/.env by hand
+
 uvicorn server:app --reload --port 8000
+```
 
-# health check
-curl localhost:8000/health
+Then open **http://localhost:8000** for the chat UI. API directly:
 
-# ask a question
-curl -X POST localhost:8000/chat -H 'content-type: application/json' \
+```bash
+curl localhost:8000/api/health
+curl -X POST localhost:8000/api/chat -H 'content-type: application/json' \
   -d '{"messages":[{"role":"user","content":"How do I replace the front brake pads and what are the torque specs?"}]}'
 ```
 
-Response: `{ "reply": "...", "tool_calls": [ ... ] }` — `tool_calls` is a trace of
-which retrieval tools Claude invoked, useful for judging retrieval quality.
+`/api/chat` returns `{ "reply": "...", "tool_calls": [ ... ] }` — `tool_calls`
+is a trace of which retrieval tools Claude invoked, surfaced in the UI's
+"What I looked at" panel and useful for judging retrieval quality.
+
+### Endpoints
+
+| Route | Purpose |
+|-------|---------|
+| `GET /` | Chat web UI (served from `app/frontend/`) |
+| `GET /api/health` | Liveness + active vehicle/model |
+| `GET /api/vehicle` | Vehicle label + diagram filenames |
+| `POST /api/chat` | Claude tool-use loop; `{messages}` → `{reply, tool_calls}` |
+| `GET /diagrams/<file>` | Extracted GIF diagrams (static) |
 
 ## Layout
 

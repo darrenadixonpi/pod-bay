@@ -11,6 +11,10 @@ venv/
 .env
 *.env
 
+# Local server logs
+uvlog.txt
+uvout.txt
+
 # IDE
 .vscode/
 .idea/

@@ -1,6 +1,21 @@
 # Frontend
 
-3D vehicle viewer and chat interface.
+Web chat UI for the service assistant, plus (planned) 3D vehicle viewer.
+
+## Current MVP
+
+A dependency-free single-page app (`index.html` + `styles.css` + `app.js`,
+no build step) served by the backend at `http://localhost:8000`. Uses
+`marked` (via CDN) to render the assistant's markdown.
+
+- **Chat** with the Claude-backed assistant (`POST /api/chat`)
+- **"What I looked at"** panel — live trace of the retrieval tools Claude
+  called each turn (searches, sections opened, components looked up)
+- **Diagrams** tab — gallery of the extracted GIF diagrams with a lightbox
+
+Run the backend (see `app/backend/README.md`) and open the root URL; the page
+calls the same-origin `/api/*` endpoints, so there's no separate dev server or
+CORS setup.
 
 ## Planned stack
 

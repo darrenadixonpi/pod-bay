@@ -8,22 +8,8 @@ retrieval quality end to end.
 Run:  .venv\\Scripts\\python.exe live_test.py
 """
 import os
-from pathlib import Path
 
-
-def _load_dotenv():
-    env_path = Path(__file__).with_name(".env")
-    if not env_path.exists():
-        return
-    for line in env_path.read_text(encoding="utf-8").splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "=" not in line:
-            continue
-        key, _, val = line.partition("=")
-        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
-
-
-_load_dotenv()
+import config  # loads .env on import
 
 if not os.environ.get("ANTHROPIC_API_KEY"):
     raise SystemExit(
@@ -32,7 +18,7 @@ if not os.environ.get("ANTHROPIC_API_KEY"):
         "(.env is gitignored)"
     )
 
-import server  # noqa: E402  (imports after key is set; constructs the client)
+import server  # noqa: E402
 
 QUESTIONS = [
     "My blower motor only works on high. What's the likely cause and how do I diagnose it?",

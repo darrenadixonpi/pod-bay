@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pod Bay — Service Assistant</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🛰️ Pod Bay</h1>
+    <span id="vehicle-label" class="vehicle">loading…</span>
+  </header>
+
+  <main>
+    <!-- Chat column -->
+    <section id="chat-col">
+      <div id="messages">
+        <div class="msg assistant intro">
+          <div class="bubble">
+            <p>Ask me anything about servicing this vehicle — diagnostics, torque
+            specs, wiring, procedures. I read the factory workshop manual and
+            wiring database to answer.</p>
+            <p class="examples">Try:
+              <button class="example">My blower only works on high speed</button>
+              <button class="example">How do I replace the front brake pads?</button>
+              <button class="example">Where is the blower motor resistor located?</button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <form id="composer">
+        <textarea id="input" rows="1" placeholder="Describe the problem or ask a question…" autocomplete="off"></textarea>
+        <button id="send" type="submit">Send</button>
+      </form>
+    </section>
+
+    <!-- Reference column -->
+    <aside id="ref-col">
+      <div class="tabs">
+        <button class="tab active" data-tab="trace">What I looked at</button>
+        <button class="tab" data-tab="diagrams">Diagrams</button>
+      </div>
+      <div id="trace" class="panel active">
+        <p class="placeholder">Tool calls the assistant makes will show up here —
+        which manual sections it opened, searches it ran, and components it looked up.</p>
+      </div>
+      <div id="diagrams" class="panel">
+        <p class="placeholder">Loading diagrams…</p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -8,8 +8,11 @@ Run:  ANTHROPIC_API_KEY=... uvicorn server:app --reload --port 8000
 """
 import os
 
+from pathlib import Path
+
 from anthropic import Anthropic
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 import config
@@ -17,6 +20,8 @@ import tools
 
 app = FastAPI(title="Pod Bay backend", version="0.1.0")
 client = Anthropic()  # reads ANTHROPIC_API_KEY from env
+
+FRONTEND_DIR = config.REPO_ROOT / "app" / "frontend"
 
 MAX_TOOL_ROUNDS = 8
 
@@ -57,12 +62,23 @@ def _cached_tools():
     return t
 
 
-@app.get("/health")
+@app.get("/api/health")
 def health():
     return {"status": "ok", "vehicle": config.VEHICLE_ID, "model": config.MODEL}
 
 
-@app.post("/chat", response_model=ChatResponse)
+@app.get("/api/vehicle")
+def vehicle():
+    """Vehicle label + available diagram filenames for the UI."""
+    diagrams = sorted(p.name for p in config.DIAGRAMS_DIR.glob("*.gif"))
+    return {
+        "id": config.VEHICLE_ID,
+        "label": config.VEHICLE_LABEL,
+        "diagrams": diagrams,
+    }
+
+
+@app.post("/api/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
     messages = list(req.messages)
     trace = []
@@ -99,3 +115,9 @@ def chat(req: ChatRequest):
         reply="(stopped: exceeded tool-call budget without a final answer)",
         tool_calls=trace,
     )
+
+
+# Static assets — mounted last so /api/* routes take precedence.
+app.mount("/diagrams", StaticFiles(directory=config.DIAGRAMS_DIR), name="diagrams")
+if FRONTEND_DIR.exists():
+    app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")

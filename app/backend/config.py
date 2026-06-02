@@ -6,6 +6,27 @@ second vehicle exists this becomes a registry keyed by vehicle id.
 import os
 from pathlib import Path
 
+
+def _load_dotenv():
+    """Load app/backend/.env into the environment (gitignored, no dependency).
+
+    Runs on import so both `uvicorn server:app` and direct script use pick up
+    ANTHROPIC_API_KEY without the caller having to export it. Existing
+    environment variables win over .env values.
+    """
+    env_path = Path(__file__).with_name(".env")
+    if not env_path.exists():
+        return
+    for line in env_path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+_load_dotenv()
+
 # Repo root: app/backend/config.py -> app/backend -> app -> <root>
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
