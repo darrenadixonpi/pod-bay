@@ -148,6 +148,36 @@ The block size field determines how to handle the data:
 - **Negative value**: Raw/uncompressed data follows (|block_size| bytes). Copy directly.
 - **Zero**: End-of-stream marker. No more blocks for this file.
 
+#### Chunking of large files (16384-byte cap) — IMPORTANT
+
+A single block payload is capped at **16384 (0x4000) bytes**. Files larger than
+this are split into consecutive chunks, **each with its own int16 size field but
+with NO intervening `IDICOMP` marker**:
+
+```
+[marker][size=±16384][16384 bytes][size=±N][N bytes] ... [size=±last][last bytes]
+```
+
+A chunk whose length equals 16384 signals that another `[size][data]` chunk
+follows immediately; a shorter chunk is the final one for that file. The
+reader must concatenate all chunks to reconstruct the file. The block's
+compressed/raw nature is taken from the **first** chunk's sign (in practice all
+chunks of a file share the sign — e.g. a large raw GIF appears as
+`-16384, -16384, …, -remainder`).
+
+Edge case: a file that is an exact multiple of 16384 bytes ends on a chunk
+boundary; detect this by checking whether the next 2 bytes begin a new
+`\x01IDICOMP\x01` marker rather than a continuation size field.
+
+> **History / regression note:** the original extractor read only the first
+> chunk (treating the `±16384` size field as the whole file), which silently
+> **truncated 290 large GIF illustrations in `STA.ARC`** (70 in `ETA.ARC`) —
+> e.g. `G3351K.gif` (the steering-linkage exploded view) lost its bottom ~23%.
+> HTML pages were unaffected (none exceeded 16384 compressed bytes). The fix is
+> implemented in `read_block_payload()` in `extract_ford_arc.py`. When changing
+> block parsing, regression-check that every extracted GIF loads with
+> `ImageFile.LOAD_TRUNCATED_IMAGES = False` (strict) without raising.
+
 ### Content Type Detection
 
 After reading block_size bytes of a compressed block, detect the content type by

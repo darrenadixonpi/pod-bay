@@ -198,81 +198,100 @@ def parse_arc_header(data: bytes) -> dict:
     }
 
 
+# Block payloads are capped at this many bytes per chunk. Files larger than
+# this are split into consecutive chunks, each with its own signed int16 size
+# field and NO intervening IDICOMP marker. |size| == CHUNK_CAP signals that
+# another chunk follows; a shorter chunk is the final one.
+CHUNK_CAP = 16384
+
+MARKER = b'\x01IDICOMP\x01'
+
+
+def read_block_payload(data: bytes, pos: int):
+    """Read a block's full payload starting at the IDICOMP marker at `pos`.
+
+    Returns (payload: bytes, compressed: bool, is_end: bool).
+
+    Each chunk is an int16 size field (signed, little-endian) followed by
+    |size| bytes: positive => compressed, negative => raw, zero => end of
+    stream. When a chunk's length equals CHUNK_CAP the file continues in the
+    next chunk (no marker between them), so we concatenate until a shorter
+    chunk closes the file. The block's compressed flag is taken from its first
+    chunk. The exact-multiple edge case is handled by stopping if the next
+    bytes are a new IDICOMP marker.
+    """
+    p = pos + 9
+    first = struct.unpack_from('<h', data, p)[0]
+    if first == 0:
+        return b'', False, True
+    compressed = first > 0
+
+    out = bytearray()
+    while True:
+        size = struct.unpack_from('<h', data, p)[0]
+        p += 2
+        if size == 0:
+            break
+        n = abs(size)
+        out += data[p:p + n]
+        p += n
+        if n < CHUNK_CAP:
+            break
+        # Capped chunk: another chunk follows, UNLESS the file ended exactly on
+        # a chunk boundary (next bytes are the following block's marker).
+        if data[p:p + 9] == MARKER:
+            break
+
+    return bytes(out), compressed, False
+
+
+def _classify(content: bytes, compressed: bool) -> str:
+    """Determine a block's content type from the start of its payload."""
+    if compressed:
+        if len(content) >= 6:
+            flags = content[0] | (content[1] << 8)
+            if (flags & 0x8000) == 0 and content[2] == 0x3C:  # '<'
+                return 'html'
+            if content[2:5] == b'GIF':
+                return 'gif'
+        return 'compressed'
+    if content[:3] == b'GIF':
+        return 'gif_raw'
+    if content[:1] == b';' or b'wcf' in content[:20]:
+        return 'wcf'
+    if content[:1] == b'<':
+        return 'xml_raw'
+    return 'raw'
+
+
 def extract_blocks(data: bytes) -> list:
     """
     Find and categorize all IDICOMP blocks in the archive.
 
-    Each block is preceded by a 9-byte marker: \\x01IDICOMP\\x01
-    Followed by:
-    - int16 block_size (signed, little-endian)
-    - If positive: compressed data (block_size bytes follow)
-    - If negative: raw/uncompressed data (|block_size| bytes follow)
-    - If zero: end of stream marker
-
-    The first 2 bytes of the compressed data payload are the initial
-    16-bit flag word for the decompressor.
+    Each block begins with a 9-byte marker (\\x01IDICOMP\\x01) followed by one
+    or more chunks. See read_block_payload() for the chunking rules: large
+    files (e.g. detailed GIF illustrations over 16 KB) are split into multiple
+    16384-byte chunks that must be reassembled.
     """
-    marker = b'\x01IDICOMP\x01'
-    positions = [m.start() for m in re.finditer(re.escape(marker), data)]
+    positions = [m.start() for m in re.finditer(re.escape(MARKER), data)]
 
     blocks = []
     for idx, pos in enumerate(positions):
-        block_size = struct.unpack_from('<h', data, pos + 9)[0]
-        content_start = pos + 11  # marker(9) + size_field(2)
-
-        if block_size > 0:
-            content = data[content_start:content_start + block_size]
-            # Detect content type from decompressed first bytes
-            # Check if first flag word + first literal looks like HTML
-            if len(content) >= 6:
-                flags = content[0] | (content[1] << 8)
-                if (flags & 0x8000) == 0 and content[2] == 0x3C:  # '<'
-                    block_type = 'html'
-                elif content[2:5] == b'GIF':
-                    block_type = 'gif'
-                else:
-                    block_type = 'compressed'
-            else:
-                block_type = 'compressed'
-
+        content, compressed, is_end = read_block_payload(data, pos)
+        if is_end:
             blocks.append({
-                'index': idx,
-                'position': pos,
-                'size': block_size,
-                'type': block_type,
-                'compressed': True,
-                'content': content
+                'index': idx, 'position': pos, 'size': 0,
+                'type': 'end', 'compressed': False, 'content': b''
             })
-        elif block_size < 0:
-            actual_size = -block_size
-            content = data[content_start:content_start + actual_size]
-
-            if content[:3] == b'GIF':
-                block_type = 'gif_raw'
-            elif content[:1] == b';' or b'wcf' in content[:20]:
-                block_type = 'wcf'
-            elif content[:1] == b'<':
-                block_type = 'xml_raw'
-            else:
-                block_type = 'raw'
-
-            blocks.append({
-                'index': idx,
-                'position': pos,
-                'size': actual_size,
-                'type': block_type,
-                'compressed': False,
-                'content': content
-            })
-        else:
-            blocks.append({
-                'index': idx,
-                'position': pos,
-                'size': 0,
-                'type': 'end',
-                'compressed': False,
-                'content': b''
-            })
+            continue
+        blocks.append({
+            'index': idx,
+            'position': pos,
+            'size': len(content),
+            'type': _classify(content, compressed),
+            'compressed': compressed,
+            'content': content,
+        })
 
     return blocks
 
@@ -306,8 +325,20 @@ _NAV_GIF_RE = re.compile(
 
 
 def _figure_name(src: str) -> str:
-    """Normalize an <img src> to its bare filename."""
-    return src.replace('\\', '/').rsplit('/', 1)[-1]
+    """Normalize an <img src> to its canonical on-disk filename.
+
+    Extracted GIFs are named from the decoded record name, which is always
+    uppercase (stem) with a lowercase '.gif' extension. The manual's HTML,
+    however, references some figures in lowercase (e.g. '1p70235a.gif'). To keep
+    the manual->diagram linkage working on case-sensitive filesystems (Linux),
+    normalize every reference to UPPERCASE stem + lowercase extension so it
+    matches the actual file.
+    """
+    base = src.replace('\\', '/').rsplit('/', 1)[-1]
+    if '.' in base:
+        stem, ext = base.rsplit('.', 1)
+        return f'{stem.upper()}.{ext.lower()}'
+    return base.upper()
 
 
 def is_content_figure(src: str) -> bool:

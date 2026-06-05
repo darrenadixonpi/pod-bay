@@ -10,9 +10,11 @@ Pod Bay is a platform for extracting factory automotive service manuals from pro
 
 The extractor scripts are plain Python 3.8+ with **no third-party dependencies for the core ARC pipeline** (only stdlib). There is no build step, no test suite, no linter configured.
 
+The source archives live under `archive/.ARC files/` (the folder name contains a space and a leading dot, so quote the path).
+
 ```bash
 # Extract service/workshop manual from a Ford TSO .ARC file
-python3 extractors/ford/scripts/extract_ford_arc.py STA.ARC -o ./output --format text --extract-images -v
+python3 extractors/ford/scripts/extract_ford_arc.py "archive/.ARC files/STA.ARC" -o ./output --format text --extract-images -v
 
 # Export EVTM wiring databases (MDB -> CSV/JSON). Requires mdbtools.
 python3 extractors/ford/scripts/extract_ford_mdb.py ./EN_databases/ -o ./wiring -v
