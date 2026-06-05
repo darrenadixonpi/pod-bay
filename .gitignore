@@ -38,6 +38,10 @@ vehicles/*/.index/
 # (ignore doesn't untrack); their diagrams are the committed examples.
 vehicles/*/diagrams/
 
+# EVTM wiring schematics: bulk + regenerable from the E*.ARC via build_vehicle.py
+# (--evtm-arc), so they stay local-only for every vehicle.
+vehicles/*/wiring_diagrams/
+
 # Proprietary OEM source archives (extract from media you own; never commit)
 *.ARC
 *.arc

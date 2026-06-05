@@ -24,6 +24,7 @@ from functools import lru_cache
 
 import config
 import vectorstore
+import wiring
 
 _PAGE_SEP = re.compile(r"^=+\nPAGE (\d+)\n=+\n", re.MULTILINE)
 _SECTION_RE = re.compile(r"Section (\d+-\d+)")
@@ -395,6 +396,11 @@ def lookup_component(query: str, vehicle_id=None) -> dict:
                         val = (row.get(c) or "").strip()
                         if val:
                             rec[c] = val
+                    # Note which wiring schematics show this exact entity, so the
+                    # model can pull the actual diagram via get_wiring_diagram.
+                    pages = wiring.schematic_pages_for_name(name, vehicle_id)
+                    if pages:
+                        rec["schematic_pages"] = pages
                     matches.append(rec)
     return {"query": query, "match_count": len(matches), "matches": matches[:25]}
 

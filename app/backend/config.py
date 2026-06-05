@@ -64,6 +64,11 @@ class Vehicle:
         return self.dir / "diagrams"
 
     @property
+    def wiring_dir(self) -> Path:
+        # EVTM wiring schematics (gitignored — rebuildable from the E*.ARC).
+        return self.dir / "wiring_diagrams"
+
+    @property
     def workshop_manual(self) -> Path:
         return self.references_dir / "workshop_manual.txt"
 

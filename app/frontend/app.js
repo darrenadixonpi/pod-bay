@@ -21,6 +21,7 @@ const TOOL_LABELS = {
   get_section: (i) => `opened section ${i.section_id}`,
   lookup_component: (i) => `looked up “${i.query}” in the wiring database`,
   get_diagram: (i) => `requested diagram ${i.figure_id}`,
+  get_wiring_diagram: (i) => `pulled the wiring schematic for “${i.query}”`,
 };
 
 // ---- Bootstrap: vehicle picker + diagram gallery ----

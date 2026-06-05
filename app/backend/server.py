@@ -50,13 +50,18 @@ Ground every answer in them:
   rely on memory for torque specs, pinpoint test steps, or sequences — quote
   them from the manual.
 - For electrical work, use lookup_component to give the part number, physical
-  location, connector id, and zone.
+  location, connector id, and zone. When the user needs to trace a circuit, find
+  a wire color, or see how something is wired, call get_wiring_diagram (with the
+  component name, a connector/ground/splice id, or a `diagram_id` from a
+  lookup_component `schematic_pages` entry) to pull the actual EVTM schematic.
 - The manual text contains inline figure markers like [FIGURE: Y5111B.gif].
   When a figure is directly relevant, call get_diagram with that exact filename,
   then embed it in your answer at the relevant point as a markdown image using
   the `url` field get_diagram returns, verbatim: ![short caption](<that url>).
   Embed each figure exactly once, next to the step or component it illustrates.
-  Prefer the 1-3 most relevant figures rather than every one mentioned.
+  Prefer the 1-3 most relevant figures rather than every one mentioned. Wiring
+  schematics from get_wiring_diagram embed the same way, using each diagram's
+  `url`.
 - Walk the user through diagnosis step by step. Adapt detail to their apparent
   skill level. Surface the manual's safety warnings when relevant.
 - If the manual does not cover something, say so rather than guessing."""
@@ -169,6 +174,18 @@ def diagram(vehicle_id: str, filename: str):
     return FileResponse(path, media_type="image/gif")
 
 
+@app.get("/wiring/{vehicle_id}/{filename}")
+def wiring_diagram(vehicle_id: str, filename: str):
+    """Serve a single EVTM wiring-schematic GIF for a vehicle (path-traversal safe)."""
+    if not config.vehicle_exists(vehicle_id):
+        raise HTTPException(404, "unknown vehicle")
+    path = (config.VEHICLES_ROOT / vehicle_id / "wiring_diagrams" / filename).resolve()
+    wiring_dir = (config.VEHICLES_ROOT / vehicle_id / "wiring_diagrams").resolve()
+    if wiring_dir not in path.parents or not path.is_file():
+        raise HTTPException(404, "wiring diagram not found")
+    return FileResponse(path, media_type="image/gif")
+
+
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
     vehicle = _resolve_vehicle(req.vehicle_id)
@@ -218,6 +235,11 @@ def chat(req: ChatRequest):
                 parsed = json.loads(output)
                 if parsed.get("resolved") and not any(d["url"] == parsed["url"] for d in diagrams):
                     diagrams.append({"figure_id": parsed["figure_id"], "url": parsed["url"]})
+            elif block.name == "get_wiring_diagram":
+                parsed = json.loads(output)
+                for d in parsed.get("diagrams", []):
+                    if not any(x["url"] == d["url"] for x in diagrams):
+                        diagrams.append({"figure_id": d["diagram_id"], "url": d["url"]})
             results.append({
                 "type": "tool_result",
                 "tool_use_id": block.id,

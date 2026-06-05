@@ -9,7 +9,8 @@ results out under vehicles/<id>/ exactly as the backend expects:
     vehicles/<id>/
       references/workshop_manual.txt, section_index.json, figures.json
       references/<EVTM>_<TABLE>.csv / .json     (if an MDB is given)
-      diagrams/*.gif
+      diagrams/*.gif                            (service illustrations)
+      wiring_diagrams/*.gif                     (if an EVTM .ARC is given)
       vehicle.json                              (id, label, source provenance)
 
 The vehicle id + label are derived from the manual's own title (e.g. a manual
@@ -60,6 +61,9 @@ def main():
     ap = argparse.ArgumentParser(description="Build a Pod Bay vehicle from Ford TSO archives")
     ap.add_argument("service_arc", help="Service/workshop .ARC file")
     ap.add_argument("--mdb", help="EVTM .MDB wiring database (optional)")
+    ap.add_argument("--evtm-arc", help="EVTM .ARC wiring-schematic archive (optional). "
+                    "Its GIFs (named <EVTM><cell><page>.gif, matching the CELLS "
+                    "table FILENAME) go to wiring_diagrams/ for get_wiring_diagram.")
     ap.add_argument("--vehicles-root", default=str(REPO_ROOT / "vehicles"))
     ap.add_argument("--id", help="Override the derived vehicle id (dir name)")
     ap.add_argument("--label", help="Override the derived human label")
@@ -101,6 +105,24 @@ def main():
         shutil.move(str(arc_out / "images"), str(diagrams))
         n_gifs = sum(1 for _ in diagrams.glob("*.gif"))
 
+        # EVTM wiring schematics (optional): extract the wiring-diagram archive's
+        # GIFs into wiring_diagrams/. These are named <EVTM><cell><page>.gif and
+        # are joined to components via the CELLS/COMPREF tables at query time.
+        n_wiring = 0
+        if args.evtm_arc:
+            evtm_arc = Path(args.evtm_arc)
+            if not evtm_arc.is_file():
+                sys.exit(f"ERROR: EVTM ARC not found: {evtm_arc}")
+            print(f"[2b/4] Extracting wiring schematics from {evtm_arc.name}")
+            evtm_out = tmp / "evtm_arc"
+            run([py, str(SCRIPTS_DIR / "extract_ford_arc.py"), str(evtm_arc),
+                 "-o", str(evtm_out), "--format", "text", "--extract-images"])
+            wiring = vdir / "wiring_diagrams"
+            if wiring.exists():
+                shutil.rmtree(wiring)
+            shutil.move(str(evtm_out / "images"), str(wiring))
+            n_wiring = sum(1 for _ in wiring.glob("*.gif"))
+
         evtm = None
         if args.mdb:
             print(f"[3/4] Extracting wiring tables from {Path(args.mdb).name}")
@@ -122,6 +144,7 @@ def main():
             "source_archives": {
                 "workshop": service_arc.name,
                 "evtm_wiring_db": Path(args.mdb).name if args.mdb else None,
+                "evtm_diagrams": Path(args.evtm_arc).name if args.evtm_arc else None,
             },
             "owners_chapters": [],
         }, indent=2) + "\n", encoding="utf-8")
@@ -129,6 +152,7 @@ def main():
         print(f"\nDone: {vdir}")
         print(f"  manual pages source: {manual.name}")
         print(f"  diagrams: {n_gifs}")
+        print(f"  wiring schematics: {n_wiring}")
         print(f"  wiring prefix: {evtm or '(none)'}")
         print("Next: build its search index with `python -m vectorstore` in app/backend.")
 

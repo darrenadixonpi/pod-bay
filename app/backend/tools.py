@@ -6,6 +6,7 @@ tool contract works for any vehicle whose data is loaded behind retrieval.py.
 import json
 
 import retrieval
+import wiring
 
 TOOLS = [
     {
@@ -92,6 +93,33 @@ TOOLS = [
             "required": ["figure_id"],
         },
     },
+    {
+        "name": "get_wiring_diagram",
+        "description": (
+            "Show the EVTM wiring schematic(s) for an electrical item — the actual "
+            "circuit diagram, distinct from the mechanical illustrations get_diagram "
+            "returns. Pass either a component/connector/ground/splice name (e.g. "
+            "'blower motor', 'C176', 'G101'), or a `diagram_id` from a "
+            "lookup_component `schematic_pages` entry or a prior get_wiring_diagram "
+            "result (e.g. 'EVC01001'). Returns viewable image URL(s), each schematic's "
+            "title, and the other components on that page. Use this whenever the user "
+            "needs to trace a circuit, find a wire color, or see how a component is "
+            "wired; pair it with lookup_component for the part's location/connector."
+        ),
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "query": {
+                    "type": "string",
+                    "description": (
+                        "Component/connector/ground/splice name, or a wiring diagram_id "
+                        "(cell id like 'EVC01001')."
+                    ),
+                },
+            },
+            "required": ["query"],
+        },
+    },
 ]
 
 _DISPATCH = {
@@ -99,6 +127,7 @@ _DISPATCH = {
     "get_section": lambda i, v: retrieval.get_section(i["section_id"], v, i.get("around_page")),
     "lookup_component": lambda i, v: retrieval.lookup_component(i["query"], v),
     "get_diagram": lambda i, v: retrieval.get_diagram(i["figure_id"], v),
+    "get_wiring_diagram": lambda i, v: wiring.get_wiring_diagram(i["query"], v),
 }
 
 
