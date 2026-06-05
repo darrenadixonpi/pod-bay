@@ -11,7 +11,7 @@ Run:  ANTHROPIC_API_KEY=... uvicorn server:app --reload --port 8000
 """
 import json
 
-from anthropic import Anthropic
+from anthropic import Anthropic, APIStatusError, APIError
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
@@ -36,13 +36,18 @@ Manual (when available), and the EVTM wiring database for this exact vehicle.
 Ground every answer in them:
 
 - Call search_manual to find the relevant content, then get_section to read it
-  in full before answering. It spans both manuals: the Workshop Manual for
-  repair procedures, torque specs, and pinpoint tests, and the Owner's Manual
-  for operating the vehicle, warning lights, maintenance intervals, fluid types,
-  and tire pressures. Each result is tagged with its source — cite the Workshop
-  Manual section number (e.g. "Section 06-03") or the Owner's Manual chapter
-  name accordingly. Do not rely on memory for torque specs, pinpoint test steps,
-  or sequences — quote them from the manual.
+  before answering. It spans both manuals: the Workshop Manual for repair
+  procedures, torque specs, and pinpoint tests, and the Owner's Manual for
+  operating the vehicle, warning lights, maintenance intervals, fluid types,
+  and tire pressures. When following up a workshop result, ALWAYS pass
+  get_section the `page` from that search result as `around_page` — sections can
+  be 100+ pages, and this returns the right procedure instead of the section's
+  start. If the returned text doesn't cover what you need, the response notes
+  the page range; call get_section again with a different `around_page`. Each
+  result is tagged with its source — cite the Workshop Manual section number
+  (e.g. "Section 06-03") or the Owner's Manual chapter name accordingly. Do not
+  rely on memory for torque specs, pinpoint test steps, or sequences — quote
+  them from the manual.
 - For electrical work, use lookup_component to give the part number, physical
   location, connector id, and zone.
 - The manual text contains inline figure markers like [FIGURE: Y5111B.gif].
@@ -127,13 +132,28 @@ def chat(req: ChatRequest):
     diagrams = []  # resolved figures to show in the UI
 
     for _ in range(MAX_TOOL_ROUNDS):
-        resp = client.messages.create(
-            model=config.MODEL,
-            max_tokens=2048,
-            system=_cached_system(vehicle.label),
-            tools=_cached_tools(),
-            messages=messages,
-        )
+        try:
+            resp = client.messages.create(
+                model=config.MODEL,
+                max_tokens=2048,
+                system=_cached_system(vehicle.label),
+                tools=_cached_tools(),
+                messages=messages,
+            )
+        except APIStatusError as e:
+            # Surface API problems (429 rate limit, 529 overloaded, auth, …) as a
+            # readable assistant message instead of an opaque HTTP 500.
+            if e.status_code == 429:
+                msg = ("⚠️ The Anthropic API rate limit was hit (your tier allows a "
+                       "limited number of tokens per minute). Wait ~30s and try again.")
+            elif e.status_code in (500, 502, 503, 529):
+                msg = "⚠️ The Anthropic API is temporarily unavailable. Please try again shortly."
+            else:
+                msg = f"⚠️ Anthropic API error ({e.status_code}). Please try again."
+            return ChatResponse(reply=msg, tool_calls=trace, diagrams=diagrams)
+        except APIError as e:
+            return ChatResponse(reply=f"⚠️ Could not reach the Anthropic API: {e}",
+                                tool_calls=trace, diagrams=diagrams)
 
         if resp.stop_reason != "tool_use":
             text = "".join(b.text for b in resp.content if b.type == "text")

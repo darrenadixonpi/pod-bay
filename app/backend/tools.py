@@ -32,12 +32,15 @@ TOOLS = [
     {
         "name": "get_section",
         "description": (
-            "Get the full text of a documentation section. Pass either a "
-            "Workshop Manual section number (e.g. '06-03' for Front Disc Brakes) "
-            "to read complete procedures/torque specs/pinpoint tests, OR an "
-            "Owner's Manual chapter name (e.g. 'Warning Lights and Gauges') to "
-            "read operating instructions. Use the locator returned by "
-            "search_manual."
+            "Read a documentation section. Pass either a Workshop Manual section "
+            "number (e.g. '06-03' for Front Disc Brakes) for procedures/torque "
+            "specs/pinpoint tests, OR an Owner's Manual chapter name (e.g. "
+            "'Warning Lights and Gauges'). Workshop sections can be 100+ pages, "
+            "so this returns a window of pages: ALWAYS pass `around_page` set to "
+            "the `page` from the search_manual result you're following up on, so "
+            "you get the relevant procedure rather than the section's start. The "
+            "response reports the full page range and which pages it returned; "
+            "call again with a different `around_page` to read adjacent pages."
         ),
         "input_schema": {
             "type": "object",
@@ -45,6 +48,10 @@ TOOLS = [
                 "section_id": {
                     "type": "string",
                     "description": "Workshop section number (e.g. '06-03') or owner's chapter name",
+                },
+                "around_page": {
+                    "type": "integer",
+                    "description": "Page number (from a search_manual result) to center the window on",
                 },
             },
             "required": ["section_id"],
@@ -89,7 +96,7 @@ TOOLS = [
 
 _DISPATCH = {
     "search_manual": lambda i, v: retrieval.search_manual(i["query"], i.get("max_results", 5), v),
-    "get_section": lambda i, v: retrieval.get_section(i["section_id"], v),
+    "get_section": lambda i, v: retrieval.get_section(i["section_id"], v, i.get("around_page")),
     "lookup_component": lambda i, v: retrieval.lookup_component(i["query"], v),
     "get_diagram": lambda i, v: retrieval.get_diagram(i["figure_id"], v),
 }

@@ -262,12 +262,36 @@ def _snippet(text: str, terms: set, width: int = 320, passage: str = None) -> st
     return ("…" if start else "") + text[start:start + width] + "…"
 
 
-def get_section(section_id: str, vehicle_id=None) -> dict:
-    """Full text of a workshop manual section ('06-03') or owner's chapter.
+# A whole workshop section can be 100+ pages (~40k+ tokens) — far more than a
+# single procedure needs, and enough to blow API rate limits. get_section
+# therefore returns a bounded window of pages (centered on `around_page` when
+# search gave one) and caps the text, telling the model how to read adjacent
+# pages if it needs them.
+_SECTION_CHAR_CAP = 20000      # ~5k tokens
+_PAGE_WINDOW_BEFORE = 2
+_PAGE_WINDOW_AFTER = 3
 
-    A workshop Section number (NN-NN) returns every page under that section; any
-    other value is matched (case-insensitively) against an owner's-manual chapter
-    name. Use after search_manual with the locator it returned.
+
+def _cap(text: str, max_chars: int) -> tuple:
+    """(text, truncated?) — trim to max_chars on a paragraph/whitespace boundary."""
+    if len(text) <= max_chars:
+        return text, False
+    cut = text.rfind("\n", 0, max_chars)
+    if cut < max_chars // 2:
+        cut = max_chars
+    return text[:cut].rstrip(), True
+
+
+def get_section(section_id: str, vehicle_id=None, around_page: int = None) -> dict:
+    """Read a workshop manual section ('06-03') or owner's chapter.
+
+    Workshop sections can be very long, so this returns a bounded window of
+    pages. Pass `around_page` (the page number from a search_manual result) to
+    center the window on the relevant procedure; omit it to read from the
+    section's start. The response reports the section's full page range and
+    which pages were returned, so the model can re-call with a different
+    `around_page` to read more. Owner's-manual chapters are returned whole
+    (capped). Use after search_manual with the locator it returned.
     """
     section_id = section_id.strip()
 
@@ -276,13 +300,17 @@ def get_section(section_id: str, vehicle_id=None) -> dict:
         ch = next((c for c in _owners_chapters(vehicle_id)
                    if c["chapter"].lower() == section_id.lower()), None)
         if ch:
-            return {
+            text, truncated = _cap(ch["text"], _SECTION_CHAR_CAP)
+            out = {
                 "section_id": ch["chapter"],
                 "source": "owners",
                 "found": True,
                 "name": ch["chapter"],
-                "text": ch["text"],
+                "text": text,
             }
+            if truncated:
+                out["note"] = "Chapter truncated; this is the opening portion."
+            return out
         return {
             "section_id": section_id,
             "found": False,
@@ -290,7 +318,7 @@ def get_section(section_id: str, vehicle_id=None) -> dict:
             "available_chapters": [c["chapter"] for c in _owners_chapters(vehicle_id)],
         }
 
-    pages = [p for p in _pages(vehicle_id) if p["section"] == section_id]
+    pages = [p for p in _pages(vehicle_id) if p["section"] == section_id]  # doc order
     meta = next((s for s in _section_index(vehicle_id) if s["section"] == section_id), None)
     if not pages:
         avail = sorted({p["section"] for p in _pages(vehicle_id) if p["section"]})
@@ -300,15 +328,43 @@ def get_section(section_id: str, vehicle_id=None) -> dict:
             "message": f"No pages for section {section_id}.",
             "available_sections": avail,
         }
-    body = "\n\n".join(p["text"] for p in pages)
-    return {
+
+    # Pick the window of pages to return.
+    if around_page is not None:
+        idx = next((i for i, p in enumerate(pages) if p["page"] == around_page), None)
+    else:
+        idx = None
+    if idx is None:
+        window = pages  # from the start; the char cap bounds it
+    else:
+        lo = max(0, idx - _PAGE_WINDOW_BEFORE)
+        window = pages[lo:idx + _PAGE_WINDOW_AFTER + 1]
+
+    body = "\n\n".join(p["text"] for p in window)
+    body, truncated = _cap(body, _SECTION_CHAR_CAP)
+    returned = [p["page"] for p in window]
+    full_range = [pages[0]["page"], pages[-1]["page"]]
+
+    out = {
         "section_id": section_id,
         "source": "workshop",
         "found": True,
         "name": (meta or {}).get("name", "").strip(),
         "page_count": len(pages),
+        "section_page_range": full_range,
+        "returned_pages": [returned[0], returned[-1]] if returned else [],
         "text": body,
     }
+    # Tell the model when there's more, and how to get it.
+    if truncated or len(window) < len(pages):
+        out["note"] = (
+            f"Section spans pages {full_range[0]}–{full_range[1]} ({len(pages)} pages); "
+            f"showing pages {out['returned_pages'][0]}–{out['returned_pages'][1]}"
+            f"{' (truncated)' if truncated else ''}. "
+            "To read adjacent material, call get_section again with around_page "
+            "set to a page just outside this window."
+        )
+    return out
 
 
 @lru_cache(maxsize=None)
