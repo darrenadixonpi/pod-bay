@@ -19,6 +19,7 @@ import os
 import re
 import struct
 import sys
+from html import unescape  # html_to_text shadows the `html` module name with its param
 from pathlib import Path
 
 
@@ -362,11 +363,14 @@ def html_to_text(html: str) -> str:
     # Remove scripts and styles
     text = re.sub(r'<script[^>]*>.*?</script>', '', text, flags=re.DOTALL | re.IGNORECASE)
     text = re.sub(r'<style[^>]*>.*?</style>', '', text, flags=re.DOTALL | re.IGNORECASE)
-    # Decode entities
-    text = text.replace('&nbsp;', ' ').replace('&amp;', '&')
-    text = text.replace('&lt;', '<').replace('&gt;', '>')
-    text = text.replace('&reg;', '\u00ae').replace('&deg;', '\u00b0')
-    text = text.replace('&plusmn;', '\u00b1')
+    # Decode entities. unescape() runs first: it handles every standard entity
+    # (&middot; in N\u00b7m torque units, &deg;, &plusmn;, &amp;, &lt;/&gt;, numeric
+    # &#NN;, \u2026) AND collapses any double-encoding (some manuals emit
+    # &amp;newtonm;). Then map the two Ford-custom entities it doesn't know, and
+    # normalize the U+00A0 that &nbsp; decodes to into a plain space.
+    text = unescape(text)
+    text = text.replace('&newtonm;', 'N\u00b7m').replace('&circleR;', '\u00ae')
+    text = text.replace('\u00a0', ' ')
     # Preserve service illustrations as inline figure markers (drop UI chrome).
     def _img_repl(m):
         src = _figure_name(m.group(1))
