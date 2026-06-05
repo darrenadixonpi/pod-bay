@@ -29,6 +29,9 @@ output/
 wiring_data/
 *.tar.gz
 
+# Vector search index (generated from the manual; rebuildable, per vehicle)
+vehicles/*/.index/
+
 # Proprietary OEM source archives (extract from media you own; never commit)
 *.ARC
 *.arc

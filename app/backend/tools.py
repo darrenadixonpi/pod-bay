@@ -11,10 +11,14 @@ TOOLS = [
     {
         "name": "search_manual",
         "description": (
-            "Search the factory workshop manual for relevant procedures, "
-            "specifications, or diagnostic steps. Returns ranked page snippets "
-            "with their section number. Follow up with get_section to read the "
-            "full procedure."
+            "Search the vehicle's documentation for relevant procedures, "
+            "specifications, diagnostic steps, features, or operating "
+            "instructions. Covers BOTH the factory Workshop Manual (repair "
+            "procedures, torque specs, pinpoint tests) and the Owner's Manual "
+            "(operating the vehicle, warning lights, maintenance schedule, fluid "
+            "types, tire pressures). Each result has a `source`: \"workshop\" "
+            "(with a section number + page) or \"owners\" (with a chapter name). "
+            "Follow up with get_section using that locator to read the full text."
         ),
         "input_schema": {
             "type": "object",
@@ -28,14 +32,20 @@ TOOLS = [
     {
         "name": "get_section",
         "description": (
-            "Get the full text of a workshop manual section by its number "
-            "(e.g. '06-03' for Front Disc Brakes). Use after search_manual to "
-            "read complete procedures, torque specs, and pinpoint tests."
+            "Get the full text of a documentation section. Pass either a "
+            "Workshop Manual section number (e.g. '06-03' for Front Disc Brakes) "
+            "to read complete procedures/torque specs/pinpoint tests, OR an "
+            "Owner's Manual chapter name (e.g. 'Warning Lights and Gauges') to "
+            "read operating instructions. Use the locator returned by "
+            "search_manual."
         ),
         "input_schema": {
             "type": "object",
             "properties": {
-                "section_id": {"type": "string", "description": "Section number, e.g. '06-03'"},
+                "section_id": {
+                    "type": "string",
+                    "description": "Workshop section number (e.g. '06-03') or owner's chapter name",
+                },
             },
             "required": ["section_id"],
         },

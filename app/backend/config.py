@@ -46,3 +46,22 @@ VEHICLE_LABEL = "1996 Mercury Grand Marquis (4.6L SOHC V8, Panther platform)"
 # Anthropic model. Sonnet is the sensible default for an interactive repair
 # assistant — fast and cheap; bump to opus for harder diagnostic reasoning.
 MODEL = os.environ.get("PODBAY_MODEL", "claude-sonnet-4-6")
+
+# --- Retrieval / search ---------------------------------------------------
+# search_manual fuses a keyword scorer with a local vector index (see
+# vectorstore.py). Modes:
+#   "hybrid"  — keyword + vector fused by reciprocal rank fusion (default)
+#   "keyword" — original stdlib keyword-only scoring (no chromadb needed)
+#   "vector"  — semantic only
+# Hybrid falls back to keyword automatically if chromadb/the index is absent.
+SEARCH_MODE = os.environ.get("PODBAY_SEARCH", "hybrid").lower()
+
+# Persisted Chroma index for this vehicle (gitignored — rebuildable from the
+# manual). Per-vehicle so the registry refactor later just keys off VEHICLE_ID.
+INDEX_DIR = VEHICLE_DIR / ".index"
+
+# Passage chunking for the vector index. all-MiniLM-L6-v2 truncates at ~256
+# tokens, so keep chunks well under that (~160 words) with overlap so a
+# procedure spanning a chunk boundary still embeds coherently.
+CHUNK_WORDS = int(os.environ.get("PODBAY_CHUNK_WORDS", "160"))
+CHUNK_OVERLAP_WORDS = int(os.environ.get("PODBAY_CHUNK_OVERLAP", "40"))

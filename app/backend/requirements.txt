@@ -2,3 +2,8 @@ anthropic>=0.40.0
 fastapi>=0.110.0
 uvicorn[standard]>=0.27.0
 pydantic>=2.0.0
+
+# Semantic search for search_manual. Bundles a local ONNX embedding model
+# (all-MiniLM-L6-v2) so the manual is never sent to an embedding API. Optional:
+# without it, search_manual falls back to keyword-only (PODBAY_SEARCH=keyword).
+chromadb>=1.0.0
