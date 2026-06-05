@@ -10,6 +10,7 @@ request (defaults to config.DEFAULT_VEHICLE_ID).
 Run:  ANTHROPIC_API_KEY=... uvicorn server:app --reload --port 8000
 """
 import json
+import sys
 
 from anthropic import Anthropic, APIStatusError, APIError
 from fastapi import FastAPI, HTTPException
@@ -93,6 +94,50 @@ def _cached_tools():
     return t
 
 
+def _trim_history(messages: list) -> list:
+    """Keep only the most recent messages, starting on a user turn.
+
+    Bounds per-request input cost in long sessions. The Anthropic API requires
+    the first message to be a user message, so drop a leading assistant turn.
+    """
+    msgs = list(messages)[-config.MAX_HISTORY_MESSAGES:]
+    if msgs and msgs[0].get("role") != "user":
+        msgs = msgs[1:]
+    return msgs
+
+
+def _with_cache_breakpoint(messages: list) -> list:
+    """Copy of messages with a cache_control marker on the last content block.
+
+    This caches the whole conversation prefix, so within the tool-use loop each
+    round re-reads earlier tool results (e.g. a get_section payload) at ~10% cost
+    instead of re-sending them at full price; it also warms the next turn within
+    the 5-min cache TTL. (Marks only the latest message — total breakpoints stay
+    under the limit: system + tools + this = 3 of 4.)
+    """
+    if not messages:
+        return messages
+    out = [dict(m) for m in messages]
+    last = dict(out[-1])
+    content = last["content"]
+    content = [{"type": "text", "text": content}] if isinstance(content, str) \
+        else [dict(b) for b in content]
+    content[-1] = {**content[-1], "cache_control": {"type": "ephemeral"}}
+    last["content"] = content
+    out[-1] = last
+    return out
+
+
+def _log_usage(vehicle_id: str, usage) -> None:
+    """Print per-call token usage so cache savings are observable."""
+    print(
+        f"[chat] {vehicle_id} in={usage.input_tokens} out={usage.output_tokens} "
+        f"cache_read={getattr(usage, 'cache_read_input_tokens', 0)} "
+        f"cache_write={getattr(usage, 'cache_creation_input_tokens', 0)}",
+        file=sys.stderr,
+    )
+
+
 @app.get("/api/health")
 def health():
     return {"status": "ok", "default_vehicle": config.DEFAULT_VEHICLE_ID, "model": config.MODEL}
@@ -127,7 +172,7 @@ def diagram(vehicle_id: str, filename: str):
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
     vehicle = _resolve_vehicle(req.vehicle_id)
-    messages = list(req.messages)
+    messages = _trim_history(req.messages)
     trace = []
     diagrams = []  # resolved figures to show in the UI
 
@@ -138,8 +183,9 @@ def chat(req: ChatRequest):
                 max_tokens=2048,
                 system=_cached_system(vehicle.label),
                 tools=_cached_tools(),
-                messages=messages,
+                messages=_with_cache_breakpoint(messages),
             )
+            _log_usage(vehicle.id, resp.usage)
         except APIStatusError as e:
             # Surface API problems (429 rate limit, 529 overloaded, auth, …) as a
             # readable assistant message instead of an opaque HTTP 500.

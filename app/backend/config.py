@@ -130,6 +130,11 @@ def available_vehicles() -> list:
 # assistant — fast and cheap; bump to opus for harder diagnostic reasoning.
 MODEL = os.environ.get("PODBAY_MODEL", "claude-sonnet-4-6")
 
+# Cap on conversation history (messages) sent to the API per request — a guard
+# so long sessions don't grow input cost unbounded. Recent turns matter most for
+# a repair dialog; older ones are dropped. Even number keeps user/assistant pairs.
+MAX_HISTORY_MESSAGES = int(os.environ.get("PODBAY_MAX_HISTORY", "24"))
+
 # --- Retrieval / search ---------------------------------------------------
 # search_manual fuses a keyword scorer with a local vector index (see
 # vectorstore.py). Modes:
