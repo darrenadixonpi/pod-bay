@@ -5,7 +5,10 @@ Ford EVTM (Electrical Vacuum Troubleshooting Manual) MDB Database Extractor
 Extracts wiring data from Ford's Access MDB databases (ET*.MDB files) and
 exports to CSV and JSON for use in diagnostic skills.
 
-Requires: mdbtools (apt install mdbtools)
+Reading engine (auto-detected): prefers `mdbtools` (mdb-tables/mdb-export) if on
+PATH; otherwise falls back to the pure-Python `access_parser` (pip install
+access-parser), which needs no external tools and runs natively on Windows where
+mdbtools is unavailable. Both emit identical CSV/JSON outputs.
 
 Usage:
     python3 extract_ford_mdb.py /path/to/EN/ --output-dir ./wiring_data
@@ -13,7 +16,9 @@ Usage:
 """
 
 import argparse
+import contextlib
 import csv
+import io
 import json
 import os
 import subprocess
@@ -47,32 +52,75 @@ def check_mdbtools():
         return False
 
 
-def list_tables(mdb_path: str) -> list:
-    """List all tables in an MDB file."""
-    result = subprocess.run(
-        ['mdb-tables', '-1', mdb_path],
-        capture_output=True, text=True
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"mdb-tables failed: {result.stderr}")
-    return [t.strip() for t in result.stdout.strip().split('\n') if t.strip()]
+def check_access_parser():
+    """Verify the pure-Python access_parser fallback is importable."""
+    try:
+        import access_parser  # noqa: F401
+        return True
+    except ImportError:
+        return False
 
 
-def export_table_csv(mdb_path: str, table_name: str, output_path: str):
-    """Export a single table to CSV."""
-    result = subprocess.run(
-        ['mdb-export', mdb_path, table_name],
-        capture_output=True, text=True
-    )
-    if result.returncode != 0:
-        raise RuntimeError(f"mdb-export failed for {table_name}: {result.stderr}")
+def select_engine():
+    """Pick a reading engine: 'mdbtools' (preferred) or 'access' (fallback)."""
+    if check_mdbtools():
+        return 'mdbtools'
+    if check_access_parser():
+        return 'access'
+    return None
 
-    with open(output_path, 'w') as f:
-        f.write(result.stdout)
 
-    # Count rows
-    lines = result.stdout.strip().split('\n')
-    return len(lines) - 1  # subtract header
+# --- access_parser backend -------------------------------------------------
+# Parsing the Jet system catalog (MSysObjects) prints recoverable warnings to
+# stderr that don't affect user tables; suppress them so output stays clean.
+_ACCESS_CACHE = {}
+
+
+def _access_db(mdb_path: str):
+    if mdb_path not in _ACCESS_CACHE:
+        from access_parser import AccessParser
+        with contextlib.redirect_stderr(io.StringIO()):
+            _ACCESS_CACHE[mdb_path] = AccessParser(mdb_path)
+    return _ACCESS_CACHE[mdb_path]
+
+
+# --- engine-dispatching table I/O ------------------------------------------
+def list_tables(mdb_path: str, engine: str) -> list:
+    """List user tables in an MDB file."""
+    if engine == 'mdbtools':
+        result = subprocess.run(['mdb-tables', '-1', mdb_path],
+                                capture_output=True, text=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"mdb-tables failed: {result.stderr}")
+        return [t.strip() for t in result.stdout.strip().split('\n') if t.strip()]
+    # access_parser: catalog includes Jet system tables — drop them.
+    db = _access_db(mdb_path)
+    return [t for t in db.catalog if not t.startswith('MSys')]
+
+
+def export_table_csv(mdb_path: str, table_name: str, output_path: str, engine: str):
+    """Export a single table to CSV; returns row count."""
+    if engine == 'mdbtools':
+        result = subprocess.run(['mdb-export', mdb_path, table_name],
+                                capture_output=True, text=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"mdb-export failed for {table_name}: {result.stderr}")
+        with open(output_path, 'w') as f:
+            f.write(result.stdout)
+        return len(result.stdout.strip().split('\n')) - 1  # minus header
+
+    # access_parser: columns -> parallel value lists; write RFC4180 CSV.
+    db = _access_db(mdb_path)
+    with contextlib.redirect_stderr(io.StringIO()):
+        table = db.parse_table(table_name)
+    columns = list(table.keys())
+    n = len(table[columns[0]]) if columns else 0
+    with open(output_path, 'w', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(columns)
+        for i in range(n):
+            writer.writerow(['' if table[c][i] is None else table[c][i] for c in columns])
+    return n
 
 
 def csv_to_json(csv_path: str, json_path: str) -> int:
@@ -145,9 +193,12 @@ def main():
 
     args = parser.parse_args()
 
-    if not check_mdbtools():
-        print("ERROR: mdbtools not found. Install with: apt install mdbtools")
+    engine = select_engine()
+    if engine is None:
+        print("ERROR: no MDB reader available. Install mdbtools "
+              "(apt install mdbtools) or access-parser (pip install access-parser).")
         sys.exit(1)
+    print(f"MDB engine: {engine}")
 
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -183,8 +234,8 @@ def main():
             print(f"  Vehicle: {vehicle_info['vehicle']}")
 
         try:
-            tables = list_tables(str(mdb_path))
-        except RuntimeError as e:
+            tables = list_tables(str(mdb_path), engine)
+        except Exception as e:
             print(f"  ERROR: {e}")
             continue
 
@@ -195,7 +246,7 @@ def main():
         for table in tables:
             csv_path = output_dir / f'{mdb_name}_{table}.csv'
             try:
-                row_count = export_table_csv(str(mdb_path), table, str(csv_path))
+                row_count = export_table_csv(str(mdb_path), table, str(csv_path), engine)
                 file_summary['tables'][table] = row_count
 
                 if args.format in ('json', 'both'):
@@ -207,7 +258,7 @@ def main():
 
                 if args.verbose:
                     print(f"    {table}: {row_count} rows")
-            except RuntimeError as e:
+            except Exception as e:
                 print(f"    ERROR on {table}: {e}")
 
         summary[mdb_name] = {**vehicle_info, **file_summary}

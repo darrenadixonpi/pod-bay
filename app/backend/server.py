@@ -80,6 +80,12 @@ def health():
     return {"status": "ok", "vehicle": config.VEHICLE_ID, "model": config.MODEL}
 
 
+@app.get("/api/vehicles")
+def vehicles():
+    """All extracted vehicles, and which one is active."""
+    return {"active": config.VEHICLE_ID, "vehicles": config.available_vehicles()}
+
+
 @app.get("/api/vehicle")
 def vehicle():
     """Vehicle label + available diagram filenames for the UI."""

@@ -1,0 +1,602 @@
+[
+  {
+    "section": "100-01",
+    "name": "General Information",
+    "page_count": 4,
+    "total_chars": 9122,
+    "first_page": 4017,
+    "last_page": 4942
+  },
+  {
+    "section": "100-02",
+    "name": "Jacking and Lifting",
+    "page_count": 7,
+    "total_chars": 4888,
+    "first_page": 4018,
+    "last_page": 4944
+  },
+  {
+    "section": "100-04",
+    "name": "Noise, Vibration and Harshness",
+    "page_count": 10,
+    "total_chars": 27471,
+    "first_page": 4023,
+    "last_page": 4946
+  },
+  {
+    "section": "204-00",
+    "name": "Suspension System",
+    "page_count": 8,
+    "total_chars": 12151,
+    "first_page": 4173,
+    "last_page": 4998
+  },
+  {
+    "section": "204-01",
+    "name": "Front Suspension",
+    "page_count": 17,
+    "total_chars": 18825,
+    "first_page": 4423,
+    "last_page": 5000
+  },
+  {
+    "section": "204-02",
+    "name": "Rear Suspension",
+    "page_count": 9,
+    "total_chars": 15170,
+    "first_page": 4445,
+    "last_page": 5002
+  },
+  {
+    "section": "204-04",
+    "name": "Wheels and Tires",
+    "page_count": 9,
+    "total_chars": 9157,
+    "first_page": 4452,
+    "last_page": 5004
+  },
+  {
+    "section": "204-05",
+    "name": "Suspension Load Leveling Control",
+    "page_count": 32,
+    "total_chars": 38640,
+    "first_page": 4459,
+    "last_page": 5006
+  },
+  {
+    "section": "205-01",
+    "name": "Driveshaft",
+    "page_count": 8,
+    "total_chars": 7013,
+    "first_page": 4174,
+    "last_page": 5008
+  },
+  {
+    "section": "205-02",
+    "name": "Rear Drive Axle/Differential",
+    "page_count": 12,
+    "total_chars": 48328,
+    "first_page": 4496,
+    "last_page": 5010
+  },
+  {
+    "section": "205-05",
+    "name": "Rear Drive Half-Shafts",
+    "page_count": 10,
+    "total_chars": 13977,
+    "first_page": 4506,
+    "last_page": 5012
+  },
+  {
+    "section": "206-00",
+    "name": "Brake System",
+    "page_count": 17,
+    "total_chars": 19006,
+    "first_page": 4175,
+    "last_page": 5014
+  },
+  {
+    "section": "206-03",
+    "name": "Front Disc Brake",
+    "page_count": 10,
+    "total_chars": 12909,
+    "first_page": 4528,
+    "last_page": 5016
+  },
+  {
+    "section": "206-04",
+    "name": "Rear Disc Brake",
+    "page_count": 9,
+    "total_chars": 14273,
+    "first_page": 4536,
+    "last_page": 5018
+  },
+  {
+    "section": "206-05",
+    "name": "Parking Brake and Actuation",
+    "page_count": 9,
+    "total_chars": 12786,
+    "first_page": 4543,
+    "last_page": 5020
+  },
+  {
+    "section": "206-06",
+    "name": "Hydraulic Brake Actuation",
+    "page_count": 13,
+    "total_chars": 16114,
+    "first_page": 4550,
+    "last_page": 5022
+  },
+  {
+    "section": "206-07",
+    "name": "Power Brake Actuation",
+    "page_count": 6,
+    "total_chars": 4127,
+    "first_page": 4561,
+    "last_page": 5024
+  },
+  {
+    "section": "206-09",
+    "name": "Anti-Lock Control and Anti-Wheelspin Control",
+    "page_count": 16,
+    "total_chars": 25723,
+    "first_page": 4565,
+    "last_page": 5026
+  },
+  {
+    "section": "211-00",
+    "name": "Steering",
+    "page_count": 10,
+    "total_chars": 24331,
+    "first_page": 4176,
+    "last_page": 5044
+  },
+  {
+    "section": "211-02",
+    "name": "Power Steering",
+    "page_count": 17,
+    "total_chars": 19072,
+    "first_page": 4708,
+    "last_page": 5046
+  },
+  {
+    "section": "211-04",
+    "name": "Steering Column",
+    "page_count": 10,
+    "total_chars": 12739,
+    "first_page": 4723,
+    "last_page": 5048
+  },
+  {
+    "section": "211-05",
+    "name": "Steering Column Switches",
+    "page_count": 6,
+    "total_chars": 8797,
+    "first_page": 4731,
+    "last_page": 5050
+  },
+  {
+    "section": "303-01",
+    "name": "Basic Engine",
+    "page_count": 91,
+    "total_chars": 129023,
+    "first_page": 4187,
+    "last_page": 4978
+  },
+  {
+    "section": "303-03",
+    "name": "Engine Cooling",
+    "page_count": 24,
+    "total_chars": 46908,
+    "first_page": 4279,
+    "last_page": 4980
+  },
+  {
+    "section": "303-04",
+    "name": "Fuel Charging and Controls",
+    "page_count": 24,
+    "total_chars": 20621,
+    "first_page": 4301,
+    "last_page": 4982
+  },
+  {
+    "section": "303-05",
+    "name": "Accessory Drive",
+    "page_count": 8,
+    "total_chars": 9967,
+    "first_page": 4323,
+    "last_page": 4984
+  },
+  {
+    "section": "303-06",
+    "name": "Starting Systems",
+    "page_count": 11,
+    "total_chars": 20164,
+    "first_page": 4329,
+    "last_page": 4986
+  },
+  {
+    "section": "303-07",
+    "name": "Engine Ignition",
+    "page_count": 17,
+    "total_chars": 10745,
+    "first_page": 4338,
+    "last_page": 4988
+  },
+  {
+    "section": "303-08",
+    "name": "Engine Emission Control",
+    "page_count": 17,
+    "total_chars": 12024,
+    "first_page": 4353,
+    "last_page": 4990
+  },
+  {
+    "section": "303-12",
+    "name": "Intake Air",
+    "page_count": 11,
+    "total_chars": 6309,
+    "first_page": 4368,
+    "last_page": 4992
+  },
+  {
+    "section": "303-13",
+    "name": "Evaporative Emissions",
+    "page_count": 17,
+    "total_chars": 12794,
+    "first_page": 4377,
+    "last_page": 4994
+  },
+  {
+    "section": "303-14",
+    "name": "Electronic Engine Control",
+    "page_count": 27,
+    "total_chars": 18440,
+    "first_page": 4392,
+    "last_page": 4996
+  },
+  {
+    "section": "307-01",
+    "name": "Automatic Transmission",
+    "page_count": 50,
+    "total_chars": 199714,
+    "first_page": 4188,
+    "last_page": 5028
+  },
+  {
+    "section": "307-02",
+    "name": "Transmission Cooling",
+    "page_count": 6,
+    "total_chars": 2756,
+    "first_page": 4626,
+    "last_page": 5030
+  },
+  {
+    "section": "307-05",
+    "name": "Automatic Transmission External Controls",
+    "page_count": 15,
+    "total_chars": 16045,
+    "first_page": 4630,
+    "last_page": 5032
+  },
+  {
+    "section": "309-00",
+    "name": "Exhaust Components",
+    "page_count": 11,
+    "total_chars": 13258,
+    "first_page": 4189,
+    "last_page": 5034
+  },
+  {
+    "section": "310-00",
+    "name": "Fuel System",
+    "page_count": 11,
+    "total_chars": 4813,
+    "first_page": 4278,
+    "last_page": 5036
+  },
+  {
+    "section": "310-01",
+    "name": "Fuel Tank and Lines",
+    "page_count": 25,
+    "total_chars": 25989,
+    "first_page": 4660,
+    "last_page": 5038
+  },
+  {
+    "section": "310-02",
+    "name": "Acceleration Control",
+    "page_count": 8,
+    "total_chars": 8488,
+    "first_page": 4683,
+    "last_page": 5040
+  },
+  {
+    "section": "310-03",
+    "name": "Vehicle Speed Control",
+    "page_count": 13,
+    "total_chars": 15124,
+    "first_page": 4689,
+    "last_page": 5042
+  },
+  {
+    "section": "412-00",
+    "name": "Climate Control System",
+    "page_count": 13,
+    "total_chars": 45302,
+    "first_page": 4438,
+    "last_page": 5052
+  },
+  {
+    "section": "412-01",
+    "name": "Air Distribution and Filtering",
+    "page_count": 10,
+    "total_chars": 7528,
+    "first_page": 4746,
+    "last_page": 5054
+  },
+  {
+    "section": "412-02",
+    "name": "Heating/Defrosting",
+    "page_count": 13,
+    "total_chars": 10129,
+    "first_page": 4754,
+    "last_page": 5056
+  },
+  {
+    "section": "412-03",
+    "name": "Air Conditioning",
+    "page_count": 29,
+    "total_chars": 51886,
+    "first_page": 4765,
+    "last_page": 5058
+  },
+  {
+    "section": "412-04",
+    "name": "Control Components",
+    "page_count": 14,
+    "total_chars": 18546,
+    "first_page": 4792,
+    "last_page": 5060
+  },
+  {
+    "section": "413-01",
+    "name": "Instrument Cluster",
+    "page_count": 14,
+    "total_chars": 15302,
+    "first_page": 4439,
+    "last_page": 5062
+  },
+  {
+    "section": "413-06",
+    "name": "Horn",
+    "page_count": 7,
+    "total_chars": 7652,
+    "first_page": 4816,
+    "last_page": 5064
+  },
+  {
+    "section": "413-08",
+    "name": "",
+    "page_count": 19,
+    "total_chars": 39183,
+    "first_page": 4821,
+    "last_page": 5068
+  },
+  {
+    "section": "414-00",
+    "name": "Electrical Power Supply System",
+    "page_count": 8,
+    "total_chars": 14388,
+    "first_page": 4440,
+    "last_page": 5070
+  },
+  {
+    "section": "414-01",
+    "name": "Battery, Mounting and Cables",
+    "page_count": 6,
+    "total_chars": 4257,
+    "first_page": 4842,
+    "last_page": 5072
+  },
+  {
+    "section": "414-02",
+    "name": "Generator and Regulator",
+    "page_count": 6,
+    "total_chars": 2244,
+    "first_page": 4846,
+    "last_page": 5074
+  },
+  {
+    "section": "415-00",
+    "name": "In-Vehicle Entertainment System",
+    "page_count": 6,
+    "total_chars": 12770,
+    "first_page": 4441,
+    "last_page": 5076
+  },
+  {
+    "section": "417-01",
+    "name": "Exterior Lighting",
+    "page_count": 31,
+    "total_chars": 60014,
+    "first_page": 4442,
+    "last_page": 5078
+  },
+  {
+    "section": "417-02",
+    "name": "Interior Lighting",
+    "page_count": 12,
+    "total_chars": 22665,
+    "first_page": 4884,
+    "last_page": 5080
+  },
+  {
+    "section": "417-04",
+    "name": "Daytime Running Lamps",
+    "page_count": 6,
+    "total_chars": 8325,
+    "first_page": 4894,
+    "last_page": 5082
+  },
+  {
+    "section": "418-00",
+    "name": "Module Communications Network",
+    "page_count": 9,
+    "total_chars": 23778,
+    "first_page": 4443,
+    "last_page": 5084
+  },
+  {
+    "section": "419-01",
+    "name": "Remote Convenience",
+    "page_count": 16,
+    "total_chars": 24441,
+    "first_page": 4444,
+    "last_page": 5088
+  },
+  {
+    "section": "419-02",
+    "name": "Remote Convenience",
+    "page_count": 6,
+    "total_chars": 6104,
+    "first_page": 4917,
+    "last_page": 5090
+  },
+  {
+    "section": "419-08",
+    "name": "Cellular Phone",
+    "page_count": 5,
+    "total_chars": 12573,
+    "first_page": 4921,
+    "last_page": 5092
+  },
+  {
+    "section": "419-11",
+    "name": "Electronic Compass",
+    "page_count": 8,
+    "total_chars": 10928,
+    "first_page": 4924,
+    "last_page": 5094
+  },
+  {
+    "section": "501-01",
+    "name": "Body Structure",
+    "page_count": 6,
+    "total_chars": 3776,
+    "first_page": 4033,
+    "last_page": 4948
+  },
+  {
+    "section": "501-02",
+    "name": "Front End Body Panels",
+    "page_count": 7,
+    "total_chars": 3634,
+    "first_page": 4036,
+    "last_page": 4950
+  },
+  {
+    "section": "501-03",
+    "name": "Body Closures",
+    "page_count": 12,
+    "total_chars": 6576,
+    "first_page": 4041,
+    "last_page": 4952
+  },
+  {
+    "section": "501-05",
+    "name": "Interior Trim and Ornamentation",
+    "page_count": 7,
+    "total_chars": 6278,
+    "first_page": 4051,
+    "last_page": 4954
+  },
+  {
+    "section": "501-08",
+    "name": "Exterior Trim and Ornamentation",
+    "page_count": 6,
+    "total_chars": 2702,
+    "first_page": 4056,
+    "last_page": 4956
+  },
+  {
+    "section": "501-09",
+    "name": "Rear View Mirrors",
+    "page_count": 15,
+    "total_chars": 16420,
+    "first_page": 4060,
+    "last_page": 4958
+  },
+  {
+    "section": "501-10",
+    "name": "Seating",
+    "page_count": 12,
+    "total_chars": 21616,
+    "first_page": 4073,
+    "last_page": 4960
+  },
+  {
+    "section": "501-11",
+    "name": "Glass (Glazing), Frames and Mechanisms",
+    "page_count": 21,
+    "total_chars": 32567,
+    "first_page": 4083,
+    "last_page": 4962
+  },
+  {
+    "section": "501-12",
+    "name": "Instrument Panel and Console",
+    "page_count": 13,
+    "total_chars": 23422,
+    "first_page": 4102,
+    "last_page": 4964
+  },
+  {
+    "section": "501-14",
+    "name": "Keyless Entry/Computer Operated Locks",
+    "page_count": 15,
+    "total_chars": 19164,
+    "first_page": 4113,
+    "last_page": 4966
+  },
+  {
+    "section": "501-16",
+    "name": "Wipers and Washers",
+    "page_count": 10,
+    "total_chars": 16196,
+    "first_page": 4126,
+    "last_page": 4968
+  },
+  {
+    "section": "501-17",
+    "name": "Roof Opening Panel",
+    "page_count": 16,
+    "total_chars": 18335,
+    "first_page": 4134,
+    "last_page": 4970
+  },
+  {
+    "section": "501-19",
+    "name": "Bumpers",
+    "page_count": 6,
+    "total_chars": 5655,
+    "first_page": 4148,
+    "last_page": 4972
+  },
+  {
+    "section": "501-20",
+    "name": "Occupant Restraints",
+    "page_count": 22,
+    "total_chars": 55695,
+    "first_page": 4152,
+    "last_page": 4974
+  },
+  {
+    "section": "502-02",
+    "name": "Frame and Mounting",
+    "page_count": 13,
+    "total_chars": 12389,
+    "first_page": 4177,
+    "last_page": 4976
+  }
+]

@@ -26,17 +26,10 @@ _SECTION_RE = re.compile(r"Section (\d+-\d+)")
 _SECTION_ID_RE = re.compile(r"^\d+-\d+$")  # workshop section ids look like 06-03
 _WORD_RE = re.compile(r"[a-z0-9]+")
 
-# Owner's manual chapter titles, in document order (from its table of contents).
+# Owner's manual chapter titles come from the active vehicle's vehicle.json
+# (config.OWNERS_CHAPTERS) — in document order, matching its table of contents.
 # Headings appear verbatim as standalone lines in the body (with irregular
 # internal whitespace), so segmentation matches them with flexible spacing.
-_OWNERS_CHAPTERS = [
-    "Introductory Information", "Safety Restraints", "Starting Your Grand Marquis",
-    "Warning Lights and Gauges", "Instrument Panel Controls",
-    "Steering Column Controls", "Features", "Electronic Sound Systems",
-    "Driving Your Grand Marquis", "Roadside Emergencies", "Customer Assistance",
-    "Reporting Safety Defects", "Accessories", "Servicing Your Grand Marquis",
-    "Index", "Service Station Information",
-]
 # Publishing control lines in the owner's manual source — noise, not content:
 # typesetting markers ("File:rcpig.ex", "Update:...", "*[PI00400( ALL)05/95]",
 # "thirty-six pica chart:...").
@@ -44,12 +37,14 @@ _OWNERS_NOISE = re.compile(
     r"(?m)^(?:File:.*|Update:.*|\*?\[[A-Z]{2}\d+\(.*?\).*?\]|thirty-six pica chart:.*)$"
 )
 
-# Wiring tables that lookup_component searches, with the columns worth showing.
-_COMPONENT_TABLES = {
-    "ETA_COMP.csv": ["NAME", "PARTNO", "LOCATION", "CONN_NAME", "ZONE"],
-    "ETA_CONN.csv": ["NAME", "LOCATION", "COLOR", "TERMINAL", "ZONE"],
-    "ETA_GRND.csv": ["NAME", "LOCATION"],
-    "ETA_SPLICE.csv": ["NAME", "LOCATION"],
+# Wiring table types lookup_component searches, with the columns worth showing.
+# Keyed by table suffix (the EVTM/MDB prefix varies per vehicle — ETA_, EVC_,
+# … — so files are resolved by glob, not a hardcoded name).
+_COMPONENT_TABLE_COLS = {
+    "COMP": ["NAME", "PARTNO", "LOCATION", "CONN_NAME", "ZONE"],
+    "CONN": ["NAME", "LOCATION", "COLOR", "TERMINAL", "ZONE"],
+    "GRND": ["NAME", "LOCATION"],
+    "SPLICE": ["NAME", "LOCATION"],
 }
 
 
@@ -110,13 +105,13 @@ def _owners_chapters():
     each title, in TOC order) and strips publishing control lines. Returns [] if
     the owner's manual isn't present for this vehicle.
     """
-    if not config.OWNERS_MANUAL.exists():
+    if not config.OWNERS_MANUAL.exists() or not config.OWNERS_CHAPTERS:
         return []
     raw = config.OWNERS_MANUAL.read_text(encoding="utf-8", errors="replace")
 
     # Locate each chapter heading's first standalone occurrence in the body.
     bounds = []
-    for title in _OWNERS_CHAPTERS:
+    for title in config.OWNERS_CHAPTERS:
         pat = re.compile(r"(?mi)^\s*" + r"\s+".join(map(re.escape, title.split())) + r"\s*$")
         m = pat.search(raw)
         if m:
@@ -308,19 +303,29 @@ def get_section(section_id: str) -> dict:
     }
 
 
+@lru_cache(maxsize=1)
+def _component_tables():
+    """Resolve wiring CSVs for the active vehicle: [(path, table_type, cols)].
+
+    The EVTM prefix varies per vehicle (ETA_, EVC_, …), so match by suffix.
+    """
+    found = []
+    for ttype, cols in _COMPONENT_TABLE_COLS.items():
+        for path in config.REFERENCES_DIR.glob(f"*_{ttype}.csv"):
+            found.append((path, ttype, cols))
+    return found
+
+
 def lookup_component(query: str) -> dict:
     """Search the EVTM wiring tables for a component, connector, ground, or splice."""
     q = query.lower().strip()
     matches = []
-    for fname, cols in _COMPONENT_TABLES.items():
-        path = config.REFERENCES_DIR / fname
-        if not path.exists():
-            continue
+    for path, ttype, cols in _component_tables():
         with path.open(newline="", encoding="utf-8", errors="replace") as f:
             for row in csv.DictReader(f):
                 name = (row.get("NAME") or "")
                 if q in name.lower():
-                    rec = {"table": fname.replace("ETA_", "").replace(".csv", "")}
+                    rec = {"table": ttype}
                     for c in cols:
                         val = (row.get(c) or "").strip()
                         if val:

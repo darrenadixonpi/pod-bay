@@ -1,8 +1,12 @@
 """Backend configuration — paths and model selection.
 
-For the MVP this points directly at the single extracted vehicle. Once a
-second vehicle exists this becomes a registry keyed by vehicle id.
+A vehicle is a directory under vehicles/<id>/ holding references/ + diagrams/
+and a vehicle.json (label, owner's-manual chapters, source provenance). The
+active vehicle is chosen by PODBAY_VEHICLE; available_vehicles() discovers the
+rest. Everything vehicle-specific lives in the data (vehicle.json), so the code
+is vehicle- and manufacturer-agnostic.
 """
+import json
 import os
 from pathlib import Path
 
@@ -30,8 +34,9 @@ _load_dotenv()
 # Repo root: app/backend/config.py -> app/backend -> app -> <root>
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
+VEHICLES_ROOT = REPO_ROOT / "vehicles"
 VEHICLE_ID = os.environ.get("PODBAY_VEHICLE", "1996-mercury-grand-marquis")
-VEHICLE_DIR = REPO_ROOT / "vehicles" / VEHICLE_ID
+VEHICLE_DIR = VEHICLES_ROOT / VEHICLE_ID
 REFERENCES_DIR = VEHICLE_DIR / "references"
 DIAGRAMS_DIR = VEHICLE_DIR / "diagrams"
 
@@ -40,8 +45,35 @@ OWNERS_MANUAL = REFERENCES_DIR / "owners_manual.txt"
 SECTION_INDEX = REFERENCES_DIR / "section_index.json"
 FIGURES_INDEX = REFERENCES_DIR / "figures.json"
 
+
+def _vehicle_meta(vehicle_dir: Path) -> dict:
+    """Load vehicle.json for a vehicle dir ({} if absent)."""
+    p = vehicle_dir / "vehicle.json"
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf-8"))
+    return {}
+
+
+def available_vehicles() -> list:
+    """All extracted vehicles: [{id, label}], by id. A vehicle is any
+    vehicles/<id>/ with an extracted workshop manual."""
+    out = []
+    if VEHICLES_ROOT.exists():
+        for d in sorted(VEHICLES_ROOT.iterdir()):
+            if (d / "references" / "workshop_manual.txt").exists():
+                meta = _vehicle_meta(d)
+                out.append({"id": d.name, "label": meta.get("label", d.name)})
+    return out
+
+
+_META = _vehicle_meta(VEHICLE_DIR)
+
 # Human-readable label used in the system prompt.
-VEHICLE_LABEL = "1996 Mercury Grand Marquis (4.6L SOHC V8, Panther platform)"
+VEHICLE_LABEL = _META.get("label", VEHICLE_ID)
+
+# Owner's-manual chapter titles for this vehicle (empty if it has no owner's
+# manual). retrieval.py segments owners_manual.txt on these headings.
+OWNERS_CHAPTERS = _META.get("owners_chapters", [])
 
 # Anthropic model. Sonnet is the sensible default for an interactive repair
 # assistant — fast and cheap; bump to opus for harder diagnostic reasoning.
