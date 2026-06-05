@@ -1,0 +1,322 @@
+EVTM,NAME,QUALIFIER,PARTNO,LOCATION,CONN_NAME,LOCPAGE,ZONE,CONN_CELL,CONN_PAGE,HCCF_CELL,HCCF_PAGE,ITEMID_,FREQUENCY
+EVO,4x4 Hi/Low Indicator Switch,E4OD Transmission,7E440,"Below vehicle, on front of transfer case",C161,12,D1,,,,,0,0
+EVO,4x4 Hi/Low Indicator Switch,Mazda M5OD Transmission,7E440,"Below vehicle, on front of transfer case",C161,15,D1,,,,,0,0
+EVO,A/C Clutch Cycling Pressure Switch,5.8L,19E561,"RH rear of engine compartment, on accumulator",C162,2,A2,,,,,0,0
+EVO,A/C Clutch Cycling Pressure Switch,7.3L Diesel,19E561,"RH rear of engine compartment, on accumulator",C162,7,B1,,,,,0,0
+EVO,A/C Clutch Cycling Pressure Switch,7.5L,19E561,"RH rear of engine compartment, on accumulator",C162,5,A3,,,,,0,0
+EVO,A/C Clutch Field Coil,5.8L,19703,LH front of engine,C163,2,F5,,,,,0,0
+EVO,A/C Clutch Field Coil,7.3L Diesel,19703,LH front of engine,C163,7,F7,,,,,0,0
+EVO,A/C Clutch Field Coil,7.5L,19703,LH front of engine,C163,5,F5,,,,,0,0
+EVO,A/C Clutch Resistor Diode,5.8L,1N4003,"LH side of engine compartment, taped to harness, near C101 (27 ohms @ 5W)",,2,C10,,,,,0,0
+EVO,A/C Clutch Resistor Diode,7.3L Diesel,1N4003,"LH front of engine, taped to harness, near A/C clutch field coil (27 ohms @ 5W)",,,,,,,,0,0
+EVO,A/C Clutch Resistor Diode,7.5L,1N4003,"LH side of engine compartment, taped",,,,,,,,0,0
+EVO,A/C High Pressure Cut Out Switch,5.8L,19D594,LH side of engine compartment,C126,2,A4,,,,,0,0
+EVO,A/C High Pressure Cut Out Switch,7.3L Diesel,19D594,LH side of engine compartment,C126,6,A7,,,,,0,0
+EVO,A/C High Pressure Cut Out Switch,7.5L,19D594,LH side of engine compartment,C126,4,F6,,,,,0,0
+EVO,A/C-Heater Control Assembly,,19980,Center of I/P,C296,10,A2,,,,,0,0
+EVO,Accelerator Pedal (AP) Position Sensor,7.3L Diesel,9B989,Under LH side of I/P,C2001,9,F5,,,,,0,0
+EVO,Ambient Temperature Sensor,,19E702,RH front of engine compartment,C131,,,,,,,0,0
+EVO,Ashtray Illumination,,15052,"Lower center of I/P, in ashtray assembly",C293,10,F5,,,,,0,0
+EVO,Auxiliary Power Socket,,15055,Lower center of I/P,C234,10,F7,,,,,0,0
+EVO,Auxiliary Powertrain Control Connector,,N/A,Behind center of I/P,C206,9,E1,,,,,0,0
+EVO,Backup Lamp Switch,Mazda M5OD Transmission,15520,"Below center of vehicle, top LH side of transmission",C166,15,B1,,,,,0,0
+EVO,Backup Lamp Switch,S5-42 ZF Transmission,15520,"Below center of vehicle, top LH side of transmission",C166,15,E1,,,,,0,0
+EVO,Barometric Pressure (BARO) Sensor,7.3L Diesel,9F479,Below I/P at base of steering column,C2000,9,F5,,,,,0,0
+EVO,Battery,,N/A,"Front of engine compartment, on right side",,,,,,,,0,0
+EVO,Blower Motor,5.8L,18527,RH side of safety wall,C168,2,B1,,,,,0,0
+EVO,Blower Motor,7.3L Diesel,18527,RH side of safety wall,C168,7,C1,,,,,0,0
+EVO,Blower Motor,7.5L,18527,RH side of safety wall,C168,5,B1,,,,,0,0
+EVO,Blower Motor Resistor,5.8L,19A706,"RH side of safety wall, on plenum",C169,2,A1,,,,,0,0
+EVO,Blower Motor Resistor,7.3L Diesel,19A706,"RH side of safety wall, on plenum",C169,7,A1,,,,,0,0
+EVO,Blower Motor Resistor,7.5L,19A706,"RH side of safety wall, on plenum",C169,5,A1,,,,,0,0
+EVO,Blower Motor Switch,,18578,Center of I/P,C260,10,A4,,,,,0,0
+EVO,Brake Fluid Level Switch,5.8L,2L454,"LH rear of engine compartment, on brake fluid reservoir",C170,2,A8,,,,,0,0
+EVO,Brake Fluid Level Switch,7.3L Diesel,2L454,"LH rear of engine compartment, on brake fluid reservoir",C170,6,A8,,,,,0,0
+EVO,Brake Fluid Level Switch,7.5L,2L454,"LH rear of engine compartment, on brake fluid reservoir",C170,5,A9,,,,,0,0
+EVO,Brake ON/OFF (BOO) Switch,,13480,"Behind LH side of I/P, top LH side of brake/clutch pedal support",C279,9,F7,,,,,0,0
+EVO,Brake Pressure Applied Switch,7.3L Diesel,N/A,Near LH front rail,C102,7,A7,,,,,0,0
+EVO,Brake Pressure Switch,5.8L,N/A,Near LH front rail,C102,2,A10,,,,,0,0
+EVO,Brush Assembly,,3600,"Top of steering column, below steering wheel",C219,9,F10,,,,,0,0
+EVO,Cab Marker Lamps,,15442,Top front of cab roof,C900,14,A4,,,,,0,0
+EVO,Cab Marker Lamps,,15442,Top front of cab roof,C901,14,A4,,,,,0,0
+EVO,Cab Marker Lamps,,15442,Top front of cab roof,C902,14,A4,,,,,0,0
+EVO,Cab Marker Lamps,,15442,Top front of cab roof,C903,14,A3,,,,,0,0
+EVO,Cab Marker Lamps,,15442,Top front of cab roof,C904,14,A3,,,,,0,0
+EVO,Camshaft Position (CMP) Sensor,,N/A,Front center of engine,C144,6,F4,,,,,0,0
+EVO,Cargo/High Mount Stop Lamps,,15550,On top rear of cab,C910,14,A5,,,,,0,0
+EVO,Cigar Lighter,,15055,"Lower center of I/P, in ashtray assembly",C294,10,F4,,,,,0,0
+EVO,Cigar Lighter,,15055,"Lower center of I/P, in ashtray assembly",C295,10,F4,,,,,0,0
+EVO,Clutch Pedal Position (CPP) Switch,Manual,11A152,"Behind LH side of I/P, top RH side of brake/clutch pedal support",C261,9,F4,31,6,31,6,0,0
+EVO,Clutch Pedal Position (CPP) Switch Jumper,Automatic,14B155,"Behind LH side of I/P, taped to main harness, near steering column",C261,,,,,,,0,0
+EVO,Courtesy Lamp Diode,,N/A,In harness 14A504,,,,,,,,0,0
+EVO,Data Link Connector (DLC),,N/A,"Behind lower RH side of I/P, before glove compartment",C227,9,E1,27,10,27,10,0,0
+EVO,Daytime Running Lamps (DRL) Module,,15A272,Front LH side of lower radiator support,C177,2,E10,97,2,97,2,0,0
+EVO,Delta Exhaust Pressure Transducer,,N/A,N/A,C1037,,,,,,,0,0
+EVO,Delta Pressure Feedback EGR (DPFE) Sensor,5.8L California Except Super Duty,N/A,Top RH front of engine,C182,1,D1,,,,,0,0
+EVO,Delta Pressure Feedback EGR (DPFE) Sensor,7.5L California Except Super Duty,N/A,"LH rear of engine, left of throttle body",C182,4,A5,,,,,0,0
+EVO,Diesel Warning Lamps Display,,10B987,"Top LH side of I/P, right of instrument cluster",C264,9,A5,65,2,65,2,0,0
+EVO,Distributor,5.8L,12127,Top center front of engine,C178,1,F9,21,2,21,2,0,0
+EVO,Distributor,7.5L,12127,Top center front of engine,C178,4,F4,21,2,21,2,0,0
+EVO,Distributor Ignition Shield,,N/A,"In wire harness, between distributor and powertrain control module (PCM)",,,,,,,,0,0
+EVO,E4OD Transmission,,7000,Below center of vehicle,C1048,12,A3,30,7,30,7,0,0
+EVO,EGR Control Solenoid,5.8L,9D474,"Top LH side of engine, on ignition coil support bracket",C180,1,A6,,,,,0,0
+EVO,EGR Control Solenoid,,9D475,LH side of engine compartment,C180,4,A6,,,,,0,0
+EVO,EGR Valve Position (EVP) Sensor,5.8L 49 States or Super Duty,96428,Top RH front of engine,C182,,,,,,,0,0
+EVO,EGR Valve Position (EVP) Sensor,7.5L 49 States or Super Duty,N/A,RH side of engine compartment,C182,4,C1,,,,,0,0
+EVO,Enable PSOM Programming Connector,,14A459,"Behind lower RH side of I/P, below glove compartment",C232,10,E1,,,,,0,0
+EVO,Engine Compartment Fuse Box,,14A067,"LH side of engine compartment, on top front of wheel well",,2,C10,,,,,0,0
+EVO,Engine Compartment Lamp,,13C705,LH underside of engine compartment hood,C1035,2,A7,,,,,0,0
+EVO,Engine Coolant Temperature (ECT) Sensor,5.8L,12A648,"Center front of engine, on thermostat housing",C183,1,F4,,,,,0,0
+EVO,Engine Coolant Temperature (ECT) Sensor,7.5L,12A648,"LH front of engine, near LH side of distributor",C183,4,F5,,,,,0,0
+EVO,Engine Coolant Temperature Sender,5.8L,10884,Top LH front of engine,C150,3,C1,,,,,0,0
+EVO,Engine Coolant Temperature Sender,7.3L Diesel,10884,Top LH front of engine,C150,6,F5,,,,,0,0
+EVO,Engine Coolant Temperature Sender,7.5L,10884,"Top LH front of engine, LH side of distributor",C150,5,A4,,,,,0,0
+EVO,Engine Oil Pressure Switch,5.8L,9278,"Lower LH front of engine, near oil filter",C135,2,A3,,,,,0,0
+EVO,Engine Oil Pressure Switch,7.3L Diesel,9278,Top center rear of engine,C135,7,F2,,,,,0,0
+EVO,Engine Oil Pressure Switch,7.5L,9278,Top center rear of engine,C135,5,A5,,,,,0,0
+EVO,Engine Oil Temperature (EOT) Sensor,7.3L Diesel,12A648,Front top of engine,C183,6,F6,,,,,0,0
+EVO,EVAP Canister Purge Solenoid,7.5L 49 States or Super Duty,9C915,"RH side of engine, above exhaust manifold",C171,4,C1,,,,,0,0
+EVO,EVAP Canister Purge Solenoid,5.8L 49 States or Super Duty,9C915,RH front of engine,C171,3,F3,,,,,0,0
+EVO,Exhaust Back Pressure (EBP) Sensor,,N/A,RH side of engine,C145,6,D1,,,,,0,0
+EVO,Exhaust Pressure Regulator (EPR),,N/A,Top center of engine,C155,6,A3,,,,,0,0
+EVO,Front Dome Lamp,,13776,Center of roof,C906,14,B1,,,,,0,0
+EVO,Front Map Lamps,,13776,Center of roof,C905,14,B1,,,,,0,0
+EVO,Front Tank Fuel Gauge Sender,,9275,"Below RH center of vehicle, in front fuel tank",C421,12,F6,,,,,0,0
+EVO,Front Tank Fuel Pump/Fuel Gauge Sender,,9H307,"Below RH center of vehicle, in front fuel tank",C440,12,F6,,,,,0,0
+EVO,Fuel Injector #1,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C190,1,F7,,,,,0,0
+EVO,Fuel Injector #1,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C190,4,E1,,,,,0,0
+EVO,Fuel Injector #2,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C191,1,F7,,,,,0,0
+EVO,Fuel Injector #2,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C191,4,E1,,,,,0,0
+EVO,Fuel Injector #3,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C192,1,F7,,,,,0,0
+EVO,Fuel Injector #3,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C192,4,E1,,,,,0,0
+EVO,Fuel Injector #4,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C193,1,F7,,,,,0,0
+EVO,Fuel Injector #4,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C193,4,E1,,,,,0,0
+EVO,Fuel Injector #5,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C194,1,F7,,,,,0,0
+EVO,Fuel Injector #5,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C194,4,E1,,,,,0,0
+EVO,Fuel Injector #6,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C195,1,F7,,,,,0,0
+EVO,Fuel Injector #6,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C195,4,E1,,,,,0,0
+EVO,Fuel Injector #7,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C196,1,F7,,,,,0,0
+EVO,Fuel Injector #7,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C196,4,E1,,,,,0,0
+EVO,Fuel Injector #8,5.8L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C197,1,F7,,,,,0,0
+EVO,Fuel Injector #8,7.5L,9F593,"Top of engine, in lower intake manifold, at respective cylinders",C197,4,E1,,,,,0,0
+EVO,"Fuel Injectors/Glow Plugs (#1, #3)",,N/A,"Top of engine, in cylinder head near respective cylinders",C1059,6,D1,28,18,28,18,0,0
+EVO,"Fuel Injectors/Glow Plugs (#2, #4)",,N/A,"Top of engine, in cylinder head near respective cylinders",C1057,7,A6,28,17,28,17,0,0
+EVO,"Fuel Injectors/Glow Plugs (#5, #7)",,N/A,"Top of engine, in cylinder head near respective cylinders",C1060,7,A3,28,18,28,18,0,0
+EVO,"Fuel Injectors/Glow Plugs (#6, #8)",,N/A,"Top of engine, in cylinder head near respective cylinders",C1058,7,A6,28,17,28,17,0,0
+EVO,Fuel Line Heater,Diesel,9J294,"RH side of engine, on top of fuel filter/heater",C188,6,A4,,,,,0,0
+EVO,Fuel Tank Selector Switch,Diesel,9A050,"Top LH side of I/P, RH side of main light switch",C268,10,D10,49,3,49,3,0,0
+EVO,Fuel Tank Selector Switch,Gasoline,9A050,"Top LH side of I/P, RH side of main light switch",C268,10,D10,49,4,49,4,0,0
+EVO,Fuel Tank Selector Valve,,9F271,"Under LH center of vehicle, on LH frame rail",C423,12,F5,49,3,49,3,0,0
+EVO,Fuel Water Switch,,9J308,"RH side of engine, on bottom of fuel filter/heater",C1001,7,F4,,,,,0,0
+EVO,Fuse Link A,5.8L,14526,"Front of RH fender apron, at starter relay",,3,D1,,,,,0,0
+EVO,Fuse Link A,7.3L Diesel,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Link A,7.5L,14526,"Front of RH fender apron, at starter relay",,5,C1,,,,,0,0
+EVO,Fuse Link B,5.8L,14526,"Front of RH fender apron, at starter relay",,3,D1,,,,,0,0
+EVO,Fuse Link B,7.3L Diesel,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Link B,7.5L,14526,"Front of RH fender apron, at starter relay",,5,C1,,,,,0,0
+EVO,Fuse Link C,,14526,"LH side of engine compartment, in engine compartment fuse box",,6,C10,,,,,0,0
+EVO,Fuse Link D,,14526,"LH side of engine compartment, in engine compartment fuse box",,6,C10,,,,,0,0
+EVO,Fuse Link J,5.8L,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Link J,7.3L Diesel,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Link J,7.5L,14526,"Front of RH fender apron, at starter relay",,5,D1,,,,,0,0
+EVO,Fuse Link K,7.3L Diesel,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Link L,7.5L,14526,"Front of RH fender apron, at starter relay",,,,,,,,0,0
+EVO,Fuse Panel,,14A068,"Behind lower LH side of I/P, left of steering column",C207,10,D10,,,,,0,0
+EVO,Generator/Voltage Regulator,5.8L,10300,RH front of engine,C1063,2,F5,,,,,0,0
+EVO,Generator/Voltage Regulator,5.8L,10300,RH front of engine,C153,2,F5,,,,,0,0
+EVO,Generator/Voltage Regulator,5.8L,10300,RH front of engine,C154,2,F5,,,,,0,0
+EVO,Generator/Voltage Regulator,7.3L Diesel,10300,Top RH front of engine,C1029,6,A1,,,,,0,0
+EVO,Generator/Voltage Regulator,7.3L Diesel,10300,Top RH front of engine,C1063,6,A1,,,,,0,0
+EVO,Generator/Voltage Regulator,7.3L Diesel,10300,Top RH front of engine,C165,6,A1,,,,,0,0
+EVO,Generator/Voltage Regulator,7.5L,10300,RH front of engine,C1063,5,F5,,,,,0,0
+EVO,Generator/Voltage Regulator,7.5L,10300,RH front of engine,C153,5,F4,,,,,0,0
+EVO,Generator/Voltage Regulator,7.5L,10300,RH front of engine,C154,5,F5,,,,,0,0
+EVO,Glove Compartment Lamp,,14413,"Behind RH side of I/P, in glove compartment",C292,10,B1,,,,,0,0
+EVO,Glow Plug Relay,,12B533,Top center rear of engine,C1002,7,A2,,,,,0,0
+EVO,Glow Plug Relay,,12B533,Top center rear of engine,C1004,7,A2,,,,,0,0
+EVO,Glow Plug Relay,,12B533,Top center rear of engine,C1013,7,A2,,,,,0,0
+EVO,Glow Plug Relay,,12B533,Top center rear of engine,C1018,7,A2,,,,,0,0
+EVO,Hazard Flasher,,13350,"Behind LH side of I/P, on front of fuse panel",,10,E10,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #11,5.8L 49 States or Super Duty,9F472,On top of transmission,C1025,18,D10,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #11,5.8L California Except Super Duty,9F472,Near starter,C1025,18,B10,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #11,7.5L 49 States or Super Duty,9F472,On top of transmission,C1025,19,D10,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #11,7.5L California Except Super Duty,9F472,Near top front of transmission,C1025,19,B1,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #12,5.8L California Except Super Duty,9F472,Near rear of transmission,C1069,18,A4,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #12,7.5L California Except Super Duty,9F472,Near rear of transmission,C1069,19,A10,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #21,5.8L California Except Super Duty,9F472,Near LH side of transmission,C1028,18,C1,,,,,0,0
+EVO,Heated Oxygen Sensor (HO2S) #21,7.5L California Except Super Duty,9F472,Near LH side of transmission,C1028,19,D1,,,,,0,0
+EVO,Heater Control Assembly,,18159,Center of I/P,C296,10,A2,,,,,0,0
+EVO,Heater Control Illumination,,18159,"Behind center of I/P, on A/C-heater control assembly",C298,10,A3,,,,,0,0
+EVO,Low Pitch Horn,,13A802,"Rear RH side of lower radiator support, below lamps",C1005,2,F3,,,,,0,0
+EVO,High Pitch Horn,,13A802,"Rear RH side of lower radiator support, below lamps",C1006,2,F2,,,,,0,0
+EVO,Idle Air Control (IAC) Valve,5.8L,12B526,"Top RH front of engine, top of throttle body",C1007,1,F6,,,,,0,0
+EVO,Idle Air Control (IAC) Valve,7.5L,12B526,"Top center of engine, below throttle body",C1007,4,C1,,,,,0,0
+EVO,Idle Validation Switch (IVS),,N/A,Near accelerator pedal,C244,9,F6,,,,,0,0
+EVO,Ignition Coil,5.8L,12029,"LH rear of engine, near intake manifold",C1008,1,A7,,,,,0,0
+EVO,Ignition Coil,7.5L,12029,"LH side of engine, above LH valve cover",C1008,4,E10,,,,,0,0
+EVO,Ignition Control Module (ICM),5.8L,12B582,"LH rear of engine compartment, on fender apron",C1021,1,B10,21,2,21,2,0,0
+EVO,Ignition Control Module (ICM),7.5L,12B582,"LH rear of engine compartment, on fender apron",C1021,4,C10,21,2,21,2,0,0
+EVO,Ignition Key Warning Switch,,11A127,"Top of steering column, part of ignition switch",C219,,,,,,,0,0
+EVO,Ignition Suppression Resistor,5.8L,N/A,"LH side of engine compartment, taped to harness, near C101",,2,B10,,,,,0,0
+EVO,Ignition Suppression Resistor,7.5L,N/A,"LH side of engine compartment, taped to harness, near C101",,5,C10,,,,,0,0
+EVO,Ignition Switch,,11572,Top RH side of steering column,C269,,,13,24,13,24,0,0
+EVO,Inertia Fuel Shutoff,,9341,Behind RH cowl panel,C271,12,A7,,,,,0,0
+EVO,Injection Control Pressure (ICP) Sensor,,N/A,Top LH side of engine,C146,7,A5,,,,,0,0
+EVO,Injection Pressure Regulator (IPR),,N/A,Top center of engine,C156,7,F5,,,,,0,0
+EVO,Injector Driver Module (IDM),,N/A,LH side of engine compartment,C128,7,C10,28,11,28,11,0,0
+EVO,Instrument Cluster,,10849,Top LH side of I/P,C250,9,A6,60,9,60,9,0,0
+EVO,Instrument Cluster,,10849,Top LH side of I/P,C251,9,A6,60,9,60,9,0,0
+EVO,Intake Air Temperature (IAT) Sensor,5.8L,12A697,"Top center front of engine, near intake runner #6",C164,1,D10,,,,,0,0
+EVO,Intake Air Temperature (IAT) Sensor,7.3L Diesel,12A697,Top center of engine,C164,6,C10,,,,,0,0
+EVO,Intake Air Temperature (IAT) Sensor,7.5L,12A697,"Top center of engine, behind distributor",C164,4,F4,,,,,0,0
+EVO,Key Warning Switch,,N/A,In steering column,,,,,,,,0,0
+EVO,Left Backup Lamp,Chassis Cab,13405,"Rear of vehicle, on left side",C447,14,F4,,,,,0,0
+EVO,Left Backup Lamp,Except Chassis Cab,13405,"Rear of vehicle, on left side",C433,17,F6,,,,,0,0
+EVO,Left Front Courtesy Lamp Switch,,13713,On lower rear of LH front door jamb,C263,14,D1,,,,,0,0
+EVO,Left Front Door Courtesy Lamp,,13776,In lower rear of LH front door,C504,14,C1,,,,,0,0
+EVO,Left Front Door Lock Motor,,218A42,In rear of LH front door,C502,13,D1,,,,,0,0
+EVO,Left Front Door Speaker,,18808,In top front of LH front door,C507,13,A3,,,,,0,0
+EVO,Left Front Park/Turn Lamp,,13201,"Front of vehicle, on left side",C1031,2,F7,,,,,0,0
+EVO,Left Front Side Marker Lamp,,15A426,"Front of vehicle, on left side",C1055,3,E10,,,,,0,0
+EVO,Left Front Side Marker Lamp,,15A426,"Front of vehicle, on left side",C1054,3,E10,,,,,0,0
+EVO,Left Front Window Motor,,23394,In lower front of LH front door,C500,13,C1,,,,,0,0
+EVO,Left Headlamp,,13005,"Front of vehicle, on left side",C1033,2,F8,,,,,0,0
+EVO,Left License Lamp,,13550,Center left side of bumper,C435,14,E10,,,,,0,0
+EVO,Left Power Lumbar/Bolster Compressor Motor,,65530,Under front of LH front seat,C305,,,,,,,0,0
+EVO,Left Power Lumbar Compressor Motor,,65530,Under front of LH front seat,C312,11,F6,,,,,0,0
+EVO,Left Power Lumbar Switch,,14C715,LH side of LH front seat,C305,11,E10,,,,,0,0
+EVO,Left Power Lumbar/Bolster Switch,,N/A,LH side of LH front seat,C305,,,,,,,0,0
+EVO,Left Power Mirror,,17683,Top front of LH front door,C508,13,A2,,,,,0,0
+EVO,Left Rear Courtesy Lamp Switch,,13713,On front of LH rear door jamb,C321,17,D1,,,,,0,0
+EVO,Left Rear Door Courtesy Lamp,,13776,In lower rear of LH rear door,C700,17,E1,,,,,0,0
+EVO,Left Rear Door Lock Motor,,218A42,In rear of LH rear door,C701,16,F3,,,,,0,0
+EVO,Left Rear Park/Stop/Turn Lamp,Chassis Cab,N/A,Rear left quarter panel,C449,14,F3,,,,,0,0
+EVO,Misfire Sensor,5.8L Except Chassis Cab,N/A,"Center front of engine, on timing chain cover",C114,1,A4,,,,,0,0
+EVO,Misfire Sensor,7.5L California Except Super Duty,N/A,"Center front of engine, on timing chain cover",C114,4,F5,,,,,0,0
+EVO,Misfire Sensor Shield,,N/A,"In wire harness, between distributor and powertrain control module (PCM)",,,,,,,,0,0
+EVO,Multi-function Switch,,13K359,Top of steering column,C230,10,B10,,,,,0,0
+EVO,Multi-function Switch,,13K359,Top of steering column,C231,10,B10,,,,,0,0
+EVO,Overheat Warning Switch,,N/A,LH front of engine,C1014,6,F3,,,,,0,0
+EVO,Overspeed Warning Module,,N/A,N/A,C208,,,,,,,0,0
+EVO,Park Brake Switch,,15852,"Behind LH side of I/P, top of park brake pedal",C276,9,F8,,,,,0,0
+EVO,Plugged Fuel Filter Switch,,N/A,"RH side of engine, in fuel filter/heater housing",C1015,7,A4,,,,,0,0
+EVO,Power Lumbar Compressor Motor,,65530,Under front of front seat,C312,11,F6,,,,,0,0
+EVO,Power Mirror Switch,,17B676,Center of LH front door,C550,13,C1,124,2,124,2,0,0
+EVO,Powertrain Control Module (PCM),5.8L 49 States or Super Duty,N/A,LH side of safety wall,C185,1,C10,26,9,26,9,0,0
+EVO,Powertrain Control Module (PCM),5.8L California Except Super Duty,N/A,LH side of safety wall,C1027,1,C10,27,11,27,11,0,0
+EVO,Powertrain Control Module (PCM),7.3L Diesel 49 States or Super Duty,N/A,LH side of safety wall,C1027,7,B10,28,13,28,13,0,0
+EVO,Powertrain Control Module (PCM),7.3L Diesel California Except Super Duty,N/A,LH side of safety wall,C1027,7,B10,28,15,28,15,0,0
+EVO,Powertrain Control Module (PCM),7.5L 49 States or Super Duty,N/A,LH side of safety wall,C185,4,A9,26,9,26,9,0,0
+EVO,Powertrain Control Module (PCM),7.5L California Except Super Duty,N/A,LH side of safety wall,C1027,4,A9,27,11,27,11,0,0
+EVO,Premium Sound Amplifier,,18B849,Behind center of I/P,C212,10,A5,130,4,130,4,0,0
+EVO,Premium Sound Amplifier,,18B849,Behind center of I/P,C283,10,A5,130,5,130,5,0,0
+EVO,Remote Keyless Entry (RKE) Module,,15K602,Behind LH side of I/P,C240,9,B10,111,7,111,7,0,0
+EVO,Remote Keyless Entry (RKE) Module,,15K602,Behind LH side of I/P,C241,9,B10,111,8,111,8,0,0
+EVO,Remote Keyless Entry (RKE) Module,,15K602,Behind LH side of I/P,C242,9,B10,111,7,111,7,0,0
+EVO,Right Backup Lamp,Chassis Cab,13404,"Rear of vehicle, on right side",C448,14,D10,,,,,0,0
+EVO,Right Backup Lamp,Except Chassis Cab,13404,"Rear of vehicle, on right side",C434,17,C10,,,,,0,0
+EVO,Right Battery,,N/A,Left front of engine compartment,,8,A4,,,,,0,0
+EVO,Right Front Courtesy Lamp Switch,,13713,On front of RH front door jamb,C262,14,C1,,,,,0,0
+EVO,Right Front Door Courtesy Lamp,,13776,In lower rear of RH front door,C606,14,A6,,,,,0,0
+EVO,Right Front Door Lock Motor,,218A42,In rear of RH front door,C602,13,D10,,,,,0,0
+EVO,Right Front Door Speaker,,18808,In top front of RH front door,C607,13,C10,,,,,0,0
+EVO,Right Front Park/Turn Lamp,,13200,"Front of vehicle, on right side",C1032,2,F4,,,,,0,0
+EVO,Right Front Side Marker Lamp,,15A426,"Front of vehicle, on right side",C1052,3,E1,,,,,0,0
+EVO,Right Front Side Marker Lamp,,15A426,"Front of vehicle, on right side",C1053,3,E1,,,,,0,0
+EVO,Right Front Window Motor,,23394,In lower front of RH front door,C600,13,F8,,,,,0,0
+EVO,Right Front Window/Door Lock Control Switch,,14028,Center of RH front door,C603,13,E10,100,4,100,4,0,0
+EVO,Right Headlamp,,13005,"Front of vehicle, on right side",C1034,2,F3,,,,,0,0
+EVO,Right License Lamp,,13550,Center right side of bumper,C436,14,E10,,,,,0,0
+EVO,Right Power Lumbar/Bolster Compressor Motor,,N/A,Under front of RH front seat,C306,11,F3,,,,,0,0
+EVO,Right Power Lumbar Compressor Motor,,65530,Under front of RH front seat,C317,11,F3,,,,,0,0
+EVO,Right Power Lumbar/Bolster Switch,,N/A,RH side of RH front seat,C306,11,C1,,,,,0,0
+EVO,Right Power Lumbar Switch,,14C715,RH side of RH front seat,C306,11,C1,,,,,0,0
+EVO,Speed Control Servo/Amplifier Assembly Jumper,,N/A,"LH side of engine compartment, near brake master cylinder",C216,,,,,,,0,0
+EVO,Speed Control/Horn Switch Assembly,,9C888,In steering wheel,C219,10,A9,31,5,31,5,0,0
+EVO,SPOUT Check Connector,5.8L,N/A,"LH rear of engine compartment, taped to harness, near ignition control module (ICM)",C1019,3,C10,,,,,0,0
+EVO,SPOUT Check Connector,7.5L,N/A,"LH rear of engine compartment, taped to harness, near ignition control module (ICM)",C1019,4,D10,,,,,0,0
+EVO,Starter Motor,5.8L,11001,Lower RH side of engine,,1,A1,,,,,0,0
+EVO,Starter Motor,7.3L Diesel,11001,Lower RH side of engine,,,,,,,,0,0
+EVO,Starter Motor,7.5L,11001,Lower RH side of engine,,4,B1,,,,,0,0
+EVO,Starter Relay,5.8L,11450,"Front of RH fender apron, behind battery",,1,D1,,,,,0,0
+EVO,Starter Relay,7.3L Diesel,11450,"Front of RH fender apron, behind right battery",,6,C1,,,,,0,0
+EVO,Starter Relay,7.5L,11450,"Front of RH fender apron, behind battery",,4,D1,,,,,0,0
+EVO,Starter Solenoid,5.8L,11001,"Lower RH side of engine, above starter motor",C116,1,A1,,,,,0,0
+EVO,Starter Solenoid,7.3L Diesel,11001,"Lower RH side of engine, above starter motor",C116,,,,,,,0,0
+EVO,Starter Solenoid,7.5L,11001,"Lower RH side of engine, above starter motor",C116,4,A3,,,,,0,0
+EVO,Throttle Position (TP) Sensor,5.8L,9B989,"Top RH front of engine, on throttle body",C1024,1,F3,,,,,0,0
+EVO,Throttle Position (TP) Sensor,7.5L,9B989,"Top LH side of engine, on side of throttle body",C1026,4,A5,,,,,0,0
+EVO,Trailer Relay Box,,14A067,"LH side of engine compartment, in engine compartment fuse box",,5,D10,,,,,0,0
+EVO,Trailer/Camper Adapter Connector,Class I,N/A,Under rear bumper,C451,12,F8,,,,,0,0
+EVO,Trailer/Camper Adapter Connector,Class II,N/A,Under rear bumper,C417,16,F8,,,,,0,0
+EVO,Transmission Control Switch (TCS),,7G550,Top of steering column,C275,10,C10,,,,,0,0
+EVO,Left Rear Park/Stop/Turn Lamp,Except Chassis Cab,N/A,Rear left quarter panel,C431,14,F3,,,,,0,0
+EVO,Left Rear Speaker,,18932/18971,"LH rear of cab, behind trim panel",C326,13,A6,,,,,0,0
+EVO,Left Rear Window Control Switch,,N/A,Center of LH rear door,C703,16,F4,100,6,100,6,0,0
+EVO,Left Rear Window Motor,,N/A,In lower front of LH rear door,C702,16,F5,,,,,0,0
+EVO,Left Side Body Marker Lamp,,15C400,On front and rear of left rear quarter panel,C411,17,F4,,,,,0,0
+EVO,Left Side Body Marker Lamp,,15C400,On front and rear of left rear quarter panel,C412,17,F4,,,,,0,0
+EVO,License Lamp,Without Rear Bumper,13550,"Lower rear of vehicle, near license plate holder",C446,,,,,,,0,0
+EVO,Low Vacuum Warning Switch,,12A182,"RH side of engine compartment, behind right battery",C1010,7,D10,,,,,0,0
+EVO,Main Light Switch,,11654,"Top LH side of I/P, left of steering column",C273,9,C10,71,2,71,2,0,0
+EVO,Manifold Absolute Pressure (MAP) Sensor,5.8L Chassis Cab,12A8529,Top RH side of safety wall,C1011,1,A3,,,,,0,0
+EVO,Manifold Absolute Pressure (MAP) Sensor,7.3L Diesel,9F479,Top RH side of safety wall,C176,6,A2,,,,,0,0
+EVO,Manifold Absolute Pressure (MAP) Sensor,7.5L Chassis Cab,9F479,Top RH side of safety wall,C1011,4,A4,,,,,0,0
+EVO,Mass Air Flow (MAF) Sensor,5.8L Except Chassis Cab,12A8529,RH front of engine compartment,C130,1,D10,27,10,27,10,0,0
+EVO,Mass Air Flow (MAF) Sensor,7.5L Except Chassis Cab,12A8529,RH front of engine compartment,C130,,,27,10,27,10,0,0
+EVO,Master Window/Door Lock Control Switch,Crew Cab,14529,Center of LH front door,C503,16,B1,100,5,100,5,0,0
+EVO,Master Window/Door Lock Control Switch,Except Crew Cab,14529,Center of LH front door,C505,13,A1,100,4,100,4,0,0
+EVO,Left Battery,,N/A,LH front of engine compartment,,,,,,,,0,0
+EVO,Right Battery,,N/A,RH front of engine compartment,,,,,,,,0,0
+EVO,Mega Fuse,,N/A,RH front of engine compartment,,,,,,,,0,0
+EVO,Programmable Speedometer/Odometer Module (PSOM),,N/A,Behind LH side of I/P,C252,9,A8,60,8,60,8,0,0
+EVO,RABS Data Link Connector,5.8L,14A624,"LH rear of engine compartment, on bracket",C143,3,A10,42,3,42,3,0,0
+EVO,RABS Data Link Connector,7.3L Diesel,14A624,Behind lower center of I/P,C143,6,A10,42,3,42,3,0,0
+EVO,RABS Data Link Connector,7.5L,14A624,"LH rear of engine compartment, on bracket",C143,4,B10,42,3,42,3,0,0
+EVO,RABS Valve Assembly,,2B373,"On LH frame rail, near front of transmission",C158,15,C1,,,,,0,0
+EVO,Radio,Premium Sound,18C815,Top center of I/P,C211,,,130,4,130,4,0,0
+EVO,Radio,Premium Sound,18C815,Top center of I/P,C282,,,130,5,130,5,0,0
+EVO,Radio,Without Premium Sound,19B132,Top center of I/P,C265,9,A4,130,3,130,3,0,0
+EVO,Radio,Without Premium Sound,19B132,Top center of I/P,C266,9,A4,130,3,130,3,0,0
+EVO,Radio Capacitor,5.8L,18801,"LH side of engine, near ignition coil",C1017,1,A8,,,,,0,0
+EVO,Radio Capacitor,7.5L,18801,"LH side of engine, near ignition coil",C1017,4,F10,,,,,0,0
+EVO,Rear Anti-lock Brake (RABS) Module,,2C018,"Behind RH side of I/P, behind glove compartment",C277,9,C1,42,3,42,3,0,0
+EVO,Rear Axle Sensor,,6C315,On axle assembly,C404,12,E10,,,,,0,0
+EVO,Rear Body Marker Lamps,,15425,Center rear of vehicle,C410,14,E10,,,,,0,0
+EVO,Rear Dome Lamp,,13776,"Center of roof, in rear passenger compartment",C908,,,,,,,0,0
+EVO,Rear Map Lamps,,13776,"Center of roof, in rear passenger compartment",C907,,,,,,,0,0
+EVO,Rear Tank Fuel Gauge Sender,Diesel,9275,"Below RH rear of vehicle, in rear fuel tank",C427,12,E10,,,,,0,0
+EVO,Rear Tank Fuel Pump/Fuel Gauge Sender,"Chassis Cab with 185"" Wheel Base",9H307,Below RH rear of vehicle in front of rear fuel tank,C441,12,C10,,,,,0,0
+EVO,Rear Tank Fuel Pump/Fuel Gauge Sender,"Gasoline Engines Except Chassis Cab with 185"" Wheel Base",9H307,Below RH rear of vehicle in center of rear fuel tank,C441,12,D10,,,,,0,0
+EVO,Right Power Mirror,,17683,Top front of RH front door,C608,13,A9,,,,,0,0
+EVO,Right Rear Courtesy Lamp Switch,,13713,On front of LH rear door jamb,C322,17,A8,,,,,0,0
+EVO,Right Rear Door Courtesy Lamp,,13776,In lower rear of RH rear door,C800,17,A9,,,,,0,0
+EVO,Right Rear Door Lock Motor,,218A42,In rear of RH rear door,C801,16,E10,,,,,0,0
+EVO,Right Rear Park/Stop/Turn Lamp,Chassis Cab,N/A,Rear right quarter panel,C450,14,C10,,,,,0,0
+EVO,Right Rear Park/Stop/Turn Lamp,Except Chassis Cab,N/A,Rear right quarter panel,C432,14,C10,,,,,0,0
+EVO,Right Rear Speaker,,18971/18932,"RH rear of cab, behind trim panel",C327,13,E10,,,,,0,0
+EVO,Right Rear Window Control Switch,,N/A,Center of RH rear door,C803,16,C10,100,6,100,6,0,0
+EVO,Right Rear Window Motor,,N/A,In lower front of RH rear door,C802,16,E10,,,,,0,0
+EVO,Right Side Body Marker Lamp,,15C400,On front and rear of right rear quarter panel,C413,17,B10,,,,,0,0
+EVO,Right Side Body Marker Lamp,,15C400,On front and rear of right rear quarter panel,C420,17,B10,,,,,0,0
+EVO,RKE Program Connector,,N/A,Behind LH side of I/P,C243,,,,,,,0,0
+EVO,Seat Belt Switch,,611A72,Inside LH front seat belt buckle assembly,C302,11,A6,,,,,0,0
+EVO,Secondary Air Injection Bypass (AIRB) Solenoid,7.5L,9H465,"LH side of engine, near ignition coil",C1022,4,A7,,,,,0,0
+EVO,Secondary Air Injection Diverter (AIRD) Solenoid,5.8L 49 States or Super Duty,9H465,"Top LH rear of engine, near rear of LH valve cover",C1023,3,A3,,,,,0,0
+EVO,Secondary Air Injection Diverter (AIRD) Solenoid,7.5L,9H465,"Top LH rear of engine, near rear of LH valve cover",C1023,4,A7,,,,,0,0
+EVO,Shift Lock Actuator,,3E723,In steering column,C236,10,A6,,,,,0,0
+EVO,Speed Control Servo/Amplifier Assembly,,9A825,"LH side of engine compartment, near brake master cylinder",C216,2,A9,31,5,31,5,0,0
+EVO,Transmission Range (TR) Sensor,E4OD Transmission,7F293,"Below center of vehicle, LH side of transmission",C1012,12,B1,93,3,93,3,0,0
+EVO,Turn Flasher,,13350,"Behind LH side of I/P, on front of fuse panel",,10,E10,,,,,0,0
+EVO,Vapor Management Valve,,N/A,Rear center of engine compartment,C107,1,A2,,,,,0,0
+EVO,VIP Data Link Connector (DLC),5.8L Over 8500 GVW 49 States or Super Duty,14489,"LH rear of engine compartment, on bracket",C198,1,A10,26,11,26,11,0,0
+EVO,VIP Data Link Connector (DLC),5.8L Over 8500 GVW 49 States or Super Duty,14489,"LH rear of engine compartment, on bracket",C199,1,B10,,,,,0,0
+EVO,VIP Data Link Connector (DLC),7.5L Over 8500 GVW 49 States or Super Duty,14489,"LH rear of engine compartment, on bracket",C198,4,B10,26,11,26,11,0,0
+EVO,VIP Data Link Connector (DLC),7.5L Over 8500 GVW 49 States or Super Duty,14489,"LH rear of engine compartment, on bracket",C199,4,B10,,,,,0,0
+EVO,Warning Chime Module,,10D840,Behind lower center of I/P,C280,10,F6,66,2,66,2,0,0
+EVO,Water in Fuel Sensor,,9J308,"RH side of engine, near fuel filter",C1056,7,F8,,,,,0,0
+EVO,Windshield Washer Pump Motor,5.8L,17B613,"Lower LH front of engine compartment, in windshield washer fluid reservoir",C1030,2,D10,,,,,0,0
+EVO,Windshield Washer Pump Motor,7.3L Diesel,17B613,"LH side of engine compartment, in windshield washer fluid reservoir",C1030,7,C1,,,,,0,0
+EVO,Windshield Washer Pump Motor,7.5L,17B613,"Lower LH front of engine compartment, in windshield washer fluid reservoir",C1030,5,E10,,,,,0,0
+EVO,Windshield Wiper Motor,,17504,Top LH side of safety wall,C151,2,A5,81,2,81,2,0,0
+EVO,Wiper Control Module,,17D539,"Behind RH side of I/P, near top of cowl panel",C224,9,C1,81,2,81,2,0,0

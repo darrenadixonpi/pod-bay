@@ -32,6 +32,12 @@ wiring_data/
 # Vector search index (generated from the manual; rebuildable, per vehicle)
 vehicles/*/.index/
 
+# Bulk diagram sets are large and regenerable via build_vehicle.py, so batch-
+# extracted vehicles keep diagrams local-only. The two flagship vehicles
+# (grand-marquis, mark-viii) were committed before this rule and stay tracked
+# (ignore doesn't untrack); their diagrams are the committed examples.
+vehicles/*/diagrams/
+
 # Proprietary OEM source archives (extract from media you own; never commit)
 *.ARC
 *.arc

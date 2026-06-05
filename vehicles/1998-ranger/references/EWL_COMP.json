@@ -1,0 +1,3264 @@
+[
+  {
+    "EVTM": "EWL",
+    "NAME": "4 Wheel Anti-Lock Brake System (4WABS) Module",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "1",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "4 Wheel Anti-Lock Brake System (4WABS) Module",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "4",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "4 Wheel Anti-Lock Brake System (4WABS) Module",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "6",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "4R44E Automatic Transmission",
+    "PARTNO": "7000",
+    "LOCATION": "LH side of transmission",
+    "CONN_NAME": "C1006",
+    "LOCPAGE": "12",
+    "ZONE": "E1",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "4WABS Control Module",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "4WD Mode Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C225",
+    "LOCPAGE": "9",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "5R55E Automatic Transmission",
+    "PARTNO": "7000",
+    "LOCATION": "LH side of transmission",
+    "CONN_NAME": "C1006",
+    "LOCPAGE": "12",
+    "ZONE": "E1",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Control Relay (ACCR)",
+    "PARTNO": "N/A",
+    "LOCATION": "In power distribution box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Cycling Pressure Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "19E561",
+    "LOCATION": "RH rear of engine compartment, on A/C accumulator",
+    "CONN_NAME": "C162",
+    "LOCPAGE": "1",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Cycling Pressure Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "19E561",
+    "LOCATION": "RH rear of engine compartment, on A/C accumulator",
+    "CONN_NAME": "C162",
+    "LOCPAGE": "4",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Cycling Pressure Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "19E561",
+    "LOCATION": "RH rear of engine compartment, on A/C accumulator",
+    "CONN_NAME": "C162",
+    "LOCPAGE": "6",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Diode",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment near A/C compressor clutch, taped in harness"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "19703",
+    "LOCATION": "Top LH front of engine, part of A/C compressor assembly",
+    "CONN_NAME": "C166",
+    "LOCPAGE": "3",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "19703",
+    "LOCATION": "Top LH front of engine, part of A/C compressor assembly",
+    "CONN_NAME": "C166",
+    "LOCPAGE": "5",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "19703",
+    "LOCATION": "Top LH front of engine, part of A/C compressor assembly",
+    "CONN_NAME": "C166",
+    "LOCPAGE": "7",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Pressure Cutoff Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "190594",
+    "LOCATION": "LH front of engine, on A/C line",
+    "CONN_NAME": "C167",
+    "LOCPAGE": "3",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Pressure Cutoff Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "190594",
+    "LOCATION": "LH front of engine, on A/C line",
+    "CONN_NAME": "C167",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C Pressure Cutoff Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "190594",
+    "LOCATION": "LH front of engine, on A/C line",
+    "CONN_NAME": "C167",
+    "LOCPAGE": "6",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C-Heater Control Assembly",
+    "PARTNO": "19980",
+    "LOCATION": "Center of I/P, above ashtray assembly",
+    "CONN_NAME": "C231",
+    "LOCPAGE": "8",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "A/C-Heater Control Assembly",
+    "PARTNO": "19980",
+    "LOCATION": "Center of I/P, above ashtray assembly",
+    "CONN_NAME": "C234",
+    "LOCPAGE": "8",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "ABS Evac and Fill Connector",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Acceleration Sensor",
+    "PARTNO": "14N089",
+    "LOCATION": "Underside of vehicle, on inside of left frame rail",
+    "CONN_NAME": "C1008",
+    "LOCPAGE": "10",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Accessory Delay Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "Under RH side of I/P",
+    "CONN_NAME": "C239",
+    "LOCPAGE": "8",
+    "ZONE": "F4",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Air Bag Diagnostic Monitor",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind RH side of cowl panel",
+    "CONN_NAME": "C250",
+    "LOCPAGE": "8",
+    "ZONE": "E1",
+    "HCCF_CELL": "46",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Air Bag Diagnostic Monitor",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind RH side of cowl panel",
+    "CONN_NAME": "C251",
+    "LOCPAGE": "8",
+    "ZONE": "E1",
+    "HCCF_CELL": "46",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Air Bag Electronic Crash Sensor (ECS)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind RH side of cowl panel"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "All Lock Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "All Unlock Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "19A434",
+    "LOCATION": "RH side of engine compartment, on upper fender apron",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "19A434",
+    "LOCATION": "RH side of engine compartment, on upper fender apron",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "4",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "19A434",
+    "LOCATION": "RH side of engine compartment, on upper fender apron",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "6",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Auxiliary Power Socket",
+    "PARTNO": "N/A",
+    "LOCATION": "Under center of I/P",
+    "CONN_NAME": "C235",
+    "LOCPAGE": "9",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Backup Lamp Switch",
+    "PARTNO": "15520",
+    "LOCATION": "Top LH side of transmission",
+    "CONN_NAME": "C1012",
+    "LOCPAGE": "12",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Battery",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Battery",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Battery",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Battery Saver Relay",
+    "QUALIFIER": "w/power equipment or 4x4",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "LOCPAGE": "8",
+    "ZONE": "A5",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Battery Saver Relay",
+    "QUALIFIER": "w/o power equipment or 4x4",
+    "PARTNO": "N/A",
+    "LOCATION": "Center of I/P, above glove box",
+    "CONN_NAME": "C258",
+    "LOCPAGE": "8",
+    "ZONE": "A5",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "24"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blend Door Actuator",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind RH side of I/P",
+    "CONN_NAME": "C240",
+    "LOCPAGE": "8",
+    "ZONE": "C1",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "18527",
+    "LOCATION": "RH rear of engine compartment, on safety wall",
+    "CONN_NAME": "C161",
+    "LOCPAGE": "1",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "18527",
+    "LOCATION": "RH rear of engine compartment, on safety wall",
+    "CONN_NAME": "C161",
+    "LOCPAGE": "4",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "18527",
+    "LOCATION": "RH rear of engine compartment, on safety wall",
+    "CONN_NAME": "C161",
+    "LOCPAGE": "6",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Resistor Assembly",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "19A706",
+    "LOCATION": "RH rear of engine compartment, near blower motor",
+    "CONN_NAME": "C163",
+    "LOCPAGE": "1",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Resistor Assembly",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "19A706",
+    "LOCATION": "RH rear of engine compartment, near blower motor",
+    "CONN_NAME": "C163",
+    "LOCPAGE": "4",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Motor Resistor Assembly",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "19A706",
+    "LOCATION": "RH rear of engine compartment, near blower motor",
+    "CONN_NAME": "C163",
+    "LOCPAGE": "6",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Blower Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "Center of I/P"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "2K478",
+    "LOCATION": "LH rear of engine compartment, on brake fluid reservoir",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "6",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "2K478",
+    "LOCATION": "LH rear of engine compartment, on brake fluid reservoir",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "1",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "2K478",
+    "LOCATION": "LH rear of engine compartment, on brake fluid reservoir",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "4",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Pedal Position (BPP) Switch",
+    "PARTNO": "13480",
+    "LOCATION": "Behind LH side of I/P, on brake pedal support",
+    "CONN_NAME": "C210",
+    "LOCPAGE": "8",
+    "ZONE": "F7",
+    "HCCF_CELL": "90",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Pressure Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "4",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Pressure Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "6",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Brake Pressure Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine compartment",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "1",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "6B288",
+    "LOCATION": "LH front of engine, behind oil pump pulley",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "2",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "6B288",
+    "LOCATION": "Top rear of engine",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "5",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12A112",
+    "LOCATION": "Top rear of engine",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "7",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Camshaft Position (CMP) Sensor Shield",
+    "PARTNO": "N/A",
+    "LOCATION": "Near camshaft position sensor (CMP)"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Canister Vent Solenoid",
+    "PARTNO": "N/A",
+    "LOCATION": "Rear of body, near fuel tank"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Central Timer Module (CTM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C221",
+    "LOCPAGE": "9",
+    "ZONE": "A6",
+    "HCCF_CELL": "59",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Central Timer Module (CTM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C224",
+    "LOCPAGE": "9",
+    "ZONE": "A6",
+    "HCCF_CELL": "59",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Central Timer Module (CTM) Diagnostic Connector",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind I/P, bottom of steering wheel",
+    "CONN_NAME": "C220"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Cigar Lighter",
+    "PARTNO": "15550",
+    "LOCATION": "Behind lower center of I/P, in ashtray assembly",
+    "CONN_NAME": "C226",
+    "LOCPAGE": "9",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Cigar Lighter",
+    "PARTNO": "15550",
+    "LOCATION": "Behind lower center of I/P, in ashtray assembly",
+    "CONN_NAME": "C227",
+    "LOCPAGE": "9",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Clockspring Assembly",
+    "PARTNO": "N/A",
+    "LOCATION": "Top of steering column",
+    "CONN_NAME": "C218",
+    "LOCPAGE": "9",
+    "ZONE": "F4",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Clockspring Assembly",
+    "PARTNO": "N/A",
+    "LOCATION": "Top of steering column",
+    "CONN_NAME": "C219",
+    "LOCPAGE": "9",
+    "ZONE": "F4",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Clutch Pedal Position (CPP) Switch",
+    "PARTNO": "11A152",
+    "LOCATION": "Behind LH side of I/P, top of clutch pedal support",
+    "CONN_NAME": "C206",
+    "LOCPAGE": "9",
+    "ZONE": "D10",
+    "HCCF_CELL": "20",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Clutch Pedal Position (CPP) Switch Jumper",
+    "PARTNO": "14B155",
+    "LOCATION": "Behind LH side of I/P, left of steering column",
+    "CONN_NAME": "C206"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "6C315",
+    "LOCATION": "Lower RH front of engine",
+    "CONN_NAME": "C100",
+    "LOCPAGE": "3",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "6C315",
+    "LOCATION": "Lower front of engine",
+    "CONN_NAME": "C100",
+    "LOCPAGE": "5",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "6C315",
+    "LOCATION": "Lower front of engine",
+    "CONN_NAME": "C100",
+    "LOCPAGE": "7",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Crankshaft Position (CKP) Sensor Shield",
+    "PARTNO": "N/A",
+    "LOCATION": "Near crankshaft position sensor (CKP)"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Data Link Connector (DLC)",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "14489",
+    "LOCATION": "Fastened to bottom of I/P, near steering column",
+    "CONN_NAME": "C209",
+    "LOCPAGE": "9",
+    "ZONE": "F6",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Data Link Connector (DLC)",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "14489",
+    "LOCATION": "Fastened to bottom of I/P, right of steering column",
+    "CONN_NAME": "C209",
+    "LOCPAGE": "9",
+    "ZONE": "F6",
+    "HCCF_CELL": "24",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Data Link Connector (DLC)",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "14489",
+    "LOCATION": "Fastened to bottom of I/P, right of steering column",
+    "CONN_NAME": "C209",
+    "LOCPAGE": "9",
+    "ZONE": "F6",
+    "HCCF_CELL": "25",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Daytime Running Lamps (DRL) Module",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "15A272",
+    "LOCATION": "LH side of lower radiator support",
+    "CONN_NAME": "C150",
+    "LOCPAGE": "1",
+    "ZONE": "E10",
+    "HCCF_CELL": "97",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Daytime Running Lamps (DRL) Module",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "15A272",
+    "LOCATION": "LH side of lower radiator support",
+    "CONN_NAME": "C150",
+    "LOCPAGE": "4",
+    "ZONE": "F10",
+    "HCCF_CELL": "97",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Daytime Running Lamps (DRL) Module",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "15A272",
+    "LOCATION": "LH side of lower radiator support",
+    "CONN_NAME": "C150",
+    "LOCPAGE": "6",
+    "ZONE": "E10",
+    "HCCF_CELL": "97",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Exhaust Pressure Transducer (DEPT)",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "Rear of engine compartment",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "2",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Exhaust Pressure Transducer (DEPT)",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Rear of engine compartment",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Exhaust Pressure Transducer (DEPT)",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Rear of engine compartment",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "7",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9J460",
+    "LOCATION": "RH rear of engine, on lifting eye",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "2",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Differential Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of engine",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "7",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Digital Transmission Range (DTR) Sensor",
+    "PARTNO": "7A247",
+    "LOCATION": "LH side of transmission",
+    "CONN_NAME": "C1005",
+    "LOCPAGE": "12",
+    "ZONE": "F3",
+    "HCCF_CELL": "93",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Dome/Map Lamp",
+    "PARTNO": "N/A",
+    "LOCATION": "Center of rear window header",
+    "CONN_NAME": "C901",
+    "LOCPAGE": "10",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Drivers Air Bag",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C218",
+    "LOCPAGE": "9",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Drivers Unlock Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind RH side of I/P",
+    "CONN_NAME": "C237",
+    "LOCPAGE": "8",
+    "ZONE": "A4",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "EGR Vacuum Regulator (EVR) Solenoid",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F483",
+    "LOCATION": "RH side of engine",
+    "CONN_NAME": "C104",
+    "LOCPAGE": "3",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "EGR Vacuum Regulator (EVR) Solenoid",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F483",
+    "LOCATION": "RH side of engine",
+    "CONN_NAME": "C104",
+    "LOCPAGE": "4",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "EGR Vacuum Regulator (EVR) Solenoid",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F483",
+    "LOCATION": "LH rear of engine",
+    "CONN_NAME": "C104",
+    "LOCPAGE": "7",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Electric Shift Control Module",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "9",
+    "ZONE": "B1",
+    "HCCF_CELL": "34",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Electric Shift Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "In Relay Box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Air Cleaner Assembly",
+    "PARTNO": "N/A",
+    "LOCATION": "N/A"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Compartment Fuse/Relay Box",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH rear of engine compartment",
+    "CONN_NAME": "C173",
+    "LOCPAGE": "1",
+    "ZONE": "A8",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Compartment Fuse/Relay Box",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH rear of engine compartment",
+    "CONN_NAME": "C173",
+    "LOCPAGE": "4",
+    "ZONE": "A8",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Compartment Fuse/Relay Box",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH rear of engine compartment",
+    "CONN_NAME": "C173",
+    "LOCPAGE": "7",
+    "ZONE": "A9",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "12A648",
+    "LOCATION": "Top RH front of engine, in water outlet tube",
+    "CONN_NAME": "C101",
+    "LOCPAGE": "3",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12A648",
+    "LOCATION": "Top front of engine",
+    "CONN_NAME": "C101",
+    "LOCPAGE": "5",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12A648",
+    "LOCATION": "Top front of engine",
+    "CONN_NAME": "C101",
+    "LOCPAGE": "7",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature Sender",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "10884",
+    "LOCATION": "LH rear of engine, below oil pressure sender",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "3",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature Sender",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "10884",
+    "LOCATION": "Top RH front of engine, near thermostat housing",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "5",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Coolant Temperature Sender",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "10884",
+    "LOCATION": "Top LH front of engine",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "7",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9278",
+    "LOCATION": "LH rear of cylinder head",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "2",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9278",
+    "LOCATION": "RH rear of engine",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "5",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9278",
+    "LOCATION": "Lower LH front of engine",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "7",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "EVAP Canister Vent Solenoid",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Evaporative Emissions (EVAP) Canister Purge Valve",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9C915",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C142",
+    "LOCPAGE": "2",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Evaporative Emissions (EVAP) Canister Purge Valve",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9C915",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C142",
+    "LOCPAGE": "4",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Evaporative Emissions (EVAP) Canister Purge Valve",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9C915",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C142",
+    "LOCPAGE": "6",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Flasher",
+    "PARTNO": "13350",
+    "LOCATION": "Behind LH side of I/P, on fuse panel",
+    "CONN_NAME": "C211",
+    "LOCPAGE": "9",
+    "ZONE": "F5",
+    "HCCF_CELL": "90",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fog Lamp Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fog Lamp Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fog Lamp Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "LH side of I/P",
+    "CONN_NAME": "C236",
+    "LOCPAGE": "9",
+    "ZONE": "A4",
+    "HCCF_CELL": "86",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 1 cylinder",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "2",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 1 cylinder",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 1 cylinder",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 2 cylinder",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "2",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 2 cylinder",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 2 cylinder",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 3 cylinder",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "2",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 3 cylinder",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 3 cylinder",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 4 cylinder",
+    "CONN_NAME": "C120",
+    "LOCPAGE": "2",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 4 cylinder",
+    "CONN_NAME": "C120",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 4 cylinder",
+    "CONN_NAME": "C120",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 5 cylinder",
+    "CONN_NAME": "C121",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 5 cylinder",
+    "CONN_NAME": "C121",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 6 cylinder",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of no. 6 cylinder",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Pump Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9345",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Pump Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9345",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Pump Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9345",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Fuel Tank Assembly",
+    "PARTNO": "9H307",
+    "LOCATION": "Below rear of vehicle, top center of fuel tank",
+    "CONN_NAME": "C422",
+    "LOCPAGE": "11",
+    "ZONE": "D10",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C168",
+    "LOCPAGE": "2",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C168",
+    "LOCPAGE": "5",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C168",
+    "LOCPAGE": "7",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C169",
+    "LOCPAGE": "2",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C169",
+    "LOCPAGE": "5",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C169",
+    "LOCPAGE": "7",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "2",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "5",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generator/Voltage Regulator",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "10300",
+    "LOCATION": "RH front of engine",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "7",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generic Electronic Module (GEM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C221",
+    "LOCPAGE": "8",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generic Electronic Module (GEM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C222",
+    "LOCPAGE": "8",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generic Electronic Module (GEM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C223",
+    "LOCPAGE": "8",
+    "ZONE": "A7",
+    "HCCF_CELL": "59",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Generic Electronic Module (GEM)",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C224",
+    "LOCPAGE": "8",
+    "ZONE": "A7",
+    "HCCF_CELL": "59",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #1",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower RH side of engine, in exhaust pipe, before catalytic converter",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "2",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #1",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower RH rear of engine compartment, in exhaust",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "4",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #1",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower RH rear of engine, in exhaust",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "7",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #2",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower RH side of engine, in exhaust pipe, beyond catalytic converter",
+    "CONN_NAME": "C1003"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #2",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower LH rear of engine compartment, in exhaust",
+    "CONN_NAME": "C1003",
+    "LOCPAGE": "5",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #2",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower LH rear of engine, in exhaust",
+    "CONN_NAME": "C1003",
+    "LOCPAGE": "7",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #3",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9G444",
+    "LOCATION": "Near RH side of transmission, in exhaust",
+    "CONN_NAME": "C1004",
+    "LOCPAGE": "11",
+    "ZONE": "E4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #3",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9G444",
+    "LOCATION": "Near RH side of transmission, in exhaust",
+    "CONN_NAME": "C1004",
+    "LOCPAGE": "11",
+    "ZONE": "E4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heated Oxygen Sensor (HO2S) #3",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9G444",
+    "LOCATION": "Near RH side of transmission, in exhaust",
+    "CONN_NAME": "C1004",
+    "LOCPAGE": "11",
+    "ZONE": "E4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heater Control Assembly",
+    "PARTNO": "18549",
+    "LOCATION": "Center of I/P, above ashtray assembly",
+    "CONN_NAME": "C232",
+    "LOCPAGE": "8",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Heater Control Assembly",
+    "PARTNO": "18549",
+    "LOCATION": "Center of I/P, above ashtray assembly",
+    "CONN_NAME": "C234",
+    "LOCPAGE": "8",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "High Pitch Horn",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13832",
+    "LOCATION": "Lower LH front corner of engine compartment",
+    "CONN_NAME": "C149",
+    "LOCPAGE": "1",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "High Pitch Horn",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13832",
+    "LOCATION": "Lower LH front corner of engine compartment",
+    "CONN_NAME": "C149",
+    "LOCPAGE": "4",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "High Pitch Horn",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13832",
+    "LOCATION": "Lower LH front corner of engine compartment",
+    "CONN_NAME": "C149",
+    "LOCPAGE": "6",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Horn Relay",
+    "PARTNO": "13853",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Horn Switches",
+    "PARTNO": "13A805",
+    "LOCATION": "On steering wheel"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "I/P Fuse Panel",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind LH side of I/P",
+    "LOCPAGE": "9",
+    "ZONE": "C10",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9F715",
+    "LOCATION": "Top RH rear of engine",
+    "CONN_NAME": "C109",
+    "LOCPAGE": "2",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9F715",
+    "LOCATION": "Top LH front of engine",
+    "CONN_NAME": "C109",
+    "LOCPAGE": "5",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9F715",
+    "LOCATION": "Top LH rear of engine",
+    "CONN_NAME": "C109",
+    "LOCPAGE": "7",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12029",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "5",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12029",
+    "LOCATION": "Top RH rear of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "7",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Ignition Key Warning Switch",
+    "PARTNO": "11A127",
+    "LOCATION": "Top of steering column, part of ignition switch assembly"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Ignition Switch",
+    "PARTNO": "11572",
+    "LOCATION": "LH side of steering column",
+    "CONN_NAME": "C213",
+    "LOCPAGE": "8",
+    "ZONE": "A9",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "20"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Ignition Tamper Switch",
+    "PARTNO": "19A438",
+    "LOCATION": "On steering column, at ignition switch",
+    "CONN_NAME": "C217",
+    "LOCPAGE": "9",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Inertia Fuel Shut-Off (IFS)",
+    "PARTNO": "9341",
+    "LOCATION": "Below RH side of I/P, below glove box",
+    "CONN_NAME": "C249",
+    "LOCPAGE": "9",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10849",
+    "LOCATION": "Top LH side of I/P",
+    "CONN_NAME": "C214",
+    "LOCPAGE": "8",
+    "ZONE": "A8",
+    "HCCF_CELL": "60",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10849",
+    "LOCATION": "Top LH side of I/P",
+    "CONN_NAME": "C216",
+    "LOCPAGE": "8",
+    "ZONE": "A8",
+    "HCCF_CELL": "60",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Instrument Illumination Dimming Module",
+    "PARTNO": "N/A",
+    "LOCATION": "Top LH side of I/P",
+    "CONN_NAME": "C204",
+    "LOCPAGE": "8",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "12A697",
+    "LOCATION": "RH side of engine compartment, on air intake assembly",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "2",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12A697",
+    "LOCATION": "RH side of engine compartment, on air intake assembly",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12A697",
+    "LOCATION": "Front of engine, on air intake assembly",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "7",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Interior Lamp Relay",
+    "QUALIFIER": "w/power equipment or 4x4",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Interior Lamp Relay",
+    "QUALIFIER": "w/o power equipment or 4x4",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind I/P, below glove box door",
+    "CONN_NAME": "C259",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "24"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Backup Lamp",
+    "PARTNO": "13404",
+    "LOCATION": "LH rear of vehicle",
+    "CONN_NAME": "C401",
+    "LOCPAGE": "10",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Door Ajar Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "In rear of LH door",
+    "CONN_NAME": "C506",
+    "LOCPAGE": "10",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Door Disarm Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "In rear of LH door",
+    "CONN_NAME": "C507",
+    "LOCPAGE": "10",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Door Lock Motor",
+    "PARTNO": "218A42",
+    "LOCATION": "In rear of LH door",
+    "CONN_NAME": "C505",
+    "LOCPAGE": "10",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Door Lock Switch",
+    "PARTNO": "14028",
+    "LOCATION": "Center of LH door",
+    "CONN_NAME": "C503",
+    "LOCPAGE": "11",
+    "ZONE": "C1",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Door Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Front of LH door",
+    "CONN_NAME": "C501",
+    "LOCPAGE": "10",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C152",
+    "LOCPAGE": "4",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C152",
+    "LOCPAGE": "6",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C148",
+    "LOCPAGE": "2",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C148",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C148",
+    "LOCPAGE": "6",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C180",
+    "LOCPAGE": "2",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C180",
+    "LOCPAGE": "5",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C180",
+    "LOCPAGE": "6",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Side Marker Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C181",
+    "LOCPAGE": "1",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Side Marker Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C181",
+    "LOCPAGE": "4",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Side Marker Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C181",
+    "LOCPAGE": "6",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Wheel Speed Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "At left front wheel",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "1",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Wheel Speed Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "At left front wheel",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "4",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Front Wheel Speed Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "At left front wheel",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "6",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13006",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "1",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13006",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "4",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13006",
+    "LOCATION": "Front of vehicle, on left side",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "6",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left License Lamp",
+    "PARTNO": "13550",
+    "LOCATION": "Center rear of vehicle",
+    "CONN_NAME": "C411",
+    "LOCPAGE": "10",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Power Mirror",
+    "PARTNO": "N/A",
+    "LOCATION": "On front of left door",
+    "CONN_NAME": "C500",
+    "LOCPAGE": "10",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Power Window Motor",
+    "PARTNO": "23394",
+    "LOCATION": "Lower center of LH door",
+    "CONN_NAME": "C504",
+    "LOCPAGE": "10",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Primary Crash Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "Left front of vehicle, on LH front of lower radiator support",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "1",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Primary Crash Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Left front of vehicle, on LH front of lower radiator support",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "4",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Primary Crash Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Left front of vehicle, on LH front of lower radiator support",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "6",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Rear Door Ajar Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "Left side access panel",
+    "CONN_NAME": "C706",
+    "LOCPAGE": "13",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Rear Door Speaker",
+    "PARTNO": "N/A",
+    "LOCATION": "Left side access panel",
+    "CONN_NAME": "C704",
+    "LOCPAGE": "13",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Rear Park/Stop Lamp",
+    "PARTNO": "13404",
+    "LOCATION": "LH rear of vehicle",
+    "CONN_NAME": "C400",
+    "LOCPAGE": "10",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Rear Speaker",
+    "PARTNO": "19B139",
+    "LOCATION": "Behind LH front seat",
+    "CONN_NAME": "C407",
+    "LOCPAGE": "11",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Left Rear Turn Lamp",
+    "PARTNO": "N/A",
+    "LOCATION": "LH rear of vehicle",
+    "CONN_NAME": "C402",
+    "LOCPAGE": "10",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Main Light Switch",
+    "PARTNO": "11654",
+    "LOCATION": "LH side of I/P",
+    "CONN_NAME": "C205",
+    "LOCPAGE": "8",
+    "ZONE": "B10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "20"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "12B579",
+    "LOCATION": "RH side of engine compartment, within air cleaner assembly",
+    "CONN_NAME": "C105",
+    "LOCPAGE": "2",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12B579",
+    "LOCATION": "RH side of engine compartment, within air cleaner assembly",
+    "CONN_NAME": "C105",
+    "LOCPAGE": "5",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12B579",
+    "LOCATION": "RH side of engine compartment, within air cleaner assembly",
+    "CONN_NAME": "C105",
+    "LOCPAGE": "7",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Master Window Control Switch",
+    "PARTNO": "14529",
+    "LOCATION": "Center of LH door",
+    "CONN_NAME": "C502",
+    "LOCPAGE": "11",
+    "ZONE": "B1",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Multi-Function Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Top LH side of steering column",
+    "CONN_NAME": "C253",
+    "HCCF_CELL": "85",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Multi-Function Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Top LH side of steering column",
+    "CONN_NAME": "C254",
+    "HCCF_CELL": "85",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "One Touch Down Relay Module",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Output Shaft Speed (OSS) Sensor",
+    "PARTNO": "7H103",
+    "LOCATION": "Near digital transmission sensor",
+    "CONN_NAME": "C176",
+    "LOCPAGE": "12",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Outside Cargo/High Mount Stop Lamp",
+    "PARTNO": "N/A",
+    "LOCATION": "Top center of rear window header",
+    "CONN_NAME": "C900",
+    "LOCPAGE": "10",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Overdrive Drum Speed Sensor",
+    "PARTNO": "7M18333",
+    "LOCATION": "Near digital transmission sensor",
+    "CONN_NAME": "C175"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Park Brake Switch",
+    "PARTNO": "15852",
+    "LOCATION": "Below LH side of I/P, on park brake assembly",
+    "CONN_NAME": "C202",
+    "LOCPAGE": "11",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Park Lamp Trailer Tow Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "Engine compartment fuse/relay box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Park Lamps Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Passengers Air Bag",
+    "PARTNO": "044A74",
+    "LOCATION": "Behind RH side of I/P",
+    "CONN_NAME": "C242",
+    "LOCPAGE": "8",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Passive De-activation (PAD) Module",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C256",
+    "LOCPAGE": "8",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Passive De-activation (PAD) Module",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C257",
+    "LOCPAGE": "8",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Diode",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Diode",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Diode",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "12A646",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12A646",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "PCM Power Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12A646",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Power Mirror Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "In left door panel",
+    "CONN_NAME": "C509",
+    "LOCPAGE": "11",
+    "ZONE": "B1",
+    "HCCF_CELL": "124",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Power Steering Pressure (PSP) Switch",
+    "PARTNO": "3783",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C144",
+    "LOCPAGE": "2",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Power Steering Pressure (PSP) Switch Jumper",
+    "PARTNO": "N/A",
+    "LOCATION": "LH front of engine compartment",
+    "CONN_NAME": "C144"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "12A650",
+    "LOCATION": "RH Rear of engine compartment, through safety wall",
+    "CONN_NAME": "C111",
+    "LOCPAGE": "5",
+    "ZONE": "A4",
+    "HCCF_CELL": "24",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "12A650",
+    "LOCATION": "RH Rear of engine compartment, through safety wall",
+    "CONN_NAME": "C111",
+    "LOCPAGE": "7",
+    "ZONE": "A4",
+    "HCCF_CELL": "25",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "12A650",
+    "LOCATION": "RH Rear of engine compartment, through safety wall",
+    "CONN_NAME": "C111",
+    "LOCPAGE": "3",
+    "ZONE": "A4",
+    "CONN_PAGE": "A4",
+    "HCCF_CELL": "151",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Primary Coil",
+    "PARTNO": "12029",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C107",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Pulse Vacuum Hublock (PVH) Solenoid",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C185",
+    "LOCPAGE": "4",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Pulse Vacuum Hublock (PVH) Solenoid",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C185",
+    "LOCPAGE": "6",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Diode",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Diode",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Diode",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Resistor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Resistor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Resistor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "RABS Test Connector",
+    "PARTNO": "14A459",
+    "LOCATION": "Behind RH side of I/P",
+    "CONN_NAME": "C244",
+    "LOCPAGE": "009",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio",
+    "PARTNO": "19B131/19B132",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C228",
+    "LOCPAGE": "10",
+    "ZONE": "A10",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5,"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C156",
+    "LOCPAGE": "5",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C156",
+    "LOCPAGE": "6",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "5",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "6",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Side Marker Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "1",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Side Marker Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "4",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Side Marker Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "6",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Wheel Speed Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "At RH front wheel",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "1",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Wheel Speed Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "At RH front wheel",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "4",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Wheel Speed Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "At RH front wheel",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "6",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13007",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "1",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "13007",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "4",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "13007",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "6",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right License Lamp",
+    "PARTNO": "13550",
+    "LOCATION": "Center rear of vehicle",
+    "CONN_NAME": "C412",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Power Mirror",
+    "PARTNO": "N/A",
+    "LOCATION": "On front of right door",
+    "CONN_NAME": "C600",
+    "LOCPAGE": "10",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Power Window Motor",
+    "PARTNO": "23394",
+    "LOCATION": "In lower center of RH door",
+    "CONN_NAME": "C604",
+    "LOCPAGE": "10",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Primary Crash Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "Right front of vehicle, on RH front side of lower radiator support",
+    "CONN_NAME": "C157",
+    "LOCPAGE": "1",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Primary Crash Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Right front of vehicle, on RH front of lower radiator support",
+    "CONN_NAME": "C157",
+    "LOCPAGE": "4",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Primary Crash Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "Right front of vehicle, on RH front of lower radiator support",
+    "CONN_NAME": "C157",
+    "LOCPAGE": "6",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Rear Door Ajar Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "Right side access panel",
+    "CONN_NAME": "C806",
+    "LOCPAGE": "13",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Rear Door Speaker",
+    "PARTNO": "N/A",
+    "LOCATION": "Right side access panel",
+    "CONN_NAME": "C804",
+    "LOCPAGE": "13",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Washer Pump Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Washer Pump Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Washer Pump Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #2",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Washer Pump",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "17664",
+    "LOCATION": "RH rear of engine compartment, on windshield washer fluid reservoir",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "1",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Washer Pump",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "17664",
+    "LOCATION": "RH rear of engine compartment, on windshield washer fluid reservoir",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "4",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Washer Pump",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "17664",
+    "LOCATION": "RH rear of engine compartment, on windshield washer fluid reservoir",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "6",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "17504",
+    "LOCATION": "Top LH center of safety wall",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "1",
+    "ZONE": "A7",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "17504",
+    "LOCATION": "Top LH center of safety wall",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "5",
+    "ZONE": "A7",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "17504",
+    "LOCATION": "Top LH center of safety wall",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "6",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Hi-Lo Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Hi-Lo Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Hi-Lo Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Run/Park Relay",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Run/Park Relay",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Wiper Run/Park Relay",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "In engine compartment fuse/relay box",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio",
+    "PARTNO": "19B131/19B132",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C229",
+    "LOCPAGE": "10",
+    "ZONE": "A10",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5,"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio",
+    "PARTNO": "19B131/19B132",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C243",
+    "LOCPAGE": "9",
+    "ZONE": "A2",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5,"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "18832",
+    "LOCATION": "Top RH front of engine, near secondary coil (RH)",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "3",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "18801",
+    "LOCATION": "RH side of engine, near ignition coil",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "18801",
+    "LOCATION": "RH rear of engine, near ignition coil",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "7",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Rear Anti-Lock Brake System (RABS) Module",
+    "PARTNO": "2C018",
+    "LOCATION": "Behind lower center of I/P, LH side of ashtray assembly",
+    "CONN_NAME": "C238",
+    "LOCPAGE": "9",
+    "ZONE": "A3",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Rear Anti-Lock Brake System (RABS) Proportioning Valve Switch Assembly",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "N/A",
+    "LOCATION": "On left front wheel well",
+    "CONN_NAME": "C1011",
+    "LOCPAGE": "3",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Rear Anti-Lock Brake System (RABS) Proportioning Valve Switch Assembly",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "On left front wheel well",
+    "CONN_NAME": "C1011",
+    "LOCPAGE": "4",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Rear Anti-Lock Brake System (RABS) Proportioning Valve Switch Assembly",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "On left front wheel well",
+    "CONN_NAME": "C1011",
+    "LOCPAGE": "6",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Rear Axle Sensor",
+    "PARTNO": "9E731",
+    "LOCATION": "Top of rear differential",
+    "CONN_NAME": "C421",
+    "LOCPAGE": "11",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Relay Box",
+    "PARTNO": "N/A",
+    "LOCATION": "Behind I/P, right of steering column",
+    "LOCPAGE": "9",
+    "ZONE": "E1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "PARTNO": "15K602",
+    "LOCATION": "LH rear corner of cab",
+    "CONN_NAME": "C409",
+    "LOCPAGE": "11",
+    "ZONE": "F6",
+    "HCCF_CELL": "117",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "PARTNO": "15K602",
+    "LOCATION": "LH rear corner of cab",
+    "CONN_NAME": "C410",
+    "LOCPAGE": "11",
+    "ZONE": "F6",
+    "HCCF_CELL": "117",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Backup Lamp",
+    "PARTNO": "13405",
+    "LOCATION": "RH rear of vehicle",
+    "CONN_NAME": "C405",
+    "LOCPAGE": "10",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Door Ajar Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "In rear of RH door",
+    "CONN_NAME": "C606",
+    "LOCPAGE": "10",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Door Disarm Switch",
+    "PARTNO": "N/A",
+    "LOCATION": "In rear of RH door",
+    "CONN_NAME": "C607",
+    "LOCPAGE": "10",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Door Lock Motor",
+    "PARTNO": "218A42",
+    "LOCATION": "In rear of RH door",
+    "CONN_NAME": "C605",
+    "LOCPAGE": "10",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Door Lock Switch",
+    "PARTNO": "14028",
+    "LOCATION": "Center of RH door",
+    "CONN_NAME": "C603",
+    "LOCPAGE": "11",
+    "ZONE": "A5",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Door Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Front of RH door",
+    "CONN_NAME": "C601",
+    "LOCPAGE": "10",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C159",
+    "LOCPAGE": "4",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "N/A",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C159",
+    "LOCPAGE": "6",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "13201",
+    "LOCATION": "Front of vehicle, on right side",
+    "CONN_NAME": "C156",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Rear Park/Stop Lamp",
+    "PARTNO": "13405",
+    "LOCATION": "RH rear of vehicle, on right side",
+    "CONN_NAME": "C404",
+    "LOCPAGE": "10",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Rear Speaker",
+    "PARTNO": "19B139",
+    "LOCATION": "Behind RH front seat",
+    "CONN_NAME": "C408",
+    "LOCPAGE": "11",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Rear Turn Lamp",
+    "PARTNO": "N/A",
+    "LOCATION": "RH rear of vehicle, on right side",
+    "CONN_NAME": "C406",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Right Window Switch",
+    "PARTNO": "14529",
+    "LOCATION": "Center of RH door",
+    "CONN_NAME": "C602",
+    "LOCPAGE": "11",
+    "ZONE": "A6",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Seat Belt Switch",
+    "PARTNO": "61203",
+    "LOCATION": "Inside LH front seat belt buckle assembly",
+    "CONN_NAME": "C303"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Secondary Coil",
+    "PARTNO": "12029",
+    "LOCATION": "Top RH front of engine",
+    "CONN_NAME": "C102",
+    "LOCPAGE": "3",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Shift Lock Actuator",
+    "PARTNO": "3E723",
+    "LOCATION": "On upper steering column",
+    "CONN_NAME": "C212",
+    "LOCPAGE": "9",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Speed Control Servo/Amplifier Assembly",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9C735",
+    "LOCATION": "RH rear of engine compartment",
+    "CONN_NAME": "C165",
+    "LOCPAGE": "1",
+    "ZONE": "A3",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Speed Control Servo/Amplifier Assembly",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9C735",
+    "LOCATION": "RH rear of engine compartment",
+    "CONN_NAME": "C165",
+    "LOCPAGE": "4",
+    "ZONE": "A1",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Speed Control Servo/Amplifier Assembly",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9C735",
+    "LOCATION": "RH rear of engine compartment",
+    "CONN_NAME": "C165",
+    "LOCPAGE": "6",
+    "ZONE": "A1",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Speed Control Switch Assembly",
+    "PARTNO": "9C888",
+    "LOCATION": "On steering wheel"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Interrupt Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "In relay box #1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "21"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Motor/Solenoid",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower RH rear of engine",
+    "CONN_NAME": "C186",
+    "LOCPAGE": "3",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Motor/Solenoid",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower LH rear of engine",
+    "CONN_NAME": "C186",
+    "LOCPAGE": "5",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Motor/Solenoid",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower LH rear of engine",
+    "CONN_NAME": "C187",
+    "LOCPAGE": "3",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Motor/Solenoid",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower LH rear of engine",
+    "CONN_NAME": "C187",
+    "LOCPAGE": "5",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Starter Relay",
+    "PARTNO": "N/A",
+    "LOCATION": "Engine compartment fuse/relay box"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "2.5L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top RH side of engine, on throttle body",
+    "CONN_NAME": "C112",
+    "LOCPAGE": "2",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "3.0L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top LH front of engine, on throttle body",
+    "CONN_NAME": "C112",
+    "LOCPAGE": "5",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "4.0L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top LH front of engine, on throttle body",
+    "CONN_NAME": "C112",
+    "LOCPAGE": "7",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Transfer Case Assembly",
+    "PARTNO": "7G360",
+    "LOCATION": "Below vehicle, behind transmission",
+    "CONN_NAME": "C310",
+    "LOCPAGE": "12",
+    "ZONE": "B4",
+    "HCCF_CELL": "34",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EWL",
+    "NAME": "Transmission Control Switch (TCS)",
+    "PARTNO": "N/A",
+    "LOCATION": "On end of transmission selector lever",
+    "CONN_NAME": "C207",
+    "LOCPAGE": "8",
+    "ZONE": "D10"
+  }
+]
