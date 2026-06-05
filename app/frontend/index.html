@@ -10,7 +10,9 @@
 <body>
   <header>
     <h1>🛰️ Pod Bay</h1>
-    <span id="vehicle-label" class="vehicle">loading…</span>
+    <select id="vehicle-select" class="vehicle" title="Switch vehicle (starts a new conversation)">
+      <option>loading…</option>
+    </select>
     <button id="export" type="button" title="Download the full conversation (messages, tool calls, diagrams) as JSON for debugging">⬇ Export</button>
   </header>
 

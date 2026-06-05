@@ -12,6 +12,10 @@ Search spans two documents, each result tagged with a `source`:
   - "owners"   — the Owner's Manual, located by named chapter.
 Both share one corpus (`_corpus()`), one search tool, and one read tool
 (`get_section`, which accepts a workshop Section number or an owner's chapter).
+
+Every entry point takes a `vehicle_id` (None = config.DEFAULT_VEHICLE_ID), so a
+single process serves any extracted vehicle. Per-vehicle data is loaded once and
+cached (the lru_caches below are keyed by vehicle_id).
 """
 import csv
 import json
@@ -26,8 +30,8 @@ _SECTION_RE = re.compile(r"Section (\d+-\d+)")
 _SECTION_ID_RE = re.compile(r"^\d+-\d+$")  # workshop section ids look like 06-03
 _WORD_RE = re.compile(r"[a-z0-9]+")
 
-# Owner's manual chapter titles come from the active vehicle's vehicle.json
-# (config.OWNERS_CHAPTERS) — in document order, matching its table of contents.
+# Owner's manual chapter titles come from each vehicle's vehicle.json
+# (Vehicle.owners_chapters) — in document order, matching its table of contents.
 # Headings appear verbatim as standalone lines in the body (with irregular
 # internal whitespace), so segmentation matches them with flexible spacing.
 # Publishing control lines in the owner's manual source — noise, not content:
@@ -48,10 +52,11 @@ _COMPONENT_TABLE_COLS = {
 }
 
 
-@lru_cache(maxsize=1)
-def _pages():
-    """Parse the workshop manual into [{page, section, text}], cached."""
-    raw = config.WORKSHOP_MANUAL.read_text(encoding="utf-8", errors="replace")
+@lru_cache(maxsize=None)
+def _pages(vehicle_id):
+    """Parse the workshop manual into [{page, section, text}], cached per vehicle."""
+    raw = config.get_vehicle(vehicle_id).workshop_manual.read_text(
+        encoding="utf-8", errors="replace")
     matches = list(_PAGE_SEP.finditer(raw))
     pages = []
     for i, m in enumerate(matches):
@@ -68,24 +73,26 @@ def _pages():
     return pages
 
 
-@lru_cache(maxsize=1)
-def _section_index():
-    return json.loads(config.SECTION_INDEX.read_text(encoding="utf-8"))
+@lru_cache(maxsize=None)
+def _section_index(vehicle_id):
+    return json.loads(config.get_vehicle(vehicle_id).section_index.read_text(encoding="utf-8"))
 
 
-@lru_cache(maxsize=1)
-def _diagram_files():
+@lru_cache(maxsize=None)
+def _diagram_files(vehicle_id):
     """Map lowercased diagram filename -> actual filename on disk."""
-    return {p.name.lower(): p.name for p in config.DIAGRAMS_DIR.glob("*.gif")}
+    return {p.name.lower(): p.name
+            for p in config.get_vehicle(vehicle_id).diagrams_dir.glob("*.gif")}
 
 
-@lru_cache(maxsize=1)
-def _figure_locations():
+@lru_cache(maxsize=None)
+def _figure_locations(vehicle_id):
     """Map lowercased figure filename -> list of {page, section} that show it."""
     locs = {}
-    if not config.FIGURES_INDEX.exists():
+    figures_index = config.get_vehicle(vehicle_id).figures_index
+    if not figures_index.exists():
         return locs
-    for entry in json.loads(config.FIGURES_INDEX.read_text(encoding="utf-8")):
+    for entry in json.loads(figures_index.read_text(encoding="utf-8")):
         for fig in entry.get("figures", []):
             locs.setdefault(fig.lower(), []).append(
                 {"page": entry.get("page"), "section": entry.get("section")}
@@ -97,21 +104,22 @@ def _tokenize(s: str):
     return _WORD_RE.findall(s.lower())
 
 
-@lru_cache(maxsize=1)
-def _owners_chapters():
-    """Parse the owner's manual into [{chapter, text}], cached.
+@lru_cache(maxsize=None)
+def _owners_chapters(vehicle_id):
+    """Parse the owner's manual into [{chapter, text}], cached per vehicle.
 
     Segments the flowing text on its chapter headings (first body occurrence of
     each title, in TOC order) and strips publishing control lines. Returns [] if
     the owner's manual isn't present for this vehicle.
     """
-    if not config.OWNERS_MANUAL.exists() or not config.OWNERS_CHAPTERS:
+    v = config.get_vehicle(vehicle_id)
+    if not v.owners_manual.exists() or not v.owners_chapters:
         return []
-    raw = config.OWNERS_MANUAL.read_text(encoding="utf-8", errors="replace")
+    raw = v.owners_manual.read_text(encoding="utf-8", errors="replace")
 
     # Locate each chapter heading's first standalone occurrence in the body.
     bounds = []
-    for title in config.OWNERS_CHAPTERS:
+    for title in v.owners_chapters:
         pat = re.compile(r"(?mi)^\s*" + r"\s+".join(map(re.escape, title.split())) + r"\s*$")
         m = pat.search(raw)
         if m:
@@ -128,22 +136,22 @@ def _owners_chapters():
     return chapters
 
 
-@lru_cache(maxsize=1)
-def _corpus():
-    """Unified searchable corpus across both manuals, cached.
+@lru_cache(maxsize=None)
+def _corpus(vehicle_id):
+    """Unified searchable corpus across both manuals, cached per vehicle.
 
     Each record: {id, source, section, chapter, page, text}. Workshop pages
     keep their section/page; owner's chapters carry a chapter name. `id` is the
     fusion key (W<page> / O<index>) shared by the keyword and vector rankers.
     """
     docs = []
-    for pg in _pages():
+    for pg in _pages(vehicle_id):
         docs.append({
             "id": f"W{pg['page']}", "source": "workshop",
             "section": pg["section"], "chapter": None,
             "page": pg["page"], "text": pg["text"],
         })
-    for i, ch in enumerate(_owners_chapters()):
+    for i, ch in enumerate(_owners_chapters(vehicle_id)):
         docs.append({
             "id": f"O{i}", "source": "owners",
             "section": None, "chapter": ch["chapter"],
@@ -152,9 +160,9 @@ def _corpus():
     return docs
 
 
-@lru_cache(maxsize=1)
-def _corpus_by_id():
-    return {d["id"]: d for d in _corpus()}
+@lru_cache(maxsize=None)
+def _corpus_by_id(vehicle_id):
+    return {d["id"]: d for d in _corpus(vehicle_id)}
 
 
 def _locator(rec: dict) -> dict:
@@ -170,13 +178,13 @@ def _locator(rec: dict) -> dict:
 _RRF_K = 60
 
 
-def _keyword_rank(query: str, limit: int) -> list:
+def _keyword_rank(query: str, limit: int, vehicle_id) -> list:
     """Rank corpus documents by keyword score; returns records best→worst."""
     terms = set(_tokenize(query))
     if not terms:
         return []
     scored = []
-    for doc in _corpus():
+    for doc in _corpus(vehicle_id):
         toks = _tokenize(doc["text"])
         if not toks:
             continue
@@ -194,7 +202,7 @@ def _keyword_rank(query: str, limit: int) -> list:
     return [doc for _, doc in scored[:limit]]
 
 
-def search_manual(query: str, max_results: int = 5) -> dict:
+def search_manual(query: str, max_results: int = 5, vehicle_id=None) -> dict:
     """Hybrid search across the workshop manual and owner's manual.
 
     Fuses keyword ranking with semantic (vector) ranking by reciprocal rank
@@ -210,8 +218,8 @@ def search_manual(query: str, max_results: int = 5) -> dict:
 
     # Over-fetch each ranker so fusion has depth to reorder over.
     depth = max(max_results * 3, 10)
-    kw_docs = _keyword_rank(query, depth) if use_keyword else []
-    vec_hits = vectorstore.vector_rank(query, depth) if use_vector else []
+    kw_docs = _keyword_rank(query, depth, vehicle_id) if use_keyword else []
+    vec_hits = vectorstore.vector_rank(query, depth, vehicle_id) if use_vector else []
 
     # Reciprocal rank fusion (keyed by corpus id): score = Σ 1/(k + rank).
     fused: dict[str, float] = {}
@@ -224,7 +232,7 @@ def search_manual(query: str, max_results: int = 5) -> dict:
         passages.setdefault(did, hit["passage"])
 
     ordered = sorted(fused, key=lambda d: fused[d], reverse=True)[:max_results]
-    by_id = _corpus_by_id()
+    by_id = _corpus_by_id(vehicle_id)
     results = []
     for did in ordered:
         doc = by_id.get(did)
@@ -254,7 +262,7 @@ def _snippet(text: str, terms: set, width: int = 320, passage: str = None) -> st
     return ("…" if start else "") + text[start:start + width] + "…"
 
 
-def get_section(section_id: str) -> dict:
+def get_section(section_id: str, vehicle_id=None) -> dict:
     """Full text of a workshop manual section ('06-03') or owner's chapter.
 
     A workshop Section number (NN-NN) returns every page under that section; any
@@ -265,7 +273,7 @@ def get_section(section_id: str) -> dict:
 
     # Owner's-manual chapter (anything that isn't a workshop section number).
     if not _SECTION_ID_RE.match(section_id):
-        ch = next((c for c in _owners_chapters()
+        ch = next((c for c in _owners_chapters(vehicle_id)
                    if c["chapter"].lower() == section_id.lower()), None)
         if ch:
             return {
@@ -279,13 +287,13 @@ def get_section(section_id: str) -> dict:
             "section_id": section_id,
             "found": False,
             "message": f"No section or chapter named {section_id!r}.",
-            "available_chapters": [c["chapter"] for c in _owners_chapters()],
+            "available_chapters": [c["chapter"] for c in _owners_chapters(vehicle_id)],
         }
 
-    pages = [p for p in _pages() if p["section"] == section_id]
-    meta = next((s for s in _section_index() if s["section"] == section_id), None)
+    pages = [p for p in _pages(vehicle_id) if p["section"] == section_id]
+    meta = next((s for s in _section_index(vehicle_id) if s["section"] == section_id), None)
     if not pages:
-        avail = sorted({p["section"] for p in _pages() if p["section"]})
+        avail = sorted({p["section"] for p in _pages(vehicle_id) if p["section"]})
         return {
             "section_id": section_id,
             "found": False,
@@ -303,24 +311,25 @@ def get_section(section_id: str) -> dict:
     }
 
 
-@lru_cache(maxsize=1)
-def _component_tables():
-    """Resolve wiring CSVs for the active vehicle: [(path, table_type, cols)].
+@lru_cache(maxsize=None)
+def _component_tables(vehicle_id):
+    """Resolve wiring CSVs for a vehicle: [(path, table_type, cols)].
 
     The EVTM prefix varies per vehicle (ETA_, EVC_, …), so match by suffix.
     """
+    refs = config.get_vehicle(vehicle_id).references_dir
     found = []
     for ttype, cols in _COMPONENT_TABLE_COLS.items():
-        for path in config.REFERENCES_DIR.glob(f"*_{ttype}.csv"):
+        for path in refs.glob(f"*_{ttype}.csv"):
             found.append((path, ttype, cols))
     return found
 
 
-def lookup_component(query: str) -> dict:
+def lookup_component(query: str, vehicle_id=None) -> dict:
     """Search the EVTM wiring tables for a component, connector, ground, or splice."""
     q = query.lower().strip()
     matches = []
-    for path, ttype, cols in _component_tables():
+    for path, ttype, cols in _component_tables(vehicle_id):
         with path.open(newline="", encoding="utf-8", errors="replace") as f:
             for row in csv.DictReader(f):
                 name = (row.get("NAME") or "")
@@ -334,19 +343,21 @@ def lookup_component(query: str) -> dict:
     return {"query": query, "match_count": len(matches), "matches": matches[:25]}
 
 
-def get_diagram(figure_id: str) -> dict:
+def get_diagram(figure_id: str, vehicle_id=None) -> dict:
     """Resolve a figure filename (e.g. 'Y5111B.gif') to a servable image.
 
     Figure references appear inline in the manual text as [FIGURE: name.gif].
     Resolution is case-insensitive (manual src casing is inconsistent). Returns
-    a URL the UI can load plus the page(s)/section(s) where the figure appears.
+    a per-vehicle URL the UI can load plus the page(s)/section(s) where the
+    figure appears.
     """
+    vid = config.get_vehicle(vehicle_id).id
     fid = figure_id.strip()
     if not fid.lower().endswith(".gif"):
         fid += ".gif"
     key = fid.lower()
 
-    actual = _diagram_files().get(key)
+    actual = _diagram_files(vehicle_id).get(key)
     if not actual:
         return {
             "figure_id": figure_id,
@@ -356,6 +367,6 @@ def get_diagram(figure_id: str) -> dict:
     return {
         "figure_id": actual,
         "resolved": True,
-        "url": f"/diagrams/{actual}",
-        "appears_in": _figure_locations().get(key, []),
+        "url": f"/diagrams/{vid}/{actual}",
+        "appears_in": _figure_locations(vehicle_id).get(key, []),
     }

@@ -9,10 +9,11 @@ const input = document.getElementById("input");
 const sendBtn = document.getElementById("send");
 
 // Conversation history sent to the backend each turn (text only).
-const history = [];
+let history = [];
 // Richer transcript for debugging export: each turn with tool calls + diagrams.
-const transcript = [];
+let transcript = [];
 let vehicleLabel = "";
+let currentVehicleId = null;
 
 // Friendly labels for the tool-call trace.
 const TOOL_LABELS = {
@@ -22,19 +23,44 @@ const TOOL_LABELS = {
   get_diagram: (i) => `requested diagram ${i.figure_id}`,
 };
 
-// ---- Bootstrap: vehicle label + diagram gallery ----
+// ---- Bootstrap: vehicle picker + diagram gallery ----
+const vehicleSelect = document.getElementById("vehicle-select");
+
 async function init() {
   try {
-    const v = await fetch("/api/vehicle").then((r) => r.json());
-    vehicleLabel = v.label;
-    document.getElementById("vehicle-label").textContent = v.label;
-    renderDiagrams(v.diagrams);
+    const { default: def, vehicles } = await fetch("/api/vehicles").then((r) => r.json());
+    vehicleSelect.innerHTML = "";
+    for (const v of vehicles) {
+      const opt = document.createElement("option");
+      opt.value = v.id;
+      opt.textContent = v.label;
+      vehicleSelect.append(opt);
+    }
+    currentVehicleId = def || (vehicles[0] && vehicles[0].id);
+    vehicleSelect.value = currentVehicleId;
+    await loadVehicle(currentVehicleId);
   } catch (e) {
-    document.getElementById("vehicle-label").textContent = "(backend offline)";
+    vehicleSelect.innerHTML = `<option>(backend offline)</option>`;
   }
 }
 
-function renderDiagrams(names) {
+// Load a vehicle's label + diagram gallery (does not touch the conversation).
+async function loadVehicle(id) {
+  const v = await fetch(`/api/vehicle?vehicle_id=${encodeURIComponent(id)}`).then((r) => r.json());
+  vehicleLabel = v.label;
+  renderDiagrams(v.id, v.diagrams);
+}
+
+// Switching vehicle starts a fresh conversation — context doesn't carry over.
+function resetConversation() {
+  history = [];
+  transcript = [];
+  messagesEl.querySelectorAll(".msg:not(.intro)").forEach((m) => m.remove());
+  traceEl.innerHTML = `<p class="placeholder">Tool calls the assistant makes will show up here —
+    which manual sections it opened, searches it ran, and components it looked up.</p>`;
+}
+
+function renderDiagrams(vehicleId, names) {
   if (!names || !names.length) {
     diagramsEl.innerHTML = `<p class="placeholder">No diagrams available.</p>`;
     return;
@@ -45,7 +71,7 @@ function renderDiagrams(names) {
     const fig = document.createElement("figure");
     const img = document.createElement("img");
     img.loading = "lazy";
-    img.src = `/diagrams/${name}`;
+    img.src = `/diagrams/${encodeURIComponent(vehicleId)}/${name}`;
     img.alt = name;
     img.addEventListener("click", () => openLightbox(img.src));
     const cap = document.createElement("figcaption");
@@ -56,6 +82,13 @@ function renderDiagrams(names) {
   diagramsEl.innerHTML = "";
   diagramsEl.append(grid);
 }
+
+vehicleSelect.addEventListener("change", async () => {
+  currentVehicleId = vehicleSelect.value;
+  resetConversation();
+  diagramsEl.innerHTML = `<p class="placeholder">Loading diagrams…</p>`;
+  await loadVehicle(currentVehicleId);
+});
 
 // ---- Chat ----
 function addMessage(role, markdown) {
@@ -118,7 +151,7 @@ async function send(text) {
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "content-type": "application/json" },
-      body: JSON.stringify({ messages: history }),
+      body: JSON.stringify({ messages: history, vehicle_id: currentVehicleId }),
     }).then((r) => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       return r.json();

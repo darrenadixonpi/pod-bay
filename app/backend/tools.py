@@ -88,19 +88,19 @@ TOOLS = [
 ]
 
 _DISPATCH = {
-    "search_manual": lambda i: retrieval.search_manual(i["query"], i.get("max_results", 5)),
-    "get_section": lambda i: retrieval.get_section(i["section_id"]),
-    "lookup_component": lambda i: retrieval.lookup_component(i["query"]),
-    "get_diagram": lambda i: retrieval.get_diagram(i["figure_id"]),
+    "search_manual": lambda i, v: retrieval.search_manual(i["query"], i.get("max_results", 5), v),
+    "get_section": lambda i, v: retrieval.get_section(i["section_id"], v),
+    "lookup_component": lambda i, v: retrieval.lookup_component(i["query"], v),
+    "get_diagram": lambda i, v: retrieval.get_diagram(i["figure_id"], v),
 }
 
 
-def run_tool(name: str, tool_input: dict) -> str:
-    """Execute a tool call and return its result as a JSON string."""
+def run_tool(name: str, tool_input: dict, vehicle_id=None) -> str:
+    """Execute a tool call against a vehicle and return its result as JSON."""
     fn = _DISPATCH.get(name)
     if fn is None:
         return json.dumps({"error": f"unknown tool: {name}"})
     try:
-        return json.dumps(fn(tool_input), ensure_ascii=False)
+        return json.dumps(fn(tool_input, vehicle_id), ensure_ascii=False)
     except Exception as e:  # surface failures to the model rather than crashing
         return json.dumps({"error": f"{type(e).__name__}: {e}"})

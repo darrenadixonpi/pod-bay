@@ -9,6 +9,9 @@ module owns everything Chroma-specific so the rest of the backend has no hard
 dependency on it. Every entry point degrades to a no-op (returns ``[]`` /
 ``False``) if chromadb is not installed or the index can't be built, so the
 assistant still works keyword-only.
+
+Indexes are per-vehicle: each vehicle has its own persisted collection under
+vehicles/<id>/.index/, and live handles are cached per vehicle id.
 """
 import sys
 
@@ -29,14 +32,14 @@ def available() -> bool:
         return False
 
 
-def _source_signature() -> str:
-    """Identity of the source corpus on disk; the index is stale on change.
+def _source_signature(vehicle) -> str:
+    """Identity of a vehicle's source corpus on disk; index is stale on change.
 
     Covers both manuals (workshop + owner's) and the chunk params so adding the
     owner's manual or retuning chunking triggers a rebuild.
     """
     parts = [f"{config.CHUNK_WORDS}:{config.CHUNK_OVERLAP_WORDS}"]
-    for path in (config.WORKSHOP_MANUAL, config.OWNERS_MANUAL):
+    for path in (vehicle.workshop_manual, vehicle.owners_manual):
         if path.exists():
             st = path.stat()
             parts.append(f"{path.name}={st.st_size}:{int(st.st_mtime)}")
@@ -59,46 +62,48 @@ def _chunk(text: str):
     return chunks
 
 
-# Cache the live client/collection across calls within a process.
-_client = None
-_collection_handle = None
+# Live client/collection handles, cached per vehicle id within a process.
+_clients = {}
+_collections = {}
 
 
-def _get_collection(build_if_stale: bool = True):
-    """Return a ready collection, (re)building it if missing or stale.
+def _get_collection(vehicle_id, build_if_stale: bool = True):
+    """Return a vehicle's ready collection, (re)building it if missing or stale.
 
     Returns None if chromadb is unavailable or anything goes wrong — callers
     treat None as "no vector search available" and fall back to keyword.
     """
-    global _client, _collection_handle
-    if _collection_handle is not None:
-        return _collection_handle
+    if vehicle_id in _collections:
+        return _collections[vehicle_id]
     if not available():
         return None
     try:
         import chromadb
 
-        config.INDEX_DIR.mkdir(parents=True, exist_ok=True)
-        _client = chromadb.PersistentClient(path=str(config.INDEX_DIR))
-        sig = _source_signature()
-        coll = _client.get_or_create_collection(_COLLECTION)
+        vehicle = config.get_vehicle(vehicle_id)
+        vehicle.index_dir.mkdir(parents=True, exist_ok=True)
+        client = chromadb.PersistentClient(path=str(vehicle.index_dir))
+        _clients[vehicle.id] = client
+        sig = _source_signature(vehicle)
+        coll = client.get_or_create_collection(_COLLECTION)
         if build_if_stale and (coll.metadata or {}).get("source_sig") != sig:
-            coll = _build(_client, sig)
-        _collection_handle = coll
+            coll = _build(client, vehicle, sig)
+        _collections[vehicle.id] = coll
         return coll
     except Exception as e:  # pragma: no cover - environment dependent
-        print(f"[vectorstore] disabled: {type(e).__name__}: {e}", file=sys.stderr)
+        print(f"[vectorstore] disabled for {vehicle_id}: {type(e).__name__}: {e}",
+              file=sys.stderr)
         return None
 
 
-def _build(client, sig: str):
-    """(Re)embed every manual page into a fresh collection."""
+def _build(client, vehicle, sig: str):
+    """(Re)embed every manual page for a vehicle into a fresh collection."""
     import retrieval  # lazy: retrieval imports this module at top level
 
     client.delete_collection(_COLLECTION)
     coll = client.create_collection(_COLLECTION, metadata={"source_sig": sig})
 
-    corpus = retrieval._corpus()
+    corpus = retrieval._corpus(vehicle.id)
     ids, docs, metas = [], [], []
     for rec in corpus:
         for ci, passage in enumerate(_chunk(rec["text"])):
@@ -112,23 +117,24 @@ def _build(client, sig: str):
                 "page": rec["page"] if rec["page"] is not None else -1,
             })
 
-    print(f"[vectorstore] embedding {len(docs)} passages from "
+    print(f"[vectorstore] {vehicle.id}: embedding {len(docs)} passages from "
           f"{len(corpus)} documents…", file=sys.stderr)
     for i in range(0, len(docs), 512):  # batch so the ONNX model stays bounded
         coll.add(ids=ids[i:i + 512], documents=docs[i:i + 512],
                  metadatas=metas[i:i + 512])
-    print(f"[vectorstore] index ready ({coll.count()} passages).", file=sys.stderr)
+    print(f"[vectorstore] {vehicle.id}: index ready ({coll.count()} passages).",
+          file=sys.stderr)
     return coll
 
 
-def vector_rank(query: str, n: int = 5):
+def vector_rank(query: str, n: int = 5, vehicle_id=None):
     """Semantic search; returns up to `n` distinct corpus documents best→worst.
 
     Each item: {"id", "source", "section", "chapter", "page", "passage"} where
     `passage` is the chunk that matched (a ready-made snippet). `id` is the
     corpus id retrieval.py fuses on. Empty list if vector search is unavailable.
     """
-    coll = _get_collection()
+    coll = _get_collection(vehicle_id)
     if coll is None:
         return []
     try:
@@ -159,23 +165,27 @@ def vector_rank(query: str, n: int = 5):
     return ranked
 
 
-def build(force: bool = False) -> bool:
-    """Build/refresh the index explicitly (used by the CLI entry point)."""
-    global _collection_handle
+def build(vehicle_id=None, force: bool = False) -> bool:
+    """Build/refresh one vehicle's index explicitly (used by the CLI)."""
     if not available():
         print("[vectorstore] chromadb not installed — nothing to build.",
               file=sys.stderr)
         return False
-    _collection_handle = None  # force a fresh handle
+    vehicle = config.get_vehicle(vehicle_id)
+    _collections.pop(vehicle.id, None)  # drop any cached handle
     if force:
         try:
             import chromadb
-            chromadb.PersistentClient(path=str(config.INDEX_DIR)).delete_collection(_COLLECTION)
+            chromadb.PersistentClient(path=str(vehicle.index_dir)).delete_collection(_COLLECTION)
         except Exception:
             pass
-    return _get_collection(build_if_stale=True) is not None
+    return _get_collection(vehicle.id, build_if_stale=True) is not None
 
 
 if __name__ == "__main__":
-    ok = build(force="--force" in sys.argv)
+    # Build/refresh every extracted vehicle's index.
+    force = "--force" in sys.argv
+    ok = True
+    for v in config.available_vehicles():
+        ok = build(v["id"], force=force) and ok
     sys.exit(0 if ok else 1)

@@ -31,6 +31,13 @@ header {
 }
 header h1 { font-size: 18px; margin: 0; letter-spacing: 0.3px; }
 header .vehicle { color: var(--muted); font-size: 13px; }
+#vehicle-select {
+  align-self: center;
+  background: var(--panel-2); color: var(--text);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px;
+  font-size: 13px; cursor: pointer; max-width: 360px;
+}
+#vehicle-select:hover { border-color: var(--accent); }
 #export {
   margin-left: auto; background: var(--panel-2); color: var(--text);
   border: 1px solid var(--border); border-radius: 8px; padding: 6px 12px;

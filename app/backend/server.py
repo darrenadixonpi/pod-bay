@@ -1,36 +1,39 @@
-"""FastAPI server exposing a Claude-driven repair assistant for one vehicle.
+"""FastAPI server exposing a Claude-driven repair assistant.
 
-POST /chat  { "messages": [{"role": "user", "content": "..."}, ...] }
-   -> runs the Claude tool-use loop against the workshop manual + wiring data
-      and returns the assistant's reply plus a trace of the tool calls made.
+POST /api/chat  { "messages": [...], "vehicle_id": "<id>" }
+   -> runs the Claude tool-use loop against that vehicle's workshop manual +
+      wiring data and returns the assistant's reply plus a trace of tool calls.
+
+One process serves every extracted vehicle; the active vehicle is chosen per
+request (defaults to config.DEFAULT_VEHICLE_ID).
 
 Run:  ANTHROPIC_API_KEY=... uvicorn server:app --reload --port 8000
 """
 import json
-import os
-
-from pathlib import Path
 
 from anthropic import Anthropic
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 import config
 import tools
 
-app = FastAPI(title="Pod Bay backend", version="0.1.0")
+app = FastAPI(title="Pod Bay backend", version="0.2.0")
 client = Anthropic()  # reads ANTHROPIC_API_KEY from env
 
 FRONTEND_DIR = config.REPO_ROOT / "app" / "frontend"
 
 MAX_TOOL_ROUNDS = 8
 
-SYSTEM_PROMPT = f"""You are a factory-trained service assistant for a {config.VEHICLE_LABEL}.
+
+def system_prompt(vehicle_label: str) -> str:
+    return f"""You are a factory-trained service assistant for a {vehicle_label}.
 
 You have tools that read the complete Ford factory Workshop Manual, the Owner's
-Manual, and the EVTM wiring database for this exact vehicle. Ground every answer
-in them:
+Manual (when available), and the EVTM wiring database for this exact vehicle.
+Ground every answer in them:
 
 - Call search_manual to find the relevant content, then get_section to read it
   in full before answering. It spans both manuals: the Workshop Manual for
@@ -44,10 +47,10 @@ in them:
   location, connector id, and zone.
 - The manual text contains inline figure markers like [FIGURE: Y5111B.gif].
   When a figure is directly relevant, call get_diagram with that exact filename,
-  then embed it in your answer at the relevant point using the returned url as a
-  markdown image: ![short caption](/diagrams/Y5111B.gif). Embed each figure
-  exactly once, placed next to the step or component it illustrates. Prefer the
-  1-3 most relevant figures rather than every one mentioned.
+  then embed it in your answer at the relevant point as a markdown image using
+  the `url` field get_diagram returns, verbatim: ![short caption](<that url>).
+  Embed each figure exactly once, next to the step or component it illustrates.
+  Prefer the 1-3 most relevant figures rather than every one mentioned.
 - Walk the user through diagnosis step by step. Adapt detail to their apparent
   skill level. Surface the manual's safety warnings when relevant.
 - If the manual does not cover something, say so rather than guessing."""
@@ -55,6 +58,7 @@ in them:
 
 class ChatRequest(BaseModel):
     messages: list[dict]
+    vehicle_id: str | None = None
 
 
 class ChatResponse(BaseModel):
@@ -63,9 +67,18 @@ class ChatResponse(BaseModel):
     diagrams: list[dict] = []  # resolved figures: {figure_id, url}
 
 
-def _cached_system():
-    # Static system prompt — cache it so repeated turns don't re-bill it.
-    return [{"type": "text", "text": SYSTEM_PROMPT, "cache_control": {"type": "ephemeral"}}]
+def _resolve_vehicle(vehicle_id: str | None) -> config.Vehicle:
+    """Validate a requested vehicle id, falling back to the default."""
+    try:
+        return config.get_vehicle(vehicle_id)
+    except ValueError:
+        return config.get_vehicle(None)
+
+
+def _cached_system(vehicle_label: str):
+    # System prompt varies by vehicle; cache each so repeated turns don't re-bill.
+    return [{"type": "text", "text": system_prompt(vehicle_label),
+             "cache_control": {"type": "ephemeral"}}]
 
 
 def _cached_tools():
@@ -77,28 +90,38 @@ def _cached_tools():
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "vehicle": config.VEHICLE_ID, "model": config.MODEL}
+    return {"status": "ok", "default_vehicle": config.DEFAULT_VEHICLE_ID, "model": config.MODEL}
 
 
 @app.get("/api/vehicles")
 def vehicles():
-    """All extracted vehicles, and which one is active."""
-    return {"active": config.VEHICLE_ID, "vehicles": config.available_vehicles()}
+    """All extracted vehicles, and which one is the default."""
+    return {"default": config.DEFAULT_VEHICLE_ID, "vehicles": config.available_vehicles()}
 
 
 @app.get("/api/vehicle")
-def vehicle():
+def vehicle(vehicle_id: str | None = None):
     """Vehicle label + available diagram filenames for the UI."""
-    diagrams = sorted(p.name for p in config.DIAGRAMS_DIR.glob("*.gif"))
-    return {
-        "id": config.VEHICLE_ID,
-        "label": config.VEHICLE_LABEL,
-        "diagrams": diagrams,
-    }
+    v = _resolve_vehicle(vehicle_id)
+    diagrams = sorted(p.name for p in v.diagrams_dir.glob("*.gif"))
+    return {"id": v.id, "label": v.label, "diagrams": diagrams}
+
+
+@app.get("/diagrams/{vehicle_id}/{filename}")
+def diagram(vehicle_id: str, filename: str):
+    """Serve a single diagram GIF for a vehicle (path-traversal safe)."""
+    if not config.vehicle_exists(vehicle_id):
+        raise HTTPException(404, "unknown vehicle")
+    path = (config.VEHICLES_ROOT / vehicle_id / "diagrams" / filename).resolve()
+    diagrams_dir = (config.VEHICLES_ROOT / vehicle_id / "diagrams").resolve()
+    if diagrams_dir not in path.parents or not path.is_file():
+        raise HTTPException(404, "diagram not found")
+    return FileResponse(path, media_type="image/gif")
 
 
 @app.post("/api/chat", response_model=ChatResponse)
 def chat(req: ChatRequest):
+    vehicle = _resolve_vehicle(req.vehicle_id)
     messages = list(req.messages)
     trace = []
     diagrams = []  # resolved figures to show in the UI
@@ -107,7 +130,7 @@ def chat(req: ChatRequest):
         resp = client.messages.create(
             model=config.MODEL,
             max_tokens=2048,
-            system=_cached_system(),
+            system=_cached_system(vehicle.label),
             tools=_cached_tools(),
             messages=messages,
         )
@@ -122,7 +145,7 @@ def chat(req: ChatRequest):
         for block in resp.content:
             if block.type != "tool_use":
                 continue
-            output = tools.run_tool(block.name, block.input)
+            output = tools.run_tool(block.name, block.input, vehicle.id)
             trace.append({"tool": block.name, "input": block.input})
             # Collect resolved diagrams so the UI can render them inline.
             if block.name == "get_diagram":
@@ -143,7 +166,6 @@ def chat(req: ChatRequest):
     )
 
 
-# Static assets — mounted last so /api/* routes take precedence.
-app.mount("/diagrams", StaticFiles(directory=config.DIAGRAMS_DIR), name="diagrams")
+# Frontend — mounted last so /api/* and /diagrams/* routes take precedence.
 if FRONTEND_DIR.exists():
     app.mount("/", StaticFiles(directory=FRONTEND_DIR, html=True), name="frontend")

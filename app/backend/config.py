@@ -1,13 +1,17 @@
-"""Backend configuration — paths and model selection.
+"""Backend configuration — vehicle registry and model selection.
 
 A vehicle is a directory under vehicles/<id>/ holding references/ + diagrams/
-and a vehicle.json (label, owner's-manual chapters, source provenance). The
-active vehicle is chosen by PODBAY_VEHICLE; available_vehicles() discovers the
-rest. Everything vehicle-specific lives in the data (vehicle.json), so the code
-is vehicle- and manufacturer-agnostic.
+and a vehicle.json (label, owner's-manual chapters, source provenance).
+`get_vehicle(id)` returns an immutable Vehicle with all its paths;
+`available_vehicles()` lists them. The backend resolves a vehicle per request,
+so one process serves every extracted vehicle. PODBAY_VEHICLE only sets the
+default when a request doesn't specify one. Everything vehicle-specific lives in
+the data (vehicle.json), so the code is vehicle- and manufacturer-agnostic.
 """
 import json
 import os
+from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 
 
@@ -35,15 +39,50 @@ _load_dotenv()
 REPO_ROOT = Path(__file__).resolve().parents[2]
 
 VEHICLES_ROOT = REPO_ROOT / "vehicles"
-VEHICLE_ID = os.environ.get("PODBAY_VEHICLE", "1996-mercury-grand-marquis")
-VEHICLE_DIR = VEHICLES_ROOT / VEHICLE_ID
-REFERENCES_DIR = VEHICLE_DIR / "references"
-DIAGRAMS_DIR = VEHICLE_DIR / "diagrams"
 
-WORKSHOP_MANUAL = REFERENCES_DIR / "workshop_manual.txt"
-OWNERS_MANUAL = REFERENCES_DIR / "owners_manual.txt"
-SECTION_INDEX = REFERENCES_DIR / "section_index.json"
-FIGURES_INDEX = REFERENCES_DIR / "figures.json"
+# Default vehicle when a request doesn't name one.
+DEFAULT_VEHICLE_ID = os.environ.get("PODBAY_VEHICLE", "1996-mercury-grand-marquis")
+
+
+@dataclass(frozen=True)
+class Vehicle:
+    """An extracted vehicle and the paths to its data."""
+    id: str
+    label: str
+    owners_chapters: tuple  # tuple (not list) so Vehicle stays hashable/cacheable
+
+    @property
+    def dir(self) -> Path:
+        return VEHICLES_ROOT / self.id
+
+    @property
+    def references_dir(self) -> Path:
+        return self.dir / "references"
+
+    @property
+    def diagrams_dir(self) -> Path:
+        return self.dir / "diagrams"
+
+    @property
+    def workshop_manual(self) -> Path:
+        return self.references_dir / "workshop_manual.txt"
+
+    @property
+    def owners_manual(self) -> Path:
+        return self.references_dir / "owners_manual.txt"
+
+    @property
+    def section_index(self) -> Path:
+        return self.references_dir / "section_index.json"
+
+    @property
+    def figures_index(self) -> Path:
+        return self.references_dir / "figures.json"
+
+    @property
+    def index_dir(self) -> Path:
+        # Persisted Chroma index (gitignored — rebuildable from the manual).
+        return self.dir / ".index"
 
 
 def _vehicle_meta(vehicle_dir: Path) -> dict:
@@ -54,6 +93,28 @@ def _vehicle_meta(vehicle_dir: Path) -> dict:
     return {}
 
 
+def vehicle_exists(vehicle_id: str) -> bool:
+    return (VEHICLES_ROOT / vehicle_id / "references" / "workshop_manual.txt").exists()
+
+
+@lru_cache(maxsize=None)
+def get_vehicle(vehicle_id: str = None) -> Vehicle:
+    """Resolve a Vehicle by id (defaults to DEFAULT_VEHICLE_ID). Cached.
+
+    Raises ValueError for an unknown id so callers can fall back deliberately.
+    """
+    vid = vehicle_id or DEFAULT_VEHICLE_ID
+    vdir = VEHICLES_ROOT / vid
+    if not (vdir / "references" / "workshop_manual.txt").exists():
+        raise ValueError(f"unknown vehicle: {vid!r}")
+    meta = _vehicle_meta(vdir)
+    return Vehicle(
+        id=vid,
+        label=meta.get("label", vid),
+        owners_chapters=tuple(meta.get("owners_chapters", [])),
+    )
+
+
 def available_vehicles() -> list:
     """All extracted vehicles: [{id, label}], by id. A vehicle is any
     vehicles/<id>/ with an extracted workshop manual."""
@@ -61,19 +122,9 @@ def available_vehicles() -> list:
     if VEHICLES_ROOT.exists():
         for d in sorted(VEHICLES_ROOT.iterdir()):
             if (d / "references" / "workshop_manual.txt").exists():
-                meta = _vehicle_meta(d)
-                out.append({"id": d.name, "label": meta.get("label", d.name)})
+                out.append({"id": d.name, "label": _vehicle_meta(d).get("label", d.name)})
     return out
 
-
-_META = _vehicle_meta(VEHICLE_DIR)
-
-# Human-readable label used in the system prompt.
-VEHICLE_LABEL = _META.get("label", VEHICLE_ID)
-
-# Owner's-manual chapter titles for this vehicle (empty if it has no owner's
-# manual). retrieval.py segments owners_manual.txt on these headings.
-OWNERS_CHAPTERS = _META.get("owners_chapters", [])
 
 # Anthropic model. Sonnet is the sensible default for an interactive repair
 # assistant — fast and cheap; bump to opus for harder diagnostic reasoning.
@@ -87,10 +138,6 @@ MODEL = os.environ.get("PODBAY_MODEL", "claude-sonnet-4-6")
 #   "vector"  — semantic only
 # Hybrid falls back to keyword automatically if chromadb/the index is absent.
 SEARCH_MODE = os.environ.get("PODBAY_SEARCH", "hybrid").lower()
-
-# Persisted Chroma index for this vehicle (gitignored — rebuildable from the
-# manual). Per-vehicle so the registry refactor later just keys off VEHICLE_ID.
-INDEX_DIR = VEHICLE_DIR / ".index"
 
 # Passage chunking for the vector index. all-MiniLM-L6-v2 truncates at ~256
 # tokens, so keep chunks well under that (~160 words) with overlap so a
