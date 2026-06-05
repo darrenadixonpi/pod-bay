@@ -12,9 +12,9 @@ Named after the magic header bytes (`POD BAY`) found inside Ford's proprietary T
 
 ## What this is
 
-Mechanical is an open platform for extracting, indexing, and interacting with factory automotive service manuals. It started with reverse-engineering Ford's proprietary TSO (Technical Service Online) dealer disc format — cracking the IDICOMP compression algorithm by disassembling `tsobrowser.exe` — and extracting the complete 1996 Crown Victoria / Grand Marquis / Town Car workshop manual (2,146 pages, zero errors).
+Pod Bay is an open platform for extracting, indexing, and interacting with factory automotive service manuals. It started with reverse-engineering Ford's proprietary TSO (Technical Service Online) dealer disc format — cracking the IDICOMP compression algorithm by disassembling `tsobrowser.exe` — and extracting the complete 1996 Crown Victoria / Grand Marquis / Town Car workshop manual (2,146 pages, zero errors). It now serves **six Ford/Lincoln/Mercury vehicles** through a working chat assistant with hybrid (keyword + vector) search, factory service illustrations, and EVTM wiring schematics rendered inline.
 
-The long-term vision: a mobile app where you describe what's wrong with your car (by voice, text, or photo), and an AI assistant walks you through the factory repair procedure step by step, with 3D models showing you exactly where to put your hands.
+The long-term vision: a mobile app where you describe what's wrong with your car (by voice, text, or photo), and an AI assistant walks you through the factory repair procedure step by step — with real **CAD models** (system-by-system, not AI-generated) it can isolate, explode, and rotate to show you exactly where to put your hands.
 
 ## Current status
 
@@ -22,15 +22,16 @@ The long-term vision: a mobile app where you describe what's wrong with your car
 |-----------|--------|
 | Ford IDICOMP decompressor | ✅ Complete — 0% error rate across all tested archives |
 | Ford ARC archive extractor | ✅ Complete — decodes record filenames, preserves inline `[FIGURE: …]` markers, emits a page→figures index |
-| Ford MDB wiring DB exporter | ✅ Complete — exports all EVTM tables to CSV/JSON |
+| Ford MDB wiring DB exporter | ✅ Complete — exports all EVTM tables to CSV/JSON (native Windows via `access_parser`) |
 | Vehicle skill builder | ✅ Complete — packages data for LLM consumption |
-| 1996 Grand Marquis data | ✅ Complete — 2,146 pages + 286 components + 2,163 diagrams |
-| Retrieval backend + Claude tool-use | ✅ MVP (`app/backend/`) — keyword search, get_section, lookup_component, get_diagram over the Grand Marquis; FastAPI `/api/chat` |
-| Web chat UI | ✅ MVP (`app/frontend/`) — chat + inline factory diagrams + tool-call trace |
+| Fleet (6 vehicles) | ✅ Grand Marquis, Mark VIII, Taurus/Sable, Ranger, Thunderbird/Cougar, F-250/350 Super Duty — built via `build_vehicle.py` |
+| Retrieval backend + Claude tool-use | ✅ (`app/backend/`) — multi-vehicle; search_manual, get_section, lookup_component, get_diagram, get_wiring_diagram; FastAPI `/api/chat` |
+| Web chat UI | ✅ (`app/frontend/`) — vehicle picker, chat + inline factory diagrams + wiring schematics + tool-call trace |
 | Manual→diagram linkage | ✅ Complete — figures resolve to images and render inline |
-| Vector/RAG search | 🔲 Planned — keyword retrieval today; swap in behind `retrieval.py` |
+| Vector/RAG search | ✅ Complete — hybrid keyword + local Chroma vector (RRF), behind `search_manual` |
+| EVTM wiring-schematic linkage | ✅ Complete — `get_wiring_diagram` joins CELLS/COMPREF to the E*.ARC schematics |
 | Multi-manufacturer extractors | 🔲 Planned — Toyota TIS, GM SI, BMW ISTA+, others |
-| 3D model viewer | 🔲 Planned — `highlight_zone` tool reserved |
+| 3D CAD viewer | 🔲 Planned — real CAD (system-by-system); `highlight_zone` tool reserved |
 | Mobile app | 🔲 Planned |
 
 ## Repository structure
@@ -47,15 +48,22 @@ pod-bay/
 │       └── scripts/
 │           ├── extract_ford_arc.py     # ARC archive → text + images + index
 │           ├── extract_ford_mdb.py     # MDB wiring DBs → CSV/JSON
+│           ├── build_vehicle.py        # Chain ARC+MDB → a vehicles/<id>/ dir
 │           └── build_skill.py          # Package into LLM-ready skill
-├── vehicles/
-│   └── 1996-mercury-grand-marquis/
-│       ├── references/            # Extracted manual text, wiring CSVs, section index
-│       └── diagrams/              # Extracted GIF technical illustrations
+├── vehicles/                     # 6 built vehicles, each:
+│   └── <id>/                     #   e.g. 1996-mercury-grand-marquis
+│       ├── references/           #   manual text, section index, figures.json, wiring CSVs
+│       ├── diagrams/             #   service illustration GIFs
+│       ├── wiring_diagrams/      #   EVTM schematic GIFs (gitignored, regenerable)
+│       └── vehicle.json          #   id, label, source provenance
 └── app/
-    ├── backend/                   # RAG retrieval + Claude tool-calling server
-    └── frontend/                  # Three.js 3D viewer + mobile chat interface
+    ├── backend/                  # Hybrid RAG retrieval + Claude tool-calling server
+    └── frontend/                 # Single-page chat UI (3D CAD viewer planned)
 ```
+
+> Bulk diagram sets are gitignored and regenerable via `build_vehicle.py`; the two
+> flagship vehicles (Grand Marquis, Mark VIII) keep their service diagrams committed
+> as examples.
 
 ## Quick start
 
@@ -67,35 +75,39 @@ pip install capstone    # only needed if reverse-engineering new formats
 apt install mdbtools    # for MDB wiring database export
 
 # Extract workshop manual from a Ford TSO .ARC file
-python3 extractors/ford/scripts/extract_ford_arc.py STA.ARC \
-    --output-dir ./output --format text --extract-images -v
+# (source archives live under "archive/.ARC files/" — quote the path)
+python3 extractors/ford/scripts/extract_ford_arc.py "archive/.ARC files/STA.ARC" \
+    -o ./output --format text --extract-images -v
 
-# Extract wiring data from MDB databases
-python3 extractors/ford/scripts/extract_ford_mdb.py ./EN_databases/ \
-    --output-dir ./wiring -v
+# Extract wiring data from an MDB database (mdbtools, or pure-Python access_parser on Windows)
+python3 extractors/ford/scripts/extract_ford_mdb.py "archive/.MDB files/ETA.MDB" \
+    -o ./wiring -v
 
-# Package into an LLM-ready skill
-python3 extractors/ford/scripts/build_skill.py \
-    --vehicle "1996 Mercury Grand Marquis" \
-    --engine "4.6L SOHC V8" \
-    --platform "Panther" \
-    --manual-dir ./output \
-    --wiring-dir ./wiring \
-    --output my-vehicle-skill.tar.gz
+# Or do it all at once: chain ARC + MDB (+ wiring schematics) into a vehicles/<id>/ dir.
+# id + label are derived from the manual's own title.
+python3 extractors/ford/scripts/build_vehicle.py "archive/.ARC files/STA.ARC" \
+    --mdb "archive/.MDB files/ETA.MDB" --evtm-arc "archive/.ARC files/ETA.ARC"
 ```
+
+Then run the assistant over the built data — see [`app/backend/README.md`](app/backend/README.md).
 
 ### Ford vehicle codes
 
-| Code | Vehicle | Years |
-|------|---------|-------|
-| A | Crown Victoria / Grand Marquis / Town Car | 1995–2003 |
-| C | Lincoln Mark VIII | 1996–1998 |
-| D | Thunderbird / Cougar | 1996–1997 |
-| H | Taurus / Sable (incl. SHO) | 1996–2003 |
-| L | Explorer / Ranger | 1996–2003 |
-| O | Econoline Van | 1996–2003 |
+| Code | Vehicle | Built & verified |
+|------|---------|------------------|
+| A | Crown Victoria / Grand Marquis / Town Car | ✅ 1996 Grand Marquis |
+| C | Lincoln Mark VIII | ✅ 1997 |
+| D | Thunderbird / Cougar | ✅ 1997 |
+| H | Taurus / Sable (incl. SHO) | ✅ 1998 |
+| L | Explorer / Ranger | ✅ 1998 Ranger |
+| O | F-250 Heavy Duty / F-350 / F-Super Duty | ✅ 1997 |
 
 Filename convention: `STA.ARC` = **S**ervice manual, 199**6** (**T**), vehicle code **A**.
+Year letters: S=1995, T=1996, V=1997, W=1998, X=1999.
+
+> **Note:** code `O` is the F-Series Super Duty trucks, **not** Econoline — the
+> earlier docs guessed wrong; `build_vehicle.py` derives identity from the manual's
+> own title, which caught it. Six codes (A, C, D, H, L, O) are now built and verified.
 
 ## How the compression was cracked
 
@@ -145,9 +157,9 @@ See [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md) for how to add support for a 
 
 The most impactful contributions right now:
 - Extractors for non-Ford manufacturers (especially GM disc-era and Toyota TIS)
-- RAG backend implementation
-- Three.js 3D viewer with zone-based interaction
-- Testing the Ford extractor against other vehicle codes (B, C, D, H, L, O)
+- A 3D CAD viewer (Three.js + glTF) and the part-hierarchy tooling that drives it (`highlight_zone` et al.) — see "3D / CAD layer" in `docs/ARCHITECTURE.md`
+- Sourcing service-grade, assembly-structured CAD for individual systems (brakes, suspension, steering) of the built vehicles
+- Testing the Ford extractor against the remaining vehicle code (B) and other model years
 
 ## License
 

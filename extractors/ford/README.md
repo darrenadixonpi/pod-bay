@@ -12,16 +12,20 @@ Ford TSO discs use the **POD BAY** archive format with **IDICOMP** compressed bl
 |--------|---------|
 | `extract_ford_arc.py` | Extract HTML pages and GIF diagrams from .ARC archives |
 | `extract_ford_mdb.py` | Export EVTM wiring databases (MDB → CSV/JSON) |
+| `build_vehicle.py` | **Chain ARC + MDB (+ wiring schematics) into a `vehicles/<id>/` dir** — the fleet build path |
 | `build_skill.py` | Package extracted data into a Claude-compatible skill |
 
 ## Usage
 
 ```bash
-# Extract service manual
-python3 scripts/extract_ford_arc.py STA.ARC -o ./output --format text --extract-images -v
+# Build a whole vehicle in one command (recommended) — derives id + label from
+# the manual's title; lays out references/, diagrams/, wiring_diagrams/, vehicle.json
+python3 scripts/build_vehicle.py "archive/.ARC files/STA.ARC" \
+    --mdb "archive/.MDB files/ETA.MDB" --evtm-arc "archive/.ARC files/ETA.ARC"
 
-# Extract wiring data
-python3 scripts/extract_ford_mdb.py ./mdb_folder/ -o ./wiring -v
+# …or run a single stage:
+python3 scripts/extract_ford_arc.py "archive/.ARC files/STA.ARC" -o ./output --format text --extract-images -v
+python3 scripts/extract_ford_mdb.py "archive/.MDB files/ETA.MDB" -o ./wiring -v
 
 # Build LLM skill package
 python3 scripts/build_skill.py \
@@ -34,8 +38,10 @@ python3 scripts/build_skill.py \
 
 ## Prerequisites
 
-- Python 3.8+
-- `mdbtools` for MDB export: `apt install mdbtools`
+- Python 3.8+ (the `app/` backend needs 3.10+)
+- MDB export: `mdbtools` (`apt install mdbtools`) **or** the pure-Python fallback
+  `access-parser` (`pip install access-parser`) — auto-selected, so MDB extraction
+  runs natively on Windows where mdbtools isn't available
 - `7z` for OVA/VMDK extraction: `apt install p7zip-full`
 
 ## Getting .ARC files from a TSO disc

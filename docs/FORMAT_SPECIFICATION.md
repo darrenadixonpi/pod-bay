@@ -53,11 +53,13 @@ Ford's 3-letter naming scheme:
 
 | Position | Meaning | Known Codes |
 |----------|---------|-------------|
-| 1st | Content type | E=EVTM, S=Service Manual, V=Other |
+| 1st | Content type | E=EVTM, S=Service Manual, V=Other (PCED powertrain/emissions, not owner's manuals) |
 | 2nd | Model year | S=1995, T=1996, V=1997, W=1998, X=1999 |
-| 3rd | Vehicle family | A=Crown Vic/Grand Marquis/Town Car, C=Mark VIII, D=T-Bird/Cougar, H=Taurus SHO, L=Explorer/Ranger, O=Econoline |
+| 3rd | Vehicle family | A=Crown Vic/Grand Marquis/Town Car, C=Mark VIII, D=T-Bird/Cougar, H=Taurus/Sable, L=Explorer/Ranger, O=F-250/F-350/F-Super Duty trucks |
 
 Example: `STA.ARC` = Service manual, 1996, Crown Vic/Grand Marquis/Town Car
+
+(Code `O` was previously documented as "Econoline" — that was wrong; `build_vehicle.py` derives identity from the manual's own title, which corrected it. Codes A, C, D, H, L, O are built and verified.)
 
 ---
 

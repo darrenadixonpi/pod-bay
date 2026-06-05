@@ -1,4 +1,4 @@
-# Contributing to Mechanical
+# Contributing to Pod Bay
 
 ## Adding support for a new manufacturer
 
@@ -20,13 +20,16 @@ extractors/
 Your extractor should accept input files and produce the standard output schema:
 
 **Required outputs:**
-- `<vehicle>_manual.txt` — Plain text, one page per separator block
-- `<vehicle>_section_index.json` — Array of `{section, name, page_count, total_chars}`
+- `<vehicle>_manual.txt` — Plain text, one page per separator block; illustrations preserved inline as `[FIGURE: name.gif]` markers
+- `<vehicle>_section_index.json` — Array of `{section, name, page_count, total_chars, first_page, last_page}`
+- `<vehicle>_figures.json` — Array of `{page, section, figures:[...]}` (the manual→diagram linkage `get_diagram` resolves against)
+- `images/` — Extracted diagrams, **named by their real filename** (e.g. `Y5111B.gif`) so `[FIGURE: ...]` markers resolve
 
 **Optional outputs:**
-- `images/` — Extracted diagrams (GIF, PNG, SVG)
-- `*_COMP.csv`, `*_CONN.csv`, etc. — Wiring/component data tables
+- `*_COMP.csv`, `*_CONN.csv`, `*_CELLS.csv`, `*_COMPREF.csv`, etc. — Wiring/component tables (the EVTM schema `lookup_component` + `get_wiring_diagram` consume)
 - Any format-specific metadata
+
+See CLAUDE.md ("Architecture") for the exact filename contract the backend globs for.
 
 ### 3. Document the format
 
@@ -56,8 +59,8 @@ Run your extractor against at least one complete archive/source and report:
 
 ## Other contributions
 
-**RAG backend** (`app/backend/`): Vector search over extracted manuals. ChromaDB or SQLite-vss. Should expose the tool functions documented in `docs/ARCHITECTURE.md`.
+**RAG backend** (`app/backend/`): hybrid keyword + local Chroma vector search is already implemented. Further work: retrieval-quality tuning, reranking, or alternative vector backends behind the same `retrieval.py` signatures.
 
-**3D viewer** (`app/frontend/`): Three.js viewer loading glTF models with named mesh zones. Tap/click interaction, camera orbit animation, zone highlighting. Should accept `highlight_zone` commands from the chat interface.
+**3D CAD viewer** (`app/frontend/`): Three.js + glTF 2.0 viewer that loads a CAD assembly (with its part hierarchy preserved) and accepts tool commands from the chat — `isolate`, `explode`, `set_camera`, `highlight` (`highlight_zone` is the reserved entry point). The model drives the viewer over the part tree; it does not touch raw geometry. See "3D / CAD layer" in `docs/ARCHITECTURE.md`. **Real CAD only — no AI-generated geometry.** Equally valuable: sourcing service-grade, assembly-structured CAD for individual systems of the built vehicles.
 
-**Testing Ford extractor on other vehicle codes**: We've validated code A (Crown Vic/Grand Marquis/Town Car). Codes B, C, D, H, L, O are untested but should work identically. If you have a Ford TSO disc for another vehicle, please test and report results.
+**Testing Ford extractor on other vehicle codes**: codes A, C, D, H, L, O are built and verified. Code **B** is untested but should work identically. If you have a Ford TSO disc for another vehicle or year, please test and report results.

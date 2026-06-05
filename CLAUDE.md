@@ -4,7 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this project is
 
-Pod Bay is a platform for extracting factory automotive service manuals from proprietary OEM formats and packaging them for LLM consumption (and, eventually, a RAG backend + 3D viewer + mobile app — those parts are unbuilt). The only implemented component today is the **Ford TSO extractor**. The name comes from the `POD BAY` magic header in Ford's `.ARC` archive format, the first format reverse-engineered here.
+Pod Bay is a platform for extracting factory automotive service manuals from proprietary OEM formats and serving them to an LLM repair assistant. The name comes from the `POD BAY` magic header in Ford's `.ARC` archive format, the first format reverse-engineered here.
+
+**What's built today:**
+- The **Ford TSO extractor** (`extractors/ford/`) — ARC + MDB → per-vehicle data dirs.
+- A **fleet of 6 vehicles** under `vehicles/` (Grand Marquis, Mark VIII, Taurus/Sable, Ranger, Thunderbird/Cougar, F-250/350 Super Duty), built with `build_vehicle.py`.
+- A **retrieval backend + chat UI** (`app/backend/`, `app/frontend/`) — multi-vehicle, FastAPI `/api/chat` running a Claude tool-use loop with hybrid (keyword + local Chroma vector) search, plus a single-page web chat that renders factory illustrations and EVTM wiring schematics inline.
+
+**Not yet built:** a 3D **CAD** viewer (real CAD, system-by-system — *not* AI-generated; see `docs/ARCHITECTURE.md` "3D / CAD layer") and a mobile app.
 
 ## Commands
 
@@ -42,7 +49,20 @@ The extraction pipeline is three independent scripts chained by their file outpu
 - `images/` — extracted GIFs, **named by their real filename** (e.g. `Y5111B.gif`) so `[FIGURE: ...]` markers resolve to files
 - `<mdb>_<TABLE>.csv` / `.json` — wiring tables (CELLS, COMP, CONN, GRND, SPLICE, and their `*REF` cross-reference tables)
 
-A new manufacturer extractor is expected to emit these same outputs so `build_skill.py` and downstream consumers stay format-agnostic. See `docs/ARCHITECTURE.md` for the planned full system (format-detection router → extraction handlers → unified knowledge base → RAG → LLM tool layer → mobile app) and the manufacturer-agnostic Claude tool interface (`search_manual`, `get_section`, `get_diagram`, `lookup_component`, `highlight_zone`).
+A new manufacturer extractor is expected to emit these same outputs so `build_skill.py` and downstream consumers stay format-agnostic. See `docs/ARCHITECTURE.md` for the planned full system (format-detection router → extraction handlers → unified knowledge base → RAG → LLM tool layer → mobile app) and the manufacturer-agnostic Claude tool interface.
+
+### The app layer (`app/backend/`, `app/frontend/`)
+
+`build_vehicle.py` chains the two extractors into a `vehicles/<id>/` dir (id + label derived from the manual's own title). The backend is **multi-vehicle**: one process serves every vehicle, chosen per request (`config.get_vehicle(id)`; `PODBAY_VEHICLE` only sets the default). Retrieval/vectorstore/tools cache per vehicle.
+
+Implemented Claude tools (`app/backend/tools.py` → `retrieval.py` / `wiring.py`):
+- `search_manual` — **hybrid** keyword + local Chroma vector (RRF), folds passages back to pages; `PODBAY_SEARCH=hybrid|keyword|vector`. Falls back to keyword if chromadb/index absent. Build the index with `python -m vectorstore`.
+- `get_section` — **page-windowed** (≈5k-token cap around `around_page`); never returns whole sections (rate-tier guard).
+- `lookup_component` — EVTM part #, location, connector, zone; each match also carries `schematic_pages`.
+- `get_diagram` — resolves a `[FIGURE: name.gif]` marker to a `/diagrams/<vid>/<file>` URL.
+- `get_wiring_diagram` — resolves a component/connector/ground/splice name OR a cell `diagram_id` to EVTM schematic image(s) at `/wiring/<vid>/<file>`, joining `CELLS` + the `*REF` tables to the `wiring_diagrams/` GIFs.
+
+Run: `cd app/backend && .venv\Scripts\python.exe -m uvicorn server:app --port 8000 --reload`. Needs `app/backend/.env` with `ANTHROPIC_API_KEY` (gitignored, auto-loaded). Default model `claude-sonnet-4-6`. The org is on a **low rate tier (~30k input tokens/min)** — keep `get_section` bounded and don't feed whole sections back.
 
 ### The IDICOMP decompressor
 
@@ -59,8 +79,8 @@ Each 15-byte record is `[8-byte name][uint32 offset][3-byte meta]`, and **record
 
 ## Ford file naming
 
-3-letter `.ARC`/`.MDB` names encode `[content][year][vehicle]`: content `S`=Service/`E`=EVTM/`V`=Other; year `S`=1995/`T`=1996/`V`=1997/`W`=1998/`X`=1999; vehicle `A`=Crown Vic/Grand Marquis/Town Car, `C`=Mark VIII, `D`=T-Bird/Cougar, `H`=Taurus/Sable, `L`=Explorer/Ranger, `O`=Econoline. Example: `STA.ARC` = Service manual, 1996, code A. Only code A is validated; B–O are untested but expected to work identically.
+3-letter `.ARC`/`.MDB` names encode `[content][year][vehicle]`: content `S`=Service/`E`=EVTM/`V`=Other (PCED powertrain/emissions, **not** owner's manuals); year `S`=1995/`T`=1996/`V`=1997/`W`=1998/`X`=1999; vehicle `A`=Crown Vic/Grand Marquis/Town Car, `C`=Mark VIII, `D`=T-Bird/Cougar, `H`=Taurus/Sable, `L`=Explorer/Ranger, `O`=**F-250/F-350/F-Super Duty trucks** (the old docs guessed "Econoline" — wrong; `build_vehicle.py` derives identity from the manual title, which caught it). Example: `STA.ARC` = Service manual, 1996, code A. Codes **A, C, D, H, L, O are all built and verified**; B is untested but expected to work identically.
 
 ## Extracted vehicle data
 
-`vehicles/1996-mercury-grand-marquis/` holds the one complete extraction (2,146 pages, EVTM CSVs, 50 GIF diagrams). Extracted OEM manual content may be under manufacturer copyright — the tooling is for media you legally own; do not commit redistributable OEM content casually.
+`vehicles/` holds 6 built vehicles. `1996-mercury-grand-marquis/` is the flagship (2,146 pages, EVTM CSVs, full service-illustration set + EVTM wiring schematics). Per vehicle: `references/` (manual text, `section_index.json`, `figures.json`, wiring CSV/JSON), `diagrams/` (service illustrations), `wiring_diagrams/` (EVTM schematics), `vehicle.json`. **Commit policy:** manuals + wiring CSV/JSON + indexes + `vehicle.json` are committed; bulky per-vehicle `diagrams/` and `wiring_diagrams/` are gitignored and regenerable via `build_vehicle.py` (the two flagships keep committed diagrams as examples). Extracted OEM manual content may be under manufacturer copyright — the tooling is for media you legally own; do not commit redistributable OEM content casually.

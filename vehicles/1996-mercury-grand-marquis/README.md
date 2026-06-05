@@ -11,16 +11,19 @@
 | `references/workshop_manual.txt` | 3.9 MB | Complete factory workshop manual (2,146 pages) |
 | `references/owners_manual.txt` | 348 KB | Full owner's manual |
 | `references/section_index.json` | 17 KB | Index of all 83 sections with page counts |
+| `references/figures.json` | — | Page→figures map (the manual→diagram linkage) |
 | `references/ETA_COMP.csv` | 30 KB | 286 electrical components |
 | `references/ETA_CONN.csv` | 29 KB | 312 connectors with pin counts and locations |
 | `references/ETA_GRND.csv` | 883 B | 13 ground points |
 | `references/ETA_SPLICE.csv` | 11 KB | 167 splice locations |
 | `references/ETA_PAGEREF.csv` | 75 KB | 1,271 page cross-references |
-| `diagrams/` | ~50 files | Extracted GIF technical illustrations |
+| `references/ETA_CELLS.csv` + `ETA_COMPREF.csv` | — | EVTM cell index + component→schematic map (`get_wiring_diagram`) |
+| `diagrams/` | 2,163 files | Extracted GIF service illustrations |
+| `wiring_diagrams/` | 336 files | EVTM wiring-schematic GIFs (gitignored, regenerable) |
 
 ## Source
 
-Extracted from Ford TSO (Technical Service Online) disc archive `STA.ARC` using `extractors/ford/scripts/extract_ford_arc.py`. Wiring data from EVTM MDB databases using `extract_ford_mdb.py`. Zero decompression errors.
+Built from Ford TSO (Technical Service Online) disc archives via `extractors/ford/scripts/build_vehicle.py`: workshop manual + service illustrations from `STA.ARC`, EVTM wiring tables from the `ETA` MDB, and wiring schematics from `ETA.ARC`. Zero decompression errors.
 
 ## Key specifications
 
