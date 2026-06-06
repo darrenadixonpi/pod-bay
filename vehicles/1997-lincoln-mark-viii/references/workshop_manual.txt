@@ -30,55 +30,55 @@ Description
 
 1
 
-�
+—
 
 World Manufacturer Identifier
 
 2
 
-�
+—
 
 Restraint System Type
 
 3
 
-�
+—
 
 Manufacturer Specification
 
 4
 
-�
+—
 
 Line, Series, Body Type
 
 5
 
-�
+—
 
 Engine Type
 
 6
 
-�
+—
 
 Check Digit
 
 7
 
-�
+—
 
 Vehicle Model Year
 
 8
 
-�
+—
 
 Assembly Plant
 
 9
 
-�
+—
 
 Production Sequence Number
 
@@ -92,7 +92,7 @@ the month and year of manufacture, the certification statement and the VIN. It
 also includes gross vehicle weight ratings (GVWR), wheel and tire data, and 
 additional information codes.
 
-Typical United States Vehicle Certification Label�Early Production
+Typical United States Vehicle Certification Label—Early Production
 
 [FIGURE: AY0198A.gif]
 
@@ -104,120 +104,120 @@ Description
 
 1
 
-�
+—
 
 Name and Location of Manufacturer
 
 2
 
-�
+—
 
 Gross Vehicle Weight Rating in Pounds (LB) and Kilograms (KG)
 
 3
 
-�
+—
 
 Accessory Reserve Load Codes
 
 4
 
-�
+—
 
 Special Order Codes
 
 5
 
-�
+—
 
 Sales Region Codes
 
 6
 
-�
+—
 
 Suspension Identification Codes
 
 7
 
-�
+—
 
 Transmission/Transaxle Codes
 
 8
 
-�
+—
 
 Axle Ratio Codes
 
 9
 
-�
+—
 
 Radio Type Codes
 
 10
 
-�
+—
 
 Tape Stripe/Paint Stripe Codes
 
 11
 
-�
+—
 
 Interior Trim Codes (first code letter = fabric and seat type, second 
 code letter = color)
 
 12
 
-�
+—
 
 Moulding Codes
 
 13
 
-�
+—
 
 Brake Type Codes
 
 14
 
-�
+—
 
 Body Type Codes
 
 15
 
-�
+—
 
 Exterior Paint Codes
 
 16
 
-�
+—
 
 Vehicle Identification Number
 
 17
 
-�
+—
 
 Rear Gross Axle Weight Ratings in Pounds (LB) and Kilograms (KG)
 
 18
 
-�
+—
 
 Front Gross Axle Weight Ratings in Pounds (LB) and Kilograms (KG)
 
 19
 
-�
+—
 
 Build Date
 
-Typical United States Vehicle Certification Label�Late Production
+Typical United States Vehicle Certification Label—Late Production
 
 [FIGURE: AY0250A.gif]
 
@@ -229,104 +229,104 @@ Description
 
 1
 
-�
+—
 
 Name and Location of Manufacturer
 
 2
 
-�
+—
 
 Gross Vehicle Weight Rating in Pounds (LB) and Kilograms (KG)
 
 3
 
-�
+—
 
 Accessory Reserve Load Codes
 
 4
 
-�
+—
 
 Special Order Codes
 
 5
 
-�
+—
 
 Sales Region Codes
 
 6
 
-�
+—
 
 Suspension Identification Codes
 
 7
 
-�
+—
 
 Transmission/Transaxle Codes
 
 8
 
-�
+—
 
 Axle Ratio Codes
 
 9
 
-�
+—
 
 Radio Type Codes
 
 10
 
-�
+—
 
 Tape Stripe/Paint Stripe Codes
 
 11
 
-�
+—
 
 Interior Trim Codes (first code letter = fabric and seat type, second 
 code letter = color)
 
 12
 
-�
+—
 
 Brake Type Codes
 
 13
 
-�
+—
 
 Exterior Paint Codes
 
 14
 
-�
+—
 
 Vehicle Identification Number
 
 15
 
-�
+—
 
 Rear Gross Axle Weight Ratings in Pounds (LB) and Kilograms (KG)
 
 16
 
-�
+—
 
 Front Gross Axle Weight Ratings in Pounds (LB) and Kilograms (KG)
 
 17
 
-�
+—
 
 Build Date
 
@@ -349,25 +349,25 @@ Reference
 The first three vehicle identification number (VIN) position codes 
 indicate:
 
-ILN�Ford Motor Company, USA
+ILN—Ford Motor Company, USA
 
 [FIGURE: AY0203A.gif]
 
 The fourth VIN position is for the restraint system type.
 
-B�Active Belts (All Positions).
+B—Active Belts (All Positions).
 
-A�Active Driver/Passive Passenger Belts and Driver Air Bag.
+A—Active Driver/Passive Passenger Belts and Driver Air Bag.
 
-R�Passive Driver/Passenger Belts and Driver Air Bag.
+R—Passive Driver/Passenger Belts and Driver Air Bag.
 
-P�Passive Belts (Front) Active Belts (Rear).
+P—Passive Belts (Front) Active Belts (Rear).
 
-C�Active Belts (All Positions) and Driver Air Bag.
+C—Active Belts (All Positions) and Driver Air Bag.
 
-L�Active Belts�All Positions/Passenger and Driver Air Bags.
+L—Active Belts—All Positions/Passenger and Driver Air Bags.
 
-S�Passive Driver/Passenger Belts and Driver/Passenger Air Bags.
+S—Passive Driver/Passenger Belts and Driver/Passenger Air Bags.
 
 [FIGURE: AY0204A.gif]
 
@@ -375,23 +375,23 @@ The fifth VIN position is the code for the manufacturer specification.
 
 The manufacturer specification is:
 
-M�Lincoln, Mercury North American Vehicles.
+M—Lincoln, Mercury North American Vehicles.
 
 [FIGURE: AY0205A.gif]
 
 The sixth and seventh VIN positions are the codes for line, series and 
 body types:
 
-91�Base 2-Door Coupe.
+91—Base 2-Door Coupe.
 
-92�LSC 2-Door Coupe
+92—LSC 2-Door Coupe
 
 [FIGURE: AY0206A.gif]
 
 The eighth VIN position is for the engine displacement and number of 
 cylinders. The codes are:
 
-V�4.6L (4V) (281 cu.in.) DOHC V8 gasoline, Ford.
+V—4.6L (4V) (281 cu.in.) DOHC V8 gasoline, Ford.
 
 [FIGURE: AY0207A.gif]
 
@@ -402,16 +402,16 @@ model year is V.
 
 The tenth VIN position is the code for the model year. The codes are:
 
-V�1997.
+V—1997.
 
-W�1998.
+W—1998.
 
 [FIGURE: AY0209A.gif]
 
 The eleventh VIN position is the code for the assembly plant. The code 
 is:
 
-Y�Wixom (Wixom, Michigan.)
+Y—Wixom (Wixom, Michigan.)
 
 [FIGURE: AY0210A.gif]
 
@@ -432,42 +432,42 @@ The exterior paint color codes are:
 
  NOTE: All colors except prime include a clear coat (C/C).
 
-BA�Light Prairie Tan C/C.
+BA—Light Prairie Tan C/C.
 
-BD�Light Cypress C/C.
+BD—Light Cypress C/C.
 
-DZ�Light Saddle C/C.
+DZ—Light Saddle C/C.
 
-F8�Deep Evergreen C/C.
+F8—Deep Evergreen C/C.
 
-FZ�Cordovan C/C.
+FZ—Cordovan C/C.
 
-HA�Ivory Tricoat C/C.
+HA—Ivory Tricoat C/C.
 
-JB�Brt Toreador Tint C/C.
+JB—Brt Toreador Tint C/C.
 
-K4�Deep Navy Blue C/C.
+K4—Deep Navy Blue C/C.
 
-K5�Arctic Blue C/C.
+K5—Arctic Blue C/C.
 
-TS�Silver Frost C/C.
+TS—Silver Frost C/C.
 
-TT�Medium Pewter Gray C/C.
+TT—Medium Pewter Gray C/C.
 
-UA�Ebony C/C.
+UA—Ebony C/C.
 
-WK�Opal Opalescent Tricoat C/C.
+WK—Opal Opalescent Tricoat C/C.
 
-WT�Performance White C/C.
+WT—Performance White C/C.
 
  NOTE: Body type codes are not listed on late production vehicle certification 
 labels.
 
 The body type codes are:
 
-BA2�Base, 4-Door Sedan
+BA2—Base, 4-Door Sedan
 
-BA2�LSC, 4-Door Sedan (LSC models have an optional nameplate 
+BA2—LSC, 4-Door Sedan (LSC models have an optional nameplate 
 Diamond Anniversary.)
 
 Early Production Brake Type Codes
@@ -480,7 +480,7 @@ Late Production Brake Type Codes
 
 The brake type code is:
 
-4�4-wheel Disc with Anti-Lock Brakes (ABS).
+4—4-wheel Disc with Anti-Lock Brakes (ABS).
 
 [FIGURE: AY0215A.gif]
 
@@ -489,7 +489,7 @@ labels.
 
 The moulding code is:
 
-CC�Color Coded to Exterior Paint.
+CC—Color Coded to Exterior Paint.
 
 Early Production Seat and Trim Type Codes
 
@@ -501,9 +501,9 @@ Late Production Seat and Trim Type Codes
 
 The interior seat and trim type codes are as follows:
 
-Z�Standard Leather Individual Seat.
+Z—Standard Leather Individual Seat.
 
-D�Perforated Leather Individual Seat.
+D—Perforated Leather Individual Seat.
 
 Early Production Interior Trim Color Codes
 
@@ -515,15 +515,15 @@ Late Production Interior Trim Color Codes
 
 The interior trim color codes are as follows:
 
-J�Ebony
+J—Ebony
 
-Q�Ivory
+Q—Ivory
 
-Y�Prairie Tan
+Y—Prairie Tan
 
-2�Light Graphite
+2—Light Graphite
 
-3�Cypress
+3—Cypress
 
 Early Production Radio Codes
 
@@ -535,9 +535,9 @@ Late Production Radio Codes
 
 The radio codes are as follows:
 
-A�Electronic AM/FM stereo cassette radio with premium sound
+A—Electronic AM/FM stereo cassette radio with premium sound
 
-E�Electronic Premium AM/FM stereo disc radio with premium sound
+E—Electronic Premium AM/FM stereo disc radio with premium sound
 
 Early Production Rear Axle Ratio Codes
 
@@ -549,9 +549,9 @@ Late Production Rear Axle Ratio Codes
 
 The rear axle ratio codes are as follows:
 
-A7�3.07
+A7—3.07
 
-34�3.27
+34—3.27
 
 Early Production Transmission Codes
 
@@ -563,7 +563,7 @@ Late Production Transmission Codes
 
 The transmission code is:
 
-U�4R7OW, Automatic Overdrive, 4-Speed
+U—4R7OW, Automatic Overdrive, 4-Speed
 
 Early Production Special Order Codes
 
@@ -575,11 +575,11 @@ Late Production Special Order Codes
 
 The special order type codes are:
 
-DSO�Domestic special order
+DSO—Domestic special order
 
-FSO�Foreign special order
+FSO—Foreign special order
 
-PTO�Paint, tire, option special order
+PTO—Paint, tire, option special order
 
 If a vehicle is built as a special order, DSO, FSO or PTO, the complete 
 order number is to appear after the district code.
@@ -604,55 +604,55 @@ Late Production Sales Region Codes
 
 The district codes for Ford Motor Company, United States are as follows:
 
-11�New England/Boston
+11—New England/Boston
 
-13�New York
+13—New York
 
-16�Philadelphia
+16—Philadelphia
 
-21�Atlanta
+21—Atlanta
 
-23�Memphis
+23—Memphis
 
-24�Orlando
+24—Orlando
 
-27�Washington
+27—Washington
 
-41�Chicago
+41—Chicago
 
-44�Pittsburgh
+44—Pittsburgh
 
-47�Cincinnati
+47—Cincinnati
 
-48�Detroit
+48—Detroit
 
-52�Southwest
+52—Southwest
 
-53�Kansas City
+53—Kansas City
 
-56�Denver
+56—Denver
 
-58�Twin Cities
+58—Twin Cities
 
-71�Los Angeles
+71—Los Angeles
 
-72�San Francisco
+72—San Francisco
 
-74�Seattle
+74—Seattle
 
-83�Government
+83—Government
 
-84�Home Office Reserve
+84—Home Office Reserve
 
-85�American Red Cross
+85—American Red Cross
 
-86�Recreation Vehicle Pool
+86—Recreation Vehicle Pool
 
-87�Body Company
+87—Body Company
 
-89�Transportation Services
+89—Transportation Services
 
-9A�Export
+9A—Export
 
 The district
 
@@ -1169,7 +1169,7 @@ condition may be present on perfectly round tires because of variations in the
 inner construction. May occur at wheel-rotation frequency or twice-rotation 
 frequency.
 
- Tires�Flat Spots 
+ Tires—Flat Spots 
 
 Commonly caused by letting the vehicle stand when the tires are cold. 
 Can be cured by operating the vehicle until the tires are warm. This concern 
@@ -1302,7 +1302,7 @@ driveline
 The quickest way to isolate an NVH concern location is to perform a 
 road test.
 
- Noise Diagnostic Procedure�Non-Axle Noise 
+ Noise Diagnostic Procedure—Non-Axle Noise 
 
 The five most common sources of non-axle noise are exhaust, tires, roof 
 racks, trim mouldings and transmission.
@@ -1344,7 +1344,7 @@ malfunctioning, the noise may vary in different driving phases. If a pinion
 bearing is suspected, refer to Section 205-02 
 .
 
- Noise Diagnostic Procedure�Noise Conditions 
+ Noise Diagnostic Procedure—Noise Conditions 
 
 Gear noise is typically a howling or whining of the ring gear and 
 pinion due to an improper gear pattern, gear damage or improper bearing 
@@ -1815,139 +1815,139 @@ Description
 
 1
 
-�
+—
 
 560.07 mm (22.05 inch)
 
 2
 
-�
+—
 
 1014.47 mm (39.94 inch)
 
 3
 
-�
+—
 
 1506.98 mm (59.33 inch)
 
 4
 
-�
+—
 
 1351.78 mm (53.22 inch)
 
 5
 
-�
+—
 
 1673.60 mm (65.89 inch)
 
 6
 
-�
+—
 
 861.31 mm (33.91 inch)
 
 7
 
-�
+—
 
 1279.14 mm (50.36 inch)
 
 8
 
-�
+—
 
 1064.51 mm (41.91 inch)
 
 9
 
-�
+—
 
 1472.18 mm (57.96 inch)
 
 10
 
-�
+—
 
 508.50 mm (20.02 inch)
 
 11
 
-�
+—
 
 390.90 mm (15.39 inch)
 
 12
 
-�
+—
 
 973.32 mm (38.32 inch)
 
 13
 
-�
+—
 
 810.00 mm (31.89 inch)
 
 14
 
-�
+—
 
 592.58 mm (23.33 inch)
 
 15
 
-�
+—
 
 825.50 mm (32.50 inch)
 
 16
 
-�
+—
 
 844.04 mm (33.23 inch)
 
 17
 
-�
+—
 
 1136.39 mm (44.74 inch)
 
 18
 
-�
+—
 
 1173.48 mm (46.20 inch)
 
 19
 
-�
+—
 
 909.57 mm (35.81 inch)
 
 20
 
-�
+—
 
 824.48 mm (32.46 inch)
 
 21
 
-�
+—
 
 1009.14 mm (39.73 inch)
 
 22
 
-�
+—
 
 945.38 mm (37.22 inch)
 
 23
 
-�
+—
 
 390.90 mm (15.39 inch)
 
@@ -1963,37 +1963,37 @@ Description
 
 1
 
-�
+—
 
 322.07 mm (12.68 inch)
 
 2
 
-�
+—
 
 678.43 mm (26.71 inch)
 
 3
 
-�
+—
 
 322.07 mm (12.68 inch)
 
 4
 
-�
+—
 
 106.42 mm (4.19 inch)
 
 5
 
-�
+—
 
 137.92 mm (5.43 inch)
 
 6
 
-�
+—
 
 357.88 mm (14.09 inch)
 
@@ -2397,7 +2397,7 @@ Section 501-03: Body Closures
 
 GENERAL PROCEDURES
 
-Door�Alignment
+Door—Alignment
 
 Loosen the four front door hinge bolts.
 
@@ -2420,7 +2420,7 @@ Section 501-03: Body Closures
 
 GENERAL PROCEDURES
 
-Striker, Door Latch�Adjustment
+Striker, Door Latch—Adjustment
 
  NOTE: Adjust the door latch striker after the door is properly adjusted. Door 
 latch striker should not be used to align door.
@@ -2454,7 +2454,7 @@ Section 501-03: Body Closures
 
 GENERAL PROCEDURES
 
-Door, Luggage Compartment�Alignment
+Door, Luggage Compartment—Alignment
 
 Loosen the bolts and raise or lower the luggage compartment door.
 
@@ -2483,7 +2483,7 @@ Section 501-03: Body Closures
 
 GENERAL PROCEDURES
 
-Torsion Bar, Luggage Compartment Door�Adjustment
+Torsion Bar, Luggage Compartment Door—Adjustment
 
  WARNING: SAFETY GLASSES MUST BE WORN WHEN PERFORMING THIS OPERATION. 
 
@@ -2562,13 +2562,13 @@ Door Hinge Bolts
 
 19-25
 
-�
+—
 
 Hinge-to-Luggage Compartment Door Bolts
 
 5-9
 
-�
+—
 
 45-79
 
@@ -2578,7 +2578,7 @@ Door Latch Striker
 
 16-21
 
-�
+—
 
 ================================================================================
 PAGE 4051
@@ -2969,13 +2969,13 @@ Description
 
 1
 
-�
+—
 
 Window Moulding
 
 2
 
-�
+—
 
 Roof Side Moulding
 
@@ -2999,7 +2999,7 @@ Section 501-08: Exterior Trim and Ornamentation
 
 REMOVAL AND INSTALLATION
 
-Front Door�Trim and Mouldings
+Front Door—Trim and Mouldings
 
  Removal 
 
@@ -3138,7 +3138,7 @@ Outside Rear View Mirror Control
 
 3
 
-�
+—
 
 Memory OFF/RECALL Switch
 
@@ -3734,7 +3734,7 @@ Section 501-09: Rear View Mirrors
 
 REMOVAL AND INSTALLATION
 
-Mirror, Power�Outside Rear View
+Mirror, Power—Outside Rear View
 
  Removal 
 
@@ -4064,7 +4064,7 @@ Front Seat Cushion Frame and Spring
 
 4
 
-�
+—
 
 Front Seat Track, 6-Way Power
 
@@ -4104,7 +4104,7 @@ Rear Seat Back Frame
 
 2
 
-�
+—
 
 Rear Seat Center Armrest
 
@@ -5161,7 +5161,7 @@ Front Seat Track to Floorpan Bolts
 
 13-16
 
-�
+—
 
 Outboard Front Seat Track to Floorpan Nut
 
@@ -5169,7 +5169,7 @@ Outboard Front Seat Track to Floorpan Nut
 
 13-16
 
-�
+—
 
 Inboard Front Seat Track to Floorpan Nut
 
@@ -5177,7 +5177,7 @@ Inboard Front Seat Track to Floorpan Nut
 
 51-67
 
-�
+—
 
 Rear Seat Back Retaining Bolts
 
@@ -5185,7 +5185,7 @@ Rear Seat Back Retaining Bolts
 
 15-18
 
-�
+—
 
 Front Seat Inboard Pivot Bolt
 
@@ -5193,7 +5193,7 @@ Front Seat Inboard Pivot Bolt
 
 31-44
 
-�
+—
 
 Front Seat Back Latch to Front Seat Back Frame Bolt
 
@@ -5201,7 +5201,7 @@ Front Seat Back Latch to Front Seat Back Frame Bolt
 
 30-40
 
-�
+—
 
 Front Seat Back Latch to Front Seat Cushion Frame Bolt
 
@@ -5209,7 +5209,7 @@ Front Seat Back Latch to Front Seat Cushion Frame Bolt
 
 33-44
 
-�
+—
 
 Front Seat Track to Front Seat Cushion Frame Nut
 
@@ -5217,7 +5217,7 @@ Front Seat Track to Front Seat Cushion Frame Nut
 
 13-16
 
-�
+—
 
 Safety Belt Buckle Support to Front Seat Cushion Frame Bolt
 
@@ -5225,13 +5225,13 @@ Safety Belt Buckle Support to Front Seat Cushion Frame Bolt
 
 26-33
 
-�
+—
 
 Safety Belt Buckle Support to Front Seat Cushion Frame Bolt
 
 7-11
 
-�
+—
 
 62-97
 
@@ -5239,7 +5239,7 @@ Safety Belt Buckle Support to Front Seat Cushion Frame Nut
 
 7-11
 
-�
+—
 
 62-97
 
@@ -5249,7 +5249,7 @@ Safety Belt Buckle Bolt
 
 26-33
 
-�
+—
 
 ================================================================================
 PAGE 4083
@@ -6670,7 +6670,7 @@ GENERAL PROCEDURES
 
 Maintenance
 
- Window Regulator�Front Door Power 
+ Window Regulator—Front Door Power 
 
 Lubricate the entire front door power window regulator minus motor 
 (23208) with Multi-Purpose Grease D7AZ-19584-AA or equivalent meeting Ford 
@@ -6683,7 +6683,7 @@ equalizer arm bracket.
 
 [FIGURE: AN0463B.gif]
 
- Door Window Glass�Adjustment 
+ Door Window Glass—Adjustment 
 
 Remove the front door trim panel and the front door trim shield; refer 
 to Section 501-05 
@@ -6733,7 +6733,7 @@ Item
 
 Specification
 
-Running�No Load
+Running—No Load
 
 5 amperes or less at 12.8 volts
 
@@ -6875,7 +6875,7 @@ Console Panel
 
 4
 
-�
+—
 
 Lower Center Instrument Panel Finish Panel
 
@@ -8136,7 +8136,7 @@ RH Instrument Panel to Body Nut
 
 40-52
 
-�
+—
 
 LH Instrument Panel to Body Nuts
 
@@ -8144,7 +8144,7 @@ LH Instrument Panel to Body Nuts
 
 40-52
 
-�
+—
 
 Center Instrument Panel to Body Nuts
 
@@ -8152,13 +8152,13 @@ Center Instrument Panel to Body Nuts
 
 8-10
 
-�
+—
 
 Grille Opening Instrument Panel to Body Screws
 
 6-8
 
-�
+—
 
 54-70
 
@@ -8168,7 +8168,7 @@ Steering Column Nuts
 
 26-33
 
-�
+—
 
 ================================================================================
 PAGE 4113
@@ -9124,7 +9124,7 @@ Luggage Compartment Latch Striker Bolts
 
 10-14
 
-�
+—
 
 71-88
 
@@ -9132,7 +9132,7 @@ Luggage Compartment Latch Retaining Screws
 
 10-14
 
-�
+—
 
 71-88
 
@@ -9142,13 +9142,13 @@ Door Striker Retaining Bolts
 
 16-21
 
-�
+—
 
 Outside Door Handle Retaining Nuts
 
 6-8
 
-�
+—
 
 52-72
 
@@ -9156,7 +9156,7 @@ Keyless Entry Keypad Nut
 
 6-8
 
-�
+—
 
 52-72
 
@@ -9164,7 +9164,7 @@ Door Latch Retaining Bolts
 
 10-14
 
-�
+—
 
 71-88
 
@@ -10176,12 +10176,12 @@ identified, service as required.
 If the concern(s) remains after the inspection, determine the 
 condition(s) and go to the Symptom Chart.
 
- Symptom Chart�Roof Panel, Sliding�Electric 
+ Symptom Chart—Roof Panel, Sliding—Electric 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connectors cited in the pinpoint tests.
 
- ROOF PANEL, SLIDING�ELECTRIC 
+ ROOF PANEL, SLIDING—ELECTRIC 
 
 Condition
 
@@ -11045,13 +11045,13 @@ Front Bumper
 
 2
 
-�
+—
 
 Grille Opening Sight Shield
 
 3
 
-�
+—
 
 Front Isolator
 
@@ -11329,7 +11329,7 @@ Front Bumper Cover Screws
 
 1.3-1.7
 
-�
+—
 
 12-15
 
@@ -11337,7 +11337,7 @@ Front Bumper Cover Nuts
 
 6-8
 
-�
+—
 
 54-70
 
@@ -11345,7 +11345,7 @@ Radiator Grille Screws
 
 1.3-1.7
 
-�
+—
 
 12-15
 
@@ -11355,13 +11355,13 @@ Front Bumper Bolts
 
 25-33
 
-�
+—
 
 Radiator Grille Nuts
 
 6-8
 
-�
+—
 
 54-70
 
@@ -11371,13 +11371,13 @@ Secondary Air Injection Pump Bracket Bolts
 
 15-22
 
-�
+—
 
 Horn Bracket Screw
 
 9-12
 
-�
+—
 
 80-106
 
@@ -11385,7 +11385,7 @@ Windshield Washer Reservoir Support Bracket Screws
 
 5-6
 
-�
+—
 
 45-53
 
@@ -11393,7 +11393,7 @@ Power Steering Fluid Cooler Bolts
 
 9-12
 
-�
+—
 
 80-106
 
@@ -11403,7 +11403,7 @@ Rear Bumper Bolts
 
 15-18
 
-�
+—
 
 Rear Bumper Nuts
 
@@ -11411,13 +11411,13 @@ Rear Bumper Nuts
 
 20-25
 
-�
+—
 
 Bumper Cover Quarter Panel Nuts
 
 6-8
 
-�
+—
 
 54-70
 
@@ -11425,7 +11425,7 @@ Rear Bumper Cover Screws
 
 1-2
 
-�
+—
 
 9-17
 
@@ -11583,7 +11583,7 @@ cornered hard or if the vehicle receives an impact of 8 km/h (5 mph) or more,
 the lap and shoulder belt locks and helps reduce the occupant's forward 
 movement.
 
- Safety Belt, Buckle End�Front 
+ Safety Belt, Buckle End—Front 
 
 The inboard front safety belt buckle end (61203) is secured to the 
 front safety belt buckle support. This allows the front safety belt buckle end 
@@ -11892,7 +11892,7 @@ Section 501-20: Occupant Restraints
 
 DESCRIPTION AND OPERATION
 
-Glossary�Supplemental Air Bag System
+Glossary—Supplemental Air Bag System
 
  Air Bag Simulator 
 
@@ -12001,7 +12001,7 @@ identified, service as required.
 If the concern remains after the inspection, determine the symptom and 
 go to the Symptom Chart.
 
- Symptom Chart�Active Restraints 
+ Symptom Chart—Active Restraints 
 
  ACTIVE RESTRAINTS 
 
@@ -12056,7 +12056,7 @@ Rear safety belt retractor and tongue (611B68).
 
 REPLACE if necessary.
 
-PERFORM the Functional Test Procedure�Active
+PERFORM the Functional Test Procedure—Active
 Restraints ; refer to the procedure in this section.
 
 ================================================================================
@@ -12216,16 +12216,16 @@ Description
 
 Action To Take
 
-�
+—
 
-No Air Bag Indicator�Inoperative Lamp Circuit or No Ignition
+No Air Bag Indicator—Inoperative Lamp Circuit or No Ignition
 Voltage to Air Bag Diagnostic Monitor
 
 GO to Pinpoint Test A .
 
-�
+—
 
-Continuous Air Bag Indicator�Air Bag Diagnostic Monitor
+Continuous Air Bag Indicator—Air Bag Diagnostic Monitor
 Disconnected or Inoperative
 
 GO to Pinpoint Test B .
@@ -12322,14 +12322,14 @@ GO to DTC 45.
 
 51
 
-Air Bag Diagnostic Monitor Internal Thermal Fuse�Fuse Open Due to
+Air Bag Diagnostic Monitor Internal Thermal Fuse—Fuse Open Due to
 Intermittent Short to Ground
 
 GO to DTC 51.
 
 52
 
-Backup Power Supply�Voltage Boost Fault
+Backup Power Supply—Voltage Boost Fault
 
 GO to DTC 52.
 
@@ -12340,12 +12340,12 @@ Diagnostic Monitor Fault
 
 GO to DTC 53.
 
-�
+—
 
 Rapid Continuous Flashing of Air Bag Indicator (No DTC) All Primary
 Crash Sensors Disconnected
 
-GO to Rapid Continuous Flashing of Air Bag Indicator (No DTC)�All
+GO to Rapid Continuous Flashing of Air Bag Indicator (No DTC)—All
 Primary Crash Sensors Disconnected
 
  Pinpoint Tests 
@@ -12353,7 +12353,7 @@ Primary Crash Sensors Disconnected
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connector numbers cited in the pinpoint tests.
 
- Pinpoint Test A: No Air Bag Indicator�Inoperative Lamp Circuit 
+ Pinpoint Test A: No Air Bag Indicator—Inoperative Lamp Circuit 
 or No Ignition Voltage to Air Bag Diagnostic Monitor 
 
 Normal Operation:
@@ -12386,7 +12386,7 @@ circuit.
 
 Loss of ignition voltage at Pin C277-1 of the air bag diagnostic monitor.
 
-PINPOINT TEST A: NO AIR BAG INDICATOR�INOPERATIVE LAMP CIRCUIT 
+PINPOINT TEST A: NO AIR BAG INDICATOR—INOPERATIVE LAMP CIRCUIT 
 OR NO IGNITION VOLTAGE TO AIR BAG DIAGNOSTIC MONITOR
 
 TEST CONDITIONS
@@ -13003,7 +13003,7 @@ Section 501-20: Occupant Restraints
 
 GENERAL PROCEDURES
 
-Functional Test Procedure�Active Restraints
+Functional Test Procedure—Active Restraints
 
  NOTE: If the RH or the rear outboard belts are to be tested, a passenger must 
 be used.
@@ -13079,7 +13079,7 @@ Section 501-20: Occupant Restraints
 
 GENERAL PROCEDURES
 
-Procedure 1, Air Bag Disposal�Electronic Deployment With Wiring Intact
+Procedure 1, Air Bag Disposal—Electronic Deployment With Wiring Intact
 
  WARNING: ALWAYS WEAR SAFETY GLASSES WHEN SERVICING AN AIR BAG VEHICLE AND WHEN 
 HANDLING AN AIR BAG MODULE TO AVOID POSSIBLE PERSONAL INJURY. 
@@ -13160,7 +13160,7 @@ Section 501-20: Occupant Restraints
 
 GENERAL PROCEDURES
 
-Procedure 2, Air Bag Disposal�Remote Deployment
+Procedure 2, Air Bag Disposal—Remote Deployment
 
  WARNING: ALWAYS WEAR SAFETY GLASSES WHEN SERVICING AN AIR BAG VEHICLE AND WHEN 
 HANDLING AN AIR BAG MODULE TO AVOID POSSIBLE PERSONAL INJURY. 
@@ -13279,7 +13279,7 @@ Bolt 7/16 X 20 X 1.15 Pan Head Tapping Code Number 1M
 
 N800937-S190
 
-Nut�M12 X 1.75 Hex Flange Lock
+Nut—M12 X 1.75 Hex Flange Lock
 
 N801010-S40
 
@@ -13325,7 +13325,7 @@ Front Safety Belt Guide Bolt
 
 26-33
 
-�
+—
 
 Front Safety Belt Retractor Bolt
 
@@ -13333,7 +13333,7 @@ Front Safety Belt Retractor Bolt
 
 26-33
 
-�
+—
 
 Front Safety Belt Anchor-to-Sill Bolt
 
@@ -13341,7 +13341,7 @@ Front Safety Belt Anchor-to-Sill Bolt
 
 26-33
 
-�
+—
 
 Front Safety Belt Buckle End Bolt
 
@@ -13349,7 +13349,7 @@ Front Safety Belt Buckle End Bolt
 
 26-33
 
-�
+—
 
 Rear Safety Belt Guide Bolt
 
@@ -13357,7 +13357,7 @@ Rear Safety Belt Guide Bolt
 
 26-33
 
-�
+—
 
 Rear Safety Belt Anchor-to-Lower Quarter Trim Panel Bolt
 
@@ -13365,7 +13365,7 @@ Rear Safety Belt Anchor-to-Lower Quarter Trim Panel Bolt
 
 26-33
 
-�
+—
 
 Rear Safety Belt Retractor Bolt
 
@@ -13373,7 +13373,7 @@ Rear Safety Belt Retractor Bolt
 
 26-33
 
-�
+—
 
 Rear Safety Belt and Buckle Anchor Nuts
 
@@ -13381,7 +13381,7 @@ Rear Safety Belt and Buckle Anchor Nuts
 
 26-33
 
-�
+—
 
 Driver Air Bag Module-to-Steering Wheel Screw and Washer Assy
 
@@ -13389,13 +13389,13 @@ Driver Air Bag Module-to-Steering Wheel Screw and Washer Assy
 
 8-10
 
-�
+—
 
 Passenger Air Bag Module Upper Retaining Screws
 
 1-2
 
-�
+—
 
 9-17
 
@@ -13403,7 +13403,7 @@ Passenger Air Bag Module Lower Retaining Screws
 
 7-11
 
-�
+—
 
 62-97
 
@@ -13414,7 +13414,7 @@ Screws
 
 8-10
 
-�
+—
 
 LH Kick Panel Safing Sensor-to-Cowl Side Panel Screws
 
@@ -13422,7 +13422,7 @@ LH Kick Panel Safing Sensor-to-Cowl Side Panel Screws
 
 8-10
 
-�
+—
 
 ================================================================================
 PAGE 4172
@@ -13444,7 +13444,7 @@ PAGE 4173
 
  Group 04: Suspension 
 
- Section 204-00: Suspension System�General Information 
+ Section 204-00: Suspension System—General Information 
 
  Section 204-01: Front Suspension 
 
@@ -13478,7 +13478,7 @@ PAGE 4175
 
  Group 06: Brake System 
 
- Section 206-00: Brake System�General Information 
+ Section 206-00: Brake System—General Information 
 
  Section 206-03: Front Disc Brake 
 
@@ -13501,7 +13501,7 @@ PAGE 4176
 
  Group 11: Steering System 
 
- Section 211-00: Steering�General Information 
+ Section 211-00: Steering—General Information 
 
  Section 211-02: Power Steering 
 
@@ -14098,7 +14098,7 @@ Transmission Support Insulator Retaining Nuts
 
 50-68
 
-�
+—
 
 Transmission Support Crossmember To Body Bracket Bolts
 
@@ -14106,7 +14106,7 @@ Transmission Support Crossmember To Body Bracket Bolts
 
 35-46
 
-�
+—
 
 Transmission Support Crossmember To Transmission Support Insulator Nuts
 
@@ -14114,7 +14114,7 @@ Transmission Support Crossmember To Transmission Support Insulator Nuts
 
 25-34
 
-�
+—
 
 Front Engine Support Insulator Bolts
 
@@ -14122,7 +14122,7 @@ Front Engine Support Insulator Bolts
 
 39-53
 
-�
+—
 
 Front Engine Support Insulator Through Bolts
 
@@ -14130,7 +14130,7 @@ Front Engine Support Insulator Through Bolts
 
 25-34
 
-�
+—
 
 Steering Coupling Pinch Bolt
 
@@ -14138,7 +14138,7 @@ Steering Coupling Pinch Bolt
 
 21-29
 
-�
+—
 
 Rear Sub-Frame Stabilizer Bracket Retaining Bolts
 
@@ -14146,7 +14146,7 @@ Rear Sub-Frame Stabilizer Bracket Retaining Bolts
 
 29-38
 
-�
+—
 
 Rear Sub-Frame Body Insulator Retaining Bolt
 
@@ -14154,7 +14154,7 @@ Rear Sub-Frame Body Insulator Retaining Bolt
 
 57-74
 
-�
+—
 
 Rear Frame Body Insulator To Rear Sub-Frame Retaining Bolt
 
@@ -14162,7 +14162,7 @@ Rear Frame Body Insulator To Rear Sub-Frame Retaining Bolt
 
 72-97
 
-�
+—
 
 Shock Absorber Retaining Bolt
 
@@ -14170,13 +14170,13 @@ Shock Absorber Retaining Bolt
 
 84-112
 
-�
+—
 
 Rear Stabilizer Bar Link Retaining Bolt
 
 11-13
 
-�
+—
 
 98-115
 
@@ -14186,7 +14186,7 @@ Rear Axle Differential Insulator-To-Rear Sub-Frame Bolts
 
 57-77
 
-�
+—
 
 Rear Differential Insulator Horizontal Bolt Plate Assembly Retaining Nuts
 
@@ -14194,7 +14194,7 @@ Rear Differential Insulator Horizontal Bolt Plate Assembly Retaining Nuts
 
 44-59
 
-�
+—
 
 Front Sub-Frame-To-Body Retaining Bolts
 
@@ -14202,7 +14202,7 @@ Front Sub-Frame-To-Body Retaining Bolts
 
 57-77
 
-�
+—
 
 ================================================================================
 PAGE 4187
@@ -14257,7 +14257,7 @@ PAGE 4189
 
  Group 09: Exhaust System 
 
- Section 309-00: Exhaust Components � General Information
+ Section 309-00: Exhaust Components — General Information
 
 ================================================================================
 PAGE 4190
@@ -15138,31 +15138,31 @@ Cap Assembly (Exhaust)
 
 6150
 
-Piston Ring�Upper Compression
+Piston Ring—Upper Compression
 
 13
 
 6152
 
-Piston Ring�Lower Compression
+Piston Ring—Lower Compression
 
 14
 
 6161
 
-Piston Ring�Oil Spacer
+Piston Ring—Oil Spacer
 
 15
 
 6159
 
-Piston Ring�Oil Control Segment
+Piston Ring—Oil Control Segment
 
 16
 
 6100
 
-Piston�Connecting Rod Assembly
+Piston—Connecting Rod Assembly
 
 17
 
@@ -15228,7 +15228,7 @@ Exhaust Valve
 
 6C271
 
-Tensioner�LH Secondary
+Tensioner—LH Secondary
 
 28
 
@@ -15429,7 +15429,7 @@ service as required.
 If the concerns remain after the inspection, determine the symptoms and 
 go to the Symptom Chart.
 
- Symptom Chart � Engine Diagnosis 
+ Symptom Chart — Engine Diagnosis 
 
  ENGINE DIAGNOSIS 
 
@@ -16476,7 +16476,7 @@ Section 303-01: Basic Engine
 
 GENERAL PROCEDURES
 
-Valve Train Analysis�Static (Engine Off)
+Valve Train Analysis—Static (Engine Off)
 
  Valve Cover Removed 
 
@@ -16492,7 +16492,7 @@ Check for loose mounting bolts on camshaft carriers.
 Check for plugged oil feed in the camshaft roller followers, hydraulic 
 lash adjusters (HLA) or cylinder heads.
 
- Camshaft�Overhead Camshaft Engines 
+ Camshaft—Overhead Camshaft Engines 
 
 Check for broken or damaged parts.
 
@@ -16537,7 +16537,7 @@ Section 303-01: Basic Engine
 
 GENERAL PROCEDURES
 
-Valve Train Analysis � Dynamic
+Valve Train Analysis — Dynamic
 
 Start the engine and, while idling, check for proper operation of all 
 parts. Check the following:
@@ -16653,7 +16653,7 @@ Section 303-01: Basic Engine
 
 IN-VEHICLE REPAIR
 
-Valve Cover�LH
+Valve Cover—LH
 
  Removal 
 
@@ -16785,7 +16785,7 @@ Section 303-01: Basic Engine
 
 IN-VEHICLE REPAIR
 
-Valve Cover�RH
+Valve Cover—RH
 
  Removal 
 
@@ -17762,7 +17762,7 @@ Section 303-01: Basic Engine
 
 IN-VEHICLE REPAIR
 
-Exhaust Manifold�RH Side
+Exhaust Manifold—RH Side
 
  Removal 
 
@@ -17803,7 +17803,7 @@ Section 303-01: Basic Engine
 
 IN-VEHICLE REPAIR
 
-Exhaust Manifold�LH Side
+Exhaust Manifold—LH Side
 
  Removal 
 
@@ -20004,11 +20004,11 @@ each size range based on their relative position within the range. A paint
 spot on the new pistons indicates the position withing the size range.
 Choose the piston with the proper paint color.
 
-Red�in the lower third of the size range.
+Red—in the lower third of the size range.
 
-Blue�in the middle third of the size range.
+Blue—in the middle third of the size range.
 
-Yellow�in the upper third of the size range.
+Yellow—in the upper third of the size range.
 
 [FIGURE: A26397A.gif]
 
@@ -20747,17 +20747,17 @@ Bearing Inspection
 
 Inspect bearings for the following defects. Possible causes are shown:
 
-Catering�fatigue failure (A).
+Catering—fatigue failure (A).
 
-Spot polishing�improper seating (B).
+Spot polishing—improper seating (B).
 
-Scratching�dirty (C).
+Scratching—dirty (C).
 
-Base exposed�poor lubrication (D).
+Base exposed—poor lubrication (D).
 
-Both edges worn�journal damaged (E).
+Both edges worn—journal damaged (E).
 
-One edge worn�journal tapered or bearing not seated (F).
+One edge worn—journal tapered or bearing not seated (F).
 
 [FIGURE: A26383B.gif]
 
@@ -20822,11 +20822,11 @@ Specification
 
  Valve Seats 
 
- · Width�Intake
+ · Width—Intake
 
 1.8-2.2 mm (0.071-0.086 inch)
 
- · Width�Exhaust
+ · Width—Exhaust
 
 1.8-2.2 mm (0.071-0.086 inch)
 
@@ -20962,7 +20962,7 @@ PAGE 4278
 
  Group 10: Fuel System 
 
- Section 310-00: Fuel System�General Information 
+ Section 310-00: Fuel System—General Information 
 
  Section 310-01: Fuel Tank and Lines 
 
@@ -21402,7 +21402,7 @@ Damaged engine cooling fan motor, fan blade and fan shroud assembly
 If the concerns remain after the inspection, determine the condition(s) 
 and go to the Symptom Chart.
 
- Symptom Chart�Cooling System 
+ Symptom Chart—Cooling System 
 
 Use Rotunda 73 Digital Multimeter to perform pinpoint tests.
 
@@ -22724,7 +22724,7 @@ Dow Corning Silastic
 
  734-R7V
 
-�
+—
 
 Dow Corning
 
@@ -22750,7 +22750,7 @@ Fan Shroud-to-Radiator
 
 5.7-7.2
 
-�
+—
 
 46-64
 
@@ -22760,7 +22760,7 @@ Fluid Cooler Line Nut-to-Fitting
 
 18-23
 
-�
+—
 
 Thermostat Housing Bolts
 
@@ -22768,13 +22768,13 @@ Thermostat Housing Bolts
 
 15-22
 
-�
+—
 
 Radiator Draincock
 
 0.7-1.4
 
-�
+—
 
 6-12
 
@@ -22784,13 +22784,13 @@ Transmission Oil Cooler Line Connectors-to-Radiator
 
 18-21
 
-�
+—
 
 Coolant Recovery Reservoir Retaining Bolt
 
 5.2-7.2
 
-�
+—
 
 46-64
 
@@ -22798,7 +22798,7 @@ VCRM Bracket Bolt
 
 9.5
 
-�
+—
 
 85
 
@@ -22808,7 +22808,7 @@ Water Temperature Indicator Sender Unit
 
 12-17
 
-�
+—
 
 Water Pump-to-Cylinder Block
 
@@ -22816,7 +22816,7 @@ Water Pump-to-Cylinder Block
 
 15-22
 
-�
+—
 
 Water Pump Pulley-to-Water Pump
 
@@ -22824,7 +22824,7 @@ Water Pump Pulley-to-Water Pump
 
 15-22
 
-�
+—
 
 Water Bypass Tube Fill Plug
 
@@ -22832,13 +22832,13 @@ Water Bypass Tube Fill Plug
 
 11-13
 
-�
+—
 
 Engine Appearance Cover Retaining Bolt
 
 9-12
 
-�
+—
 
 80-106
 
@@ -22846,7 +22846,7 @@ Engine Appearance Cover Retaining Nut
 
 5.2-7.2
 
-�
+—
 
 46-64
 
@@ -22854,7 +22854,7 @@ Block Heater Retaining Screw
 
 1.6-1.8
 
-�
+—
 
 14-16
 
@@ -22862,7 +22862,7 @@ Water Bypass Tube Retaining Bolts
 
 8-12
 
-�
+—
 
 71-106
 
@@ -23942,7 +23942,7 @@ V-Ribbed Serpentine Drive Belt With Chunks of Rib Missing
 
 [FIGURE: AQ0033A.gif]
 
- Symptom Chart�Accessory Drive Belts 
+ Symptom Chart—Accessory Drive Belts 
 
  ACCESSORY DRIVE BELTS 
 
@@ -24196,7 +24196,7 @@ Seal
 
 4
 
-�
+—
 
 Bushing
 
@@ -24286,19 +24286,19 @@ Starter Drive Stop Ring
 
 19
 
-�
+—
 
 Magnet Pole Piece (Part of 11075)
 
 20
 
-�
+—
 
 Pole Shunt (Part of 11075)
 
 21
 
-�
+—
 
 Magnet Retainer (Part of 11075)
 
@@ -24328,7 +24328,7 @@ Brush Springs
 
 26
 
-�
+—
 
 Bushing
 
@@ -25283,7 +25283,7 @@ Brush Plate Bolts
 
 2-3
 
-�
+—
 
 18-26
 
@@ -25291,7 +25291,7 @@ Solenoid Bolts
 
 5-10
 
-�
+—
 
 45-88
 
@@ -25301,13 +25301,13 @@ Starter Motor Bolts
 
 15-19
 
-�
+—
 
 Through Bolts
 
 5-10
 
-�
+—
 
 45-88
 
@@ -25315,7 +25315,7 @@ Starter Motor Ground Cable Nut
 
 7-9
 
-�
+—
 
 62-79
 
@@ -25323,7 +25323,7 @@ Starter Solenoid M-Terminal Nut
 
 9-14
 
-�
+—
 
 80-123
 
@@ -25331,7 +25331,7 @@ Starter Solenoid B-Terminal Nut
 
 7-9
 
-�
+—
 
 62-79
 
@@ -25339,7 +25339,7 @@ Threaded "S" Terminal
 
 5-6
 
-�
+—
 
 45-53
 
@@ -25869,7 +25869,7 @@ Crankshaft Position Sensor Screw
 
 8-12
 
-�
+—
 
 71-106
 
@@ -25877,7 +25877,7 @@ Ignition Coil Cover Assembly Bolts
 
 8-12
 
-�
+—
 
 71-106
 
@@ -25887,7 +25887,7 @@ A/C Compressor Bolts
 
 15-22
 
-�
+—
 
 Spark Plugs
 
@@ -25895,7 +25895,7 @@ Spark Plugs
 
 12-15
 
-�
+—
 
 ================================================================================
 PAGE 4353
@@ -25943,7 +25943,7 @@ Valve Cover
 
 2
 
-�
+—
 
 To Air Cleaner Outlet Tube (9B659)
 
@@ -26040,7 +26040,7 @@ Description
 
 1
 
-�
+—
 
 Analog Voltage Input
 
@@ -26052,7 +26052,7 @@ Powertrain Control Module
 
 3
 
-�
+—
 
 Duty Cycle Output
 
@@ -26064,49 +26064,49 @@ EGR Vacuum Regulator Solenoid
 
 5
 
-�
+—
 
 Vacuum Source
 
 6
 
-�
+—
 
 Intake Vacuum
 
 7
 
-�
+—
 
 EGR Flow
 
 8
 
-�
+—
 
 Metering Orifice (Part of 9D475)
 
 9
 
-�
+—
 
 Exhaust Flow
 
 10
 
-�
+—
 
 Exhaust Pressure
 
 11
 
-�
+—
 
 Exhaust Pressure Input
 
 12
 
-�
+—
 
 Controlled Pressure Input
 
@@ -26118,7 +26118,7 @@ EGR Pressure Transducer
 
 14
 
-�
+—
 
 Vacuum Output
 
@@ -26609,7 +26609,7 @@ EGR Valve Bolts
 
 15-22
 
-�
+—
 
 EGR Valve to Exhaust Manifold Tube Nuts
 
@@ -26617,13 +26617,13 @@ EGR Valve to Exhaust Manifold Tube Nuts
 
 30-33
 
-�
+—
 
 EGR Pressure Transducer Retaining Nuts
 
 5-7
 
-�
+—
 
 45-61
 
@@ -26631,7 +26631,7 @@ EGR Pressure Transducer Bracket Nuts
 
 8-12
 
-�
+—
 
 71-106
 
@@ -26641,13 +26641,13 @@ EGR Valve Tube Connector to Exhaust Manifold
 
 30-33
 
-�
+—
 
 Secondary Air Injection Diverter Valve Retaining Bolts
 
 8-12
 
-�
+—
 
 71-106
 
@@ -26655,7 +26655,7 @@ Secondary Air Injection Pump Bolt
 
 8-12
 
-�
+—
 
 71-106
 
@@ -27181,19 +27181,19 @@ Description
 
 1
 
-�
+—
 
 To Evaporative Emission Canister Purge Valve (9C915)
 
 2
 
-�
+—
 
 To Vent Hose and Canister Vent Solenoid Valve (9F945)
 
 3
 
-�
+—
 
 Activated Carbon (Part of 9D653)
 
@@ -27255,25 +27255,25 @@ Description
 
 1
 
-�
+—
 
 To Powertrain Control Module
 
 2
 
-�
+—
 
 To Evaporative Emissions Canister
 
 3
 
-�
+—
 
 To Engine Upper Intake Manifold
 
 4
 
-�
+—
 
 To Vacuum Source
 
@@ -27362,19 +27362,19 @@ Description
 
 1
 
-�
+—
 
 To Evaporative Emission Valve
 
 2
 
-�
+—
 
 To Evaporative Emissions Canister
 
 3
 
-�
+—
 
 To Fuel Tank Filler Pipe
 
@@ -27422,19 +27422,19 @@ Description
 
 1
 
-�
+—
 
 To Rear Bumper Area
 
 2
 
-�
+—
 
 To Fuel Tank
 
 3
 
-�
+—
 
 To Evaporative Emissions Canister
 
@@ -28496,7 +28496,7 @@ Engine Control Sensor Wiring Connector-to-PCM bolt
 
 3.7
 
-�
+—
 
 33
 
@@ -28504,7 +28504,7 @@ Throttle Position Sensor to Throttle Body
 
 2.8-3.8
 
-�
+—
 
 25-33
 
@@ -28512,7 +28512,7 @@ Engine Air Cleaner
 
 5.2-7.2
 
-�
+—
 
 46-63
 
@@ -28520,7 +28520,7 @@ Engine Air Cleaner Tube Clamps
 
 1.4-2.5
 
-�
+—
 
 13-22
 
@@ -28528,7 +28528,7 @@ MAF Sensor-to-Engine Air Cleaner
 
 2.5-3.5
 
-�
+—
 
 23-30
 
@@ -28536,7 +28536,7 @@ Idle Air Control Valve to Throttle Body
 
  a 
 
-�
+—
 
  a 
 
@@ -28544,7 +28544,7 @@ ECT Sensor
 
 8-13
 
-�
+—
 
 71-115
 
@@ -28554,13 +28554,13 @@ H2OS-to-Converter Y-Pipe
 
 27-34
 
-�
+—
 
 Camshaft Position Sensor Retaining Screw
 
 8-12
 
-�
+—
 
 71-106
 
@@ -28568,7 +28568,7 @@ Power Steering Pump Reservoir Bolts
 
 8.9-12
 
-�
+—
 
 79-106
 
@@ -28578,7 +28578,7 @@ Knock Sensor
 
 12-16
 
-�
+—
 
  a Tighten screws to 8-12 Nm (71-106 lb-in), then rotate screws
 an additional 85-95 degrees.
@@ -28599,7 +28599,7 @@ PAGE 4418
 ================================================================================
 1997 Mark VIII
 
-Section 204-00: Suspension System�General Information
+Section 204-00: Suspension System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -28619,25 +28619,25 @@ Description
 
 1
 
-�
+—
 
 Front Camber Adjuster
 
 2
 
-�
+—
 
 Front Caster Adjuster
 
 3
 
-�
+—
 
 Front Toe Adjuster
 
 4
 
-�
+—
 
 Rear Toe Adjuster
 
@@ -28646,7 +28646,7 @@ PAGE 4419
 ================================================================================
 1997 Mark VIII
 
-Section 204-00: Suspension System�General Information
+Section 204-00: Suspension System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -28672,7 +28672,7 @@ looseness.
 the action of the front spring and shock (3C098) and the condition of 
 their attachments.
 
- Ball Joint�Upper, Inspection 
+ Ball Joint—Upper, Inspection 
 
 Raise vehicle on hoist. Place jack under front suspension lower arm 
 (3079). This will minimize the load on the upper ball joint.
@@ -28684,7 +28684,7 @@ If the upper ball joint appears tight, check front wheel bearing end
 play. The maximum allowable end play is: 0.05 mm (0.002 inch). If the end play 
 exceeds the specified limit, replace the front hub and bearing assembly.
 
- Ball Joint�Lower, Inspection 
+ Ball Joint—Lower, Inspection 
 
 Check for front suspension lower arm ball joint wear by raising the 
 vehicle until the wheel is clear of the floor.
@@ -28767,7 +28767,7 @@ PAGE 4420
 ================================================================================
 1997 Mark VIII
 
-Section 204-00: Suspension System�General Information
+Section 204-00: Suspension System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -28844,9 +28844,9 @@ have been adjusted to specification.
 Toe-in and toe-out is the difference in the distance between the 
 extreme front and extreme rear of the tires. Toe-in occurs when the dimension 
 taken at the front of the tires is less than that taken at the rear of the 
-tires�positive toe. Toe-out occurs when the dimension taken at the front 
+tires—positive toe. Toe-out occurs when the dimension taken at the front 
 of the tires is greater than that taken at the rear of the 
-tires�negative toe.
+tires—negative toe.
 
 Start the engine and move the steering wheel (3600) back and forth 
 several times. Center the steering wheel and lock into place.
@@ -28875,7 +28875,7 @@ PAGE 4421
 ================================================================================
 1997 Mark VIII
 
-Section 204-00: Suspension System�General Information
+Section 204-00: Suspension System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -28921,7 +28921,7 @@ PAGE 4422
 ================================================================================
 1997 Mark VIII
 
-Section 204-00: Suspension System�General Information
+Section 204-00: Suspension System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -28963,11 +28963,11 @@ Inch
 
 60.2
 
- Ball Joints�Radial Play 
+ Ball Joints—Radial Play 
 
 Description
 
-Radial Play�Max. Allowable
+Radial Play—Max. Allowable
 
 Lower Ball Joint
 
@@ -29678,7 +29678,7 @@ Upper Arm and Bushing
 
 [FIGURE: ST1116A.gif]
 
-Bushing Receiving Cup Set T89P-5638-C�Consists of: 
+Bushing Receiving Cup Set T89P-5638-C—Consists of: 
 T89P-5638-C1 Remover Collets (2) T89P-5638-C2 Ring T89P-5638-C3 Bushing Remover
 
 [FIGURE: ST1694A.gif]
@@ -29828,7 +29828,7 @@ D89P-3010-B or equivalent
 
 [FIGURE: ST1122A.gif]
 
-Receiving Cup�2-1/2 Inch OD
+Receiving Cup—2-1/2 Inch OD
 
 D84P-3395-A4 or equivalent
 
@@ -30205,7 +30205,7 @@ PAGE 4438
 
  Group 12: Climate Control System 
 
- Section 412-00: Climate Control System�General Information 
+ Section 412-00: Climate Control System—General Information 
 
  Section 412-01: Air Distribution and Filtering 
 
@@ -30241,7 +30241,7 @@ PAGE 4440
 
  Group 14: Battery and Charging System 
 
- Section 414-00: Electrical Power Supply System�General Information 
+ Section 414-00: Electrical Power Supply System—General Information 
 
  Section 414-01: Battery, Mounting and Cables 
 
@@ -30256,7 +30256,7 @@ PAGE 4441
 
  Group 15: Audio Systems 
 
- Section 415-00: In-Vehicle Entertainment System�General Information
+ Section 415-00: In-Vehicle Entertainment System—General Information
 
 ================================================================================
 PAGE 4442
@@ -30293,9 +30293,9 @@ PAGE 4444
 
  Group 19: Electronic Feature Group 
 
- Section 419-01A: Anti-Theft Warning�Perimeter 
+ Section 419-01A: Anti-Theft Warning—Perimeter 
 
- Section 419-01B: Anti-Theft Warning�PATS 
+ Section 419-01B: Anti-Theft Warning—PATS 
 
  Section 419-02: Remote Convenience 
 
@@ -30358,7 +30358,7 @@ Rear Suspension Arm Adjusting Cam Kit (2 req'd)
 
 6
 
-�
+—
 
 Cam (2 Req'd) (Part of 5K751) 
 
@@ -31331,7 +31331,7 @@ Item
 
 Specification
 
- Wheel�Aluminum Cast 
+ Wheel—Aluminum Cast 
 
 Wheel Size
 
@@ -31472,7 +31472,7 @@ Vehicle Speed Sensor
 
 4
 
-�
+—
 
 Air Suspension Switch
 
@@ -31809,7 +31809,7 @@ can be serviced using an air spring connector repair kit (5B321) containing a
 new O-ring, collet, release ring and O-ring removal tool. The outer housing of 
 the fitting cannot be serviced.
 
-Refer to General Procedures�Air
+Refer to General Procedures—Air
 Leaks.
 
 ================================================================================
@@ -31857,7 +31857,7 @@ generating a signal that is sent to the control module.
 There are three possible conditions the control module interprets from 
 signals from the air suspension height sensor: 
 
-Vehicle is at trim height�204-209 mm (8-8.2 inch) when measured 
+Vehicle is at trim height—204-209 mm (8-8.2 inch) when measured 
 from ball stud to ball stud. 
 
 Vehicle is below trim height. 
@@ -32598,7 +32598,7 @@ Section 204-05: Suspension Load Leveling Control
 
 REMOVAL AND INSTALLATION
 
-Spring�Air
+Spring—Air
 
 Refer to Section 204-02 
 .
@@ -33072,13 +33072,13 @@ Compressor Bracket to Frame Screw
 
 6-8
 
-�
+—
 
 Air Compressor-to- Compressor Bracket Bolt
 
 3-5
 
-�
+—
 
 30-40
 
@@ -33086,7 +33086,7 @@ Rear Air Suspension Height Sensor Upper Attachment-to-Frame Screw
 
 1.1-1.5
 
-�
+—
 
 10-13
 
@@ -33094,7 +33094,7 @@ Shock Absorber Electronic Steering Sensor
 
 2-3
 
-�
+—
 
 18-27
 
@@ -33102,7 +33102,7 @@ Control Module Retaining Screw
 
 2.3-3.3
 
-�
+—
 
 20-29
 
@@ -33112,7 +33112,7 @@ Lug Nuts
 
 85-104
 
-�
+—
 
 Rear Ball Stud Bracket-to-Rear Suspension Arm
 
@@ -33120,13 +33120,13 @@ Rear Ball Stud Bracket-to-Rear Suspension Arm
 
 16-21
 
-�
+—
 
 Front Ball Stud-to-Bracket
 
 4.5-6.3
 
-�
+—
 
 40-55
 
@@ -33235,7 +33235,7 @@ Universal Joint
 
 3
 
-�
+—
 
 End Yoke (Part of 4602)
 
@@ -33247,7 +33247,7 @@ Driveshaft Slip Yoke
 
 5
 
-�
+—
 
 Snap Ring (Part of 4635)
 
@@ -33309,31 +33309,31 @@ Universal Joint
 
 2
 
-�
+—
 
 Grease Seal (Part of 4635)
 
 3
 
-�
+—
 
 Needle Rollers (Part of 4635)
 
 4
 
-�
+—
 
 Thrust Washer (Part of 4635)
 
 5
 
-�
+—
 
 Bearing Cup (Part of 4635)
 
 6
 
-�
+—
 
 Spider (Part of 4635)
 
@@ -33786,13 +33786,13 @@ Differential Case
 
 25
 
-�
+—
 
 Ring Gear (Part of 4209)
 
 26
 
-�
+—
 
 Pinion (Part of 4209)
 
@@ -33804,7 +33804,7 @@ Bolt
 
 28
 
-�
+—
 
 Differential Bearing Cap (Part of 4010)
 
@@ -33901,37 +33901,37 @@ Description
 
 1
 
-�
+—
 
 Plant Code
 
 2
 
-�
+—
 
 Build Date Year
 
 3
 
-�
+—
 
 Build Date Month
 
 4
 
-�
+—
 
 Build Date Day
 
 5
 
-�
+—
 
 Ring Gear Diameter (Inches)
 
 6
 
-�
+—
 
 Axle Ratio
 
@@ -34004,7 +34004,7 @@ certain speeds or under various driving conditions such as a newly paved
 blacktop road. The slight noise is not detrimental to operation of the rear 
 axle and must be considered normal. 
 
- Preliminary Diagnosis�Question the Customer 
+ Preliminary Diagnosis—Question the Customer 
 
 The preliminary diagnosis begins with the service technician asking the 
 customer enough diagnostic questions, especially for conditions of noisy 
@@ -35645,7 +35645,7 @@ Minimum torque required to tighten pinion nut to obtain correct pinion bearing p
 
 140
 
-Pinion Bearing Preload�
+Pinion Bearing Preload—
 
  (Collapsible Spacer)
 
@@ -35793,7 +35793,7 @@ Rear Axle Shaft Inner Boot
 
 8
 
-�
+—
 
 Trilobe Insert (Part of 4K326)
 
@@ -35817,7 +35817,7 @@ Driveshaft Bearing Retainer Circlip
 
 12
 
-�
+—
 
 Tripod Assy (Part of 4K326)
 
@@ -36371,7 +36371,7 @@ PAGE 4514
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36442,7 +36442,7 @@ PAGE 4515
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36466,7 +36466,7 @@ PAGE 4516
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36497,7 +36497,7 @@ PAGE 4517
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36523,7 +36523,7 @@ PAGE 4518
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36542,7 +36542,7 @@ PAGE 4519
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36565,7 +36565,7 @@ PAGE 4520
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36596,7 +36596,7 @@ PAGE 4521
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36621,7 +36621,7 @@ PAGE 4522
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36650,7 +36650,7 @@ PAGE 4523
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36678,7 +36678,7 @@ PAGE 4524
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36701,7 +36701,7 @@ PAGE 4525
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -36759,7 +36759,7 @@ isolate it to a specific subsystem and condition description. From this
 description, a list of possible sources can be used to further narrow the 
 cause to a specific component or condition.
 
- Symptom Chart�Brake System 
+ Symptom Chart—Brake System 
 
  BRAKE SYSTEM 
 
@@ -37055,7 +37055,7 @@ PAGE 4526
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -37090,7 +37090,7 @@ PAGE 4527
 ================================================================================
 1997 Mark VIII
 
-Section 206-00: Brake System�General Information
+Section 206-00: Brake System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -37798,7 +37798,7 @@ Metal Brake Parts Cleaner Non-Chlorinated
 
  F5AZ-2C410-AA
 
-�
+—
 
 High Performance Motor Vehicle DOT 3 Brake Fluid
 
@@ -37834,7 +37834,7 @@ Brake Hose Connection to Caliper
 
 30-39
 
-�
+—
 
 Caliper Anchor Plate Bolt
 
@@ -37842,13 +37842,13 @@ Caliper Anchor Plate Bolt
 
 87
 
-�
+—
 
 Anti-Lock Wheel Speed Sensor Retaining Bolt
 
 4-6
 
-�
+—
 
 36-53
 
@@ -37858,7 +37858,7 @@ Caliper Pin Locating Bolt
 
 25
 
-�
+—
 
 ================================================================================
 PAGE 4536
@@ -38518,13 +38518,13 @@ Rear Wheel Brake Hose-to-Caliper Retaining Screw
 
 30-40
 
-�
+—
 
 Rear Wheel Brake Hose to Rear Side Member
 
 13-15
 
-�
+—
 
 115-132
 
@@ -38534,7 +38534,7 @@ Rear Disc Support Bracket Retaining Bolts
 
 73-97
 
-�
+—
 
 Rear Wheel Disc Brake Shield Retaining Bolts
 
@@ -38542,7 +38542,7 @@ Rear Wheel Disc Brake Shield Retaining Bolts
 
 23-36
 
-�
+—
 
 Rear Brake Pin Retainer
 
@@ -38550,13 +38550,13 @@ Rear Brake Pin Retainer
 
 23-25
 
-�
+—
 
 Parking Brake Lever Limiting Bolt
 
 6-9
 
-�
+—
 
 54-79
 
@@ -38566,7 +38566,7 @@ Brake Hose Connection to Caliper
 
 31-39
 
-�
+—
 
 Lug Nuts
 
@@ -38574,7 +38574,7 @@ Lug Nuts
 
 85-104
 
-�
+—
 
 Rear Axle Wheel Hub Retainer
 
@@ -38582,13 +38582,13 @@ Rear Axle Wheel Hub Retainer
 
 188-254
 
-�
+—
 
 Bleed Screw
 
 7-13
 
-�
+—
 
 62-115
 
@@ -39613,7 +39613,7 @@ Section 206-06: Hydraulic Brake Actuation
 
 GENERAL PROCEDURES
 
-Bleeding � Components
+Bleeding — Components
 
  Special Service Tool(s) 
 
@@ -39629,7 +39629,7 @@ NGS Flash Cable
 
 418-F120 (007-00531) or equivalent
 
- Master Cylinder Priming � In-vehicle or Bench 
+ Master Cylinder Priming — In-vehicle or Bench 
 
  WARNING: BRAKE FLUID CONTAINS POLYGLYCOL ETHERS AND POLYGLYCOLS. AVOID
 CONTACT WITH EYES. WASH HANDS THOROUGHLY AFTER HANDLING. IF BRAKE
@@ -39936,7 +39936,7 @@ ESA-M6C25-A, DOT 3
 
 Brake Fluid C6AZ-19542-AB
 
-�
+—
 
  Torque Specifications
 
@@ -40050,7 +40050,7 @@ Description
 
 1
 
-�
+—
 
 Fluid Level Sensor (Part of 2C217)
 
@@ -41578,7 +41578,7 @@ M10 x 1
 
 9-12
 
-�
+—
 
 M12 x 1
 
@@ -41586,7 +41586,7 @@ M12 x 1
 
 11-13
 
-�
+—
 
 M14 x 1.5
 
@@ -41594,7 +41594,7 @@ M14 x 1.5
 
 12-16
 
-�
+—
 
 Lug Nuts
 
@@ -41602,7 +41602,7 @@ Lug Nuts
 
 85-104
 
-�
+—
 
 Rear Brake Anti-Lock Sensor
 
@@ -41610,13 +41610,13 @@ Rear Brake Anti-Lock Sensor
 
 14-19
 
-�
+—
 
 Front Brake Anti-Lock Sensor
 
 4-6
 
-�
+—
 
 36-53
 
@@ -41624,7 +41624,7 @@ ABS Module
 
 7-9
 
-�
+—
 
 62-79
 
@@ -41632,7 +41632,7 @@ Brake Pressure Control Valve Block Retaining Nuts
 
 7-9
 
-�
+—
 
 62-79
 
@@ -41642,7 +41642,7 @@ Anti-Lock Brake Control Module Mounting Bolts
 
 11-12
 
-�
+—
 
 Thread Savers
 
@@ -41650,7 +41650,7 @@ Thread Savers
 
 15-18
 
-�
+—
 
 ================================================================================
 PAGE 4579
@@ -41663,7 +41663,7 @@ Section 307-01: Automatic Transmission
 
 DESCRIPTION AND OPERATION
 
-Automatic Transmission � 4R70W
+Automatic Transmission — 4R70W
 
 The 4R70W has the following features:
 
@@ -41721,25 +41721,25 @@ Description
 
 1
 
-�
+—
 
 Model Number
 
 2
 
-�
+—
 
 Assembly Number
 
 3
 
-�
+—
 
 Serial Number
 
 4
 
-�
+—
 
 Model and Serial Number
 
@@ -41756,7 +41756,7 @@ DESCRIPTION AND OPERATION
 
 Disassembled Views
 
-4R70W Automatic Transmission � Disassembled View
+4R70W Automatic Transmission — Disassembled View
 
 [FIGURE: GD1725A.gif]
 
@@ -41784,25 +41784,25 @@ Converter Drain Plug
 
 7A103
 
-Pump Assembly � Front Pump
+Pump Assembly — Front Pump
 
 4
 
 7A248
 
-Seal Assembly � Front Pump
+Seal Assembly — Front Pump
 
 5
 
 7A248
 
-Seal � Front Pump
+Seal — Front Pump
 
 6
 
 7B258
 
-Bushing � Front Pump
+Bushing — Front Pump
 
 7
 
@@ -41814,31 +41814,31 @@ Pump Bolt
 
 7A106
 
-Body Assembly � Front Pump
+Body Assembly — Front Pump
 
 9
 
 7A136
 
-Gasket � Front Pump
+Gasket — Front Pump
 
 10
 
 7H169
 
-Gear � Pump Inner Gerotor
+Gear — Pump Inner Gerotor
 
 11
 
 7H169
 
-Gear � Pump Outer Gerotor
+Gear — Pump Outer Gerotor
 
 12
 
 7A108
 
-Support Assembly � Front Pump
+Support Assembly — Front Pump
 
 13
 
@@ -41850,59 +41850,59 @@ Bolt
 
 7D014
 
-Washer � Front Pump Support Thrust � Select Fit No. 1
+Washer — Front Pump Support Thrust — Select Fit No. 1
 
 15
 
 7D020
 
-Seals � Reverse Clutch Cylinder
+Seals — Reverse Clutch Cylinder
 
 16
 
 7D019
 
-Seals � Forward Clutch Cylinder
+Seals — Forward Clutch Cylinder
 
 17
 
 7F225
 
-Seal � Intermediate Clutch Piston � Inner
+Seal — Intermediate Clutch Piston — Inner
 
 18
 
 7F224
 
-Seal � Intermediate Clutch Piston � Outer
+Seal — Intermediate Clutch Piston — Outer
 
 19
 
 7E005
 
-Piston Kit � Intermediate Clutch
+Piston Kit — Intermediate Clutch
 
 20
 
 7B442
 
-Plate � Intermediate Clutch External Spline (Steel)
+Plate — Intermediate Clutch External Spline (Steel)
 
 21
 
 7B164
 
-Plate Assembly � Intermediate Clutch Internal Spline (Friction)
+Plate Assembly — Intermediate Clutch Internal Spline (Friction)
 
 22
 
 7B066
 
-Plate � Intermediate Clutch Pressure
+Plate — Intermediate Clutch Pressure
 
 23
 
-�
+—
 
 Intermediate Clutch Assembly
 
@@ -41944,7 +41944,7 @@ Reverse Clutch Drum Assembly
 
 30
 
-�
+—
 
 Reverse Clutch Assembly
 
@@ -41952,25 +41952,25 @@ Reverse Clutch Assembly
 
 7D403
 
-Seal � Reverse Clutch Piston � Outer
+Seal — Reverse Clutch Piston — Outer
 
 32
 
 7D402
 
-Piston Assembly � Reverse Clutch
+Piston Assembly — Reverse Clutch
 
 33
 
 7D404
 
-Seal � Reverse Clutch Piston � Inner
+Seal — Reverse Clutch Piston — Inner
 
 34
 
 7D256
 
-Ring � Reverse Clutch Piston Pressure
+Ring — Reverse Clutch Piston Pressure
 
 35
 
@@ -41988,41 +41988,41 @@ Reverse Clutch Piston Spring
 
 7B066
 
-Plate � Reverse Clutch Front Pressure
+Plate — Reverse Clutch Front Pressure
 
 38
 
 7B442
 
-Plate � Reverse Clutch External Spline (Steel)
+Plate — Reverse Clutch External Spline (Steel)
 
 39
 
 7B164
 
-Plate � Reverse Clutch Internal Spline (Friction)
+Plate — Reverse Clutch Internal Spline (Friction)
 
 40
 
 7B066
 
-Plate � Reverse Clutch Rear Pressure
+Plate — Reverse Clutch Rear Pressure
 
 41
 
 7B497
 
-Seals � Input Shaft
+Seals — Input Shaft
 
 42
 
 7D483
 
-Retainer � Reverse Clutch Pressure Plate
+Retainer — Reverse Clutch Pressure Plate
 
 43
 
-�
+—
 
 Forward Clutch Assembly
 
@@ -42030,7 +42030,7 @@ Forward Clutch Assembly
 
 7A166
 
-Bearing and Race Assembly � Forward Clutch No. 2
+Bearing and Race Assembly — Forward Clutch No. 2
 
 45
 
@@ -42108,25 +42108,25 @@ Snap Ring
 
 7F231
 
-Bearing and Race Assembly � Forward Clutch � Front No. 3
+Bearing and Race Assembly — Forward Clutch — Front No. 3
 
 58
 
 7B067
 
-Hub � Forward Clutch
+Hub — Forward Clutch
 
 59
 
 7F351
 
-Shaft � Intermediate Stub
+Shaft — Intermediate Stub
 
 60
 
 7C096
 
-Bearing and Race Assembly � Forward Clutch Hub No. 4
+Bearing and Race Assembly — Forward Clutch Hub No. 4
 
 61
 
@@ -42138,7 +42138,7 @@ Reverse Clutch Sun Gear Assembly
 
 7F244
 
-Bearing and Race Assembly � Forward Clutch Sun Gear No. 5
+Bearing and Race Assembly — Forward Clutch Sun Gear No. 5
 
 63
 
@@ -42198,7 +42198,7 @@ Direct Clutch Hub
 
 7F243
 
-Bearing and Race Assembly � Direct Clutch Inner No. 7
+Bearing and Race Assembly — Direct Clutch Inner No. 7
 
 73
 
@@ -42214,7 +42214,7 @@ Direct Clutch Pressure Plate Retaining Ring
 
 75
 
-�
+—
 
 Direct Clutch Assembly
 
@@ -42276,37 +42276,37 @@ Output Shaft Ring Gear Assembly
 
 7F283
 
-Cylinder Assembly � Direct Clutch
+Cylinder Assembly — Direct Clutch
 
 86
 
 7F274
 
-Seals � Output Shaft Small � Direct Clutch
+Seals — Output Shaft Small — Direct Clutch
 
 87
 
 7F240
 
-Bearing and Race Assembly � Direct Clutch Outer No. 8
+Bearing and Race Assembly — Direct Clutch Outer No. 8
 
 88
 
 7060
 
-Shaft Assembly � Output
+Shaft Assembly — Output
 
 89
 
 7F273
 
-Seals � Output to Case Shaft Large
+Seals — Output to Case Shaft Large
 
 90
 
 87054-S94
 
-Seal � O-Ring
+Seal — O-Ring
 
 91
 
@@ -42330,13 +42330,13 @@ Snap Ring
 
 7025
 
-Bushing � Rear Case
+Bushing — Rear Case
 
 95
 
 7F242
 
-Bearing and Race Assembly � Case Rear No. 9
+Bearing and Race Assembly — Case Rear No. 9
 
 96
 
@@ -42846,7 +42846,7 @@ DESCRIPTION AND OPERATION
 
 Main Components and Functions
 
-Transmission Main Components � Sectional View
+Transmission Main Components — Sectional View
 
 [FIGURE: GD0066B.gif]
 
@@ -42896,7 +42896,7 @@ Forward Clutch Cylinder and Shaft
 
 7F351
 
-Shaft � Intermediate Stub
+Shaft — Intermediate Stub
 
 8
 
@@ -42973,31 +42973,31 @@ Description
 
 1
 
-�
+—
 
 Cover (Part of 7902)
 
 2
 
-�
+—
 
 Pressure Plate (Part of 7902)
 
 3
 
-�
+—
 
 Turbine (Part of 7902)
 
 4
 
-�
+—
 
 Stator (Part of 7902)
 
 5
 
-�
+—
 
 Impeller (Part of 7902)
 
@@ -43165,7 +43165,7 @@ Reverse Clutch Drum
 
 4
 
-�
+—
 
 Intermediate One-Way Clutch Inner Race
 
@@ -43282,25 +43282,25 @@ Description
 
 1
 
-�
+—
 
 Outer Rotor
 
 2
 
-�
+—
 
 Inner Rotor
 
 3
 
-�
+—
 
 Outlet
 
 4
 
-�
+—
 
 Inlet
 
@@ -43328,7 +43328,7 @@ Description
 
 1
 
-�
+—
 
 Shift Solenoid 1 (Part of 7G484)
 
@@ -43340,7 +43340,7 @@ Torque Converter Clutch Solenoid
 
 3
 
-�
+—
 
 Shift Solenoid 2 (Part of 7G484)
 
@@ -43364,25 +43364,25 @@ Description
 
 7F284
 
-Spring � 1-2 Shift Accumulator (Model Dependent)
+Spring — 1-2 Shift Accumulator (Model Dependent)
 
 2
 
 7F248
 
-Seal � 1-2 Shift Accumulator Piston
+Seal — 1-2 Shift Accumulator Piston
 
 3
 
 7F251
 
-Piston � 1-2 Shift Accumulator
+Piston — 1-2 Shift Accumulator
 
 4
 
 7F249
 
-Seal � 1-2 Accumulator Piston � Lower
+Seal — 1-2 Accumulator Piston — Lower
 
 5
 
@@ -43454,20 +43454,20 @@ transmission more responsive to driver and vehicle needs.
 
 The driver demands are transmitted to the PCM through four components:
 
- Transmission range selector lever � The driver 
+ Transmission range selector lever — The driver 
 demand for a particular gear range is translated into an electrical signal for 
 the powertrain control module by the transmission range (TR) sensor. 
 
- Accelerator pedal � The driver demand for torque and 
+ Accelerator pedal — The driver demand for torque and 
 acceleration are sent mechanically to the throttle body (9E926) on the engine. 
 A throttle position sensor then translates this mechanical motion into an 
 electrical signal and sends it to the powertrain control module. 
 
- Brake pedal � A brake on/off (BOO) switch tells the 
+ Brake pedal — A brake on/off (BOO) switch tells the 
 powertrain control module when the brake is applied, indicating the driver 
 demand to disengage the torque converter (7902). 
 
- Transmission control switch � A momentary contact 
+ Transmission control switch — A momentary contact 
 switch, located on the side of the transmission range selector that allows the 
 driver to manually select three or four speed operation. 
 
@@ -43549,7 +43549,7 @@ Brake ON/OFF (BOO) Switch
 
 12
 
-�
+—
 
 Electronic Ignition (EI) System
 
@@ -43596,9 +43596,9 @@ on the engine.
 
  Symptoms: 
 
-Failed on � EPC pressure slightly low with A/C off.
+Failed on — EPC pressure slightly low with A/C off.
 
-Failed off � EPC pressure slightly high with A/C on.
+Failed off — EPC pressure slightly high with A/C on.
 
  DTC: P1460.
 
@@ -43611,10 +43611,10 @@ opens when they are released.
 
  Symptoms: 
 
-Failed on � torque converter clutch will not engage at less than 
+Failed on — torque converter clutch will not engage at less than 
 one-third throttle.
 
-Failed off or not connected � torque converter clutch will not 
+Failed off or not connected — torque converter clutch will not 
 disengage when brake is applied.
 
  DTCs: P1703.
@@ -43702,10 +43702,10 @@ or actuator fails.
 
  Symptoms: 
 
-Failed on � overdrive cancel mode always indicated, no flashing 
+Failed on — overdrive cancel mode always indicated, no flashing 
 for EPC circuit shorted, or monitored sensor failure.
 
-Failed off � overdrive cancel mode never indicated, no flashing 
+Failed off — overdrive cancel mode never indicated, no flashing 
 for EPC circuit shorted, or monitored sensor failure.
 
  Throttle Position (TP) Sensor 
@@ -43773,10 +43773,10 @@ backout valve function.
 
  Symptoms: 
 
-Failed on � minimum EPC pressure (minimum capacity), limit engine 
+Failed on — minimum EPC pressure (minimum capacity), limit engine 
 torque (alternate firing).
 
-Failed off � maximum EPC pressure, harsh engagements, harsh shifts.
+Failed off — maximum EPC pressure, harsh engagements, harsh shifts.
 
  DTCs: P1746, P1747.
 
@@ -43787,10 +43787,10 @@ and release of the TCC.
 
  Symptoms: 
 
-Failed on � engine stalls in second gear (D, 2 range) at low idle 
+Failed on — engine stalls in second gear (D, 2 range) at low idle 
 speeds with the brake applied. 
 
-Failed off � converter never engages. 
+Failed off — converter never engages. 
 
  DTCs: P0743*, P0741**, P1741**, P1742, P1743,
 
@@ -44086,7 +44086,7 @@ Add fluid in 0.25L (1/2 pint) increments through the oil filler tube to
 bring the level to the correct area on the fluid level indicator. If an 
 overfill occurs, excess fluid must be removed.
 
- Fluid Change � Drain/Refill 
+ Fluid Change — Drain/Refill 
 
 Normal maintenance requires periodic automatic transmission fluid 
 changes. If a major service, such as a clutch, band, bearing, etc., is 
@@ -44294,7 +44294,7 @@ the powertrain control module (PCM) (12A650), sensors and actuators of the
 The following is a guide for using the On-Board Diagnostic (OBD) Quick 
 Tests and the New Generation STAR (NGS) Tester.
 
- Quick Test 1.0 � Visual Inspection 
+ Quick Test 1.0 — Visual Inspection 
 
 Perform the Visual Check and Vehicle Preparation procedures in the Powertrain Control/Emissions Diagnosis Manual
 .
@@ -44320,7 +44320,7 @@ harnesses.
 
 Perform all necessary repairs before continuing with Quick Tests.
 
- Quick Test 2.0 � Set Up 
+ Quick Test 2.0 — Set Up 
 
 Connect New Generation STAR (NGS) Tester to data link connector (DLC).
 
@@ -44384,7 +44384,7 @@ necessary.
 
 The NGS is ready to communicate with the PCM.
 
- Quick Test 3.0 � Key On, Engine Off (KOEO) 
+ Quick Test 3.0 — Key On, Engine Off (KOEO) 
 
  CAUTION: Do not replace parts based on a code; perform Pinpoint Tests first. 
 
@@ -44419,7 +44419,7 @@ Diagnose non-transmission DTCs first as they can directly affect the
 operation of the transmission. Road test the vehicle and repeat Quick Test to 
 verify results.
 
- Quick Test 4.0 � Continuous Memory Codes 
+ Quick Test 4.0 — Continuous Memory Codes 
 
 Continuous DTCs are concerns which were detected during normal vehicle 
 operation. These DTCs are retained for 40 warm-up cycles. 
@@ -44462,7 +44462,7 @@ Perform Transmission Drive Cycle Test.
 Rerun Continuous DTC Test. If DTCs have returned, repair as required. 
 Road test and rerun all DTC test procedures.
 
- Quick Test 5.0 � Key On, Engine Running (KOER) 
+ Quick Test 5.0 — Key On, Engine Running (KOER) 
 
 This test provides "hard" DTCs only.
 
@@ -44540,7 +44540,7 @@ Enter year, engine, model with the appropriate qualifier, if needed
 
 Select DIAGNOSTIC DATA LINK.
 
-Select PCM � POWERTRAIN CTRL MODULE.
+Select PCM — POWERTRAIN CTRL MODULE.
 
 Select ACTIVE COMMAND MODES.
 
@@ -44589,7 +44589,7 @@ Select "Clearing ALL Codes."
 
 Follow operating instructions from the NGS menu screen.
 
-Perform OBD II Drive Cycle � Clear DTC P1000.
+Perform OBD II Drive Cycle — Clear DTC P1000.
 
  Clearing DTC P1000 
 
@@ -44929,8 +44929,8 @@ BOO switch circuit failed.
 
 Brake ON/OFF circuit failure.
 
-Failed ON or not connected � torque converter clutch will not
-engage at less than 1/3 throttle. Failed OFF or not connected � torque
+Failed ON or not connected — torque converter clutch will not
+engage at less than 1/3 throttle. Failed OFF or not connected — torque
 converter clutch will not disengage when brake is applied.
 
 Refer to PC/ED a 
@@ -44943,8 +44943,8 @@ Brake not actuated during on-board diagnostic
 
 Brake not cycled during KOER.
 
-Failed OFF or not connected � torque converter clutch will not
-engage at less than 1/3 throttle. Failed OFF or not connected � torque
+Failed OFF or not connected — torque converter clutch will not
+engage at less than 1/3 throttle. Failed OFF or not connected — torque
 converter clutch will not disengage when brake is applied.
 
 Refer to PC/ED a 
@@ -45033,7 +45033,7 @@ position. See Solenoid On/Off chart.
 
 Refer to Pinpoint Test A .
 
-�
+—
 
 TCIL
 
@@ -45284,9 +45284,9 @@ Preliminary inspections.
 
 Installation procedures.
 
-Static testing � engine off.
+Static testing — engine off.
 
-Dynamic testing � engine on.
+Dynamic testing — engine on.
 
 Digital transmission range (DTR) or transmission range (TR) sensor 
 testing.
@@ -45368,7 +45368,7 @@ then turn off. This is the tester internal circuit check.
 
 Position BENCH/DRIVE switch to BENCH mode. 
 
- Static Testing � Engine Off 
+ Static Testing — Engine Off 
 
 Static testing procedures allow shop testing of the transmission in the 
 vehicle or on the bench. Completion of these tests prove out transmission 
@@ -45385,7 +45385,7 @@ pinpoint tests as indicated by DTCs displayed.
 Repair as indicated by the pinpoint tests. Always retest and road test 
 vehicle after repair. 
 
- Resistance/Continuity Tests � EPC Solenoid 
+ Resistance/Continuity Tests — EPC Solenoid 
 
 Set multimeter to 100-200 ohm range. 
 
@@ -45399,7 +45399,7 @@ Compare results to the following charts for values.
 
 If out of specification, refer to Pinpoint Test E in this section. 
 
- Resistance/Continuity Tests � Solenoids (SS1, SS2, TCC) 
+ Resistance/Continuity Tests — Solenoids (SS1, SS2, TCC) 
 
 Set multimeter to 100-200 ohm range. 
 
@@ -45436,7 +45436,7 @@ EPC
 
 2.48-5.66
 
- Resistance/Continuity Tests � Transmission Fluid Temperature 
+ Resistance/Continuity Tests — Transmission Fluid Temperature 
 (TFT) Sensor 
 
 Set multimeter to 1000 ohm scale. 
@@ -45559,7 +45559,7 @@ LED turns red if an activated solenoid/harness is shorted to B+.
 LED remains off if an activated solenoid/harness is shorted to ground 
 or no continuity.
 
- Dynamic Testing � Engine On 
+ Dynamic Testing — Engine On 
 
 Dynamic testing allows the transmission to be proven out electronically 
 and hydraulically. 
@@ -45649,7 +45649,7 @@ TR-E Cable
 
 007-00111 or equivalent
 
- Pinpoint Test A�Shift Solenoids 
+ Pinpoint Test A—Shift Solenoids 
 
  Solenoid Operation Chart
 
@@ -46046,31 +46046,31 @@ Description
 
 1
 
-�
+—
 
 Direct Clutch Pressure Tap
 
 2
 
-�
+—
 
 Forward Clutch Pressure Tap
 
 3
 
-�
+—
 
 Electronic Pressure Control (EPC) Pressure Tap
 
 4
 
-�
+—
 
 Intermediate Clutch Pressure Tap
 
 5
 
-�
+—
 
 Line Pressure Tap
 
@@ -46239,67 +46239,67 @@ Description
 
 1
 
-�
+—
 
 Converter Bypass
 
 2
 
-�
+—
 
 Direct Clutch
 
 3
 
-�
+—
 
 Forward Clutch
 
 4
 
-�
+—
 
 2-3 Accumulator Top
 
 5
 
-�
+—
 
 2-3 Accumulator Bottom
 
 6
 
-�
+—
 
 Overdrive Servo Apply
 
 7
 
-�
+—
 
 Reverse Servo
 
 8
 
-�
+—
 
 Overdrive Servo Release
 
 9
 
-�
+—
 
 Intermediate Clutch
 
 10
 
-�
+—
 
 Reverse Clutch
 
 11
 
-�
+—
 
 1-2 Accumulator Apply
 
@@ -46556,7 +46556,7 @@ Pump Gasket
 
 390318-S100
 
-Pipe Plug � 1/8 � 27 Dryseal Tapered
+Pipe Plug — 1/8 — 27 Dryseal Tapered
 
 8
 
@@ -46610,7 +46610,7 @@ Oil Seal
 
 87650-S2
 
-Plug � Converter Drain � 1/8 � 27 Dryseal
+Plug — Converter Drain — 1/8 — 27 Dryseal
 
 17
 
@@ -46804,7 +46804,7 @@ Repeat steps 7 and 8. If flow is now liberal, refer to Transmission
 Fluid Cooler Backflushing/Cleaning . If the flow is not liberal, repair the 
 pump and/or the torque converter (7902) assembly.
 
- Transmission Fluid Cooler � Backflushing/Cleaning 
+ Transmission Fluid Cooler — Backflushing/Cleaning 
 
 Conduct backflushing with a Torque Converter/Oil Cooler Cleaner 
 014-00028 or equivalent. Test your equipment to make sure that a vigorous 
@@ -46963,13 +46963,13 @@ Some/All Shifts Missing
 
 Timing Concerns
 
-�Early/Late
+—Early/Late
 
 211
 
 311
 
-�Erratic/Hunting
+—Erratic/Hunting
 
 212
 
@@ -46977,13 +46977,13 @@ Timing Concerns
 
 Feel
 
-�Soft/Slipping
+—Soft/Slipping
 
 213
 
 313
 
-�Harsh
+—Harsh
 
 214
 
@@ -47081,19 +47081,19 @@ Overheating
 
 Pressure Chart
 
-�
+—
 
 401
 
 Band/Clutch Application Chart
 
-�
+—
 
 601
 
 Solenoid Application Chart
 
-�
+—
 
 701
 
@@ -47107,11 +47107,11 @@ Possible Component
 
 Reference/Action
 
- 201 � ELECTRICAL ROUTINE 
+ 201 — ELECTRICAL ROUTINE 
 
  · No Electrical Concerns
 
- 301 � HYDRAULIC/MECHANICAL ROUTINE 
+ 301 — HYDRAULIC/MECHANICAL ROUTINE 
 
  Fluid 
 
@@ -48847,7 +48847,7 @@ Main Control Valve Body
 
  Disassembly 
 
-Main Control Valve Body � Disassembled View
+Main Control Valve Body — Disassembled View
 
 [FIGURE: AD0544A.gif]
 
@@ -48859,31 +48859,31 @@ Description
 
 1
 
-�
+—
 
 Valve Plug Retainer (Part of 7A100)
 
 2
 
-�
+—
 
 Main Pressure Booster Valve Sleeve (Part of 7A100)
 
 3
 
-�
+—
 
 Main Pressure Booster Valve (Part of 7A100)
 
 4
 
-�
+—
 
 Main Pressure Regulator Valve Spring (Part of 7A100)
 
 5
 
-�
+—
 
 Main Regulator Valve (Part of 7A100)
 
@@ -48907,241 +48907,241 @@ Converter Drain Back Valve
 
 9
 
-�
+—
 
 Pressure Regulator Valve (Part of 7A100)
 
 10
 
-�
+—
 
 Pressure Regulator Valve Spring (Part of 7A100)
 
 11
 
-�
+—
 
 Valve Retainer Plug (Part of 7A100)
 
 12
 
-�
+—
 
 Valve Plug Retainer (Part of 7A100)
 
 13
 
-�
+—
 
 Spring Retaining Plate (Part of 7A100)
 
 14
 
-�
+—
 
 Capacity Modulator Valve Spring (Part of 7A100)
 
 15
 
-�
+—
 
 Capacity Modulator Valve (Part of 7A100)
 
 16
 
-�
+—
 
 Spring Retaining Plate (Part of 7A100)
 
 17
 
-�
+—
 
 Capacity Modulator Valve Spring (Part of 7A100)
 
 18
 
-�
+—
 
 Capacity Modulator Valve (Part of 7A100)
 
 19
 
-�
+—
 
 3-4 Shift Valve (Part of 7A100)
 
 20
 
-�
+—
 
 3-4 Shift Valve Spring (Part of 7A100)
 
 21
 
-�
+—
 
 Valve Retainer Plug (Part of 7A100)
 
 22
 
-�
+—
 
 Valve Plug Retainer (Part of 7A100)
 
 23
 
-�
+—
 
 Valve Plug Retainer (Part of 7A100)
 
 24
 
-�
+—
 
 Valve Retainer Plug (Part of 7A100)
 
 25
 
-�
+—
 
 Capacity Modulator Valve Spring (Part of 7A100)
 
 26
 
-�
+—
 
 Capacity Modulator Valve (Part of 7A100)
 
 27
 
-�
+—
 
 Spring Retainer Plate (Part of 7A100)
 
 28
 
-�
+—
 
 Spring 2-3 Backout Valve (Part of 7A100)
 
 29
 
-�
+—
 
 Plug (Part of 7A100)
 
 30
 
-�
+—
 
 Spring Retainer Plate (Part of 7A100)
 
 31
 
-�
+—
 
 Pressure Regulator Valve Spring (Part of 7A100)
 
 32
 
-�
+—
 
 Pressure Regulator Valve (Part of 7A100)
 
 33
 
-�
+—
 
 Solenoid Screen
 
 34
 
-�
+—
 
 Control Manual Valve (Part of 7A100)
 
 35
 
-�
+—
 
 Retaining Ring (Part of 7A100)
 
 36
 
-�
+—
 
 Valve Plug Retainer (Part of 7A100)
 
 37
 
-�
+—
 
 Valve Retaining Plug (Part of 7A100)
 
 38
 
-�
+—
 
 2-3 Shift Valve (Part of 7A100)
 
 39
 
-�
+—
 
 2-3 Shift Valve Spring (Part of 7A100)
 
 40
 
-�
+—
 
 1-2 Shift Valve (Part of 7A100)
 
 41
 
-�
+—
 
 Pressure Regulator Valve (Part of 7A100)
 
 42
 
-�
+—
 
 Pressure Regulator Valve Spring (Part of 7A100)
 
 43
 
-�
+—
 
 Spring Retaining Plate (Part of 7A100)
 
 44
 
-�
+—
 
 Control Valve Plate (Part of 7A100)
 
 45
 
-�
+—
 
 Bypass Clutch Control Plunger Sleeve (Part of 7A100)
 
 46
 
-�
+—
 
 Bypass Clutch Control Valve Plunger (Part of 7A100)
 
 47
 
-�
+—
 
 Bypass Clutch Control Valve Spring (Part of 7A100)
 
 48
 
-�
+—
 
 Bypass Clutch Control Valve (Part of 7A100)
 
@@ -49283,7 +49283,7 @@ T80L-77005-A
 
  Disassembly 
 
-Pump and Intermediate Clutch Piston � Disassembled View
+Pump and Intermediate Clutch Piston — Disassembled View
 
 [FIGURE: GD0244A.gif]
 
@@ -49313,7 +49313,7 @@ Bolt
 
 4
 
-�
+—
 
 Pump Body Assembly
 
@@ -49367,13 +49367,13 @@ Pump Support
 
 13
 
-�
+—
 
 Pump Outer Gerotor Gear
 
 14
 
-�
+—
 
 Pump Inner Gerotor Gear
 
@@ -49553,7 +49553,7 @@ Reverse Clutch Drum
 
 4
 
-�
+—
 
 Intermediate One-Way Clutch Inner Race
 
@@ -49951,7 +49951,7 @@ T68P-7D158-A
 
  Disassembly 
 
-Forward Clutch � Disassembled View
+Forward Clutch — Disassembled View
 
 [FIGURE: GD1115A.gif]
 
@@ -51698,7 +51698,7 @@ Rear Transmission Crossmember Bolts
 
 65-81
 
-�
+—
 
 Transmission Mount Nuts
 
@@ -51706,7 +51706,7 @@ Transmission Mount Nuts
 
 65-81
 
-�
+—
 
 Transmission Mount Bolts
 
@@ -51714,7 +51714,7 @@ Transmission Mount Bolts
 
 65-81
 
-�
+—
 
 Extension Housing Bolts
 
@@ -51722,7 +51722,7 @@ Extension Housing Bolts
 
 19-22
 
-�
+—
 
 Transmission Fluid Pan Bolts
 
@@ -51730,7 +51730,7 @@ Transmission Fluid Pan Bolts
 
 9-11
 
-�
+—
 
 Front Pump Bolts
 
@@ -51738,7 +51738,7 @@ Front Pump Bolts
 
 15-19
 
-�
+—
 
 Front Pump Support Bolts
 
@@ -51746,13 +51746,13 @@ Front Pump Support Bolts
 
 15-19
 
-�
+—
 
 Harness Electrical Connector Bolt
 
 4-5.6
 
-�
+—
 
 36-49
 
@@ -51762,13 +51762,13 @@ Inspection Cover Bolts
 
 23-29
 
-�
+—
 
 Main Control Valve Body Bolts
 
 9-11
 
-�
+—
 
 80-97
 
@@ -51776,7 +51776,7 @@ Main Control Valve Body Cover Plate Bolts
 
 9-11
 
-�
+—
 
 80-97
 
@@ -51784,7 +51784,7 @@ Main Control Valve Body Separator Plate Bolts
 
 9-11
 
-�
+—
 
 80-97
 
@@ -51794,7 +51794,7 @@ Manual Lever Shaft Inner Nut
 
 20-27
 
-�
+—
 
 Manual Lever Shaft Outer Nut
 
@@ -51802,7 +51802,7 @@ Manual Lever Shaft Outer Nut
 
 23-25
 
-�
+—
 
 Fluid Cooler Line Case Fittings
 
@@ -51810,13 +51810,13 @@ Fluid Cooler Line Case Fittings
 
 15-19
 
-�
+—
 
 Pressure Tap Plugs
 
 8-16
 
-�
+—
 
 71-141
 
@@ -51826,7 +51826,7 @@ Rear Driveshaft Bolts
 
 70-95
 
-�
+—
 
 Starter Bolts
 
@@ -51834,13 +51834,13 @@ Starter Bolts
 
 17-20
 
-�
+—
 
 TCC Solenoid Bolt
 
 9-11
 
-�
+—
 
 80-97
 
@@ -51850,7 +51850,7 @@ Torque Converter Drain Plug
 
 21-22
 
-�
+—
 
 Torque Converter Nuts
 
@@ -51858,13 +51858,13 @@ Torque Converter Nuts
 
 20-33
 
-�
+—
 
 Digital Transmission Range (TR) Sensor Bolts
 
 7-10
 
-�
+—
 
 62-88
 
@@ -51874,13 +51874,13 @@ Transmission Bolts
 
 30-40
 
-�
+—
 
 Vehicle Speed Sensor (VSS) Bolt
 
 7-10
 
-�
+—
 
 62-88
 
@@ -51888,7 +51888,7 @@ Output Shaft Speed (OSS) Sensor Bolt
 
 8-16
 
-�
+—
 
 71-141
 
@@ -51896,7 +51896,7 @@ Starter B+ Cable
 
 9-14
 
-�
+—
 
 80-123
 
@@ -51906,7 +51906,7 @@ Exhaust Manifold Bolts
 
 25-33
 
-�
+—
 
 Exhaust Pipe Bolts
 
@@ -51914,13 +51914,13 @@ Exhaust Pipe Bolts
 
 25-33
 
-�
+—
 
 Transmission Vent Tube
 
 8-16
 
-�
+—
 
 71-141
 
@@ -51928,7 +51928,7 @@ Manual Control Valve Detent Lever Spring Bolt
 
 9-11
 
-�
+—
 
 62-97
 
@@ -51938,7 +51938,7 @@ Cooler Tube Nut to Case Fitting
 
 10-16
 
-�
+—
 
 Rear Differential Retaining Nuts (Front)
 
@@ -51946,7 +51946,7 @@ Rear Differential Retaining Nuts (Front)
 
 68-100
 
-�
+—
 
 Rear Differential Retaining Bolts and Nuts (Rear)
 
@@ -51954,7 +51954,7 @@ Rear Differential Retaining Bolts and Nuts (Rear)
 
 45-59
 
-�
+—
 
 Transmission Linkage
 
@@ -51962,7 +51962,7 @@ Transmission Linkage
 
 14-19
 
-�
+—
 
 ================================================================================
 PAGE 4626
@@ -52034,7 +52034,7 @@ If the transmission has been disassembled to replace worn or damaged
 parts, or if fluid contamination is suspected, flush the transmission cooling 
 system; refer to the procedure in this section.
 
- Symptom Chart�Automatic Transmission Cooling 
+ Symptom Chart—Automatic Transmission Cooling 
 
  AUTOMATIC TRANSMISSION COOLING 
 
@@ -52940,7 +52940,7 @@ Shifter-to-Floorpan Bolts
 
 6-8
 
-�
+—
 
 54-70
 
@@ -52950,7 +52950,7 @@ Cable and Bracket Nut
 
 10-18
 
-�
+—
 
 Gearshift to Shift Cable Stud Retaining Nut
 
@@ -52958,13 +52958,13 @@ Gearshift to Shift Cable Stud Retaining Nut
 
 13-16
 
-�
+—
 
 Shift Knob Attachment Screws
 
 3
 
-�
+—
 
 26
 
@@ -52972,7 +52972,7 @@ Circuit Board to Bezel Screws
 
 3
 
-�
+—
 
 26
 
@@ -52980,7 +52980,7 @@ Transmission Control Selector Dial Bezel Bolts
 
 3
 
-�
+—
 
 26
 
@@ -52989,7 +52989,7 @@ PAGE 4643
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53075,7 +53075,7 @@ AND ARE POTENTIALLY LETHAL. EXHAUST SYSTEM LEAKS SHOULD BE SERVICED
 IMMEDIATELY. NEVER OPERATE THE ENGINE IN ENCLOSED AREAS. 
 
  CAUTION: Leaded fuel must not be used in a vehicle fitted with a three way 
-catalytic converter�the lead will poison the catalyst. 
+catalytic converter—the lead will poison the catalyst. 
 
 The following precautions must be observed when operating a vehicle 
 equipped with a three way catalytic converter.
@@ -53122,7 +53122,7 @@ PAGE 4644
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53171,9 +53171,9 @@ service as required.
 If the concerns remain after the inspection, determine the condition(s) 
 and go to the Symptom Chart.
 
- Symptom Chart � Exhaust System 
+ Symptom Chart — Exhaust System 
 
- Symptom Chart � Exhaust System 
+ Symptom Chart — Exhaust System 
 
 Condition
 
@@ -53324,7 +53324,7 @@ PAGE 4645
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53368,7 +53368,7 @@ PAGE 4646
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53420,7 +53420,7 @@ PAGE 4647
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53436,7 +53436,7 @@ PAGE 4648
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53470,7 +53470,7 @@ PAGE 4649
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53506,7 +53506,7 @@ PAGE 4650
 ================================================================================
 1997 Mark VIII
 
-Section 309-00: Exhaust Components � General Information
+Section 309-00: Exhaust Components — General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53597,17 +53597,17 @@ A/C Evaporator Housing
 
  REM & INST: Heating/Defrosting 
 
- A/C Evaporator Register Duct�LH 
+ A/C Evaporator Register Duct—LH 
 
  A/C Manifold Gauge Set Connection 
 
- A/C Registers�Center 
+ A/C Registers—Center 
 
- A/C Register�LH 
+ A/C Register—LH 
 
  A/C Sunload Sensor 
 
- A/C System Check � Retail Procedure 
+ A/C System Check — Retail Procedure 
 
  A/C System Flushing 
 
@@ -53643,7 +53643,7 @@ Adjustments
 
  GEN PROC: Automatic Transmission External Controls 
 
- GEN PROC: Fuel System�General Information 
+ GEN PROC: Fuel System—General Information 
 
  After On-Board Diagnostic 
 
@@ -53665,7 +53665,7 @@ Air Cleaner Element
 
 Air Conditioning
 
- DESC & OPER: Climate Control System�General Information 
+ DESC & OPER: Climate Control System—General Information 
 
  DIAG & TEST: Air Conditioning 
 
@@ -53683,7 +53683,7 @@ Air Distribution
 
  DESC & OPER: Air Distribution and Filtering 
 
- DESC & OPER: Climate Control System�General Information 
+ DESC & OPER: Climate Control System—General Information 
 
  Air Induction System 
 
@@ -53723,15 +53723,15 @@ Anti-Lock Control and Anti-Wheelspin Control
 
  Anti-Theft Alarm System 
 
-Anti-Theft Warning�PATS
+Anti-Theft Warning—PATS
 
- DIAG & TEST: Anti-Theft Warning�PATS 
+ DIAG & TEST: Anti-Theft Warning—PATS 
 
  Section Table of Contents 
 
-Anti-Theft Warning�Perimeter
+Anti-Theft Warning—Perimeter
 
- DIAG & TEST: Anti-Theft Warning�Perimeter 
+ DIAG & TEST: Anti-Theft Warning—Perimeter 
 
  Section Table of Contents 
 
@@ -53747,7 +53747,7 @@ Automatic Transmission External Controls
 
  Section Table of Contents 
 
- Automatic Transmission � 4R70W 
+ Automatic Transmission — 4R70W 
 
  Automatic Transmission, Section Table of Contents 
 
@@ -53764,7 +53764,7 @@ PAGE 4652
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53800,7 +53800,7 @@ PAGE 4653
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53815,7 +53815,7 @@ PAGE 4654
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53863,7 +53863,7 @@ PAGE 4655
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53883,7 +53883,7 @@ PAGE 4656
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53901,7 +53901,7 @@ PAGE 4657
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53916,7 +53916,7 @@ PAGE 4658
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -53931,7 +53931,7 @@ PAGE 4659
 ================================================================================
 1997 Mark VIII
 
-Section 310-00: Fuel System�General Information
+Section 310-00: Fuel System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -54944,7 +54944,7 @@ Section 310-01: Fuel Tank and Lines
 
 GENERAL PROCEDURES
 
-Fuel System�Pressurized
+Fuel System—Pressurized
 
  Fuel Tubes, Steel 
 
@@ -55028,7 +55028,7 @@ Key On Engine Off
 
  35-45 psi
 
- Push Connect Retainers�Part Numbers
+ Push Connect Retainers—Part Numbers
 
 Part Number
 
@@ -55038,19 +55038,19 @@ N802241 (Black)
 
 Hair Pin Clip a 
 
-�3/8 Inch Connector
+—3/8 Inch Connector
 
 N802239 (White)
 
-Hair Pin Clip a �5/16 Inch Connector
+Hair Pin Clip a —5/16 Inch Connector
 
 N802710-S190
 
-Duck Bill Clip a �1/4 Inch
+Duck Bill Clip a —1/4 Inch
 
 N802441-S
 
-Duck Bill Clip a �1/2 Inch
+Duck Bill Clip a —1/2 Inch
 
  a Replacement required after connector removal
 
@@ -55068,7 +55068,7 @@ Fuel Filter Bracket
 
 8-10
 
-�
+—
 
 71-88
 
@@ -55078,13 +55078,13 @@ Fuel Tank Strap Bolt
 
 22-29
 
-�
+—
 
 Fuel Pump Bolts
 
 8-10
 
-�
+—
 
 71-88
 
@@ -55092,7 +55092,7 @@ Filler Neck-to-Body Screws
 
 2.7-3.7
 
-�
+—
 
 24-32
 
@@ -55100,7 +55100,7 @@ Inertia Fuel Shutoff Switch Screws
 
 .5-4.0
 
-�
+—
 
 5-8
 
@@ -55108,7 +55108,7 @@ Rear Fuel Line Screws
 
 5-7
 
-�
+—
 
 45-61
 
@@ -55116,7 +55116,7 @@ Fuel Tank Filler Pipe Screw
 
 4-5
 
-�
+—
 
 36-44
 
@@ -55179,7 +55179,7 @@ or damage to cable.
 If concern(s) remain after inspection, determine the symptom and go to 
 Symptom Chart.
 
- Symptom Chart�Accelerator and Throttle Body Diagnosis 
+ Symptom Chart—Accelerator and Throttle Body Diagnosis 
 
 Based on the condition, the following steps are to be used for 
 diagnosis. (If vehicle is equipped with speed control, disconnect the speed 
@@ -55511,7 +55511,7 @@ Mounting Accelerator Cable Bracket to Engine Bolt
 
 8-12
 
-�
+—
 
 71-106
 
@@ -55521,13 +55521,13 @@ Accelerator Pedal and Shaft to Dash Nut
 
 11-14
 
-�
+—
 
 Speed Control Cable Bracket Screw
 
 3-4
 
-�
+—
 
 27-35
 
@@ -55535,7 +55535,7 @@ Accelerator Cable to Dash Panel Screws
 
 4-5
 
-�
+—
 
 36-44
 
@@ -55765,12 +55765,12 @@ identified, service as required.
 If the concern remains after the inspection, determine the condition(s) 
 and go to the Symptom Chart.
 
- Symptom Chart�Speed Control System�Electronic 
+ Symptom Chart—Speed Control System—Electronic 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for connector 
 numbers cited in the pinpoint tests.
 
- SPEED CONTROL SYSTEM�ELECTRONIC 
+ SPEED CONTROL SYSTEM—ELECTRONIC 
 
 Condition
 
@@ -56407,7 +56407,7 @@ Speed Control Servo Bracket Screws
 
 6-7
 
-�
+—
 
 54-61
 
@@ -56415,7 +56415,7 @@ Speed Control Actuator to Accelerator Bracket Screw
 
 3-4
 
-�
+—
 
 27-35
 
@@ -56425,13 +56425,13 @@ Deactivator Switch
 
 11-14
 
-�
+—
 
 Vehicle Speed Sensor Bolt
 
 7-10
 
-�
+—
 
 62-88
 
@@ -56439,7 +56439,7 @@ Speed Control Servo to Bracket Bolts
 
 6-7
 
-�
+—
 
 54-61
 
@@ -56447,7 +56447,7 @@ Rear Steering Wheel Screws
 
 1-2
 
-�
+—
 
 9-17
 
@@ -56455,7 +56455,7 @@ Speed Control Actuator Switch
 
 1-2
 
-�
+—
 
 9-17
 
@@ -56496,7 +56496,7 @@ Battery
 
  Bezel, Transmission Control Selector Dial 
 
- Bleeding � Components 
+ Bleeding — Components 
 
  Block Heater and Wiring 
 
@@ -56534,23 +56534,23 @@ Brake Booster, Power
 
 Brake Pressure Control Valve
 
- DESC & OPER: Brake System�General Information 
+ DESC & OPER: Brake System—General Information 
 
  DESC & OPER: Hydraulic Brake Actuation 
 
 Brake System
 
- DESC & OPER: Brake System�General Information 
+ DESC & OPER: Brake System—General Information 
 
  DESC & OPER: Hydraulic Brake Actuation 
 
- DIAG & TEST: Brake System�General Information 
+ DIAG & TEST: Brake System—General Information 
 
  DIAG & TEST: Hydraulic Brake Actuation 
 
 Brake System, Anti-Lock
 
- DESC & OPER: Brake System�General Information 
+ DESC & OPER: Brake System—General Information 
 
  DESC & OPER: Hydraulic Brake Actuation 
 
@@ -56562,7 +56562,7 @@ Brake System, Anti-Lock
 
  Brake System, Power 
 
- Brake System�General Information, Section Table of Contents 
+ Brake System—General Information, Section Table of Contents 
 
  Brake Tubes 
 
@@ -56574,7 +56574,7 @@ Brake System, Anti-Lock
 
 Brakes, Rear Disc
 
- DESC & OPER: Brake System�General Information 
+ DESC & OPER: Brake System—General Information 
 
  DESC & OPER: Rear Disc Brake 
 
@@ -56595,7 +56595,7 @@ PAGE 4701
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -56623,7 +56623,7 @@ PAGE 4702
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -56647,31 +56647,31 @@ Description
 
 1
 
-�
+—
 
 Steering Gear Model Code
 
 2
 
-�
+—
 
 Shift Code
 
 3
 
-�
+—
 
 Day
 
 4
 
-�
+—
 
 Month
 
 5
 
-�
+—
 
 Year
 
@@ -56693,37 +56693,37 @@ Description
 
 1
 
-�
+—
 
 Model Code
 
 2
 
-�
+—
 
 For Manufacturing Purposes Only
 
 3
 
-�
+—
 
 Day of the Month
 
 4
 
-�
+—
 
 Shift
 
 5
 
-�
+—
 
 Month
 
 6
 
-�
+—
 
 Year
 
@@ -56732,7 +56732,7 @@ PAGE 4703
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -57205,7 +57205,7 @@ PAGE 4704
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -57461,7 +57461,7 @@ PAGE 4705
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -57553,7 +57553,7 @@ PAGE 4706
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -57591,7 +57591,7 @@ PAGE 4707
 ================================================================================
 1997 Mark VIII
 
-Section 211-00: Steering�General Information
+Section 211-00: Steering—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -57719,7 +57719,7 @@ Section 211-02: Power Steering
 
 DESCRIPTION AND OPERATION
 
-Steering, Power�Variable Assist
+Steering, Power—Variable Assist
 
 [FIGURE: AG0027C.gif]
 
@@ -57831,31 +57831,31 @@ Description
 
 1
 
-�
+—
 
 Model
 
 2
 
-�
+—
 
 Day
 
 3
 
-�
+—
 
 Shift
 
 4
 
-�
+—
 
 Month
 
 5
 
-�
+—
 
 Year
 
@@ -57913,31 +57913,31 @@ Description
 
 1
 
-�
+—
 
 Steering Gear Model Code
 
 2
 
-�
+—
 
 Shift Code
 
 3
 
-�
+—
 
 Day
 
 4
 
-�
+—
 
 Month
 
 5
 
-�
+—
 
 Year
 
@@ -58512,7 +58512,7 @@ Pressure Hose Fitting (At Pump)
 
 42-53
 
-�
+—
 
 Pressure Line Intermediate Fitting
 
@@ -58520,7 +58520,7 @@ Pressure Line Intermediate Fitting
 
 10-15
 
-�
+—
 
 Clamp Retaining Screw (Lower Radiator Support)
 
@@ -58528,13 +58528,13 @@ Clamp Retaining Screw (Lower Radiator Support)
 
 14-19
 
-�
+—
 
 Clamp Retaining Screw (Power Steering Pump)
 
 8.9-12.1
 
-�
+—
 
 79-107
 
@@ -58544,7 +58544,7 @@ Power Rack and Pinion Steering Gear-to-Crossmember Mounting Bolt and Nut
 
 122
 
-�
+—
 
 Tie-Rod End to Spindle Arm Nut
 
@@ -58552,7 +58552,7 @@ Tie-Rod End to Spindle Arm Nut
 
 46
 
-�
+—
 
 Tie-Rod End to Tie-Rod Jam Nut
 
@@ -58560,7 +58560,7 @@ Tie-Rod End to Tie-Rod Jam Nut
 
 35-46
 
-�
+—
 
 Steering Shaft Retaining Bolt
 
@@ -58568,13 +58568,13 @@ Steering Shaft Retaining Bolt
 
 36
 
-�
+—
 
 Bellows Clamp Screw
 
 2.3-3.4
 
-�
+—
 
 20-30
 
@@ -58584,7 +58584,7 @@ Hose Fittings at Gear
 
 23
 
-�
+—
 
 Front Wheel Spindle Tie-Rod to Rack
 
@@ -58592,7 +58592,7 @@ Front Wheel Spindle Tie-Rod to Rack
 
 66-81
 
-�
+—
 
 Wheel Lug Nuts
 
@@ -58600,7 +58600,7 @@ Wheel Lug Nuts
 
 85-104
 
-�
+—
 
 Power Steering Pump Bolts
 
@@ -58608,7 +58608,7 @@ Power Steering Pump Bolts
 
 15-22
 
-�
+—
 
 EVO Actuator to Pump
 
@@ -58616,13 +58616,13 @@ EVO Actuator to Pump
 
 10-14
 
-�
+—
 
 Return Hose Clamp
 
 1.4-2.0
 
-�
+—
 
 12-17
 
@@ -58630,7 +58630,7 @@ Steering Sensor Screws
 
 2-3
 
-�
+—
 
 18-26
 
@@ -58640,13 +58640,13 @@ Reservoir Screws/Nut
 
 79-107
 
-�
+—
 
 Vehicle Speed Sensor
 
 7-10
 
-�
+—
 
 62-88
 
@@ -58685,7 +58685,7 @@ Air Bag Sliding Contact
 
 3
 
-�
+—
 
 Steering Column
 
@@ -59245,7 +59245,7 @@ Steering Wheel Retaining Bolt
 
 23-35
 
-�
+—
 
 Steering Column Mounting Nut
 
@@ -59253,7 +59253,7 @@ Steering Column Mounting Nut
 
 24-34
 
-�
+—
 
 Steering Shaft Yoke Coupling Bolt
 
@@ -59261,13 +59261,13 @@ Steering Shaft Yoke Coupling Bolt
 
 30-41
 
-�
+—
 
 Air Bag Module Screws
 
 10-14
 
-�
+—
 
 89-123
 
@@ -59277,7 +59277,7 @@ Lower Steering Column Shaft-to-Steering Gear
 
 31-41
 
-�
+—
 
 Lower Steering Column Shaft-to-Steering Column Lower Yoke
 
@@ -59285,7 +59285,7 @@ Lower Steering Column Shaft-to-Steering Column Lower Yoke
 
 31-41
 
-�
+—
 
 Instrument Panel Reinforcement Brace
 
@@ -59293,13 +59293,13 @@ Instrument Panel Reinforcement Brace
 
 25-38
 
-�
+—
 
 Tilt/Telescope Motors Retaining Screws
 
 2-3
 
-�
+—
 
 18-25
 
@@ -59309,13 +59309,13 @@ Bearing Housing Pivot Bolts
 
 14-19
 
-�
+—
 
 Tilt Actuator Retaining Bolts
 
 13-17
 
-�
+—
 
 115-150
 
@@ -59323,7 +59323,7 @@ Potentiometer Retaining Screws
 
 3
 
-�
+—
 
 26
 
@@ -59331,7 +59331,7 @@ Front Steering Shaft End Plate Retaining Bolts
 
 12-15
 
-�
+—
 
 107-132
 
@@ -59339,7 +59339,7 @@ Telescope Actuator Retaining Bolts
 
 13-17
 
-�
+—
 
 115-150
 
@@ -59347,7 +59347,7 @@ Housing Cover Retaining Bolts
 
 12-15
 
-�
+—
 
 107-132
 
@@ -59950,7 +59950,7 @@ Checks
 
  GEN PROC: Fuel Charging and Controls 
 
- GEN PROC: Fuel System�General Information 
+ GEN PROC: Fuel System—General Information 
 
  Clearing Programming 
 
@@ -59958,13 +59958,13 @@ Checks
 
  Climate Control System 
 
-Climate Control System�Electronic Automatic Temperature Control
+Climate Control System—Electronic Automatic Temperature Control
 
  DESC & OPER: Control Components 
 
  DESC & OPER: Heating/Defrosting 
 
- Climate Control System�General Information, Section Table of Contents 
+ Climate Control System—General Information, Section Table of Contents 
 
  Communication Circuit Wiring Repair 
 
@@ -59978,9 +59978,9 @@ Climate Control System�Electronic Automatic Temperature Control
 
 Component Tests
 
- DIAG & TEST: Climate Control System�General Information 
+ DIAG & TEST: Climate Control System—General Information 
 
- DIAG & TEST: Steering�General Information 
+ DIAG & TEST: Steering—General Information 
 
 Components
 
@@ -60018,7 +60018,7 @@ Components
 
 Control Components
 
- DESC & OPER: Climate Control System�General Information 
+ DESC & OPER: Climate Control System—General Information 
 
  DIAG & TEST: Control Components 
 
@@ -60099,7 +60099,7 @@ PAGE 4736
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -60148,7 +60148,7 @@ PAGE 4737
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -60193,7 +60193,7 @@ PAGE 4738
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -60232,7 +60232,7 @@ PAGE 4739
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -60336,7 +60336,7 @@ A/C Cycling Switch
 
 5
 
-�
+—
 
 Steering Column/Ignition/Lighting (SCIL) Control Module (Illumination)
 
@@ -60360,7 +60360,7 @@ Blower Motor
 
 9
 
-�
+—
 
 Variable Load Control Module
 
@@ -60402,13 +60402,13 @@ Powertrain Control Module
 
 16
 
-�
+—
 
 J1850 Communication Network
 
 17
 
-�
+—
 
 Electronic Automatic Temperature Control Module
 
@@ -60417,13 +60417,13 @@ PAGE 4740
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
 DIAGNOSIS AND TESTING
 
-Vacuum Schematic�Electronic Automatic Temperature Control
+Vacuum Schematic—Electronic Automatic Temperature Control
 
  Electrical Schematic Reference(s) 
 
@@ -60438,7 +60438,7 @@ Description
 
 1
 
-�
+—
 
 Panel Vent Air Flow
 
@@ -60450,67 +60450,67 @@ Vacuum Control Motor (Windshield Defroster Door)
 
 3
 
-�
+—
 
 Windshield Defroster Door (Full Vacuum Position)
 
 4
 
-�
+—
 
 Windshield Defroster Door (No Vacuum Position)
 
 5
 
-�
+—
 
 Defrost Air Flow
 
 6
 
-�
+—
 
 Side Window Demister Air Flow
 
 7
 
-�
+—
 
 Primary Air Temperature Control Door (Full Cool Position)
 
 8
 
-�
+—
 
 Primary Air Temperature Control Door (Full Hot Position)
 
 9
 
-�
+—
 
 Secondary Air Inlet Duct Door (No Vacuum Position)
 
 10
 
-�
+—
 
 Recirc Air Inlet
 
 11
 
-�
+—
 
 Secondary Air Inlet Duct Door (Full Vacuum Position)
 
 12
 
-�
+—
 
 Primary Air Inlet Duct Door (Full Vacuum Position)
 
 13
 
-�
+—
 
 Outside Air Inlet
 
@@ -60522,13 +60522,13 @@ Vacuum Control Motor (Air Inlet Duct Doors)
 
 15
 
-�
+—
 
 Recirc Air Inlet
 
 16
 
-�
+—
 
 Primary Air Inlet Duct Door (No Vacuum Position)
 
@@ -60552,37 +60552,37 @@ Heater Core
 
 20
 
-�
+—
 
 Secondary Air Temperature Control Door (Full Hot Position)
 
 21
 
-�
+—
 
 Secondary Air Temperature Control Door (Full Cool Position)
 
 22
 
-�
+—
 
 Heater Air Damper Door (Full Vacuum Position)
 
 23
 
-�
+—
 
 Heater Air Damper Door (Partial Vacuum Position)
 
 24
 
-�
+—
 
 Heater Air Damper Door (No Vacuum Position)
 
 25
 
-�
+—
 
 Floor Airflow
 
@@ -60594,13 +60594,13 @@ Vacuum Control Motor (Heater Air Damper Door)
 
 27
 
-�
+—
 
 To Engine Intake Manifold
 
 28
 
-�
+—
 
 To Emission Control
 
@@ -60618,7 +60618,7 @@ A/C Vacuum Reservoir Tank and Bracket
 
 31
 
-�
+—
 
 Electronic Automatic Temperature Control Module
 
@@ -60634,7 +60634,7 @@ Circuit Function
 
 1
 
-�
+—
 
 Not Used
 
@@ -60802,7 +60802,7 @@ PAGE 4741
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -61086,7 +61086,7 @@ MC
 
 Invalid code, do not service.
 
- Symptom Chart�Climate Control System 
+ Symptom Chart—Climate Control System 
 
  CLIMATE CONTROL SYSTEM 
 
@@ -61232,7 +61232,7 @@ PAGE 4742
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -61488,13 +61488,13 @@ PAGE 4743
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
 GENERAL PROCEDURES
 
-A/C System Check � Retail Procedure
+A/C System Check — Retail Procedure
 
  NOTE: This Retail Procedure is not eligible for claiming on Ford paid
 repairs (warranty and ESP).
@@ -61712,7 +61712,7 @@ PAGE 4744
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -61824,7 +61824,7 @@ PAGE 4745
 ================================================================================
 1997 Mark VIII
 
-Section 412-00: Climate Control System�General Information
+Section 412-00: Climate Control System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -62166,7 +62166,7 @@ Section 412-01: Air Distribution and Filtering
 
 REMOVAL AND INSTALLATION
 
-A/C Registers�Center
+A/C Registers—Center
 
 The center A/C registers (19893) are part of the instrument panel 
 finish panel (044D70). To remove the instrument panel finish panel, refer to Section 501-12 
@@ -62183,7 +62183,7 @@ Section 412-01: Air Distribution and Filtering
 
 REMOVAL AND INSTALLATION
 
-A/C Register�LH
+A/C Register—LH
 
  Removal 
 
@@ -62215,7 +62215,7 @@ Section 412-01: Air Distribution and Filtering
 
 REMOVAL AND INSTALLATION
 
-A/C Evaporator Register Duct�LH
+A/C Evaporator Register Duct—LH
 
  Removal 
 
@@ -62413,7 +62413,7 @@ Section 412-02: Heating/Defrosting
 
 DESCRIPTION AND OPERATION
 
-Climate Control System�Electronic Automatic Temperature Control
+Climate Control System—Electronic Automatic Temperature Control
 
 The electronic automatic temperature control system has the following 
 features:
@@ -62463,13 +62463,13 @@ Windshield Defroster Door
 
 2
 
-�
+—
 
 Windshield Defroster Airflow
 
 3
 
-�
+—
 
 Side Window Demister Airflow
 
@@ -62481,25 +62481,25 @@ A/C Evaporator Housing
 
 5
 
-�
+—
 
 Recirculated Airflow
 
 6
 
-�
+—
 
 Secondary A/C Air Inlet Duct Door
 
 7
 
-�
+—
 
 Primary A/C Air Inlet Duct Door
 
 8
 
-�
+—
 
 Outside Airflow
 
@@ -62511,7 +62511,7 @@ A/C Recirculating Air Duct
 
 10
 
-�
+—
 
 Recirculated Airflow
 
@@ -62529,7 +62529,7 @@ A/C Evaporator Core
 
 13
 
-�
+—
 
 Air Temperature Control Door
 
@@ -62541,19 +62541,19 @@ Heater Core
 
 15
 
-�
+—
 
 Floor Airflow
 
 16
 
-�
+—
 
 Heater Air Damper Door
 
 17
 
-�
+—
 
 Panel Airflow
 
@@ -63242,7 +63242,7 @@ A/C Manifold and Tube
 
 3
 
-�
+—
 
 A/C Clutch Field Coil Connector (Part of 2987)
 
@@ -63504,13 +63504,13 @@ Description
 
 1
 
-�
+—
 
 Plastic Indicator Ring
 
 2
 
-�
+—
 
 Female Fitting
 
@@ -63528,19 +63528,19 @@ A/C Tube Lock Coupling Spring
 
 5
 
-�
+—
 
 Cage
 
 6
 
-�
+—
 
 O-Ring Seals (3 Req'd for A/C Condenser Core, 2 Req'd for All Others)
 
 7
 
-�
+—
 
 Male Fitting
 
@@ -65170,7 +65170,7 @@ WSH-M1C231-B
 
 A/C System Flushing Solvent
 
-�
+—
 
 F4AZ-19579-A
 
@@ -65196,7 +65196,7 @@ A/C Compressor Mounting Bolts
 
 15-22
 
-�
+—
 
 A/C Manifold and Tube Retaining Bolt
 
@@ -65204,13 +65204,13 @@ A/C Manifold and Tube Retaining Bolt
 
 14-17
 
-�
+—
 
 A/C Compressor Clutch Retaining Bolt
 
 11-14
 
-�
+—
 
 98-123
 
@@ -65218,7 +65218,7 @@ A/C Condenser Core Mounting Bracket Retaining Bolts
 
 10-14
 
-�
+—
 
 89-123
 
@@ -65228,13 +65228,13 @@ Radiator Mounting Bracket Retaining Bolts
 
 14-19
 
-�
+—
 
 A/C Cycling Switch
 
 2-5
 
-�
+—
 
 18-44
 
@@ -65242,7 +65242,7 @@ Accumulator Mounting Bracket Clamping Bolt
 
 2-3
 
-�
+—
 
 18-26
 
@@ -65250,7 +65250,7 @@ Condenser to Evaporator Tube Clamp Retaining Nut
 
 2-3
 
-�
+—
 
 18-26
 
@@ -65258,7 +65258,7 @@ Engine Air Cleaner Tube Clamp
 
 1.4-2.5
 
-�
+—
 
 13-22
 
@@ -65266,7 +65266,7 @@ A/C Pressure Transducer
 
 7-13
 
-�
+—
 
 62-115
 
@@ -65274,7 +65274,7 @@ Suction Filter Hose Clamps
 
 6.2
 
-�
+—
 
 54.0
 
@@ -65289,7 +65289,7 @@ Section 412-04: Control Components
 
 DESCRIPTION AND OPERATION
 
-Climate Control System�Electronic Automatic Temperature Control
+Climate Control System—Electronic Automatic Temperature Control
 
 The electronic automatic temperature control (EATC) system is standard 
 equipment on all Mark VIII vehicles.
@@ -65397,7 +65397,7 @@ A/C Pressure Transducer
 
 11
 
-�
+—
 
 Variable Load Control Module
 
@@ -66250,7 +66250,7 @@ Door, Luggage Compartment
 
  REM & INST: Body Closures 
 
- Door, Luggage Compartment�Alignment 
+ Door, Luggage Compartment—Alignment 
 
 Doors
 
@@ -66258,7 +66258,7 @@ Doors
 
  REM & INST: Body Closures 
 
- Door�Alignment 
+ Door—Alignment 
 
  Drive Belt Adjustment 
 
@@ -66329,85 +66329,85 @@ Description
 
 1
 
-�
+—
 
 Engine Coolant Temperature Gauge
 
 2
 
-�
+—
 
 Tachometer
 
 3
 
-�
+—
 
 Right and Left Turn Signal Indicators
 
 4
 
-�
+—
 
 Speedometer
 
 5
 
-�
+—
 
 Fuel Gauge
 
 6
 
-�
+—
 
 Electronic Odometer Display
 
 7
 
-�
+—
 
 Transmission Range Indicator
 
 8
 
-�
+—
 
 High Beam Indicator
 
 9
 
-�
+—
 
 Cruise On Indicator
 
 10
 
-�
+—
 
 Traction Assist Active Indicator
 
 11
 
-�
+—
 
 Charge System Warning Indicator
 
 12
 
-�
+—
 
 Low Oil Pressure Warning Indicator
 
 13
 
-�
+—
 
 Brake Warning Indicator
 
 14
 
-�
+—
 
 Anti-Lock Brake System (ABS) Warning Indicator
 
@@ -67253,7 +67253,7 @@ identified, service as required.
 If the concerns remain after the inspection, determine the condition 
 and go to the Symptom Chart.
 
- Symptom Chart�Horn System 
+ Symptom Chart—Horn System 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connector numbers cited in the pinpoint tests.
@@ -68560,7 +68560,7 @@ Section 413-08A: Driver Information/Message Center
 
 DIAGNOSIS AND TESTING
 
-Symptom Chart�Message Center Indicator Module
+Symptom Chart—Message Center Indicator Module
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for connector 
 numbers cited in the pinpoint tests.
@@ -69639,7 +69639,7 @@ PAGE 4836
 
  Electrical Power Supply System 
 
- Electrical Power Supply System�General Information, Section Table of Contents 
+ Electrical Power Supply System—General Information, Section Table of Contents 
 
  Electrical System 
 
@@ -69753,7 +69753,7 @@ Evaporative Emissions
 
  Excessive Engine Oil Consumption 
 
- Exhaust Components � General Information, Section Table of Contents 
+ Exhaust Components — General Information, Section Table of Contents 
 
 Exhaust Emission Control System
 
@@ -69769,9 +69769,9 @@ Exhaust Emission Control System
 
  Exhaust Manifold Inspection 
 
- Exhaust Manifold�LH Side 
+ Exhaust Manifold—LH Side 
 
- Exhaust Manifold�RH Side 
+ Exhaust Manifold—RH Side 
 
  Exhaust System Alignment 
 
@@ -69779,9 +69779,9 @@ Exhaust Emission Control System
 
 Exhaust System
 
- DESC & OPER: Exhaust Components � General Information 
+ DESC & OPER: Exhaust Components — General Information 
 
- DIAG & TEST: Exhaust Components � General Information 
+ DIAG & TEST: Exhaust Components — General Information 
 
  Extension Housing Seal and Gasket 
 
@@ -69800,7 +69800,7 @@ PAGE 4837
 ================================================================================
 1997 Mark VIII
 
-Section 414-00: Electrical Power Supply System�General Information
+Section 414-00: Electrical Power Supply System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -69885,7 +69885,7 @@ PAGE 4838
 ================================================================================
 1997 Mark VIII
 
-Section 414-00: Electrical Power Supply System�General Information
+Section 414-00: Electrical Power Supply System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -70005,7 +70005,7 @@ identified, service as required.
 If the concern(s) remains after the inspection, determine the 
 symptom(s) and go to the Symptom Chart.
 
- Symptom Chart�Battery And Charging System 
+ Symptom Chart—Battery And Charging System 
 
  BATTERY AND CHARGING SYSTEM 
 
@@ -70257,7 +70257,7 @@ PAGE 4839
 ================================================================================
 1997 Mark VIII
 
-Section 414-00: Electrical Power Supply System�General Information
+Section 414-00: Electrical Power Supply System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -70354,7 +70354,7 @@ PAGE 4840
 ================================================================================
 1997 Mark VIII
 
-Section 414-00: Electrical Power Supply System�General Information
+Section 414-00: Electrical Power Supply System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -70369,7 +70369,7 @@ PAGE 4841
 ================================================================================
 1997 Mark VIII
 
-Section 414-00: Electrical Power Supply System�General Information
+Section 414-00: Electrical Power Supply System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -70778,7 +70778,7 @@ Generator Support Bracket Bolts
 
 8-12
 
-�
+—
 
 71-106
 
@@ -70788,13 +70788,13 @@ Generator Mounting Bolts
 
 15-22
 
-�
+—
 
 Generator Assembly Through Bolts
 
 8-10
 
-�
+—
 
 71-88
 
@@ -70837,7 +70837,7 @@ Front Disc Brake
 
  Section Table of Contents 
 
- Front Door�Trim and Mouldings 
+ Front Door—Trim and Mouldings 
 
 Front End Body Panels
 
@@ -70925,11 +70925,11 @@ Fuel System
 
  DESC & OPER: Fuel Charging and Controls 
 
- DIAG & TEST: Fuel System�General Information 
+ DIAG & TEST: Fuel System—General Information 
 
- Fuel System�General Information, Section Table of Contents 
+ Fuel System—General Information, Section Table of Contents 
 
- Fuel System�Pressurized 
+ Fuel System—Pressurized 
 
  Fuel Tank and Fuel Tank Filler Pipe 
 
@@ -70945,14 +70945,14 @@ Fuel System
 
  Fuel Tubes 
 
- Functional Test Procedure�Active Restraints
+ Functional Test Procedure—Active Restraints
 
 ================================================================================
 PAGE 4851
 ================================================================================
 1997 Mark VIII
 
-Section 415-00: In-Vehicle Entertainment System�General Information
+Section 415-00: In-Vehicle Entertainment System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -71040,13 +71040,13 @@ Radio Antenna Isolator
 
 7
 
-�
+—
 
 Rear Window Defroster Grid/AM Antenna (Part of 42006)
 
 8
 
-�
+—
 
 FM Antenna Tracing (Part of 42006)
 
@@ -71149,7 +71149,7 @@ PAGE 4852
 ================================================================================
 1997 Mark VIII
 
-Section 415-00: In-Vehicle Entertainment System�General Information
+Section 415-00: In-Vehicle Entertainment System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -71179,7 +71179,7 @@ PAGE 4853
 ================================================================================
 1997 Mark VIII
 
-Section 415-00: In-Vehicle Entertainment System�General Information
+Section 415-00: In-Vehicle Entertainment System—General Information
 
 1997 Mark VIII Workshop Manual
 
@@ -71364,7 +71364,7 @@ Internal malfunctions.
 
 SERVICE the radio chassis.
 
- Symptom Chart�Sound System Function 
+ Symptom Chart—Sound System Function 
 
  SOUND SYSTEM FUNCTION 
 
@@ -71374,7 +71374,7 @@ Possible Source
 
 Action
 
-The Radio Chassis/Tape Player Is Inoperative�Does Not Operate 
+The Radio Chassis/Tape Player Is Inoperative—Does Not Operate 
 Properly
 
 Open fuse.
@@ -71387,7 +71387,7 @@ Damaged ignition switch.
 
 GO to Pinpoint Test A .
 
-The Radio Chassis/CD Player Is Inoperative�Does Not Operate 
+The Radio Chassis/CD Player Is Inoperative—Does Not Operate 
 Properly
 
 Open fuse.
@@ -71400,7 +71400,7 @@ Damaged radio chassis.
 
 GO to Pinpoint Test B .
 
-The Digital Audio Compact Disc Changer Only Is Inoperative�Does 
+The Digital Audio Compact Disc Changer Only Is Inoperative—Does 
 Not Operate Properly
 
 Open fuse.
@@ -71416,7 +71416,7 @@ Damaged ignition switch.
 GO to Pinpoint Test C .
 
 The Radio Chassis/Tape Player or the Radio Chassis/CD Player 
-Backlighting Is Inoperative�Does Not Operate Properly
+Backlighting Is Inoperative—Does Not Operate Properly
 
 Illumination.
 
@@ -71426,7 +71426,7 @@ Damaged radio chassis.
 
 GO to Pinpoint Test D .
 
-Noisy Reception�AM and FM
+Noisy Reception—AM and FM
 
 Damaged suppression equipment.
 
@@ -71474,7 +71474,7 @@ Damaged radio chassis.
 
 GO to Pinpoint Test G .
 
-Poor Quality/Distorted Sound From One or More of the Speakers�Not 
+Poor Quality/Distorted Sound From One or More of the Speakers—Not 
 All the Speakers
 
 Circuitry.
@@ -71497,7 +71497,7 @@ Radio amplifier.
 
 GO to Pinpoint Test J .
 
-No Sound From One or More Speakers�Not All the Speakers
+No Sound From One or More Speakers—Not All the Speakers
 
 Circuitry.
 
@@ -71524,7 +71524,7 @@ GO to Pinpoint Test L .
  Pinpoint Tests 
 
 PINPOINT TEST A: THE RADIO CHASSIS/TAPE PLAYER IS 
-INOPERATIVE�DOES NOT OPERATE PROPERLY
+INOPERATIVE—DOES NOT OPERATE PROPERLY
 
 TEST CONDITIONS
 
@@ -71630,7 +71630,7 @@ Glass (Glazing), Frames and Mechanisms
 
  Glossary Of Terms 
 
- Glossary�Supplemental Air Bag System 
+ Glossary—Supplemental Air Bag System 
 
  Glove Compartment 
 
@@ -71663,9 +71663,9 @@ Half-Shaft Assembly
 
  Headlamp Alignment 
 
- Headlamp Assembly � Without Serviceable Low Beam Headlamp Bulb 
+ Headlamp Assembly — Without Serviceable Low Beam Headlamp Bulb 
 
- Headlamp Bulb, Low Beam�With Serviceable Low Beam Headlamp Bulbs 
+ Headlamp Bulb, Low Beam—With Serviceable Low Beam Headlamp Bulbs 
 
 Headlamp Switch
 
@@ -71790,13 +71790,13 @@ Headlamp
 
 7
 
-�
+—
 
 Steering Column/Ignition/Lighting (SCIL) Control Module
 
 8
 
-�
+—
 
 Illuminated Outside Rear View Mirror
 
@@ -74086,7 +74086,7 @@ identified, service as required.
 If the concern(s) remains after the inspection, determine the 
 symptom(s) and go to the Symptom Chart.
 
- Symptom Chart�Backup Lamps 
+ Symptom Chart—Backup Lamps 
 
  BACKUP LAMPS 
 
@@ -74617,7 +74617,7 @@ Section 417-01: Exterior Lighting
 
 REMOVAL AND INSTALLATION
 
-Headlamp Assembly � Without Serviceable Low Beam Headlamp Bulb
+Headlamp Assembly — Without Serviceable Low Beam Headlamp Bulb
 
  Removal 
 
@@ -74710,7 +74710,7 @@ Section 417-01: Exterior Lighting
 
 REMOVAL AND INSTALLATION
 
-Headlamp Bulb, Low Beam�With Serviceable Low Beam Headlamp Bulbs
+Headlamp Bulb, Low Beam—With Serviceable Low Beam Headlamp Bulbs
 
  Removal 
 
@@ -74867,7 +74867,7 @@ Section 417-01: Exterior Lighting
 
 REMOVAL AND INSTALLATION
 
-Trim�Lower Headlamp Assembly
+Trim—Lower Headlamp Assembly
 
  Removal 
 
@@ -74974,7 +74974,7 @@ Section 417-01: Exterior Lighting
 
 REMOVAL AND INSTALLATION
 
-Low Beam Ballast�With Serviceable Low Beam Headlamp Bulbs
+Low Beam Ballast—With Serviceable Low Beam Headlamp Bulbs
 
  Removal 
 
@@ -75224,7 +75224,7 @@ Description
 
 1
 
-�
+—
 
 Steering Column/Ignition/Lighting (SCIL) Control Module
 
@@ -75236,7 +75236,7 @@ Instrument Panel Lamp Dimmer Control
 
 3
 
-�
+—
 
 Dome/Map Combination Lamp
 
@@ -75254,7 +75254,7 @@ Interior Lamp Switch
 
 6
 
-�
+—
 
 Courtesy/Reading Lamps
 
@@ -77178,7 +77178,7 @@ Idle Air Control (IAC) Valve
 
  DESC & OPER: Electronic Engine Control 
 
- GEN PROC: Fuel System�General Information 
+ GEN PROC: Fuel System—General Information 
 
  REM & INST: Electronic Engine Control 
 
@@ -77206,7 +77206,7 @@ Idle Air Control (IAC) Valve
 
  In-Vehicle Entertainment System 
 
- In-Vehicle Entertainment System�General Information, Section Table of Contents 
+ In-Vehicle Entertainment System—General Information, Section Table of Contents 
 
  Inboard CV Joint Stub Shaft Pilot Bearing Housing and Inboard CV Joint Stub Shaft Pilot Bearing Housing Seal 
 
@@ -77319,19 +77319,19 @@ Description
 
 1
 
-�
+—
 
 Variable Load Control Module (VCLM)
 
 2
 
-�
+—
 
 Hybrid Electronic Instrument Cluster (HEC)
 
 3
 
-�
+—
 
 Message Center (MC) Indicator Module
 
@@ -77343,7 +77343,7 @@ Electronic Automatic Temperature Control (EATC)
 
 5
 
-�
+—
 
 Steering Column/Ignition Lighting (SCIL) Control Module
 
@@ -77355,7 +77355,7 @@ Wiring Harness
 
 7
 
-�
+—
 
 Connector C307 (Part of Harness 19B113 and Harness 14A005)
 
@@ -77391,13 +77391,13 @@ Wiring Harness
 
 13
 
-�
+—
 
 Connector C301 (Part of Harness 14A005 and Harness 14A699)
 
 14
 
-�
+—
 
 Data Link Connector (part of 14401)
 
@@ -77415,7 +77415,7 @@ Powertrain Control Module
 
 17
 
-�
+—
 
 Connector C214 (Part of Harness 14A005 and Harness 14401)
 
@@ -77427,7 +77427,7 @@ Wiring Harness
 
 19
 
-�
+—
 
 Connector C122 (Part of Harness 14290 and Harness 12A581)
 
@@ -77439,7 +77439,7 @@ Wiring Harness
 
 21
 
-�
+—
 
 Evacuate and Fill Connector (ABS) (Used in Vehicle Assembly Only)
 
@@ -77451,7 +77451,7 @@ Anti-Lock Brake (ABS) Control Module
 
 23
 
-�
+—
 
 Connector C248 (Part of Harness 14401 and Harness 12A581)
 
@@ -77636,7 +77636,7 @@ Wiring Harness
 
 2
 
-�
+—
 
 Connector C200 (Part of Harness 14401 and Harness 14A005)
 
@@ -77648,7 +77648,7 @@ Wiring Harness
 
 4
 
-�
+—
 
 Passenger Seat Module (PSM)
 
@@ -77660,13 +77660,13 @@ Wiring Harness
 
 6
 
-�
+—
 
 Connector C304 (Part of Harness 14A005 and Harness 14A699)
 
 7
 
-�
+—
 
 Data Link Connector (DLC) (Part of Harness 14401)
 
@@ -78036,12 +78036,12 @@ Diagnostics
 .
 
 Retrieve continuous DTCs from selected module; refer to New Generation 
-Star (NGS) Tester Usage�Retrieve/Clear Continuous DTCs.
+Star (NGS) Tester Usage—Retrieve/Clear Continuous DTCs.
 
 Record all continuous DTCs.
 
 Clear all continuous DTCs from selected module; refer to New Generation 
-Star (NGS) Tester Usage�Retrieve/Clear Continuous DTCs.
+Star (NGS) Tester Usage—Retrieve/Clear Continuous DTCs.
 
  NOTE: The on-demand self-test program for some module(s) will produce 
 observable outputs.
@@ -78112,7 +78112,7 @@ GO to Section 206-09
 
 C1145
 
-RF SPEED SENSOR�INPUT CIRCUIT FAILURE
+RF SPEED SENSOR—INPUT CIRCUIT FAILURE
 
 ABS/TC
 
@@ -78121,7 +78121,7 @@ GO to Section 206-09
 
 C1155
 
-LF SPEED SENSOR�INPUT CIRCUIT FAILURE
+LF SPEED SENSOR—INPUT CIRCUIT FAILURE
 
 ABS/TC
 
@@ -78130,7 +78130,7 @@ GO to Section 206-09
 
 C1165
 
-RR SPEED SENSOR�INPUT CIRCUIT FAILURE
+RR SPEED SENSOR—INPUT CIRCUIT FAILURE
 
 ABS/TC
 
@@ -78139,7 +78139,7 @@ GO to Section 206-09
 
 C1175
 
-LR SPEED SENSOR�INPUT CIRCUIT FAILURE
+LR SPEED SENSOR—INPUT CIRCUIT FAILURE
 
 ABS/TC
 
@@ -78458,7 +78458,7 @@ PAGE 4906
 ================================================================================
 1997 Mark VIII
 
-Section 419-01A: Anti-Theft Warning�Perimeter
+Section 419-01A: Anti-Theft Warning—Perimeter
 
 1997 Mark VIII Workshop Manual
 
@@ -78514,7 +78514,7 @@ PAGE 4907
 ================================================================================
 1997 Mark VIII
 
-Section 419-01A: Anti-Theft Warning�Perimeter
+Section 419-01A: Anti-Theft Warning—Perimeter
 
 1997 Mark VIII Workshop Manual
 
@@ -78561,7 +78561,7 @@ PAGE 4908
 ================================================================================
 1997 Mark VIII
 
-Section 419-01A: Anti-Theft Warning�Perimeter
+Section 419-01A: Anti-Theft Warning—Perimeter
 
 1997 Mark VIII Workshop Manual
 
@@ -78585,7 +78585,7 @@ PAGE 4909
 ================================================================================
 1997 Mark VIII
 
-Section 419-01A: Anti-Theft Warning�Perimeter
+Section 419-01A: Anti-Theft Warning—Perimeter
 
 1997 Mark VIII Workshop Manual
 
@@ -78613,13 +78613,13 @@ PAGE 4910
 ================================================================================
 1997 Mark VIII
 
-Section 419-01A: Anti-Theft Warning�Perimeter
+Section 419-01A: Anti-Theft Warning—Perimeter
 
 1997 Mark VIII Workshop Manual
 
 DIAGNOSIS AND TESTING
 
-Anti-Theft Warning�Perimeter
+Anti-Theft Warning—Perimeter
 
  Electrical Schematic Reference(s) 
 
@@ -79023,7 +79023,7 @@ PAGE 4911
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
@@ -79041,7 +79041,7 @@ Description
 
 1
 
-�
+—
 
 Receiver Antenna
 
@@ -79067,7 +79067,7 @@ PAGE 4912
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
@@ -79105,13 +79105,13 @@ PAGE 4913
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
 DIAGNOSIS AND TESTING
 
-Anti-Theft Warning�PATS
+Anti-Theft Warning—PATS
 
  Electrical Schematic Reference(s) 
 
@@ -79515,7 +79515,7 @@ PAGE 4914
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
@@ -79542,7 +79542,7 @@ PAGE 4915
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
@@ -79592,7 +79592,7 @@ PAGE 4916
 ================================================================================
 1997 Mark VIII
 
-Section 419-01B: Anti-Theft Warning�PATS
+Section 419-01B: Anti-Theft Warning—PATS
 
 1997 Mark VIII Workshop Manual
 
@@ -79703,7 +79703,7 @@ Inside Visor
 
 2
 
-�
+—
 
 Universal Transmitter
 
@@ -79773,7 +79773,7 @@ continue the inspection.
 If the inspection does not reveal the cause of the customer's concern, 
 go to the Symptom Chart.
 
- Symptom Chart�Universal Transmitter 
+ Symptom Chart—Universal Transmitter 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connector numbers cited in the pinpoint tests.
@@ -80536,7 +80536,7 @@ PHONE ST
 
 ON OFF
 
- Symptom Chart�Cellular Phone 
+ Symptom Chart—Cellular Phone 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connector numbers cited in the pinpoint tests.
@@ -80781,7 +80781,7 @@ identified, service as required.
 If concern(s) remains after the inspection, determine the condition and 
 go to the Symptom Chart to continue diagnostics.
 
- Symptom Chart�Compass 
+ Symptom Chart—Compass 
 
 Refer to the Electrical and Vacuum Troubleshooting Manual for the 
 connector numbers cited in the pinpoint tests.
@@ -81286,7 +81286,7 @@ PAGE 4931
 
  Lock Cylinder, Luggage Compartment Door 
 
- Low Beam Ballast�With Serviceable Low Beam Headlamp Bulbs 
+ Low Beam Ballast—With Serviceable Low Beam Headlamp Bulbs 
 
 Lug Bolt
 
@@ -81461,7 +81461,7 @@ Mirror, Inside Rear View
 
  Mirror, Outside Rear View Power 
 
- Mirror, Power�Outside Rear View 
+ Mirror, Power—Outside Rear View 
 
  Mirror, Rear View 
 
@@ -81635,9 +81635,9 @@ Powertrain Control Module (PCM)
 
  Primary Crash Air Bag Sensor and Bracket, Front 
 
- Procedure 1, Air Bag Disposal�Electronic Deployment With Wiring Intact 
+ Procedure 1, Air Bag Disposal—Electronic Deployment With Wiring Intact 
 
- Procedure 2, Air Bag Disposal�Remote Deployment 
+ Procedure 2, Air Bag Disposal—Remote Deployment 
 
 Programming
 
@@ -81840,7 +81840,7 @@ Secondary Air Injection Pump
 
 Sequence of Operation
 
- DESC & OPER: Anti-Theft Warning�PATS 
+ DESC & OPER: Anti-Theft Warning—PATS 
 
  DESC & OPER: Starting Systems 
 
@@ -81848,7 +81848,7 @@ Sequence of Operation
 
 Service Precautions
 
- GEN PROC: Brake System�General Information 
+ GEN PROC: Brake System—General Information 
 
  REM & INST: Front Disc Brake 
 
@@ -81902,7 +81902,7 @@ SPECIFICATIONS
 
  Body Closures 
 
- Brake System�General Information 
+ Brake System—General Information 
 
  Bumpers 
 
@@ -81914,7 +81914,7 @@ SPECIFICATIONS
 
  Driveshaft 
 
- Electrical Power Supply System�General Information 
+ Electrical Power Supply System—General Information 
 
  Electronic Engine Control 
 
@@ -81926,7 +81926,7 @@ SPECIFICATIONS
 
  Evaporative Emissions 
 
- Exhaust Components � General Information 
+ Exhaust Components — General Information 
 
  Exterior Lighting 
 
@@ -81942,7 +81942,7 @@ SPECIFICATIONS
 
  Fuel Charging and Controls 
 
- Fuel System�General Information 
+ Fuel System—General Information 
 
  Fuel Tank and Lines 
 
@@ -81996,11 +81996,11 @@ SPECIFICATIONS
 
  Steering Column 
 
- Steering�General Information 
+ Steering—General Information 
 
  Suspension Load Leveling Control 
 
- Suspension System�General Information 
+ Suspension System—General Information 
 
  Transmission Cooling 
 
@@ -82034,7 +82034,7 @@ Spring Lock Coupling
 
  Spring 
 
- Spring�Air 
+ Spring—Air 
 
  Stabilizer Bar and Link Assembly 
 
@@ -82088,9 +82088,9 @@ Steering Gear
 
 Steering System
 
- DESC & OPER: Steering�General Information 
+ DESC & OPER: Steering—General Information 
 
- DIAG & TEST: Steering�General Information 
+ DIAG & TEST: Steering—General Information 
 
  Steering System, Power 
 
@@ -82098,9 +82098,9 @@ Steering System
 
  Steering Wheel 
 
- Steering, Power�Variable Assist 
+ Steering, Power—Variable Assist 
 
- Steering�General Information, Section Table of Contents 
+ Steering—General Information, Section Table of Contents 
 
 Stoplamps
 
@@ -82116,7 +82116,7 @@ Stoplight Switch
 
  Straightening Wheels, Rims or Components 
 
- Striker, Door Latch�Adjustment 
+ Striker, Door Latch—Adjustment 
 
  Sub-Frame Body Insulators 
 
@@ -82224,9 +82224,9 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Noise Diagnostic Procedure�Non-Axle Noise 
+ Noise Diagnostic Procedure—Non-Axle Noise 
 
- Noise Diagnostic Procedure�Noise Conditions 
+ Noise Diagnostic Procedure—Noise Conditions 
 
  Vibration Conditions 
 
@@ -82234,7 +82234,7 @@ DIAGNOSIS AND TESTING
 
  Vehicle Preparation 
 
- Symptom Chart�Noise, Vibration And Harshness 
+ Symptom Chart—Noise, Vibration And Harshness 
 
  Pinpoint Tests 
 
@@ -82357,13 +82357,13 @@ REMOVAL AND INSTALLATION
 
 GENERAL PROCEDURES
 
- Door�Alignment 
+ Door—Alignment 
 
- Striker, Door Latch�Adjustment 
+ Striker, Door Latch—Adjustment 
 
- Door, Luggage Compartment�Alignment 
+ Door, Luggage Compartment—Alignment 
 
- Torsion Bar, Luggage Compartment Door�Adjustment 
+ Torsion Bar, Luggage Compartment Door—Adjustment 
 
  SPECIFICATIONS
 
@@ -82433,7 +82433,7 @@ DESCRIPTION AND OPERATION
 
 REMOVAL AND INSTALLATION
 
- Front Door�Trim and Mouldings 
+ Front Door—Trim and Mouldings 
 
  Roof Side Moulding 
 
@@ -82480,13 +82480,13 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Mirrors, Rear View 
+ Symptom Chart—Mirrors, Rear View 
 
  Pinpoint Tests 
 
 REMOVAL AND INSTALLATION
 
- Mirror, Power�Outside Rear View 
+ Mirror, Power—Outside Rear View 
 
  Glass, Outside Mirror 
 
@@ -82535,7 +82535,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Seats and Tracks 
+ Symptom Chart—Seats and Tracks 
 
  Pinpoint Tests 
 
@@ -82600,7 +82600,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Power Windows and Heated Back Window 
+ Symptom Chart—Power Windows and Heated Back Window 
 
  Pinpoint Tests 
 
@@ -82671,7 +82671,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Ignition Switch 
+ Symptom Chart—Ignition Switch 
 
  Pinpoint Test 
 
@@ -82726,7 +82726,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Keyless Entry/Computer Operated Locks 
+ Symptom Chart—Keyless Entry/Computer Operated Locks 
 
  Pinpoint Tests 
 
@@ -82795,7 +82795,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart � Wiper and Washer Systems 
+ Symptom Chart — Wiper and Washer Systems 
 
  Pinpoint Tests 
 
@@ -82842,7 +82842,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Roof Panel, Sliding�Electric 
+ Symptom Chart—Roof Panel, Sliding—Electric 
 
  Pinpoint Tests 
 
@@ -82940,7 +82940,7 @@ DESCRIPTION AND OPERATION
 
  Passive Restraints 
 
- Glossary�Supplemental Air Bag System 
+ Glossary—Supplemental Air Bag System 
 
 DIAGNOSIS AND TESTING
 
@@ -82948,7 +82948,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Active Restraints 
+ Symptom Chart—Active Restraints 
 
  Passive Restraints 
 
@@ -82964,49 +82964,49 @@ DIAGNOSIS AND TESTING
 
  Pinpoint Tests 
 
- Pinpoint Test A: No Air Bag Indicator�Inoperative Lamp Circuit 
+ Pinpoint Test A: No Air Bag Indicator—Inoperative Lamp Circuit 
 or No Ignition Voltage to Air Bag Diagnostic Monitor 
 
- Pinpoint Test B: Continuous Air Bag Indicator�Air Bag Diagnostic 
+ Pinpoint Test B: Continuous Air Bag Indicator—Air Bag Diagnostic 
 Monitor Disconnected or Inoperative 
 
- Pinpoint Test C: DTC 12�Low Battery Voltage 
+ Pinpoint Test C: DTC 12—Low Battery Voltage 
 
- DTC 13�Air Bag Circuit Shorted to Ground 
+ DTC 13—Air Bag Circuit Shorted to Ground 
 
- DTC 14�Primary Crash Sensor Circuit Shorted to Ground 
+ DTC 14—Primary Crash Sensor Circuit Shorted to Ground 
 
- DTC 21�Safing Sensor Not Mounted to Vehicle Properly 
+ DTC 21—Safing Sensor Not Mounted to Vehicle Properly 
 
- DTC 22�Safing Sensor Output Circuit Shorted to Battery Voltage 
+ DTC 22—Safing Sensor Output Circuit Shorted to Battery Voltage 
 
- DTC 23�Safing Sensor Circuit Input Feed/Return Circuit Open 
+ DTC 23—Safing Sensor Circuit Input Feed/Return Circuit Open 
 
- DTC 24�Safing Sensor Output Feed/Return Circuit Open 
+ DTC 24—Safing Sensor Output Feed/Return Circuit Open 
 
- DTC 32�Driver Side Air Bag Circuit High Resistance or Open 
+ DTC 32—Driver Side Air Bag Circuit High Resistance or Open 
 
- DTC 33�Passenger Side Air Bag Circuit High Resistance or Open 
+ DTC 33—Passenger Side Air Bag Circuit High Resistance or Open 
 
- DTC 34�Driver Side Air Bag Circuit Low Resistance or Shorted 
+ DTC 34—Driver Side Air Bag Circuit Low Resistance or Shorted 
 
- DTC 41�RH Primary Crash Sensor Feed/Return Circuit Open 
+ DTC 41—RH Primary Crash Sensor Feed/Return Circuit Open 
 
- DTC 42�LH Primary Crash Sensor Feed/Return Circuit Open 
+ DTC 42—LH Primary Crash Sensor Feed/Return Circuit Open 
 
- DTC 44�RH Primary Crash Sensor Not Mounted to Vehicle Properly 
+ DTC 44—RH Primary Crash Sensor Not Mounted to Vehicle Properly 
 
- DTC 45�LH Primary Crash Sensor Not Mounted to Vehicle Properly 
+ DTC 45—LH Primary Crash Sensor Not Mounted to Vehicle Properly 
 
- DTC 51�Air Bag Diagnostic Monitor Internal Thermal 
-Fuse�Fuse Open Due to Intermittent Short to Ground 
+ DTC 51—Air Bag Diagnostic Monitor Internal Thermal 
+Fuse—Fuse Open Due to Intermittent Short to Ground 
 
- DTC 52�Backup Power Supply�Voltage Boost Fault 
+ DTC 52—Backup Power Supply—Voltage Boost Fault 
 
- DTC 53�Primary Crash Sensor Circuits Resistance to Ground or Air 
+ DTC 53—Primary Crash Sensor Circuits Resistance to Ground or Air 
 Bag Diagnostic Monitor Fault 
 
- Rapid Continuous Flashing of Air Bag Indicator (No DTC)�All 
+ Rapid Continuous Flashing of Air Bag Indicator (No DTC)—All 
 Primary Crash Sensors Disconnected 
 
 REMOVAL AND INSTALLATION
@@ -83029,13 +83029,13 @@ REMOVAL AND INSTALLATION
 
 GENERAL PROCEDURES
 
- Functional Test Procedure�Active Restraints 
+ Functional Test Procedure—Active Restraints 
 
  Safety Belt with Anchor Plate Thread Damage 
 
- Procedure 1, Air Bag Disposal�Electronic Deployment With Wiring Intact 
+ Procedure 1, Air Bag Disposal—Electronic Deployment With Wiring Intact 
 
- Procedure 2, Air Bag Disposal�Remote Deployment 
+ Procedure 2, Air Bag Disposal—Remote Deployment 
 
  Deployed Air Bag Disposal 
 
@@ -83141,7 +83141,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart � Engine Diagnosis 
+ Symptom Chart — Engine Diagnosis 
 
  Component Tests 
 
@@ -83163,15 +83163,15 @@ GENERAL PROCEDURES
 
  Camshaft Lobe Lift 
 
- Valve Train Analysis�Static (Engine Off) 
+ Valve Train Analysis—Static (Engine Off) 
 
- Valve Train Analysis � Dynamic 
+ Valve Train Analysis — Dynamic 
 
 IN-VEHICLE REPAIR
 
- Valve Cover�LH 
+ Valve Cover—LH 
 
- Valve Cover�RH 
+ Valve Cover—RH 
 
  Roller Followers 
 
@@ -83191,9 +83191,9 @@ IN-VEHICLE REPAIR
 
  Upper Intake Manifold, Lower Intake Manifold and IMRC 
 
- Exhaust Manifold�RH Side 
+ Exhaust Manifold—RH Side 
 
- Exhaust Manifold�LH Side 
+ Exhaust Manifold—LH Side 
 
  Oil Pan and Oil Pump Screen Cover and Tube 
 
@@ -83360,7 +83360,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Cooling System 
+ Symptom Chart—Cooling System 
 
  Pinpoint Tests 
 
@@ -83516,7 +83516,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Accessory Drive Belts 
+ Symptom Chart—Accessory Drive Belts 
 
  Component Test 
 
@@ -83571,15 +83571,15 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Starter System Diagnosis 
+ Symptom Chart—Starter System Diagnosis 
 
  Pinpoint Tests 
 
  Component Tests 
 
- Starter Motor�Load Test 
+ Starter Motor—Load Test 
 
- Starter Motor�Voltage Drop Tests 
+ Starter Motor—Voltage Drop Tests 
 
  Motor Feed Circuit 
 
@@ -83589,9 +83589,9 @@ DIAGNOSIS AND TESTING
 
  No Load Test 
 
- Armature�Open Circuit Test 
+ Armature—Open Circuit Test 
 
- Armature�Grounded Circuit Test 
+ Armature—Grounded Circuit Test 
 
  Starter Solenoid 
 
@@ -83939,7 +83939,7 @@ PAGE 4997
  Group 04: Suspension 
 
  Section 204-00:
-Suspension System�General Information 
+Suspension System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -83976,7 +83976,7 @@ PAGE 4998
 
 Section 204-00: 
 
-Suspension System�General Information
+Suspension System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -84191,7 +84191,7 @@ DIAGNOSIS AND TESTING
 
  Diagnostic Instructions 
 
- Symptom Chart�Air Suspension System 
+ Symptom Chart—Air Suspension System 
 
  Pinpoint Tests 
 
@@ -84201,7 +84201,7 @@ REMOVAL AND INSTALLATION
 
  Solenoid Valve, Air Spring 
 
- Spring�Air 
+ Spring—Air 
 
  EVO Control Module 
 
@@ -84303,7 +84303,7 @@ DIAGNOSIS AND TESTING
 
  Analysis of Inoperative Conditions 
 
- Symptom Chart�Rear Axle Diagnosis 
+ Symptom Chart—Rear Axle Diagnosis 
 
  Component Tests 
 
@@ -84395,7 +84395,7 @@ PAGE 5013
  Group 06: Brake System 
 
  Section 206-00:
-Brake System�General Information 
+Brake System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -84427,7 +84427,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Brake System 
+ Symptom Chart—Brake System 
 
  Pinpoint Tests 
 
@@ -84450,7 +84450,7 @@ PAGE 5014
 
 Section 206-00: 
 
-Brake System�General Information
+Brake System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -84572,7 +84572,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Parking Brake System 
+ Symptom Chart—Parking Brake System 
 
  Pinpoint Test 
 
@@ -84637,7 +84637,7 @@ REMOVAL AND INSTALLATION
 
 GENERAL PROCEDURES
 
- Bleeding � Components 
+ Bleeding — Components 
 
  Pressure Bleeding 
 
@@ -84731,7 +84731,7 @@ DIAGNOSIS AND TESTING
 
  Diagnostic Trouble Codes, Erasing 
 
- Symptom Chart�Anti-Lock Brake System 
+ Symptom Chart—Anti-Lock Brake System 
 
  Pinpoint Tests 
 
@@ -84766,7 +84766,7 @@ Automatic Transmission
 
 DESCRIPTION AND OPERATION
 
- Automatic Transmission � 4R70W 
+ Automatic Transmission — 4R70W 
 
  Identification Tags 
 
@@ -84820,7 +84820,7 @@ DESCRIPTION AND OPERATION
 
  Torque Converter Clutch (TCC) Solenoid 
 
- Shift Solenoid � 1 and 2 
+ Shift Solenoid — 1 and 2 
 
 DIAGNOSIS AND TESTING
 
@@ -84858,23 +84858,23 @@ DIAGNOSIS AND TESTING
 
  Instructions 
 
- Static Testing � Engine Off 
+ Static Testing — Engine Off 
 
- Dynamic Testing � Engine On 
+ Dynamic Testing — Engine On 
 
  Digital Transmission Range TR Sensor Testing 
 
  Pinpoint Tests 
 
- Pinpoint Test A�Shift Solenoids 
+ Pinpoint Test A—Shift Solenoids 
 
- Pinpoint Test B � Transmission Fluid Temperature (TFT) Sensor 
+ Pinpoint Test B — Transmission Fluid Temperature (TFT) Sensor 
 
- Pinpoint Test C � Torque Converter Clutch (TCC) Solenoid 
+ Pinpoint Test C — Torque Converter Clutch (TCC) Solenoid 
 
- Pinpoint Test E � Electronic Pressure Control (EPC) Solenoid 
+ Pinpoint Test E — Electronic Pressure Control (EPC) Solenoid 
 
- Pinpoint Test F � Output Shaft Speed (OSS) Sensor 
+ Pinpoint Test F — Output Shaft Speed (OSS) Sensor 
 
  Pinpoint Test G 
 
@@ -84999,7 +84999,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Automatic Transmission Cooling 
+ Symptom Chart—Automatic Transmission Cooling 
 
 GENERAL PROCEDURES
 
@@ -85044,7 +85044,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�External Controls 
+ Symptom Chart—External Controls 
 
  Pinpoint Test 
 
@@ -85091,7 +85091,7 @@ PAGE 5033
  Group 09: Exhaust System 
 
  Section 309-00:
-Exhaust Components � General Information 
+Exhaust Components — General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -85103,7 +85103,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart � Exhaust System 
+ Symptom Chart — Exhaust System 
 
  Pinpoint Tests 
 
@@ -85130,7 +85130,7 @@ PAGE 5034
 
 Section 309-00: 
 
-Exhaust Components � General Information
+Exhaust Components — General Information
 
  Choose an item on the left side to display section contents.
 
@@ -85144,7 +85144,7 @@ PAGE 5035
  Group 10: Fuel System 
 
  Section 310-00:
-Fuel System�General Information 
+Fuel System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -85175,7 +85175,7 @@ PAGE 5036
 
 Section 310-00: 
 
-Fuel System�General Information
+Fuel System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -85241,7 +85241,7 @@ GENERAL PROCEDURES
 
  Fuel System Pressure Relief 
 
- Fuel System�Pressurized 
+ Fuel System—Pressurized 
 
  SPECIFICATIONS
 
@@ -85278,7 +85278,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Accelerator and Throttle Body Diagnosis 
+ Symptom Chart—Accelerator and Throttle Body Diagnosis 
 
  Pinpoint Tests 
 
@@ -85325,7 +85325,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Speed Control System�Electronic 
+ Symptom Chart—Speed Control System—Electronic 
 
  Pinpoint Tests 
 
@@ -85372,7 +85372,7 @@ PAGE 5043
  Group 11: Steering System 
 
  Section 211-00:
-Steering�General Information 
+Steering—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -85390,7 +85390,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�EVO System Diagnosis 
+ Symptom Chart—EVO System Diagnosis 
 
  EVO Steering Diagnosis 
 
@@ -85427,7 +85427,7 @@ PAGE 5044
 
 Section 211-00: 
 
-Steering�General Information
+Steering—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -85445,7 +85445,7 @@ Power Steering
 
 DESCRIPTION AND OPERATION
 
- Steering, Power�Variable Assist 
+ Steering, Power—Variable Assist 
 
  Steering Pump 
 
@@ -85563,7 +85563,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Steering Column Switches 
+ Symptom Chart—Steering Column Switches 
 
  Pinpoint Tests 
 
@@ -85592,7 +85592,7 @@ PAGE 5051
  Group 12: Climate Control System 
 
  Section 412-00:
-Climate Control System�General Information 
+Climate Control System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -85606,13 +85606,13 @@ DESCRIPTION AND OPERATION
 
 DIAGNOSIS AND TESTING
 
- Vacuum Schematic�Electronic Automatic Temperature Control 
+ Vacuum Schematic—Electronic Automatic Temperature Control 
 
  Climate Control System 
 
  Inspection and Verification 
 
- Symptom Chart�Climate Control System 
+ Symptom Chart—Climate Control System 
 
  Pinpoint Tests 
 
@@ -85638,7 +85638,7 @@ DIAGNOSIS AND TESTING
 
 GENERAL PROCEDURES
 
- A/C System Check � Retail Procedure 
+ A/C System Check — Retail Procedure 
 
  A/C System Flushing 
 
@@ -85651,7 +85651,7 @@ PAGE 5052
 
 Section 412-00: 
 
-Climate Control System�General Information
+Climate Control System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -85677,11 +85677,11 @@ DIAGNOSIS AND TESTING
 
 REMOVAL AND INSTALLATION
 
- A/C Registers�Center 
+ A/C Registers—Center 
 
- A/C Register�LH 
+ A/C Register—LH 
 
- A/C Evaporator Register Duct�LH 
+ A/C Evaporator Register Duct—LH 
 
  Rear Seat Airflow Duct 
 
@@ -85716,7 +85716,7 @@ Heating/Defrosting
 
 DESCRIPTION AND OPERATION
 
- Climate Control System�Electronic Automatic Temperature Control 
+ Climate Control System—Electronic Automatic Temperature Control 
 
  A/C Evaporator Housing 
 
@@ -85870,7 +85870,7 @@ Control Components
 
 DESCRIPTION AND OPERATION
 
- Climate Control System�Electronic Automatic Temperature Control 
+ Climate Control System—Electronic Automatic Temperature Control 
 
  Control System Inputs 
 
@@ -85969,7 +85969,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Hybrid Electronic Instrument Cluster 
+ Symptom Chart—Hybrid Electronic Instrument Cluster 
 
  Pinpoint Tests 
 
@@ -86012,7 +86012,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Horn System 
+ Symptom Chart—Horn System 
 
  Pinpoint Tests 
 
@@ -86069,7 +86069,7 @@ DIAGNOSIS AND TESTING
 
  Message Center Indicator Module On-Board Diagnostics Tests 
 
- Symptom Chart�Message Center Indicator Module 
+ Symptom Chart—Message Center Indicator Module 
 
  Pinpoint Tests 
 
@@ -86114,7 +86114,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Indicator Lamp Module 
+ Symptom Chart—Indicator Lamp Module 
 
  Pinpoint Tests 
 
@@ -86143,7 +86143,7 @@ PAGE 5069
  Group 14: Battery and Charging System 
 
  Section 414-00:
-Electrical Power Supply System�General Information 
+Electrical Power Supply System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -86155,7 +86155,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Battery And Charging System 
+ Symptom Chart—Battery And Charging System 
 
  Pinpoint Tests 
 
@@ -86182,7 +86182,7 @@ PAGE 5070
 
 Section 414-00: 
 
-Electrical Power Supply System�General Information
+Electrical Power Supply System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -86270,7 +86270,7 @@ PAGE 5075
  Group 15: Audio Systems 
 
  Section 415-00:
-In-Vehicle Entertainment System�General Information 
+In-Vehicle Entertainment System—General Information 
 
 DESCRIPTION AND OPERATION
 
@@ -86286,7 +86286,7 @@ DIAGNOSIS AND TESTING
 
  Error Messages 
 
- Symptom Chart�Sound System Function 
+ Symptom Chart—Sound System Function 
 
  Pinpoint Tests
 
@@ -86297,7 +86297,7 @@ PAGE 5076
 
 Section 415-00: 
 
-In-Vehicle Entertainment System�General Information
+In-Vehicle Entertainment System—General Information
 
  Choose an item on the left side to display section contents.
 
@@ -86331,7 +86331,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Headlamps (With Autolamps) 
+ Symptom Chart—Headlamps (With Autolamps) 
 
  Pinpoint Tests 
 
@@ -86339,7 +86339,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Stoplamps 
+ Symptom Chart—Stoplamps 
 
  Pinpoint Tests 
 
@@ -86347,7 +86347,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Turn Signal Lamps/Hazard Flasher Lamps 
+ Symptom Chart—Turn Signal Lamps/Hazard Flasher Lamps 
 
  Pinpoint Tests 
 
@@ -86355,7 +86355,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Cornering Lamps 
+ Symptom Chart—Cornering Lamps 
 
  Pinpoint Tests 
 
@@ -86363,7 +86363,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Parking Lamps 
+ Symptom Chart—Parking Lamps 
 
  Pinpoint Tests 
 
@@ -86371,7 +86371,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Backup Lamps 
+ Symptom Chart—Backup Lamps 
 
  Pinpoint Tests 
 
@@ -86393,15 +86393,15 @@ REMOVAL AND INSTALLATION
 
  Bulb, High Beam Indicator 
 
- Headlamp Assembly � Without Serviceable Low Beam Headlamp Bulb 
+ Headlamp Assembly — Without Serviceable Low Beam Headlamp Bulb 
 
- Headlamp Bulb, Low Beam�With Serviceable Low Beam Headlamp Bulbs 
+ Headlamp Bulb, Low Beam—With Serviceable Low Beam Headlamp Bulbs 
 
- Trim�Lower Headlamp Assembly 
+ Trim—Lower Headlamp Assembly 
 
  Vehicle Headlamp Aiming Device (VHAD) 
 
- Low Beam Ballast�With Serviceable Low Beam Headlamp Bulbs 
+ Low Beam Ballast—With Serviceable Low Beam Headlamp Bulbs 
 
  Steering Column/Ignition/Lighting Control Module 
 
@@ -86450,7 +86450,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Courtesy Lamps And Illuminated Entry 
+ Symptom Chart—Courtesy Lamps And Illuminated Entry 
 
  Pinpoint Tests 
 
@@ -86458,7 +86458,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Demand Lighting 
+ Symptom Chart—Demand Lighting 
 
  Pinpoint Tests 
 
@@ -86466,7 +86466,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Instrument Cluster And Panel Lighting 
+ Symptom Chart—Instrument Cluster And Panel Lighting 
 
  Pinpoint Tests 
 
@@ -86513,7 +86513,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Daytime Running Lamp (DRL) 
+ Symptom Chart—Daytime Running Lamp (DRL) 
 
  Pinpoint Tests 
 
@@ -86589,7 +86589,7 @@ PAGE 5085
  Group 19: Electronic Feature Group 
 
  Section 419-01A:
-Anti-Theft Warning�Perimeter 
+Anti-Theft Warning—Perimeter 
 
 DESCRIPTION AND OPERATION
 
@@ -86603,11 +86603,11 @@ DESCRIPTION AND OPERATION
 
 DIAGNOSIS AND TESTING
 
- Anti-Theft Warning�Perimeter 
+ Anti-Theft Warning—Perimeter 
 
  Inspection and Verification 
 
- Symptom Chart�Anti-Theft Warning�Perimeter 
+ Symptom Chart—Anti-Theft Warning—Perimeter 
 
  Pinpoint Tests
 
@@ -86618,7 +86618,7 @@ PAGE 5086
 
 Section 419-01A: 
 
-Anti-Theft Warning�Perimeter
+Anti-Theft Warning—Perimeter
 
  Choose an item on the left side to display section contents.
 
@@ -86632,7 +86632,7 @@ PAGE 5087
  Group 19: Electronic Feature Group 
 
  Section 419-01B:
-Anti-Theft Warning�PATS 
+Anti-Theft Warning—PATS 
 
 DESCRIPTION AND OPERATION
 
@@ -86642,11 +86642,11 @@ DESCRIPTION AND OPERATION
 
 DIAGNOSIS AND TESTING
 
- Anti-Theft Warning�PATS 
+ Anti-Theft Warning—PATS 
 
  Inspection and Verification 
 
- Symptom Chart�Anti-Theft Warning�Perimeter 
+ Symptom Chart—Anti-Theft Warning—Perimeter 
 
  Pinpoint Tests 
 
@@ -86667,7 +86667,7 @@ PAGE 5088
 
 Section 419-01B: 
 
-Anti-Theft Warning�PATS
+Anti-Theft Warning—PATS
 
  Choose an item on the left side to display section contents.
 
@@ -86693,7 +86693,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Universal Transmitter 
+ Symptom Chart—Universal Transmitter 
 
  Pinpoint Test 
 
@@ -86742,7 +86742,7 @@ DIAGNOSIS AND TESTING
 
  Other Possible Concerns 
 
- Symptom Chart�Cellular Phone 
+ Symptom Chart—Cellular Phone 
 
  Pinpoint Tests
 
@@ -86779,7 +86779,7 @@ DIAGNOSIS AND TESTING
 
  Inspection and Verification 
 
- Symptom Chart�Compass 
+ Symptom Chart—Compass 
 
  Pinpoint Tests 
 
@@ -86829,7 +86829,7 @@ Throttle Body
 
  DESC & OPER: Fuel Charging and Controls 
 
- GEN PROC: Fuel System�General Information 
+ GEN PROC: Fuel System—General Information 
 
  REM & INST: Fuel Charging and Controls 
 
@@ -86843,7 +86843,7 @@ Throttle Position (TP) Sensor
 
  Torque Converter Checks 
 
- Torsion Bar, Luggage Compartment Door�Adjustment 
+ Torsion Bar, Luggage Compartment Door—Adjustment 
 
  Traction Control 
 
@@ -86901,7 +86901,7 @@ Transmission
 
  REM: Automatic Transmission 
 
- Trim�Lower Headlamp Assembly 
+ Trim—Lower Headlamp Assembly 
 
  Trough Assembly 
 
@@ -86945,11 +86945,11 @@ PAGE 5098
 
  Vacuum Reservoir Tank and Bracket 
 
- Vacuum Schematic�Electronic Automatic Temperature Control 
+ Vacuum Schematic—Electronic Automatic Temperature Control 
 
- Valve Cover�LH 
+ Valve Cover—LH 
 
- Valve Cover�RH 
+ Valve Cover—RH 
 
  Valve Guide Inner Diameter 
 
@@ -86973,9 +86973,9 @@ PAGE 5098
 
  Valve Stem to Valve Guide Clearance 
 
- Valve Train Analysis � Dynamic 
+ Valve Train Analysis — Dynamic 
 
- Valve Train Analysis�Static (Engine Off) 
+ Valve Train Analysis—Static (Engine Off) 
 
  Valve Train 
 

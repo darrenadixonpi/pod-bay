@@ -306,7 +306,11 @@ def extract_html_pages(blocks: list) -> list:
         if block['type'] == 'html' and block['compressed']:
             try:
                 result = decompress_ford(block['content'])
-                text = result.decode('utf-8', errors='replace')
+                # Ford TSO HTML is Windows-1252, not UTF-8: the only literal high
+                # bytes are the cp1252 en/em dashes (0x96/0x97); everything else is
+                # ASCII + HTML entities. Decoding as UTF-8 turned every dash into
+                # U+FFFD (e.g. "Disc\x97Vibration" -> "Disc�Vibration").
+                text = result.decode('cp1252', errors='replace')
                 if '<html>' in text.lower()[:100]:
                     pages.append({
                         'block_index': block['index'],
