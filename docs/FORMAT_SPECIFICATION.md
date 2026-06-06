@@ -190,6 +190,19 @@ attempting decompression of the first few bytes:
 - If first byte of raw block is `;`: **WCF metadata** (workunit config)
 - If first byte of raw block is `<`: **XML/HTML raw data**
 
+### Text encoding of HTML pages
+
+The decompressed HTML is **Windows-1252 (cp1252)**, not UTF-8. The body is
+almost entirely 7-bit ASCII plus HTML entities (`&deg;`, `&middot;`, the
+Ford-custom `&newtonm;`/`&circleR;`); the only *literal* high bytes observed
+across all extracted service archives are the cp1252 dashes `0x96` (en dash –)
+and `0x97` (em dash —). These are invalid as standalone UTF-8, so decoding as
+UTF-8 silently corrupts every dash to U+FFFD (and breaks section-name parsing,
+which splits on the dash — e.g. "Brake System — Service" truncates to "Brake
+System"). Decode with `cp1252`; no other high bytes appear, so the mapping is
+lossless. (Fixed 2026-06-06; previously decoded as UTF-8, yielding ~22k U+FFFD
+artifacts across the 6-vehicle fleet.)
+
 ---
 
 ## 3. IDICOMP Compression Algorithm
