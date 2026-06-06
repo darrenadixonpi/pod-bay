@@ -19,7 +19,9 @@ cached (the lru_caches below are keyed by vehicle_id).
 """
 import csv
 import json
+import math
 import re
+from collections import Counter
 from functools import lru_cache
 
 import config
@@ -30,6 +32,18 @@ _PAGE_SEP = re.compile(r"^=+\nPAGE (\d+)\n=+\n", re.MULTILINE)
 _SECTION_RE = re.compile(r"Section (\d+-\d+)")
 _SECTION_ID_RE = re.compile(r"^\d+-\d+$")  # workshop section ids look like 06-03
 _WORD_RE = re.compile(r"[a-z0-9]+")
+
+# Function words that carry no retrieval signal. BM25's IDF already de-weights
+# them, but dropping them from the query keeps scoring and snippet-centering
+# clean. Deliberately conservative — directional/mechanical words a tech would
+# type ("front", "rear", "off", "on", "up", "down", "left", "right") are NOT
+# here, since they discriminate in this domain.
+_STOPWORDS = frozenset("""
+a an the of to in into on for and or is are am be been being was were with how do
+does did i me my we our it its this that these those what which when where why who
+you your at by from as can could should would will shall if then than so but not
+no yes there here about has have had also each per via
+""".split())
 
 # Owner's manual chapter titles come from each vehicle's vehicle.json
 # (Vehicle.owners_chapters) — in document order, matching its table of contents.
@@ -179,26 +193,63 @@ def _locator(rec: dict) -> dict:
 _RRF_K = 60
 
 
+# BM25 parameters (Robertson/Sparck-Jones). k1 controls term-frequency
+# saturation; b controls length normalization. 1.5/0.75 are the standard
+# defaults and work well for this prose-heavy, variable-length page corpus.
+_BM25_K1 = 1.5
+_BM25_B = 0.75
+
+
+@lru_cache(maxsize=None)
+def _bm25_stats(vehicle_id):
+    """Per-vehicle BM25 statistics over the unified corpus, computed once.
+
+    Returns (doc_tf, doc_len, idf, avgdl, n_docs) with doc_tf/doc_len aligned to
+    _corpus order. Tokenizing every doc once here also removes the old per-query
+    full-corpus re-tokenization cost.
+    """
+    corpus = _corpus(vehicle_id)
+    doc_tf, doc_len, df = [], [], Counter()
+    for rec in corpus:
+        tf = Counter(_tokenize(rec["text"]))
+        doc_tf.append(tf)
+        doc_len.append(sum(tf.values()))
+        df.update(tf.keys())
+    n = len(corpus)
+    avgdl = (sum(doc_len) / n) if n else 0.0
+    # +1 inside the log keeps idf ≥ 0 even for terms in nearly every document.
+    idf = {t: math.log(1 + (n - d + 0.5) / (d + 0.5)) for t, d in df.items()}
+    return doc_tf, doc_len, idf, avgdl, n
+
+
+def _query_terms(query: str) -> list:
+    """Content tokens of a query (stopwords dropped), de-duplicated, order kept."""
+    out = []
+    for t in _tokenize(query):
+        if t not in _STOPWORDS and t not in out:
+            out.append(t)
+    return out
+
+
 def _keyword_rank(query: str, limit: int, vehicle_id) -> list:
-    """Rank corpus documents by keyword score; returns records best→worst."""
-    terms = set(_tokenize(query))
+    """Rank corpus documents by BM25 over the query's content terms (best→worst)."""
+    terms = _query_terms(query)
     if not terms:
         return []
+    doc_tf, doc_len, idf, avgdl, n = _bm25_stats(vehicle_id)
+    if not n or avgdl == 0:
+        return []
+    corpus = _corpus(vehicle_id)
     scored = []
-    for doc in _corpus(vehicle_id):
-        toks = _tokenize(doc["text"])
-        if not toks:
-            continue
-        counts = {t: 0 for t in terms}
-        for tok in toks:
-            if tok in counts:
-                counts[tok] += 1
-        hit_terms = sum(1 for c in counts.values() if c)
-        if not hit_terms:
-            continue
-        # distinct-term coverage dominates; raw frequency breaks ties
-        score = hit_terms * 1000 + sum(counts.values())
-        scored.append((score, doc))
+    for i, tf in enumerate(doc_tf):
+        norm = _BM25_K1 * (1 - _BM25_B + _BM25_B * doc_len[i] / avgdl)
+        s = 0.0
+        for t in terms:
+            f = tf.get(t, 0)
+            if f:
+                s += idf.get(t, 0.0) * (f * (_BM25_K1 + 1)) / (f + norm)
+        if s > 0:
+            scored.append((s, corpus[i]))
     scored.sort(key=lambda x: x[0], reverse=True)
     return [doc for _, doc in scored[:limit]]
 
@@ -212,7 +263,6 @@ def search_manual(query: str, max_results: int = 5, vehicle_id=None) -> dict:
     chapter) so the model can follow up with get_section. Falls back to
     keyword-only when the vector index is unavailable (mode is config.SEARCH_MODE).
     """
-    terms = set(_tokenize(query))
     mode = config.SEARCH_MODE
     use_vector = mode in ("hybrid", "vector") and vectorstore.available()
     use_keyword = mode in ("hybrid", "keyword") or not use_vector
@@ -221,6 +271,13 @@ def search_manual(query: str, max_results: int = 5, vehicle_id=None) -> dict:
     depth = max(max_results * 3, 10)
     kw_docs = _keyword_rank(query, depth, vehicle_id) if use_keyword else []
     vec_hits = vectorstore.vector_rank(query, depth, vehicle_id) if use_vector else []
+
+    # Snippet-centering terms: query content words, most distinctive (highest
+    # IDF) first, so a snippet centers on "caliper" rather than "remove".
+    snippet_terms = _query_terms(query)
+    if use_keyword and snippet_terms:
+        idf = _bm25_stats(vehicle_id)[2]
+        snippet_terms = sorted(snippet_terms, key=lambda t: idf.get(t, 0.0), reverse=True)
 
     # Reciprocal rank fusion (keyed by corpus id): score = Σ 1/(k + rank).
     fused: dict[str, float] = {}
@@ -241,20 +298,21 @@ def search_manual(query: str, max_results: int = 5, vehicle_id=None) -> dict:
             continue
         results.append({
             **_locator(doc),
-            "snippet": _snippet(doc["text"], terms, passage=passages.get(did)),
+            "snippet": _snippet(doc["text"], snippet_terms, passage=passages.get(did)),
         })
     return {"query": query, "result_count": len(results), "results": results}
 
 
-def _snippet(text: str, terms: set, width: int = 320, passage: str = None) -> str:
-    """A window of text centered on the first query-term hit.
+def _snippet(text: str, terms: list, width: int = 320, passage: str = None) -> str:
+    """A window of text centered on the most distinctive query term present.
 
-    For a purely semantic match (no literal query term on the page) there is no
-    hit to center on, so fall back to the vector passage that matched, then to
-    the page head.
+    `terms` is ordered most-distinctive-first, so the snippet lands on the
+    informative word. For a purely semantic match (no literal query term on the
+    page) there is no hit to center on, so fall back to the vector passage that
+    matched, then to the page head.
     """
     low = text.lower()
-    pos = min((low.find(t) for t in terms if low.find(t) >= 0), default=-1)
+    pos = next((p for t in terms for p in (low.find(t),) if p >= 0), -1)
     if pos < 0:
         if passage:
             return passage[:width] + ("…" if len(passage) > width else "")
