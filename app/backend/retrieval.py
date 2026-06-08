@@ -47,8 +47,13 @@ no yes there here about has have had also each per via
 
 # Owner's manual chapter titles come from each vehicle's vehicle.json
 # (Vehicle.owners_chapters) — in document order, matching its table of contents.
-# Headings appear verbatim as standalone lines in the body (with irregular
-# internal whitespace), so segmentation matches them with flexible spacing.
+# When that list is absent they are derived from the manual's own Table of
+# Contents (derive_owners_chapters), so a newly-built owner's-manual vehicle
+# needs no hand-authored config. Headings appear verbatim as standalone lines in
+# the body (with irregular internal whitespace), so segmentation matches them
+# with flexible spacing — and any TOC entry lacking a body heading (e.g. a
+# redundant "Quick Index") simply drops out, keeping a derived list equivalent
+# to a curated one.
 # Publishing control lines in the owner's manual source — noise, not content:
 # typesetting markers ("File:rcpig.ex", "Update:...", "*[PI00400( ALL)05/95]",
 # "thirty-six pica chart:...").
@@ -119,22 +124,58 @@ def _tokenize(s: str):
     return _WORD_RE.findall(s.lower())
 
 
+# Table of Contents parsing for derive_owners_chapters.
+_TOC_HEADING_RE = re.compile(r"(?im)^[ \t]*table of contents[ \t]*$")
+_TOC_ENTRY_RE = re.compile(r"^(.+?)[ \t]*\.{2,}[ \t]*\d+[ \t]*$")  # "Name .... 47"
+
+
+def derive_owners_chapters(text: str) -> list:
+    """Chapter titles parsed from the owner's manual Table of Contents, in order.
+
+    Reads dot-leader entries ("Name .... 47") starting at the "Table of Contents"
+    line and stops at the first non-entry line once entries have begun. Returns
+    [] if no TOC is found. The body-heading segmentation in _owners_chapters
+    self-prunes any entry without a standalone body heading, so an over-inclusive
+    result is harmless.
+    """
+    m = _TOC_HEADING_RE.search(text)
+    if not m:
+        return []
+    chapters = []
+    for line in text[m.end():].splitlines():
+        s = line.strip()
+        if not s:
+            if chapters:
+                break
+            continue
+        entry = _TOC_ENTRY_RE.match(s)
+        if entry:
+            chapters.append(entry.group(1).strip())
+        elif chapters:
+            break
+    return chapters
+
+
 @lru_cache(maxsize=None)
 def _owners_chapters(vehicle_id):
     """Parse the owner's manual into [{chapter, text}], cached per vehicle.
 
     Segments the flowing text on its chapter headings (first body occurrence of
-    each title, in TOC order) and strips publishing control lines. Returns [] if
+    each title, in TOC order) and strips publishing control lines. Chapter titles
+    come from vehicle.json, falling back to the manual's own TOC. Returns [] if
     the owner's manual isn't present for this vehicle.
     """
     v = config.get_vehicle(vehicle_id)
-    if not v.owners_manual.exists() or not v.owners_chapters:
+    if not v.owners_manual.exists():
         return []
     raw = v.owners_manual.read_text(encoding="utf-8", errors="replace")
+    titles = list(v.owners_chapters) or derive_owners_chapters(raw)
+    if not titles:
+        return []
 
     # Locate each chapter heading's first standalone occurrence in the body.
     bounds = []
-    for title in v.owners_chapters:
+    for title in titles:
         pat = re.compile(r"(?mi)^\s*" + r"\s+".join(map(re.escape, title.split())) + r"\s*$")
         m = pat.search(raw)
         if m:
