@@ -1,0 +1,173 @@
+CELLID_,PAGEID_,EVTM,CELLTYPE,CELL,PAGE,TITLE,SUBTITLE,QUALIFIER,QUALIF_2,QUALIF_3,QUALIF_4,QUALIF_5,QUALIF_6,QUALIF_7,FILENAME,TABLE,HCCF_CELL,HCCF_PAGE
+0.0,0.0,EVR,IDX,001,001,Table of Contents/Index,Table of Contents/Index,Table of Contents/Index,,,,,,,,,,
+0.0,0.0,EVR,TXT,002,001,How To Use This Manual,,,,,,,,,EVR00201.htm,,,
+0.0,0.0,EVR,SCH,010,001,Grounds,,,,,,,,,EVR01001.TIF,,,
+0.0,0.0,EVR,SCH,010,002,Grounds,,,,,,,,,EVR01002.TIF,,,
+0.0,0.0,EVR,SCH,010,003,Grounds,,,,,,,,,EVR01003.TIF,,,
+0.0,0.0,EVR,SCH,010,004,Grounds,,,,,,,,,EVR01004.TIF,,,
+0.0,0.0,EVR,SCH,010,005,Grounds,,,,,,,,,EVR01005.TIF,,,
+0.0,0.0,EVR,TXT,011,001,Circuit Protection/Fuse Panel,,,,,,,,,EVR01101.htm,,,
+0.0,0.0,EVR,SCH,012,001,Charging System,,,,,,,,,EVR01201.TIF,,,
+0.0,0.0,EVR,SCH,012,002,Charging System,,,,,,,,,EVR01202.TIF,,,
+0.0,0.0,EVR,SCH,013,001,Power Distribution,,,,,,,,,EVR01301.TIF,,,
+0.0,0.0,EVR,SCH,013,002,Power Distribution,,,,,,,,,EVR01302.TIF,,,
+0.0,0.0,EVR,SCH,013,003,Power Distribution,,,,,,,,,EVR01303.TIF,,,
+0.0,0.0,EVR,SCH,013,004,Power Distribution,,,,,,,,,EVR01304.TIF,,,
+0.0,0.0,EVR,SCH,013,005,Power Distribution,,,,,,,,,EVR01305.TIF,,,
+0.0,0.0,EVR,SCH,013,006,Power Distribution,,,,,,,,,EVR01306.TIF,,,
+0.0,0.0,EVR,SCH,013,007,Power Distribution,,,,,,,,,EVR01307.TIF,,,
+0.0,0.0,EVR,SCH,013,008,Power Distribution,,,,,,,,,EVR01308.TIF,,,
+0.0,0.0,EVR,SCH,020,001,Starting System,,,,,,,,,EVR02001.TIF,,,
+0.0,0.0,EVR,SCH,020,002,Starting System,,,,,,,,,EVR02002.TIF,,,
+0.0,0.0,EVR,SCH,022,001,Engine Block Heater,,,,,,,,,EVR02201.TIF,,,
+0.0,0.0,EVR,SCH,026,001,Engine Controls,Fuel Shutoff,,,,,,,,EVR02601.TIF,,,
+0.0,0.0,EVR,SCH,026,002,Engine Controls,Fuel Shutoff,FD 1460 Only,,,,,,,EVR02602.TIF,,,
+0.0,0.0,EVR,SCH,026,003,Engine Controls,Fuel Shutoff,FD 1060 Only,,,,,,,EVR02603.TIF,,,
+0.0,0.0,EVR,SCH,029,001,Transmission Controls,,,,,,,,,EVR02901.TIF,,,
+0.0,0.0,EVR,SCH,029,003,Transmission Controls,,Electronic Allison,,,,,,,EVR02903.TIF,,,
+0.0,0.0,EVR,SCH,029,004,Transmission Controls,,Electronic Allison,,,,,,,EVR02904.TIF,,,
+0.0,0.0,EVR,SCH,029,005,Transmission Controls,,Electronic Allison,,,,,,,EVR02905.TIF,,,
+0.0,0.0,EVR,SCH,029,006,Transmission Controls,,Electronic Allison,,,,,,,EVR02906.TIF,,,
+0.0,0.0,EVR,SCH,033,001,Cooling Fan,,,,,,,,,EVR03301.TIF,,,
+0.0,0.0,EVR,SCH,035,001,Two Speed Rear Axle,,,,,,,,,EVR03501.TIF,,,
+0.0,0.0,EVR,SCH,036,001,Interaxle Differential Interlock,,,,,,,,,EVR03601.TIF,,,
+0.0,0.0,EVR,SCH,038,001,Wheel To Wheel Interlock,,,,,,,,,EVR03801.TIF,,,
+0.0,0.0,EVR,SCH,039,001,Exhaust/Engine Brake System,,,,,,,,,EVR03901.TIF,,,
+0.0,0.0,EVR,SCH,042,001,Anti-Lock Brakes,,,,,,,,,EVR04201.TIF,,,
+0.0,0.0,EVR,SCH,042,002,Anti-Lock Brakes,,,,,,,,,EVR04202.TIF,,,
+0.0,0.0,EVR,SCH,044,001,Horn/Cigar Lighter,,,,,,,,,EVR04401.TIF,,,
+0.0,0.0,EVR,SCH,047,001,Hydro-Max Brakes,,,,,,,,,EVR04701.TIF,,,
+0.0,0.0,EVR,SCH,047,002,Hydro-Max Brakes,,,,,,,,,EVR04702.TIF,,,
+0.0,0.0,EVR,SCH,048,001,Air Brakes,,,,,,,,,EVR04801.TIF,,,
+0.0,0.0,EVR,SCH,048,003,Air Brakes,,,,,,,,,EVR04803.TIF,,,
+0.0,0.0,EVR,SCH,053,001,Heater,,,,,,,,,EVR05301.TIF,,,
+0.0,0.0,EVR,SCH,053,002,Heater,,,,,,,,,EVR05302.TIF,,,
+0.0,0.0,EVR,SCH,053,004,Heater,,,,,,,,,EVR05304.TIF,,,
+0.0,0.0,EVR,SCH,054,001,Air Conditioner/Heater,,,,,,,,,EVR05401.TIF,,,
+0.0,0.0,EVR,SCH,054,002,Air Conditioner/Heater,,,,,,,,,EVR05402.TIF,,,
+0.0,0.0,EVR,SCH,054,003,Air Conditioner/Heater,,,,,,,,,EVR05403.TIF,,,
+0.0,0.0,EVR,SCH,054,006,Air Conditioner/Heater,,,,,,,,,EVR05406.TIF,,,
+0.0,0.0,EVR,SCH,060,001,Instrument Cluster,Gauges,,,,,,,,EVR06001.TIF,,,
+0.0,0.0,EVR,SCH,060,002,Instrument Cluster,Gauges,,,,,,,,EVR06002.TIF,,,
+0.0,0.0,EVR,SCH,060,003,Instrument Cluster,Gauges,,,,,,,,EVR06003.TIF,,,
+0.0,0.0,EVR,SCH,065,001,Warning Indicators,,,,,,,,,EVR06501.TIF,,,
+0.0,0.0,EVR,SCH,065,002,Warning Indicators,,,,,,,,,EVR06502.TIF,,,
+0.0,0.0,EVR,SCH,065,003,Warning Indicators,,,,,,,,,EVR06503.TIF,,,
+0.0,0.0,EVR,SCH,065,004,Warning Indicators,,,,,,,,,EVR06504.TIF,,,
+0.0,0.0,EVR,SCH,065,005,Warning Indicators,,,,,,,,,EVR06505.TIF,,,
+0.0,0.0,EVR,SCH,065,006,Warning Indicators,,,,,,,,,EVR06506.TIF,,,
+0.0,0.0,EVR,SCH,065,007,Warning Indicators,,,,,,,,,EVR06507.TIF,,,
+0.0,0.0,EVR,SCH,071,001,Instrument Illumination,,,,,,,,,EVR07101.TIF,,,
+0.0,0.0,EVR,SCH,071,002,Instrument Illumination,,,,,,,,,EVR07102.TIF,,,
+0.0,0.0,EVR,SCH,080,001,Wiper/Washer,,,,,,,,,EVR08001.TIF,,,
+0.0,0.0,EVR,SCH,080,002,Wiper/Washer,,,,,,,,,EVR08002.TIF,,,
+0.0,0.0,EVR,SCH,085,001,Headlamps,,,,,,,,,EVR08501.TIF,,,
+0.0,0.0,EVR,SCH,085,002,Headlamps,,,,,,,,,EVR08502.TIF,,,
+0.0,0.0,EVR,SCH,086,001,Fog Lamps/Road Lamps,,,,,,,,,EVR08601.TIF,,,
+0.0,0.0,EVR,SCH,089,001,Courtesy Lamps,,,,,,,,,EVR08901.TIF,,,
+0.0,0.0,EVR,SCH,090,001,Turn/Stop/Hazard Lamps,,,,,,,,,EVR09001.TIF,,,
+0.0,0.0,EVR,SCH,090,002,Turn/Stop/Hazard Lamps,,,,,,,,,EVR09002.TIF,,,
+0.0,0.0,EVR,SCH,090,003,Turn/Stop/Hazard Lamps,,,,,,,,,EVR09003.TIF,,,
+0.0,0.0,EVR,SCH,092,001,Exterior Lamps,,,,,,,,,EVR09201.TIF,,,
+0.0,0.0,EVR,SCH,092,002,Exterior Lamps,,,,,,,,,EVR09202.TIF,,,
+0.0,0.0,EVR,SCH,093,001,Backup Lamps,,,,,,,,,EVR09301.TIF,,,
+0.0,0.0,EVR,SCH,095,001,Trailer Adapter,,,,,,,,,EVR09501.TIF,,,
+0.0,0.0,EVR,SCH,095,002,Trailer Adapter,,,,,,,,,EVR09502.TIF,,,
+0.0,0.0,EVR,SCH,095,003,Trailer Adapter,,,,,,,,,EVR09503.TIF,,,
+0.0,0.0,EVR,SCH,095,004,Trailer Adapter,,,,,,,,,EVR09504.TIF,,,
+0.0,0.0,EVR,SCH,097,001,Daytime Running Lamps,,,,,,,,,EVR09701.TIF,,,
+0.0,0.0,EVR,SCH,097,002,Daytime Running Lamps,,,,,,,,,EVR09702.TIF,,,
+0.0,0.0,EVR,SCH,097,003,Daytime Running Lamps,,,,,,,,,EVR09703.TIF,,,
+0.0,0.0,EVR,SCH,130,001,Radio,AM,,,,,,,,EVR13001.TIF,,,
+0.0,0.0,EVR,SCH,130,002,Radio,AM/FM,,,,,,,,EVR13002.TIF,,,
+0.0,0.0,EVR,SCH,140,001,Air Actuators,,,,,,,,,EVR14001.TIF,,,
+0.0,0.0,EVR,TST,149,001,Component Testing,Introduction/Multi-Function Switch,,,,,,,,EVR14901.TIF,,,
+0.0,0.0,EVR,TST,149,002,Component Testing,Multi-Function Switch,,,,,,,,EVR14902.TIF,,,
+0.0,0.0,EVR,TST,149,003,Component Testing,Ignition Switch (With Switch Installed),,,,,,,,EVR14903.TIF,,,
+0.0,0.0,EVR,TST,149,004,Component Testing,Windshield Wiper/Washer Switch,,,,,,,,EVR14904.TIF,,,
+0.0,0.0,EVR,TST,149,005,Component Testing,Function Selector Switch (A/C-Heater),,,,,,,,EVR14905.TIF,,,
+0.0,0.0,EVR,TST,149,006,Component Testing,"Blower Switch (Heater, A/C-Heater)",,,,,,,,EVR14906.TIF,,,
+0.0,0.0,EVR,CON,150,001,Connector Face/Pinout Charts,C254,A/C Blower Switch,,,,,,,EVRCF001.TIF,,054,007
+0.0,0.0,EVR,CON,150,002,Connector Face/Pinout Charts,C152,A/C Proveout Relay,,,,,,,EVRCF002.TIF,,054,007
+0.0,0.0,EVR,CON,150,003,Connector Face/Pinout Charts,C286,ABS Crank Relay,,,,,,,EVRCF003.TIF,,042,007
+0.0,0.0,EVR,CON,150,004,Connector Face/Pinout Charts,C285,ABS Warning Lamp Relay,,,,,,,EVRCF004.TIF,,042,007
+0.0,0.0,EVR,CON,150,005,Connector Face/Pinout Charts,C231,Accessory Relay,,,,,,,EVRCF005.TIF,,013,020
+0.0,0.0,EVR,CON,150,006,Connector Face/Pinout Charts,C326,Air Compressor Relay,,,,,,,EVRCF006.TIF,,053,005
+0.0,0.0,EVR,CON,150,007,Connector Face/Pinout Charts,C167,Air Intake Heater Module,,,,,,,EVRCF007.TIF,,026,008
+0.0,0.0,EVR,CON,150,008,Connector Face/Pinout Charts,C187,Air Intake Heater Module,,,,,,,EVRCF008.TIF,,026,007
+0.0,0.0,EVR,CON,150,009,Connector Face/Pinout Charts,C246,AM Radio Receiver,,,,,,,EVRCF009.TIF,,130,005
+0.0,0.0,EVR,CON,150,010,Connector Face/Pinout Charts,C276,AM Radio Receiver Speakers,,,,,,,EVRCF010.TIF,,130,005
+0.0,0.0,EVR,CON,150,011,Connector Face/Pinout Charts,C251,AM/FM Radio Receiver,,,,,,,EVRCF011.TIF,,130,005
+0.0,0.0,EVR,CON,150,012,Connector Face/Pinout Charts,C271,AM/FM Radio Receiver,,,,,,,EVRCF012.TIF,,130,006
+0.0,0.0,EVR,CON,150,013,Connector Face/Pinout Charts,C410,Anti-Lock Brakes System (ABS) Module,,,,,,,EVRCF013.TIF,,042,006
+0.0,0.0,EVR,CON,150,014,Connector Face/Pinout Charts,C3005,Data Link Connector,,,,,,,EVRCF014.TIF,,029,013
+0.0,0.0,EVR,CON,150,015,Connector Face/Pinout Charts,C147,Daytime Running Lamps Module,,,,,,,EVRCF015.TIF,,097,009
+0.0,0.0,EVR,CON,150,016,Connector Face/Pinout Charts,C1031,Electronic Allison Transmission,,,,,,,EVRCF016.TIF,,029,012
+0.0,0.0,EVR,CON,150,017,Connector Face/Pinout Charts,C3001,Electronic Control Unit,,,,,,,EVRCF017.TIF,,029,010
+0.0,0.0,EVR,CON,150,018,Connector Face/Pinout Charts,C3002,Electronic Control Unit,,,,,,,EVRCF018.TIF,,029,011
+0.0,0.0,EVR,CON,150,019,Connector Face/Pinout Charts,C2064,Engine Alarm/Shutdown Module,,,,,,,EVRCF019.TIF,,065,022
+0.0,0.0,EVR,CON,150,020,Connector Face/Pinout Charts,C212,Engine Alarm/Shutdown Module,,,,,,,EVRCF020.TIF,,065,021
+0.0,0.0,EVR,CON,150,021,Connector Face/Pinout Charts,C287,Engine Brake Disable Relay,,,,,,,EVRCF021.TIF,,042,008
+0.0,0.0,EVR,CON,150,022,Connector Face/Pinout Charts,C166,Fan Clutch Timer,,,,,,,EVRCF022.TIF,,033,006
+0.0,0.0,EVR,CON,150,023,Connector Face/Pinout Charts,C2131,Fog/Road Lamp Relay,,,,,,,EVRCF023.TIF,,086,004
+0.0,0.0,EVR,CON,150,024,Connector Face/Pinout Charts,C117,Fuel Shutoff Solenoid Relay,,,,,,,EVRCF024.TIF,,026,007
+0.0,0.0,EVR,CON,150,025,Connector Face/Pinout Charts,C241,Headlamp Safety Relay,,,,,,,EVRCF025.TIF,,085,007
+0.0,0.0,EVR,CON,150,026,Connector Face/Pinout Charts,C233,Headlamp Switch,,,,,,,EVRCF026.TIF,,085,007
+0.0,0.0,EVR,CON,150,027,Connector Face/Pinout Charts,C257,Heater And A/C Mode Switch,With A/C,,,,,,EVRCF027.TIF,,054,008
+0.0,0.0,EVR,CON,150,028,Connector Face/Pinout Charts,C257,Heater Mode Switch,Without A/C,,,,,,EVRCF028.TIF,,053,005
+0.0,0.0,EVR,CON,150,029,Connector Face/Pinout Charts,C214,Hourmeter Relay,,,,,,,EVRCF029.TIF,,065,019
+0.0,0.0,EVR,CON,150,030,Connector Face/Pinout Charts,C304,Hydro-Max Monitor,,,,,,,EVRCF030.TIF,,047,005
+0.0,0.0,EVR,CON,150,031,Connector Face/Pinout Charts,C138,Hydro-Max Relay,,,,,,,EVRCF031.TIF,,047,005
+0.0,0.0,EVR,CON,150,032,Connector Face/Pinout Charts,C202,Ignition Switch,,,,,,,EVRCF032.TIF,,020,006
+0.0,0.0,EVR,CON,150,033,Connector Face/Pinout Charts,C139,In-Line,,,,,,,EVRCF033.TIF,,150,001
+0.0,0.0,EVR,CON,150,034,Connector Face/Pinout Charts,C146,In-Line,,,,,,,EVRCF034.TIF,,150,001
+0.0,0.0,EVR,CON,150,035,Connector Face/Pinout Charts,C176,In-Line,,,,,,,EVRCF035.TIF,,150,002
+0.0,0.0,EVR,CON,150,036,Connector Face/Pinout Charts,C200,In-Line,,,,,,,EVRCF036.TIF,,150,004
+0.0,0.0,EVR,CON,150,037,Connector Face/Pinout Charts,C226,In-Line,with DRL,,,,,,EVRCF037.TIF,,150,006
+0.0,0.0,EVR,CON,150,038,Connector Face/Pinout Charts,C226,In-Line,without DRL,,,,,,EVRCF038.TIF,,150,005
+0.0,0.0,EVR,CON,150,039,Connector Face/Pinout Charts,C250,In-Line,,,,,,,EVRCF039.TIF,,150,007
+0.0,0.0,EVR,CON,150,040,Connector Face/Pinout Charts,C284,In-Line,,,,,,,EVRCF040.TIF,,150,008
+0.0,0.0,EVR,CON,150,041,Connector Face/Pinout Charts,C306,In-Line,,,,,,,EVRCF041.TIF,,150,009
+0.0,0.0,EVR,CON,150,042,Connector Face/Pinout Charts,C331,In-Line,,,,,,,EVRCF042.TIF,,150,009
+0.0,0.0,EVR,CON,150,043,Connector Face/Pinout Charts,C335,In-Line,,,,,,,EVRCF043.TIF,,150,010
+0.0,0.0,EVR,CON,150,044,Connector Face/Pinout Charts,C408,In-Line,,,,,,,EVRCF044.TIF,,150,010
+0.0,0.0,EVR,CON,150,045,Connector Face/Pinout Charts,C411,In-Line,,,,,,,EVRCF045.TIF,,150,011
+0.0,0.0,EVR,CON,150,046,Connector Face/Pinout Charts,C2000,In-Line,,,,,,,EVRCF046.TIF,,150,005
+0.0,0.0,EVR,CON,150,047,Connector Face/Pinout Charts,C2130,In-Line,,,,,,,EVRCF047.TIF,,150,008
+0.0,0.0,EVR,CON,150,048,Connector Face/Pinout Charts,C2222,In-Line,,,,,,,EVRCF048.TIF,,150,013
+0.0,0.0,EVR,CON,150,049,Connector Face/Pinout Charts,C3000,In-Line,,,,,,,EVRCF049.TIF,,150,014
+0.0,0.0,EVR,CON,150,050,Connector Face/Pinout Charts,C220,Instrument Cluster,,,,,,,EVRCF050.TIF,,060,009
+0.0,0.0,EVR,CON,150,051,Connector Face/Pinout Charts,C208,LH Warning Indicator Lamp Module,,,,,,,EVRCF051.TIF,,065,020
+0.0,0.0,EVR,CON,150,052,Connector Face/Pinout Charts,C239,Marker/Taillamps Relay,,,,,,,EVRCF052.TIF,,071,007
+0.0,0.0,EVR,CON,150,053,Connector Face/Pinout Charts,C228,Park Brake Warning Relay,,,,,,,EVRCF053.TIF,,047,004
+0.0,0.0,EVR,CON,150,054,Connector Face/Pinout Charts,C259,Rear Axle Shift Control Relay,Low Gear,,,,,,EVRCF054.TIF,,035,003
+0.0,0.0,EVR,CON,150,055,Connector Face/Pinout Charts,C260,Rear Axle Shift Control Relay,High Gear,,,,,,EVRCF055.TIF,,035,004
+0.0,0.0,EVR,CON,150,056,Connector Face/Pinout Charts,C263,Rear Axle Shift Control Switch,A/T,,,,,,EVRCF056.TIF,,035,004
+0.0,0.0,EVR,CON,150,057,Connector Face/Pinout Charts,C210,RH Warning Indicator Lamp Module,,,,,,,EVRCF057.TIF,,065,023
+0.0,0.0,EVR,CON,150,058,Connector Face/Pinout Charts,C237,Stop Lamp Relay,,,,,,,EVRCF058.TIF,,042,008
+0.0,0.0,EVR,CON,150,059,Connector Face/Pinout Charts,C217,Tachometer,,,,,,,EVRCF059.TIF,,060,008
+0.0,0.0,EVR,CON,150,060,Connector Face/Pinout Charts,C333,Trailer Marker Lamps Relay,,,,,,,EVRCF060.TIF,,095,008
+0.0,0.0,EVR,CON,150,061,Connector Face/Pinout Charts,C307,Trailer Plug,,,,,,,EVRCF061.TIF,,095,008
+0.0,0.0,EVR,CON,150,062,Connector Face/Pinout Charts,C238,Turn and Emergency Signal Switch,,,,,,,EVRCF062.TIF,,090,008
+0.0,0.0,EVR,CON,150,063,Connector Face/Pinout Charts,C235,Turn Signal Flasher,W/O Tractor Trailer,,,,,,EVRCF063.TIF,,090,008
+0.0,0.0,EVR,CON,150,064,Connector Face/Pinout Charts,C3004,Vehicle Interface Connector,,,,,,,EVRCF064.TIF,,029,009
+0.0,0.0,EVR,CON,150,065,Connector Face/Pinout Charts,C3006,Vehicle Interface Module,,,,,,,EVRCF065.TIF,,029,008
+0.0,0.0,EVR,CON,150,066,Connector Face/Pinout Charts,C334,Vehicle Interface Module,,,,,,,EVRCF066.TIF,,029,007
+0.0,0.0,EVR,CON,150,067,Connector Face/Pinout Charts,C114,Windshield Wiper Motor,,,,,,,EVRCF067.TIF,,080,005
+0.0,0.0,EVR,CON,150,068,Connector Face/Pinout Charts,C204,Windshield Wiper/Washer Switch,Electric Windshield Wipers,,,,,,EVRCF068.TIF,,080,005
+0.0,0.0,EVR,LOC,151,006,Component Location Views,FD 1060 Engine,,,,,,,,EVR15106.TIF,,,
+0.0,0.0,EVR,LOC,151,007,Component Location Views,FD 1460 Engine,,,,,,,,EVR15107.TIF,,,
+0.0,0.0,EVR,LOC,151,008,Component Location Views,City Delivery I/P,,W/Hydraulic Brakes,,,,,,EVR15108.TIF,,,
+0.0,0.0,EVR,LOC,151,009,Component Location Views,City Delivery I/P,,W/Air Brakes,,,,,,EVR15109.TIF,,,
+0.0,0.0,EVR,LOC,151,010,Component Location Views,City Delivery,,,,,,,,EVR15110.TIF,,,
+0.0,0.0,EVR,LOC,151,016,Component Location Views,Allision Transmission,,,,,,,,EVR15116.TIF,,,
+0.0,0.0,EVR,LOC,151,017,Component Location Views,Body Single Axle,,,,,,,,EVR15117.TIF,,,
+0.0,0.0,EVR,LOC,151,018,Component Location Views,Body Single Axle,,,,,,,,EVR15118.TIF,,,
+0.0,0.0,EVR,LOC,151,019,Component Location Views,Body Dual Axle,,,,,,,,EVR15119.TIF,,,
+0.0,0.0,EVR,LOC,151,020,Component Location Views,Body Dual Axle,,,,,,,,EVR15120.TIF,,,
+0.0,0.0,EVR,IDX,152,001,Location Index,Component,,,,,,,,,,,
+0.0,0.0,EVR,IDX,152,002,Location Index,Connector,,,,,,,,,,,
+0.0,0.0,EVR,IDX,152,003,Location Index,Ground,,,,,,,,,,,
+0.0,0.0,EVR,IDX,152,004,Location Index,Splice,,,,,,,,,,,
+0.0,0.0,EVR,IDX,153,001,Harness Causal Part Number,,,,,,,,,EVR15301.TIF,,,
+0.0,0.0,EVR,COD,160,001,Vehicle Repair Location Codes,,,,,,,,,EVR16001.TIF,,,

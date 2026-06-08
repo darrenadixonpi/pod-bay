@@ -1,0 +1,108 @@
+[
+  {
+    "EVTM": "EXG",
+    "NAME": "G100",
+    "LOCATION": "Lower RF side of engine, near starter motor/solenoid",
+    "LOCPAGE": "3",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G101",
+    "LOCATION": "Rear of LF fender apron, near battery junction box",
+    "LOCPAGE": "2",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G102",
+    "LOCATION": "LF of engine compartment, near air cleaner"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G103",
+    "QUALIFIER": "RF Fender Ground",
+    "LOCATION": "Front of RF fender apron, near generator",
+    "LOCPAGE": "3",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G105",
+    "LOCATION": "LF fender by C125, C1018 starter motor solenoid",
+    "LOCPAGE": "2",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G106",
+    "LOCATION": "On fuel rail",
+    "LOCPAGE": "2",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G200",
+    "LOCATION": "Behind RF cowl panel, near door sill",
+    "LOCPAGE": "6",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G201",
+    "LOCATION": "Lower RF \"A\" pillar",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G203",
+    "LOCATION": "Behind LF cowl panel, near door sill",
+    "LOCPAGE": "7",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G204",
+    "LOCATION": "Lower LF \"A\" pillar",
+    "LOCPAGE": "5",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G205",
+    "LOCATION": "Behind RF cowl panel, near door sill"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G206",
+    "LOCATION": "Lower RF \"A\" pillar"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G400",
+    "LOCATION": "Center rear of roof, behind roof opening panel"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G401",
+    "LOCATION": "RF side of luggage compartment, near grommet to fuel tank assembly"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G402",
+    "LOCATION": "Near T/O C430",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G406",
+    "LOCATION": "Center rear of vehicle"
+  },
+  {
+    "EVTM": "EXG",
+    "NAME": "G900",
+    "LOCATION": "In roof opening panel assembly"
+  }
+]

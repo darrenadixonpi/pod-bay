@@ -1,0 +1,183 @@
+[
+  {
+    "EVTM": "EXF",
+    "NAME": "G100",
+    "QUALIFIER": "2.0L",
+    "LOCATION": "Near starter motor",
+    "LOCPAGE": "5",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G100",
+    "QUALIFIER": "Zetec",
+    "LOCATION": "Near starter motor",
+    "LOCPAGE": "1",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G101",
+    "LOCATION": "Right front side of engine",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G104",
+    "QUALIFIER": "2.0L",
+    "LOCATION": "On C104, joint connector #2",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G104",
+    "QUALIFIER": "Zetec",
+    "LOCATION": "On C104, joint connector #2",
+    "LOCPAGE": "3",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G106",
+    "QUALIFIER": "2.0L",
+    "LOCATION": "On C106, joint connector #1",
+    "LOCPAGE": "4",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G106",
+    "QUALIFIER": "Zetec",
+    "LOCATION": "On C106, joint connector #1",
+    "LOCPAGE": "2",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G146",
+    "QUALIFIER": "2.0L",
+    "LOCATION": "On C146, joint connector #6",
+    "LOCPAGE": "4",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G146",
+    "QUALIFIER": "Zetec",
+    "LOCATION": "On C146, joint connector #6",
+    "LOCPAGE": "3",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G201",
+    "LOCATION": "Near C288, blower motor resistor",
+    "LOCPAGE": "8",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G202",
+    "LOCATION": "Near C275, integrated control panel (ICP)",
+    "LOCPAGE": "8",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G203",
+    "LOCATION": "Near C264, air bag diagnostic monitor",
+    "LOCPAGE": "7",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G224",
+    "LOCATION": "On C224, joint connector #3",
+    "LOCPAGE": "6",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G300",
+    "LOCATION": "Near fuel pump module",
+    "LOCPAGE": "9",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G302",
+    "QUALIFIER": "Coupe",
+    "LOCATION": "Near T/O C386, ABS control module",
+    "LOCPAGE": "13",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G302",
+    "QUALIFIER": "Wagon",
+    "LOCATION": "Near T/O C386, ABS control module",
+    "LOCPAGE": "10",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G400",
+    "LOCATION": "Near C412, liftgate wiper motor",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G401",
+    "QUALIFIER": "Sedan",
+    "LOCATION": "On C401, joint connector #8",
+    "LOCPAGE": "11",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G401",
+    "QUALIFIER": "Wagon",
+    "LOCATION": "On C401, joint connector #8",
+    "LOCPAGE": "9",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G401",
+    "QUALIFIER": "Coupe",
+    "LOCATION": "On C402, joint connector #9",
+    "LOCPAGE": "013",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G402",
+    "LOCATION": "On C402, joint connector #9",
+    "LOCPAGE": "11",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G900",
+    "LOCATION": "In roof, hear C918 roof opening panel switch"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G403",
+    "QUALIFIER": "Coupe",
+    "LOCATION": "Near T/O to C415, rear window defrost grid",
+    "LOCPAGE": "14",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "G403",
+    "QUALIFIER": "Wagon",
+    "LOCATION": "Near T/O to C415, rear window defrost grid",
+    "LOCPAGE": "10",
+    "ZONE": "F7"
+  }
+]

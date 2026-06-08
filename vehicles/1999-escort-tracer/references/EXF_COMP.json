@@ -1,0 +1,4003 @@
+[
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2987",
+    "LOCATION": "Right front of engine, part of A/C compressor assembly",
+    "CONN_NAME": "C175",
+    "LOCPAGE": "4",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2987",
+    "LOCATION": "Right front of engine, part of A/C compressor assembly",
+    "CONN_NAME": "C175",
+    "LOCPAGE": "2",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C High Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "12A581 near T/O to C127 mass air flow sensor",
+    "CONN_NAME": "C188",
+    "LOCPAGE": "4",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C High Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "12A581 near T/O to C127 mass air flow sensor",
+    "CONN_NAME": "C188",
+    "LOCPAGE": "001",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C Low Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "19E561",
+    "LOCATION": "Right rear of engine compartment, on A/C accumulator",
+    "CONN_NAME": "C142",
+    "LOCPAGE": "5",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C Low Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "19E561",
+    "LOCATION": "Right rear of engine compartment, on A/C accumulator",
+    "CONN_NAME": "C142",
+    "LOCPAGE": "3",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C-Heater Control Assembly",
+    "QUALIFIER": "W/ A/C",
+    "PARTNO": "NA",
+    "LOCATION": "Inside integrated control panel",
+    "CONN_NAME": "C272",
+    "LOCPAGE": "8",
+    "ZONE": "E10",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "A/C-Heater Control Assembly",
+    "QUALIFIER": "W/ A/C",
+    "PARTNO": "NA",
+    "LOCATION": "Inside integrated control panel",
+    "CONN_NAME": "C273",
+    "LOCPAGE": "8",
+    "ZONE": "E10",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "ABS Main Relay",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2C013",
+    "LOCATION": "Left front corner of engine compartment, near left horn",
+    "CONN_NAME": "C116",
+    "LOCPAGE": "4",
+    "ZONE": "C10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "ABS Main Relay",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2C013",
+    "LOCATION": "Left front corner of engine compartment, near left horn",
+    "CONN_NAME": "C116",
+    "LOCPAGE": "2",
+    "ZONE": "C10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Air Bag Diagnostic Monitor",
+    "PARTNO": "14B056",
+    "LOCATION": "Center of dash panel, below integrated control panel (ICP)",
+    "CONN_NAME": "C264",
+    "LOCPAGE": "6",
+    "ZONE": "E10",
+    "HCCF_CELL": "46",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Air Bag Sliding Contact",
+    "PARTNO": "3600",
+    "LOCATION": "Top of steering column, below steering wheel",
+    "CONN_NAME": "C248",
+    "LOCPAGE": "7",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Air Bag Sliding Contact",
+    "PARTNO": "3600",
+    "LOCATION": "Top of steering column, below steering wheel",
+    "CONN_NAME": "C267",
+    "LOCPAGE": "7",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "2B373",
+    "LOCATION": "Mounted on floor, under passenger seat",
+    "CONN_NAME": "C386",
+    "LOCPAGE": "10",
+    "ZONE": "A4",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "2B373",
+    "LOCATION": "Mounted on floor, under passenger seat",
+    "CONN_NAME": "C386",
+    "LOCPAGE": "14",
+    "ZONE": "F5",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "2B373",
+    "LOCATION": "Mounted on floor, under passenger seat",
+    "CONN_NAME": "C386",
+    "LOCPAGE": "11",
+    "ZONE": "A4",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C107",
+    "LOCPAGE": "4",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C107",
+    "LOCPAGE": "2",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "15A808",
+    "LOCATION": "Below rear of center console",
+    "CONN_NAME": "C314",
+    "LOCPAGE": "13",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "15A808",
+    "LOCATION": "Below rear of center console",
+    "CONN_NAME": "C314",
+    "LOCPAGE": "11",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "15A808",
+    "LOCATION": "Below center of center console",
+    "CONN_NAME": "C314",
+    "LOCPAGE": "9",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine compartment",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine compartment",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "5",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine compartment",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "1",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine compartment",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "1",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C109",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C110",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C111",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C133",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C156",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C157",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "14A067",
+    "LOCATION": "Left side of engine compartment, above wheelwell",
+    "CONN_NAME": "C161",
+    "LOCPAGE": "3",
+    "ZONE": "A10",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Blower Motor",
+    "PARTNO": "19805",
+    "LOCATION": "Behind right side of I/P, in A/C-heater plenum",
+    "CONN_NAME": "C289",
+    "LOCPAGE": "6",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Blower Motor Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of I/P, near cowl",
+    "LOCPAGE": "6",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Blower Motor Resistor",
+    "PARTNO": "19A706",
+    "LOCATION": "Behind right side of I/P, in A/C-heater plenum",
+    "CONN_NAME": "C287",
+    "LOCPAGE": "6",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Blower Motor Resistor",
+    "PARTNO": "19A706",
+    "LOCATION": "Behind right side of I/P, in A/C-heater plenum",
+    "CONN_NAME": "C288",
+    "LOCPAGE": "8",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2B372",
+    "LOCATION": "Left rear of engine compartment, on brake master cylinder",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "4",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2B372",
+    "LOCATION": "Left rear of engine compartment, on brake master cylinder",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "2",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Brake Pedal Position (BPP) Switch",
+    "PARTNO": "13480",
+    "LOCATION": "Behind left side of I/P, top of brake pedal support",
+    "CONN_NAME": "C245",
+    "LOCPAGE": "7",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "6B288",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C150",
+    "LOCPAGE": "5",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "6B288",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C150",
+    "LOCPAGE": "2",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "CD Changer",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of luggage compartment",
+    "CONN_NAME": "C403",
+    "LOCPAGE": "13",
+    "ZONE": "F7",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "CD Changer",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of luggage compartment",
+    "CONN_NAME": "C403",
+    "LOCPAGE": "11",
+    "ZONE": "A7",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C210",
+    "LOCPAGE": "6",
+    "ZONE": "F4",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C210",
+    "LOCPAGE": "6",
+    "ZONE": "F4",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C210",
+    "LOCPAGE": "6",
+    "ZONE": "F4",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C220",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C220",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C220",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C231",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C231",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C231",
+    "LOCPAGE": "8",
+    "ZONE": "F3",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C232",
+    "LOCPAGE": "10",
+    "ZONE": "A1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "16"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C232",
+    "LOCPAGE": "14",
+    "ZONE": "B1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "16"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C232",
+    "LOCPAGE": "12",
+    "ZONE": "B1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "16"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C270",
+    "LOCPAGE": "13",
+    "ZONE": "C1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "17"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C270",
+    "LOCPAGE": "11",
+    "ZONE": "C1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "17"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14A068",
+    "LOCATION": "Behind left side of I/P, left of steering column",
+    "CONN_NAME": "C270",
+    "LOCPAGE": "9",
+    "ZONE": "B1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "17"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "CKP Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In engine harness near CKP sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "CKP/CMP Shield",
+    "PARTNO": "NA",
+    "LOCATION": "Near T/O to CKP/CMP sensors"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Clutch Pedal Position Switch",
+    "PARTNO": "11A152",
+    "LOCATION": "Behind left side of I/P, top of clutch pedal support",
+    "CONN_NAME": "C292",
+    "LOCPAGE": "7",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Clutch Start Switch",
+    "PARTNO": "11A152",
+    "LOCATION": "Behind left side of I/P, on clutch pedal support",
+    "CONN_NAME": "C259",
+    "LOCPAGE": "7",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Clutch Start Switch Jumper",
+    "PARTNO": "11A152",
+    "LOCATION": "Behind left side of I/P, on clutch pedal support",
+    "CONN_NAME": "C259",
+    "LOCPAGE": "7",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "CMP Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In engine harness near CMP sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Constant Control Relay Module (CCRM)",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "4",
+    "ZONE": "E10",
+    "HCCF_CELL": "33",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Constant Control Relay Module (CCRM)",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "3",
+    "ZONE": "D10",
+    "HCCF_CELL": "33",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "6B288",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C120",
+    "LOCPAGE": "5",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "6B288",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C120",
+    "LOCPAGE": "3",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Data Link Connector (DLC)",
+    "PARTNO": "14489",
+    "LOCATION": "Left rear of engine compartment, on safety wall",
+    "CONN_NAME": "C255",
+    "LOCPAGE": "8",
+    "ZONE": "F4",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Daytime Running Lamps (DRL) Module",
+    "PARTNO": "15A272",
+    "LOCATION": "Behind right side of I/P, top of cowl panel",
+    "CONN_NAME": "C297"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Deactivator Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Behind left side of I/P",
+    "CONN_NAME": "C208",
+    "LOCPAGE": "7",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Differential Pressure Feedback EGR (DPFE) Sensor",
+    "PARTNO": "9J460",
+    "LOCATION": "Center rear of engine compartment, on safety wall",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "4",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "14677",
+    "LOCATION": "On passenger side of kick panel",
+    "CONN_NAME": "C293",
+    "LOCPAGE": "14",
+    "ZONE": "A1",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14677",
+    "LOCATION": "On passenger side of kick panel",
+    "CONN_NAME": "C293",
+    "LOCPAGE": "12",
+    "ZONE": "A2",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14677",
+    "LOCATION": "On passenger side of kick panel",
+    "CONN_NAME": "C293",
+    "LOCPAGE": "10",
+    "ZONE": "A3",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Driver Air Bag",
+    "PARTNO": "NA",
+    "LOCATION": "Center of steering wheel",
+    "CONN_NAME": "C268",
+    "LOCPAGE": "7",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "61203",
+    "LOCATION": "In driver safety belt buckle assembly",
+    "CONN_NAME": "C316",
+    "LOCPAGE": "9",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "61203",
+    "LOCATION": "In driver safety belt buckle assembly",
+    "CONN_NAME": "C316",
+    "LOCPAGE": "13",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "61203",
+    "LOCATION": "In driver safety belt buckle assembly",
+    "CONN_NAME": "C316",
+    "LOCPAGE": "11",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "DRL Fuse",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "4",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "DRL Fuse",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "2",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "DRL Resistor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine compartment, on rear of strut tower",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "4",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "DRL Resistor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine compartment, on rear of strut tower",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "2",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EGR Vacuum Regulator (EVR)",
+    "PARTNO": "9J459",
+    "LOCATION": "Center rear of engine compartment, on safety wall",
+    "CONN_NAME": "C139",
+    "LOCPAGE": "4",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Electric Cooling Fan",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "8C607",
+    "LOCATION": "Center front of engine compartment, behind radiator",
+    "CONN_NAME": "C168",
+    "LOCPAGE": "4",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Electric Cooling Fan",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "8C607",
+    "LOCATION": "Center front of engine compartment, behind radiator",
+    "CONN_NAME": "C168",
+    "LOCPAGE": "1",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Electronic Flasher",
+    "PARTNO": "13350",
+    "LOCATION": "Behind left side of I/P, near cowl",
+    "CONN_NAME": "C295",
+    "HCCF_CELL": "90",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Electronic Flasher",
+    "PARTNO": "13350",
+    "LOCATION": "Behind left side of I/P, near cowl",
+    "CONN_NAME": "C296",
+    "HCCF_CELL": "90",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Coolant Level Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "10D968",
+    "LOCATION": "Right front of engine compartment, top of radiator coolant reservoir",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "4",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Coolant Level Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "10D968",
+    "LOCATION": "Right front of engine compartment, top of radiator coolant reservoir",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "2",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "12A648",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "5",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "12A648",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "3",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Fuel Temperature Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Center of Engine Compartment"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9278",
+    "LOCATION": "Lower rear of engine, near oil filter",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "5",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9278",
+    "LOCATION": "Lower rear of engine, near oil filter",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "1",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9C915",
+    "LOCATION": "Left front of engine compartment, below air cleaner assembly",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "4",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9C915",
+    "LOCATION": "Left front of engine compartment, below air cleaner assembly",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "1",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EVAP Canister Vent Solenoid",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Under left rear corner of vehicle",
+    "CONN_NAME": "C442",
+    "LOCPAGE": "14",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EVAP Canister Vent Solenoid",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Under left rear corner of vehicle",
+    "CONN_NAME": "C442"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "EVAP Canister Vent Solenoid",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Under left rear corner of vehicle",
+    "CONN_NAME": "C442"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Exterior Rear View Mirror Switch",
+    "PARTNO": "17B676",
+    "LOCATION": "Left side of I/P, left of steering column",
+    "CONN_NAME": "C218",
+    "LOCPAGE": "8",
+    "ZONE": "B1",
+    "HCCF_CELL": "124",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fog Lamp Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of I/P",
+    "LOCPAGE": "6",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #1",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #1",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "2",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #2",
+    "CONN_NAME": "C124",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #2",
+    "CONN_NAME": "C124",
+    "LOCPAGE": "2",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #3",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #3",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "2",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #4",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F593",
+    "LOCATION": "Top of respective cylinder #4",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "2",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Diode",
+    "PARTNO": "BW0A67D01A",
+    "LOCATION": "Bottom of left \"B\" pillar, on floor",
+    "CONN_NAME": "C322"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Driver Module",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "9D370",
+    "LOCATION": "Mounted on left rear quarter panel",
+    "CONN_NAME": "C407",
+    "LOCPAGE": "14",
+    "ZONE": "F6",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Driver Module",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "9D370",
+    "LOCATION": "Mounted on left rear quarter panel",
+    "CONN_NAME": "C407",
+    "LOCPAGE": "10",
+    "ZONE": "F5",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Driver Module",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "9D370",
+    "LOCATION": "Mounted on left rear quarter panel",
+    "CONN_NAME": "C407",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Driver Module Shield",
+    "PARTNO": "NA",
+    "LOCATION": "I/P harness, between fuel pump driver module and fuel pump/fuel gauge sender"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "9H307",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C315",
+    "LOCPAGE": "13",
+    "ZONE": "F5",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "9H307",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C315",
+    "LOCPAGE": "11",
+    "ZONE": "F6",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "9H307",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C315",
+    "LOCPAGE": "9",
+    "ZONE": "A4",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Pump Shield",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of car, near fuel pump module"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C301",
+    "LOCPAGE": "13",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C301",
+    "LOCPAGE": "11",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Below rear of car, inside fuel tank",
+    "CONN_NAME": "C301",
+    "LOCPAGE": "9",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "4",
+    "ZONE": "E1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C159",
+    "LOCPAGE": "4",
+    "ZONE": "E1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "4",
+    "ZONE": "E1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "1",
+    "ZONE": "C1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C159",
+    "LOCPAGE": "1",
+    "ZONE": "C1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Generator",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "10300",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "1",
+    "ZONE": "C1",
+    "HCCF_CELL": "12",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Headlamp Relay",
+    "PARTNO": "NA",
+    "LOCATION": "In battery junction box",
+    "LOCPAGE": "6",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "4",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower front of engine, in exhaust manifold",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "5",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower front of engine, in exhaust manifold",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "1",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heater Control Assembly",
+    "QUALIFIER": "W/O A/C",
+    "PARTNO": "NA",
+    "LOCATION": "Inside integrated control panel",
+    "CONN_NAME": "C272",
+    "LOCPAGE": "8",
+    "ZONE": "E10",
+    "HCCF_CELL": "53",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Heater Control Assembly",
+    "QUALIFIER": "W/O A/C",
+    "PARTNO": "NA",
+    "LOCATION": "Inside integrated control panel",
+    "CONN_NAME": "C273",
+    "LOCPAGE": "8",
+    "ZONE": "E10",
+    "HCCF_CELL": "53",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13A613",
+    "LOCATION": "Center of rear liftgate",
+    "CONN_NAME": "C456",
+    "LOCPAGE": "10",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Center of rear package tray",
+    "CONN_NAME": "C441",
+    "LOCPAGE": "13",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Center of rear package tray",
+    "CONN_NAME": "C441",
+    "LOCPAGE": "11",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Horn Relay",
+    "PARTNO": "13853",
+    "LOCATION": "Behind left side of I/P, near cowl",
+    "LOCPAGE": "6",
+    "ZONE": "A1",
+    "HCCF_CELL": "44",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Horn Switch",
+    "PARTNO": "13Q853",
+    "LOCATION": "In center of steering wheel",
+    "CONN_NAME": "C279",
+    "LOCPAGE": "7",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2B257",
+    "LOCATION": "Left rear of engine compartment, behind battery",
+    "CONN_NAME": "C114",
+    "LOCPAGE": "4",
+    "ZONE": "B10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2B257",
+    "LOCATION": "Left rear of engine compartment, behind battery",
+    "CONN_NAME": "C115",
+    "LOCPAGE": "4",
+    "ZONE": "B10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2B257",
+    "LOCATION": "Left rear of engine compartment, behind battery",
+    "CONN_NAME": "C114",
+    "LOCPAGE": "2",
+    "ZONE": "B10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2B257",
+    "LOCATION": "Left rear of engine compartment, behind battery",
+    "CONN_NAME": "C115",
+    "LOCPAGE": "2",
+    "ZONE": "B10",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F715",
+    "LOCATION": "Top left rear of engine",
+    "CONN_NAME": "C145",
+    "LOCPAGE": "4",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F715",
+    "LOCATION": "Top left rear of engine",
+    "CONN_NAME": "C145",
+    "LOCPAGE": "3",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "12029",
+    "LOCATION": "Left side of engine",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "5",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "12029",
+    "LOCATION": "Left side of engine",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "2",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Ignition Switch",
+    "PARTNO": "11572",
+    "LOCATION": "Top right side of steering column",
+    "CONN_NAME": "C281",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Ignition Switch",
+    "PARTNO": "11572",
+    "LOCATION": "Top right side of steering column",
+    "CONN_NAME": "C283",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Inertia Fuel Shutoff Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "2341",
+    "LOCATION": "At bottom of \"A\" pillar",
+    "CONN_NAME": "C234",
+    "LOCPAGE": "10",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Inertia Fuel Shutoff Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "2341",
+    "LOCATION": "At bottom of \"A\" pillar",
+    "CONN_NAME": "C234",
+    "LOCPAGE": "14",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Injection Pressure Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9F972",
+    "LOCATION": "Left side of engine, near fuel injector #1",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "5",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Injection Pressure Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9F972",
+    "LOCATION": "Left side of engine, near fuel injector #1",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "3",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10890",
+    "LOCATION": "Top left side of I/P",
+    "CONN_NAME": "C252",
+    "LOCPAGE": "8",
+    "ZONE": "A4",
+    "HCCF_CELL": "62",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10890",
+    "LOCATION": "Top left side of I/P",
+    "CONN_NAME": "C253",
+    "LOCPAGE": "8",
+    "ZONE": "A4",
+    "HCCF_CELL": "62",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10890",
+    "LOCATION": "Top left side of I/P",
+    "CONN_NAME": "C254",
+    "LOCPAGE": "8",
+    "ZONE": "A4",
+    "HCCF_CELL": "62",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Panel Cigar Lighter",
+    "PARTNO": "15052",
+    "LOCATION": "Lower center of I/P, near ashtray",
+    "CONN_NAME": "C226",
+    "LOCPAGE": "8",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Panel Cigar Lighter",
+    "PARTNO": "15052",
+    "LOCATION": "Lower center of I/P, near ashtray",
+    "CONN_NAME": "C239",
+    "LOCPAGE": "8",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrument Panel Dimming Module",
+    "PARTNO": "11691",
+    "LOCATION": "Left side of I/P, left of steering column",
+    "CONN_NAME": "C221",
+    "LOCPAGE": "8",
+    "ZONE": "F5",
+    "HCCF_CELL": "71",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrumentation Engine Coolant Temperature (ECT) Sender",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "10884",
+    "LOCATION": "Left side of engine",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "4",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Instrumentation Engine Coolant Temperature (ECT) Sender",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "10884",
+    "LOCATION": "Left side of engine",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "2",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Top left front of engine compartment, on front of air cleaner",
+    "CONN_NAME": "C149",
+    "LOCPAGE": "5",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Intake Manifold Runner Control (IMRC) Solenoid",
+    "PARTNO": "NA",
+    "LOCATION": "Top right rear of engine",
+    "CONN_NAME": "C140",
+    "LOCPAGE": "5",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "Premium Sound",
+    "PARTNO": "NA",
+    "LOCATION": "Center of instrument panel",
+    "CONN_NAME": "C274",
+    "LOCPAGE": "8",
+    "ZONE": "A6",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "AM/FM",
+    "PARTNO": "NA",
+    "LOCATION": "Center of instrument panel",
+    "CONN_NAME": "C274",
+    "LOCPAGE": "8",
+    "ZONE": "A6",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "AM/FM",
+    "PARTNO": "NA",
+    "LOCATION": "Center of instrument panel",
+    "CONN_NAME": "C275",
+    "LOCPAGE": "8",
+    "ZONE": "A6",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "Premium Sound",
+    "PARTNO": "NA",
+    "LOCATION": "Center of instrument panel",
+    "CONN_NAME": "C276",
+    "LOCPAGE": "8",
+    "ZONE": "A6",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Integrated Control Panel (ICP) Jumper",
+    "QUALIFIER": "Premium Sound",
+    "PARTNO": "NA",
+    "LOCATION": "Center of instrument panel",
+    "CONN_NAME": "C275",
+    "LOCPAGE": "8",
+    "ZONE": "A6",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Interior/Map Lamp Assembly",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13776",
+    "LOCATION": "Center of roof",
+    "CONN_NAME": "C908"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Interior/Map Lamp Assembly",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13776",
+    "LOCATION": "Center of roof",
+    "CONN_NAME": "C908",
+    "LOCPAGE": "12",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Interior/Map Lamp Assembly",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13776",
+    "LOCATION": "Center of roof",
+    "CONN_NAME": "C908",
+    "LOCPAGE": "10",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #1",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "7114-9443",
+    "LOCATION": "Front of right fender apron, on G106",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "4",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #1",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "7114-9443",
+    "LOCATION": "Front of right fender apron, on G106",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "2",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #10",
+    "PARTNO": "CF202061N",
+    "LOCATION": "Behind center of I/P, near floor, on G206",
+    "CONN_NAME": "C206",
+    "LOCPAGE": "7",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #12",
+    "PARTNO": "7123-7542",
+    "LOCATION": "Behind top left side of I/P, near harness routing shield",
+    "CONN_NAME": "C213",
+    "LOCPAGE": "6",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #2",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "7114-9441",
+    "LOCATION": "Near left headlamp, on G104",
+    "CONN_NAME": "C104",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #2",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "7114-9441",
+    "LOCATION": "Near left headlamp, on G104",
+    "CONN_NAME": "C104",
+    "LOCPAGE": "3",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #3",
+    "PARTNO": "7114-9440",
+    "LOCATION": "Behind top of left cowl panel, on G224",
+    "CONN_NAME": "C224",
+    "LOCPAGE": "6",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #5",
+    "PARTNO": "NA",
+    "LOCATION": "Right side of I/P",
+    "CONN_NAME": "C207",
+    "LOCPAGE": "6",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #6",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front side of engine",
+    "CONN_NAME": "C146",
+    "LOCPAGE": "4",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #6",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left front side of engine",
+    "CONN_NAME": "C146",
+    "LOCPAGE": "3",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #7",
+    "PARTNO": "NA",
+    "LOCATION": "Right side of I/P",
+    "CONN_NAME": "C211",
+    "LOCPAGE": "8",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Right rear of cargo area, on G401",
+    "CONN_NAME": "C401",
+    "LOCPAGE": "13",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Right rear of cargo area, on G401",
+    "CONN_NAME": "C401",
+    "LOCPAGE": "11",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Right rear of cargo area, on G401",
+    "CONN_NAME": "C401",
+    "LOCPAGE": "9",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #9",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Left rear corner of luggage compartment, on G402",
+    "CONN_NAME": "C402",
+    "LOCPAGE": "14",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #9",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Left rear corner of luggage compartment, on G402",
+    "CONN_NAME": "C402",
+    "LOCPAGE": "11",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Joint Connector #9",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "7114-9442",
+    "LOCATION": "Left rear corner of luggage compartment, on G402",
+    "CONN_NAME": "C402"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Key In Ignition Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Top right side of steering column, part of ignition switch assembly",
+    "CONN_NAME": "C284"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Knock Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "12A699",
+    "LOCATION": "Left side of engine compartment, near crankshaft position sensor",
+    "CONN_NAME": "C187",
+    "LOCPAGE": "4",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Knock Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "12A699",
+    "LOCATION": "Left side of engine compartment, near crankshaft position sensor",
+    "CONN_NAME": "C187",
+    "LOCPAGE": "3",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Knock Sensor (KS) Shield #1",
+    "PARTNO": "NA",
+    "LOCATION": "In engine harness, near knock sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Knock Sensor (KS) Shield #2",
+    "PARTNO": "NA",
+    "LOCATION": "In engine harness, near knock sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Knock Sensor Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In engine harness, near knock sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Daytime Running Lamp (DRL) Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Behind right side of I/P, top of cowl panel",
+    "CONN_NAME": "C243"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of left front door",
+    "CONN_NAME": "C502",
+    "LOCPAGE": "14",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of left front door",
+    "CONN_NAME": "C502",
+    "LOCPAGE": "12",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of left front door",
+    "CONN_NAME": "C502",
+    "LOCPAGE": "10",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "15502",
+    "LOCATION": "Lower left front of vehicle",
+    "CONN_NAME": "C162",
+    "LOCPAGE": "5",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "15502",
+    "LOCATION": "Lower left front of vehicle",
+    "CONN_NAME": "C162",
+    "LOCPAGE": "3",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2C179",
+    "LOCATION": "On left front wheel assembly",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "4",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2C179",
+    "LOCATION": "On left front wheel assembly",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "2",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13713",
+    "LOCATION": "On left \"B\" pillar, rear of left front door jamb",
+    "CONN_NAME": "C324",
+    "LOCPAGE": "13",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13713",
+    "LOCATION": "On left \"B\" pillar, rear of left front door jamb",
+    "CONN_NAME": "C324",
+    "LOCPAGE": "11",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13713",
+    "LOCATION": "On left \"B\" pillar, rear of left front door jamb",
+    "CONN_NAME": "C324",
+    "LOCPAGE": "9",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "In rear of left front door",
+    "CONN_NAME": "C506",
+    "LOCPAGE": "14",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "In rear of left front door",
+    "CONN_NAME": "C506",
+    "LOCPAGE": "12",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "In rear of left front door",
+    "CONN_NAME": "C506",
+    "LOCPAGE": "10",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C503",
+    "LOCPAGE": "14",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C503",
+    "LOCPAGE": "12",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C503",
+    "LOCPAGE": "10",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "4",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "13200",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "2",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Side/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C102",
+    "LOCPAGE": "4",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Side/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C102",
+    "LOCPAGE": "2",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C504",
+    "LOCPAGE": "14",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C504",
+    "LOCPAGE": "12",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Window Switch",
+    "PARTNO": "NA",
+    "LOCATION": "On left rear door panel",
+    "CONN_NAME": "C703",
+    "LOCPAGE": "12",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Reversing Lamp",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "134051",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C431",
+    "LOCPAGE": "13",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Reversing Lamp",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "134051",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C431",
+    "LOCPAGE": "11",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Reversing Lamp",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "134051",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C431"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "License Lamps",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13550",
+    "LOCATION": "Center rear of luggage compartment lid, left of license plate",
+    "CONN_NAME": "C435",
+    "LOCPAGE": "11",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "License Lamps",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13550",
+    "LOCATION": "Center rear of luggage compartment lid, left of license plate",
+    "CONN_NAME": "C434",
+    "LOCPAGE": "10",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Liftgate Latch Switch",
+    "PARTNO": "NA",
+    "LOCATION": "In center rear of liftgate, part of latch assembly",
+    "CONN_NAME": "C413",
+    "LOCPAGE": "10",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Liftgate Lock Actuator",
+    "PARTNO": "218A422",
+    "LOCATION": "Inside liftgate",
+    "CONN_NAME": "C443",
+    "LOCPAGE": "10",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Liftgate Washer Pump Motor",
+    "PARTNO": "17618",
+    "LOCATION": "Right rear of cargo area",
+    "CONN_NAME": "C421",
+    "LOCPAGE": "9",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Liftgate Wiper Motor",
+    "PARTNO": "17508",
+    "LOCATION": "Inside center of liftgate",
+    "CONN_NAME": "C412",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Lamp",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13776",
+    "LOCATION": "Underside of rear package tray",
+    "CONN_NAME": "C422",
+    "LOCPAGE": "13",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Lamp",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13776",
+    "LOCATION": "Underside of rear package tray",
+    "CONN_NAME": "C422",
+    "LOCPAGE": "11",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Release Solenoid",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C408",
+    "LOCPAGE": "13",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Release Solenoid",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C408",
+    "LOCPAGE": "11",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Release Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of I/P",
+    "CONN_NAME": "C257"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13546",
+    "LOCATION": "Right front of luggage compartment, near hinge support",
+    "CONN_NAME": "C418",
+    "LOCPAGE": "13",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Luggage Compartment Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13546",
+    "LOCATION": "Right front of luggage compartment, near hinge support",
+    "CONN_NAME": "C418",
+    "LOCPAGE": "12",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Map Lamp Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Center of roof",
+    "CONN_NAME": "C918",
+    "LOCPAGE": "14",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "12B579",
+    "LOCATION": "Top left front of engine compartment, on inside of air cleaner assembly",
+    "CONN_NAME": "C176",
+    "LOCPAGE": "1",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "12B579",
+    "LOCATION": "Top left front of engine compartment, on inside of air cleaner assembly",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18B849",
+    "LOCATION": "Behind center of I/P, near electronic radio",
+    "CONN_NAME": "C305",
+    "LOCPAGE": "13",
+    "ZONE": "B1",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18B849",
+    "LOCATION": "Behind center of I/P, near electronic radio",
+    "CONN_NAME": "C306",
+    "LOCPAGE": "13",
+    "ZONE": "B1",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18B849",
+    "LOCATION": "Behind center of I/P, near electronic radio",
+    "CONN_NAME": "C305",
+    "LOCPAGE": "11",
+    "ZONE": "E1",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18B849",
+    "LOCATION": "Behind center of I/P, near electronic radio",
+    "CONN_NAME": "C306",
+    "LOCPAGE": "11",
+    "ZONE": "E1",
+    "HCCF_CELL": "130",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Premium Sound Shield",
+    "PARTNO": "N/A",
+    "LOCATION": "In wiring harness, near integrated control panel (ICP)"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Top left side of engine",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "5",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Top left side of engine",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "3",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "RAP Diode Connector",
+    "PARTNO": "7123-9235",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C410"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defogger Relay",
+    "PARTNO": "NA",
+    "LOCATION": "In I/P on rear window defrost relay",
+    "LOCPAGE": "6",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "42006",
+    "LOCATION": "On rear window",
+    "CONN_NAME": "C414",
+    "LOCPAGE": "13",
+    "ZONE": "A6",
+    "HCCF_CELL": "56",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "42006",
+    "LOCATION": "On rear window",
+    "CONN_NAME": "C415",
+    "LOCPAGE": "14",
+    "ZONE": "A8",
+    "HCCF_CELL": "56",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "42006",
+    "LOCATION": "On rear window",
+    "CONN_NAME": "C414",
+    "LOCPAGE": "11",
+    "ZONE": "A5",
+    "HCCF_CELL": "56",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "42006",
+    "LOCATION": "On rear window",
+    "CONN_NAME": "C414",
+    "LOCPAGE": "10",
+    "ZONE": "B10",
+    "HCCF_CELL": "56",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "42006",
+    "LOCATION": "On rear window",
+    "CONN_NAME": "C415",
+    "LOCPAGE": "10",
+    "ZONE": "F6",
+    "HCCF_CELL": "56",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Rear Window Defrost Switch",
+    "PARTNO": "19A328",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C271",
+    "LOCPAGE": "8",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Relay Box",
+    "PARTNO": "NA",
+    "LOCATION": "Behind left side of I/P",
+    "LOCPAGE": "6",
+    "ZONE": "A1",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "18"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C404",
+    "LOCPAGE": "13",
+    "ZONE": "B10",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C405",
+    "LOCPAGE": "13",
+    "ZONE": "B10",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C404",
+    "LOCPAGE": "11",
+    "ZONE": "C10",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C405",
+    "LOCPAGE": "11",
+    "ZONE": "C10",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C404",
+    "LOCPAGE": "9",
+    "ZONE": "F6",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Speaker",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C605",
+    "LOCPAGE": "13",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Speaker",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C605",
+    "LOCPAGE": "12",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Speaker",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "18808",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C605"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "13200",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C174",
+    "LOCPAGE": "4",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "13200",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C174",
+    "LOCPAGE": "2",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Side/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "5",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Side/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "3",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Window Motor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C607"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Window Motor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C607",
+    "LOCPAGE": "12",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Window Motor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of right front door",
+    "CONN_NAME": "C607"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "13007",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C165",
+    "LOCPAGE": "4",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "13007",
+    "LOCATION": "Right front of vehicle",
+    "CONN_NAME": "C165",
+    "LOCPAGE": "2",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Horn",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "13A803",
+    "LOCATION": "Inside front of right front fender",
+    "CONN_NAME": "C196",
+    "LOCPAGE": "5",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Horn",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "13A803",
+    "LOCATION": "Inside front of right front fender",
+    "CONN_NAME": "C196",
+    "LOCPAGE": "3",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right License Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of luggage compartment, right of license plate",
+    "CONN_NAME": "C455",
+    "LOCPAGE": "14",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Power Window/Door Lock Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Passenger side door",
+    "CONN_NAME": "C609",
+    "LOCPAGE": "13",
+    "ZONE": "A5",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Power Window/Door Lock Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Passenger side door",
+    "CONN_NAME": "C609",
+    "LOCPAGE": "12",
+    "ZONE": "A6",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Power Window/Door Lock Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Passenger side door",
+    "CONN_NAME": "C609",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "2C190",
+    "LOCATION": "On right rear wheel assembly",
+    "CONN_NAME": "C445",
+    "LOCPAGE": "14",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "2C190",
+    "LOCATION": "On right rear wheel assembly",
+    "CONN_NAME": "C445",
+    "LOCPAGE": "11",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "2C190",
+    "LOCATION": "On right rear wheel assembly",
+    "CONN_NAME": "C445",
+    "LOCPAGE": "9",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Reversing Lamp",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13405/15500",
+    "LOCATION": "Right center on rear of luggage compartment lid",
+    "CONN_NAME": "C430"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Roof Opening Panel Motor Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Headliner, near map lamp"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Roof Opening Panel Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Headliner, near map lamp"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Roof Opening Panel Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Front center of roof",
+    "CONN_NAME": "C918"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "32719",
+    "LOCATION": "Below front of center console",
+    "CONN_NAME": "C384",
+    "LOCPAGE": "13",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "32719",
+    "LOCATION": "Below front of center console",
+    "CONN_NAME": "C384",
+    "LOCPAGE": "11",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "32719",
+    "LOCATION": "Below front of center console",
+    "CONN_NAME": "C384",
+    "LOCPAGE": "9",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Speed Control Servo",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9D843",
+    "LOCATION": "Right front side of engine",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "4",
+    "ZONE": "C1",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Speed Control Servo",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9D843",
+    "LOCATION": "Right front side of engine",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "2",
+    "ZONE": "C1",
+    "HCCF_CELL": "31",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Speed Control Switch Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "In steering wheel",
+    "CONN_NAME": "C269",
+    "LOCPAGE": "7",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower rear of engine",
+    "CONN_NAME": "C121",
+    "LOCPAGE": "5",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "11002",
+    "LOCATION": "Lower rear of engine",
+    "CONN_NAME": "C179",
+    "LOCPAGE": "5",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "11002",
+    "LOCATION": "Lower rear of engine",
+    "CONN_NAME": "C121",
+    "LOCPAGE": "1",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "11002",
+    "LOCATION": "Lower rear of engine",
+    "CONN_NAME": "C179",
+    "LOCPAGE": "1",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top left rear of engine, on throttle body",
+    "CONN_NAME": "C144",
+    "LOCPAGE": "5",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9B989",
+    "LOCATION": "Top left rear of engine, on throttle body",
+    "CONN_NAME": "C144",
+    "LOCPAGE": "3",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Transaxle (Solenoid Control Assembly)",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine, on front side of transaxle body assembly",
+    "CONN_NAME": "C191",
+    "LOCPAGE": "5",
+    "ZONE": "D10",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Transaxle (Solenoid Control Assembly)",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine, on front side of transaxle body assembly",
+    "CONN_NAME": "C191",
+    "LOCPAGE": "1",
+    "ZONE": "F5",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Transmission Range (TR) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "7A247",
+    "LOCATION": "Left side of engine, on top of transaxle",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "5",
+    "ZONE": "F7",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Transmission Range (TR) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "7A247",
+    "LOCATION": "Left side of engine, on top of transaxle",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "2",
+    "ZONE": "F9",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Turbine Speed Sensor (TSS)",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "7M101",
+    "LOCATION": "Left side of engine, on top of transaxle",
+    "CONN_NAME": "C192",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of left front door",
+    "CONN_NAME": "C504",
+    "LOCPAGE": "10",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "13007",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "4",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "13007",
+    "LOCATION": "Left front of vehicle",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "2",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Horn",
+    "PARTNO": "13A803",
+    "LOCATION": "Inside front of left front fender",
+    "CONN_NAME": "C195",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left License Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of luggage compartment",
+    "CONN_NAME": "C454",
+    "LOCPAGE": "13",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "2C190",
+    "LOCATION": "On left rear wheel assembly",
+    "CONN_NAME": "C444",
+    "LOCPAGE": "13",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "2C190",
+    "LOCATION": "On left rear wheel assembly",
+    "CONN_NAME": "C444",
+    "LOCPAGE": "11",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "2C190",
+    "LOCATION": "On left rear wheel assembly",
+    "CONN_NAME": "C444",
+    "LOCPAGE": "9",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13713",
+    "LOCATION": "Base of left \"C\" pillar, in left rear door jamb",
+    "CONN_NAME": "C323",
+    "LOCPAGE": "11",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13713",
+    "LOCATION": "Base of left \"C\" pillar, in left rear door jamb",
+    "CONN_NAME": "C323",
+    "LOCPAGE": "9",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Door Lock Actuator",
+    "PARTNO": "NA",
+    "LOCATION": "On left rear door panel",
+    "CONN_NAME": "C701",
+    "LOCPAGE": "12",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Park/Stop Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of vehicle, left side",
+    "CONN_NAME": "C432"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, left side",
+    "CONN_NAME": "C448",
+    "LOCPAGE": "14",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, left side",
+    "CONN_NAME": "C448",
+    "LOCPAGE": "12",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, left side",
+    "CONN_NAME": "C448"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #2",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, left side",
+    "CONN_NAME": "C450",
+    "LOCPAGE": "14",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Side Lamp",
+    "PARTNO": "15A201",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C420",
+    "LOCPAGE": "9",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18808",
+    "LOCATION": "Left rear of luggage compartment",
+    "CONN_NAME": "C437",
+    "LOCPAGE": "14",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18808",
+    "LOCATION": "Left rear of luggage compartment",
+    "CONN_NAME": "C437",
+    "LOCPAGE": "12",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "18808",
+    "LOCATION": "Top of left rear wheelwell",
+    "CONN_NAME": "C437",
+    "LOCPAGE": "9",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Turn/Hazard Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C433"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Left Rear Window Motor",
+    "PARTNO": "NA",
+    "LOCATION": "In lower front of right rear door",
+    "CONN_NAME": "C702",
+    "LOCPAGE": "12",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "12B579",
+    "LOCATION": "Top left front of engine compartment, on inside of air cleaner assembly",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Driver side door",
+    "CONN_NAME": "C510",
+    "LOCPAGE": "14",
+    "ZONE": "C1",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Driver side door",
+    "CONN_NAME": "C509",
+    "LOCPAGE": "12",
+    "ZONE": "D1",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Driver side door",
+    "CONN_NAME": "C509",
+    "LOCPAGE": "9",
+    "ZONE": "C1",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Left side of steering column",
+    "CONN_NAME": "C246",
+    "LOCPAGE": "7",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Left side of steering column",
+    "CONN_NAME": "C247",
+    "LOCPAGE": "7",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Left side of steering column",
+    "CONN_NAME": "C249",
+    "LOCPAGE": "7",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Left side of steering column",
+    "CONN_NAME": "C250",
+    "LOCPAGE": "7",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Left side of steering column",
+    "CONN_NAME": "C251",
+    "LOCPAGE": "7",
+    "ZONE": "A6",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Neutral Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "7G072",
+    "LOCATION": "Lower rear of transaxle",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "4",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Neutral Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "7G072",
+    "LOCATION": "Lower rear of transaxle",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "3",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "One Touch Down Control Unit",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of I/P",
+    "CONN_NAME": "C205",
+    "LOCPAGE": "6",
+    "ZONE": "B1",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "15A851",
+    "LOCATION": "Below rear of center console, on park brake assembly",
+    "CONN_NAME": "C375",
+    "LOCPAGE": "14",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "15A851",
+    "LOCATION": "Below rear of center console, on park brake assembly",
+    "CONN_NAME": "C375",
+    "LOCPAGE": "12",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "15A851",
+    "LOCATION": "Below rear of center console, on park brake assembly",
+    "CONN_NAME": "C375",
+    "LOCPAGE": "9",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Park Lamp Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Behind left side of I/P, near cowl",
+    "LOCPAGE": "6",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Park Sense Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Below front of center console",
+    "CONN_NAME": "C329"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Passenger Air Bag",
+    "PARTNO": "NA",
+    "LOCATION": "Top of I/P, right side",
+    "CONN_NAME": "C266",
+    "LOCPAGE": "6",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Power Steering Pressure (PSP) Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C148",
+    "LOCPAGE": "5",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Power Steering Pressure (PSP) Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C148",
+    "LOCPAGE": "3",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "12A650",
+    "LOCATION": "Below center of I/P",
+    "CONN_NAME": "C212",
+    "LOCPAGE": "7",
+    "ZONE": "F8",
+    "HCCF_CELL": "24",
+    "HCCF_PAGE": "11"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "Sedan/Wagon",
+    "PARTNO": "12A650",
+    "LOCATION": "Below center of I/P",
+    "CONN_NAME": "C212",
+    "LOCPAGE": "7",
+    "ZONE": "F8",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C405",
+    "LOCPAGE": "9",
+    "ZONE": "F6",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Remote Keyless Entry (RKE) Diode",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of vehicle",
+    "CONN_NAME": "C406",
+    "LOCPAGE": "9",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Reversing/Upshift Switch",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "15520",
+    "LOCATION": "Left side of engine, on lower front of transaxle",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "1",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Reversing/Upshift Switch",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "15520",
+    "LOCATION": "Left side of engine, on lower front of transaxle",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "4",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Daytime Running Lamp (DRL) Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Behind right side of I/P, top of cowl panel",
+    "CONN_NAME": "C244"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Door Lock Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Passenger side door",
+    "CONN_NAME": "C162"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Exterior Rear View Mirror",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of right front door",
+    "CONN_NAME": "C602",
+    "LOCPAGE": "14",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Exterior Rear View Mirror",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of right front door",
+    "CONN_NAME": "C602",
+    "LOCPAGE": "12",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Exterior Rear View Mirror",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "NA",
+    "LOCATION": "Top front of right front door",
+    "CONN_NAME": "C602"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "15200",
+    "LOCATION": "Lower right front of vehicle",
+    "CONN_NAME": "C130",
+    "LOCPAGE": "5",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "15200",
+    "LOCATION": "Lower right front of vehicle",
+    "CONN_NAME": "C130",
+    "LOCPAGE": "3",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "2C179",
+    "LOCATION": "On right front wheel assembly",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "4",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "2C179",
+    "LOCATION": "On right front wheel assembly",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "2",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13713",
+    "LOCATION": "On right \"B\" pillar, in rear of right front door jamb",
+    "CONN_NAME": "C318",
+    "LOCPAGE": "14",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13713",
+    "LOCATION": "On right \"B\" pillar, in rear of right front door jamb",
+    "CONN_NAME": "C318",
+    "LOCPAGE": "11",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13713",
+    "LOCATION": "On right \"B\" pillar, in rear of right front door jamb",
+    "CONN_NAME": "C318",
+    "LOCPAGE": "9",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "218A42",
+    "LOCATION": "In rear of right front door",
+    "CONN_NAME": "C603",
+    "LOCPAGE": "14",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "218A42",
+    "LOCATION": "In rear of right front door",
+    "CONN_NAME": "C603",
+    "LOCPAGE": "12",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Front Door Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "218A42",
+    "LOCATION": "In rear of right front door",
+    "CONN_NAME": "C603"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13713",
+    "LOCATION": "Base of right \"C\" pillar, in rear of right rear door jamb",
+    "CONN_NAME": "C310",
+    "LOCPAGE": "9",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13713",
+    "LOCATION": "Base of right \"C\" pillar, in rear of right rear door jamb",
+    "CONN_NAME": "C310",
+    "LOCPAGE": "11",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "618A42",
+    "LOCATION": "In rear of right rear door",
+    "CONN_NAME": "C801",
+    "LOCPAGE": "12",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Door Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "618A42",
+    "LOCATION": "In rear of right rear door",
+    "CONN_NAME": "C801",
+    "LOCPAGE": "10",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Park/Stop Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C429"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, right side",
+    "CONN_NAME": "C447",
+    "LOCPAGE": "13",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, right side",
+    "CONN_NAME": "C447",
+    "LOCPAGE": "12",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, right side",
+    "CONN_NAME": "C447"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #2",
+    "PARTNO": "13405",
+    "LOCATION": "Rear of vehicle, right side",
+    "CONN_NAME": "C449",
+    "LOCPAGE": "13",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Side Lamp",
+    "PARTNO": "15A201",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C419",
+    "LOCPAGE": "9",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "18808",
+    "LOCATION": "Right rear of luggage compartment",
+    "CONN_NAME": "C438",
+    "LOCPAGE": "13",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "18808",
+    "LOCATION": "Right rear of luggage compartment",
+    "CONN_NAME": "C438",
+    "LOCPAGE": "11",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "18808",
+    "LOCATION": "Top of right rear wheelwell",
+    "CONN_NAME": "C438",
+    "LOCPAGE": "9",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Turn/Hazard Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of vehicle",
+    "CONN_NAME": "C428"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Window Motor",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of right rear door",
+    "CONN_NAME": "C802",
+    "LOCPAGE": "12",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Window Motor",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "23208",
+    "LOCATION": "In lower front of right rear door",
+    "CONN_NAME": "C802",
+    "LOCPAGE": "10",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Window Switch",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "14529",
+    "LOCATION": "On right rear door panel",
+    "CONN_NAME": "C803",
+    "LOCPAGE": "12",
+    "ZONE": "A8",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Rear Window Switch",
+    "QUALIFIER": "Wagon",
+    "PARTNO": "14529",
+    "LOCATION": "On right rear door panel",
+    "CONN_NAME": "C803",
+    "LOCPAGE": "10",
+    "ZONE": "A7",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Reversing Lamp",
+    "QUALIFIER": "Coupe",
+    "PARTNO": "13405/15500",
+    "LOCATION": "Right center on rear of luggage compartment lid",
+    "CONN_NAME": "C430",
+    "LOCPAGE": "14",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Right Reversing Lamp",
+    "QUALIFIER": "Sedan",
+    "PARTNO": "13405/15500",
+    "LOCATION": "Right center on rear of luggage compartment lid",
+    "CONN_NAME": "C430",
+    "LOCPAGE": "11",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Turbine Speed Sensor (TSS)",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "7M101",
+    "LOCATION": "Left side of engine, on top of transaxle",
+    "CONN_NAME": "C192",
+    "LOCPAGE": "5",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Turbine Speed Sensor (TSS) Shield",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "NA",
+    "LOCATION": "Near turbine speed sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Turbine Speed Sensor (TSS) Shield",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "NA",
+    "LOCATION": "Near turbine speed sensor"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Variable Valve Timing Solenoid",
+    "PARTNO": "NA",
+    "LOCATION": "Rear center of engine compartment",
+    "CONN_NAME": "C169",
+    "LOCPAGE": "2",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Vehicle Speed Sensor (VSS)",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "9E731",
+    "LOCATION": "Lower rear of transaxle",
+    "CONN_NAME": "C132",
+    "LOCPAGE": "4",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Vehicle Speed Sensor (VSS)",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "9E731",
+    "LOCATION": "Lower rear of transaxle",
+    "CONN_NAME": "C132",
+    "LOCPAGE": "3",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Warning Chime Module",
+    "PARTNO": "10D840",
+    "LOCATION": "Behind left side of I/P, on rear of central junction box",
+    "CONN_NAME": "C290",
+    "LOCPAGE": "7",
+    "ZONE": "F2",
+    "HCCF_CELL": "66",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Windshield Washer Pump Motor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "17664",
+    "LOCATION": "Right front of engine compartment, in windshield washer fluid reservoir",
+    "CONN_NAME": "C184",
+    "LOCPAGE": "4",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Windshield Washer Pump Motor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "17664",
+    "LOCATION": "Right front of engine compartment, in windshield washer fluid reservoir",
+    "CONN_NAME": "C184",
+    "LOCPAGE": "2",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "2.0L",
+    "PARTNO": "17504",
+    "LOCATION": "Top left side of safety wall",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "5",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXF",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "Zetec",
+    "PARTNO": "17504",
+    "LOCATION": "Top left side of safety wall",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "2",
+    "ZONE": "A8"
+  }
+]

@@ -1,0 +1,3738 @@
+[
+  {
+    "EVTM": "EXm",
+    "NAME": "4 Wheel Anti-Lock Brakes System (4WABS) Module",
+    "PARTNO": "NA",
+    "LOCATION": "On LH front frame rail",
+    "CONN_NAME": "C144",
+    "LOCPAGE": "10",
+    "ZONE": "F7",
+    "CONN_CELL": "42",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "4 Wheel Anti-Lock Brakes System (4WABS) Module",
+    "PARTNO": "NA",
+    "LOCATION": "On LH front frame rail",
+    "CONN_NAME": "C145",
+    "LOCPAGE": "10",
+    "ZONE": "F7",
+    "CONN_CELL": "42",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "4 Wheel Anti-Lock Brakes System (4WABS) Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Behind center of I/P, on 4 wheel anti-lock brakes (4WABS) relay",
+    "CONN_NAME": "C232",
+    "LOCPAGE": "12",
+    "ZONE": "F5",
+    "CONN_CELL": "42",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "4R100 Transmission",
+    "PARTNO": "7000",
+    "LOCATION": "RH side of transmission",
+    "CONN_NAME": "C114",
+    "LOCPAGE": "20",
+    "ZONE": "B5",
+    "CONN_CELL": "30",
+    "CONN_PAGE": "8",
+    "HCCF_CELL": "30",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "4R70W Transmission",
+    "PARTNO": "7000",
+    "LOCATION": "RH side of transmission",
+    "CONN_NAME": "C110",
+    "LOCPAGE": "20",
+    "ZONE": "B10",
+    "CONN_CELL": "29",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Clutch Cycling Pressure Switch",
+    "PARTNO": "19E561",
+    "LOCATION": "RH front of engine compartment",
+    "CONN_NAME": "C161",
+    "LOCPAGE": "10",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Clutch Relay",
+    "PARTNO": "14B192",
+    "LOCATION": "LH front of engine compartment in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "54",
+    "CONN_PAGE": "9",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "19C630",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C143",
+    "LOCPAGE": "2",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "19C630",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C143",
+    "LOCPAGE": "4",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "19C630",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C143",
+    "LOCPAGE": "6",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "19C630",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C143",
+    "LOCPAGE": "8",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch",
+    "QUALIFIER": "7.3L",
+    "PARTNO": "19C630",
+    "LOCATION": "Top LH front of engine",
+    "CONN_NAME": "C167"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Compressor Clutch Diode",
+    "PARTNO": "NA",
+    "LOCATION": "In T/O to A/C compressor clutch"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Illumination Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "Center of I/P, on A/C illumination lamp",
+    "CONN_NAME": "C205",
+    "LOCPAGE": "13",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "A/C Pressure Cut-out Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Right front of engine compartment",
+    "CONN_NAME": "C159",
+    "LOCPAGE": "11",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "ABS Data Link Connector (DLC)",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of I/P",
+    "CONN_NAME": "C242",
+    "LOCPAGE": "14",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Accelerator Pedal Position (APP) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH side I/P, above accelerator pedal",
+    "CONN_NAME": "C246",
+    "LOCPAGE": "14",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Air Bag Bracket",
+    "PARTNO": "NA",
+    "LOCATION": "Behind RH side of I/P, near passenger air bag",
+    "CONN_NAME": "C210",
+    "LOCPAGE": "12",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Air Bag Sliding Contact",
+    "PARTNO": "13806",
+    "LOCATION": "Top of steering column, on air bag sliding contact",
+    "CONN_NAME": "C220",
+    "LOCPAGE": "12",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Air Bag Sliding Contact",
+    "PARTNO": "13806",
+    "LOCATION": "Top of steering column, on air bag sliding contact",
+    "CONN_NAME": "C223",
+    "LOCPAGE": "12",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary A/C-Heater Blower Switch",
+    "QUALIFIER": "With A/C",
+    "PARTNO": "19980",
+    "LOCATION": "Center of I/P, above radio",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "12",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Battery",
+    "PARTNO": "NA",
+    "LOCATION": "RH side of vehicle on frame rail",
+    "LOCPAGE": "22",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Battery Relay",
+    "PARTNO": "14088",
+    "LOCATION": "Right front of engine compartment, near battery"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Blower Motor",
+    "PARTNO": "19805",
+    "LOCATION": "Left rear corner of vehicle, above wheelwell",
+    "CONN_NAME": "C406",
+    "LOCPAGE": "17",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Blower Motor Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear corner of vehicle, above wheelwell",
+    "CONN_NAME": "C403",
+    "LOCPAGE": "17",
+    "ZONE": "A3",
+    "CONN_CELL": "54",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Blower Resistor",
+    "PARTNO": "19A706",
+    "LOCATION": "Left rear corner of vehicle, above wheelwell",
+    "CONN_NAME": "C405",
+    "LOCPAGE": "17",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Heater Blower Switch",
+    "QUALIFIER": "Without A/C",
+    "PARTNO": "NA",
+    "LOCATION": "Center of I/P, above radio",
+    "CONN_NAME": "C230",
+    "LOCPAGE": "12",
+    "ZONE": "A4",
+    "CONN_CELL": "53",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "53",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary High Blower Motor Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear corner of vehicle, above wheelwell",
+    "CONN_NAME": "C404",
+    "LOCPAGE": "17",
+    "ZONE": "A4",
+    "CONN_CELL": "54",
+    "CONN_PAGE": "8",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Auxiliary Powertrain Control Connector",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C249"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Barometric Pressure (BARO) Sensor",
+    "PARTNO": "18A318",
+    "LOCATION": "Below LH side of I/P",
+    "CONN_NAME": "C248",
+    "LOCPAGE": "14",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Battery Junction Box",
+    "PARTNO": "NA",
+    "LOCATION": "LH front of engine compartment",
+    "LOCPAGE": "10",
+    "ZONE": "E9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Bi-Fuel Control Module",
+    "PARTNO": "NA",
+    "LOCATION": "Behind right side of I/P",
+    "CONN_NAME": "C4001",
+    "LOCPAGE": "24",
+    "ZONE": "A4",
+    "HCCF_CELL": "22",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Bi-Fuel Power Relay",
+    "PARTNO": "NA",
+    "LOCATION": "In Bi-Fuel relay module"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Bi-Fuel Relay Module",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine compartment",
+    "LOCPAGE": "24",
+    "ZONE": "A1",
+    "HCCF_CELL": "11",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Blend Door Actuator",
+    "PARTNO": "NA",
+    "LOCATION": "Behind center of I/P, on A/C-heater plenum",
+    "CONN_NAME": "C237",
+    "LOCPAGE": "14",
+    "ZONE": "A10",
+    "CONN_CELL": "53",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "53",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Blower Motor",
+    "PARTNO": "18A318",
+    "LOCATION": "RH side of engine compartment",
+    "CONN_NAME": "C160",
+    "LOCPAGE": "10",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Blower Motor Relay",
+    "PARTNO": "14B192",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "54",
+    "CONN_PAGE": "8",
+    "HCCF_CELL": "54",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Blower Motor Resistor",
+    "PARTNO": "19A706",
+    "LOCATION": "RH rear of engine compartment, near blower motor",
+    "CONN_NAME": "C158",
+    "LOCPAGE": "11",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Brake Air Pressure Regulator Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of engine compartment, near master cylinder",
+    "CONN_NAME": "C153",
+    "LOCPAGE": "10",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Brake Pedal Position (BPP) Switch",
+    "PARTNO": "13480",
+    "LOCATION": "Behind LH side of I/P on brake pedal bracket",
+    "CONN_NAME": "C238",
+    "LOCPAGE": "14",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Brake Warning Diode",
+    "PARTNO": "NA",
+    "LOCATION": "Main harness, near T/O to C225"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Button Contact",
+    "PARTNO": "NA",
+    "LOCATION": "Attached to rear of right \"B\" pillar",
+    "CONN_NAME": "C309",
+    "LOCPAGE": "16",
+    "ZONE": "F10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Front center of engine",
+    "CONN_NAME": "C1022",
+    "LOCPAGE": "2",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Front of left cylinder head",
+    "CONN_NAME": "C139",
+    "LOCPAGE": "4",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Front of left cylinder head",
+    "CONN_NAME": "C139",
+    "LOCPAGE": "6",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C139",
+    "LOCPAGE": "8",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "7.3L",
+    "PARTNO": "NA",
+    "LOCATION": "Front center of engine",
+    "CONN_NAME": "C1010",
+    "LOCPAGE": "1",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Camshaft Position (CMP) Sensor Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In wiring harness, between camshaft position (CMP) sensor and PCM"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Canister Vent Solenoid",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body, near fuel tank",
+    "CONN_NAME": "C416",
+    "LOCPAGE": "16",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cargo Lamp",
+    "PARTNO": "13788",
+    "LOCATION": "Attached to rear headliner",
+    "CONN_NAME": "C900"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Center Air Bag Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Front center of engine compartment, behind grille",
+    "CONN_NAME": "C191",
+    "LOCPAGE": "10",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Central Junction Box",
+    "PARTNO": "NA",
+    "LOCATION": "Below left side of I/P, near left kick panel",
+    "LOCPAGE": "14",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cigar Lighter",
+    "PARTNO": "15052",
+    "LOCATION": "Center of I/P, on cigar lighter",
+    "CONN_NAME": "C218",
+    "LOCPAGE": "13",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cigar Lighter",
+    "PARTNO": "15052",
+    "LOCATION": "Center of I/P, on cigar lighter",
+    "CONN_NAME": "C257",
+    "LOCPAGE": "13",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #1",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #1 cylinder",
+    "CONN_NAME": "C184",
+    "LOCPAGE": "7",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #1",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #1 cylinder",
+    "CONN_NAME": "C184",
+    "LOCPAGE": "9",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #10",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #10 cylinder",
+    "CONN_NAME": "C185",
+    "LOCPAGE": "8",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #2",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #2 cylinder",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "7",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #2",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #2 cylinder",
+    "CONN_NAME": "C183",
+    "LOCPAGE": "9",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #3",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #3 cylinder",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "7",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #3",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #3 cylinder",
+    "CONN_NAME": "C182",
+    "LOCPAGE": "9",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #4",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #4 cylinder",
+    "CONN_NAME": "C181",
+    "LOCPAGE": "7",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #4",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #4 cylinder",
+    "CONN_NAME": "C181",
+    "LOCPAGE": "9",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #5",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #5 cylinder",
+    "CONN_NAME": "C176",
+    "LOCPAGE": "6",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #5",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Right bank of engine, above #5 cylinder",
+    "CONN_NAME": "C176",
+    "LOCPAGE": "9",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #6",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #6 cylinder",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "6",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #6",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #6 cylinder",
+    "CONN_NAME": "C177",
+    "LOCPAGE": "8",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #7",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #7 cylinder",
+    "CONN_NAME": "C178",
+    "LOCPAGE": "6",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #7",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #7 cylinder",
+    "CONN_NAME": "C178",
+    "LOCPAGE": "8",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #8",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #8 cylinder",
+    "CONN_NAME": "C179",
+    "LOCPAGE": "6",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #8",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #8 cylinder",
+    "CONN_NAME": "C179",
+    "LOCPAGE": "8",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Coil On Plug (COP) #9",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left bank of engine, above #9 cylinder",
+    "CONN_NAME": "C187",
+    "LOCPAGE": "8",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cold Start Heater",
+    "PARTNO": "NA",
+    "LOCATION": "On compuvalve",
+    "CONN_NAME": "C4021"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cold Start Heater Diode",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of body compartment"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cold Start Heater Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of body compartment",
+    "CONN_NAME": "C4060",
+    "LOCPAGE": "24",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Compuvalve Module",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine compartment",
+    "CONN_NAME": "C4025",
+    "LOCPAGE": "24",
+    "ZONE": "E1",
+    "HCCF_CELL": "22",
+    "HCCF_PAGE": "19"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Compuvalve Module Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In engine compartment near compuvalve"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "2",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "4",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower center front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "6",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower right front of engine",
+    "CONN_NAME": "C141",
+    "LOCPAGE": "8",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Crankshaft Position (CKP) Sensor Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In wiring harness, between crankshaft position (CKP) sensor and PCM"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cylinder Head Temperature (CHT) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine, on heater outlet elbow",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "3",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cylinder Head Temperature (CHT) Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine, on heater outlet elbow",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "4",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cylinder Head Temperature (CHT) Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine, on heater outlet elbow",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "6",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Cylinder Head Temperature (CHT) Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine, on heater outlet elbow",
+    "CONN_NAME": "C172",
+    "LOCPAGE": "8",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Dash Reset Relay",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine compartment",
+    "CONN_NAME": "C4204",
+    "CONN_CELL": "22",
+    "CONN_PAGE": "18"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Data Link Connector (DLC)",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of I/P",
+    "CONN_NAME": "C241",
+    "LOCPAGE": "14",
+    "ZONE": "F6",
+    "CONN_CELL": "14",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "14",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Daytime Running Lamps (DRL) Module",
+    "PARTNO": "NA",
+    "LOCATION": "RH front of engine, near horns",
+    "CONN_NAME": "C193",
+    "LOCPAGE": "10",
+    "ZONE": "F5",
+    "CONN_CELL": "97",
+    "CONN_PAGE": "3",
+    "HCCF_CELL": "97",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Deactivator Switch",
+    "PARTNO": "NA",
+    "LOCATION": "LH side of engine compartment, bottom of brake master cylinder",
+    "CONN_NAME": "C151",
+    "LOCPAGE": "11",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Delta Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Top right front of engine, on DPFE sensor",
+    "CONN_NAME": "C118"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Delta Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Top left rear of engine",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "5",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Delta Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "6",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Delta Pressure Feedback EGR (DPFE) Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear top engine",
+    "CONN_NAME": "C118",
+    "LOCPAGE": "8",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Digital Transmission Range (DTR) Sensor",
+    "QUALIFIER": "4R100",
+    "PARTNO": "7F293",
+    "LOCATION": "LH side of transmission",
+    "CONN_NAME": "C115",
+    "LOCPAGE": "20",
+    "ZONE": "F2",
+    "CONN_CELL": "30",
+    "CONN_PAGE": "8",
+    "HCCF_CELL": "30",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Digital Transmission Range (DTR) Sensor",
+    "QUALIFIER": "4R70W",
+    "PARTNO": "7F293",
+    "LOCATION": "LH side of transmission",
+    "CONN_NAME": "C115",
+    "LOCPAGE": "20",
+    "ZONE": "F2",
+    "CONN_CELL": "29",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Driver Air Bag",
+    "PARTNO": "NA",
+    "LOCATION": "Top of steering column",
+    "CONN_NAME": "C255"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Driver Safety Belt",
+    "PARTNO": "NA",
+    "LOCATION": "Right side of driver seat",
+    "CONN_NAME": "C341",
+    "LOCPAGE": "21",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Driver Seat Motor Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Underside of driver seat",
+    "CONN_NAME": "C338",
+    "LOCPAGE": "21",
+    "ZONE": "A5",
+    "CONN_CELL": "120",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "120",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Driver Seat Regulator Control Switch",
+    "PARTNO": "14C715",
+    "LOCATION": "On left side of driver seat",
+    "CONN_NAME": "C337",
+    "LOCPAGE": "21",
+    "ZONE": "C10",
+    "CONN_CELL": "120",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "120",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Dual Brake Warning Switch",
+    "PARTNO": "NA",
+    "LOCATION": "LH side of engine compartment, bottom of brake master cylinder",
+    "CONN_NAME": "C149",
+    "LOCPAGE": "10",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EGR Solenoid",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9J459",
+    "LOCATION": "Above center of right valve cover",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "3",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EGR Solenoid",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9J459",
+    "LOCATION": "Above LH valve cover, on bracket",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "5",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EGR Solenoid",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9J459",
+    "LOCATION": "Above left rear of engine, on bracket",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "7",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EGR Solenoid",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9J459",
+    "LOCATION": "Top left rear of engine",
+    "CONN_NAME": "C125",
+    "LOCPAGE": "9",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Electric Intake Manifold Runner Control",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of intake",
+    "CONN_NAME": "C124",
+    "LOCPAGE": "3",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Electronic Brake",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of I/P"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Electronic Crash Sensor (ECS) Module",
+    "PARTNO": "14B056",
+    "LOCATION": "Below RH side of I/P, on electronic crash sensor (ecs) module",
+    "CONN_NAME": "C200",
+    "LOCPAGE": "12",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Electronic Flasher",
+    "PARTNO": "13350",
+    "LOCATION": "Behind LH side of I/P, on electronic flasher",
+    "CONN_NAME": "C239",
+    "LOCPAGE": "14",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Compartment Battery",
+    "PARTNO": "NA",
+    "LOCATION": "RH front of engine compartment"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Coolant Temperature (ECT) Sender",
+    "PARTNO": "10884",
+    "LOCATION": "Lower left front of engine",
+    "CONN_NAME": "C1004",
+    "LOCPAGE": "1",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9278",
+    "LOCATION": "Left front of engine, below A/C compressor",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "2",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9278",
+    "LOCATION": "Lower left front of engine",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "4",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9278",
+    "LOCATION": "Lower left front of engine",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "6",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9278",
+    "LOCATION": "Lower left front of engine",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "8",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "7.3L",
+    "PARTNO": "9278",
+    "LOCATION": "Top right center of engine",
+    "CONN_NAME": "C138",
+    "LOCPAGE": "1",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Engine Oil Temperature (EOT) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Center LH side of engine",
+    "CONN_NAME": "C1007",
+    "LOCPAGE": "1",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of engine compartment",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "3",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of engine compartment",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "5",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of engine compartment",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "7",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Center rear of engine compartment",
+    "CONN_NAME": "C126",
+    "LOCPAGE": "9",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Exhaust Back Pressure (EBP) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Top center of engine",
+    "CONN_NAME": "C1008",
+    "LOCPAGE": "1",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Exhaust Pressure Regulator (EPR)",
+    "PARTNO": "NA",
+    "LOCATION": "Top LH rear of engine",
+    "CONN_NAME": "C1011",
+    "LOCPAGE": "1",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Exterior Rear View Mirror Switch",
+    "QUALIFIER": "With Door Trim",
+    "PARTNO": "17B676",
+    "LOCATION": "Center of driver door",
+    "CONN_NAME": "C505",
+    "LOCPAGE": "18",
+    "ZONE": "F4",
+    "CONN_CELL": "124",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "124",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Exterior Rear View Mirror Switch",
+    "QUALIFIER": "Without Door Trim",
+    "PARTNO": "17B676",
+    "LOCATION": "Center of driver door",
+    "CONN_NAME": "C508",
+    "LOCPAGE": "18",
+    "ZONE": "F4",
+    "CONN_CELL": "124",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "124",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Forward Aft-Axle Fuel Tank Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Under rear of vehicle, near aft-axle fuel tank assembly",
+    "CONN_NAME": "C353",
+    "LOCPAGE": "18",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Front Blower Switch",
+    "PARTNO": "19A646",
+    "LOCATION": "Center of I/P, above radio",
+    "CONN_NAME": "C207",
+    "LOCPAGE": "13",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Front Tank Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body, near fuel tank",
+    "CONN_NAME": "C4120",
+    "LOCPAGE": "24",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "3",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "5",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "7",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C119",
+    "LOCPAGE": "9",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #10",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C188",
+    "LOCPAGE": "8",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "3",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "5",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "7",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C122",
+    "LOCPAGE": "9",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "3",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "5",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "7",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C123",
+    "LOCPAGE": "9",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "2",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "5",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "7",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C136",
+    "LOCPAGE": "9",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "2",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "4",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "6",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C135",
+    "LOCPAGE": "9",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #5",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "2",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "4",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "6",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C134",
+    "LOCPAGE": "8",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #6",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #7",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "4",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #7",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "6",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #7",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C170",
+    "LOCPAGE": "8",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #7",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #8",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "4",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #8",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "6",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #8",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C171",
+    "LOCPAGE": "8",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #8",
+    "QUALIFIER": "7.3L with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector #9",
+    "PARTNO": "9F593",
+    "LOCATION": "In intake manifold",
+    "CONN_NAME": "C186",
+    "LOCPAGE": "8",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injector Shield",
+    "PARTNO": "NA",
+    "LOCATION": "Left front side of engine compartment, near injector driver module"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injectors/Glow Plugs (#1, #3)",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of RH side of right valve cover",
+    "CONN_NAME": "C1000",
+    "LOCPAGE": "1",
+    "ZONE": "C1",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "16",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "16"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injectors/Glow Plugs (#2, #4)",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of LH side of left valve cover",
+    "CONN_NAME": "C1002",
+    "LOCPAGE": "1",
+    "ZONE": "D10",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "17",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "17"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injectors/Glow Plugs (#5, #7)",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "CONN_NAME": "C1001",
+    "LOCPAGE": "1",
+    "ZONE": "A1",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "16",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "16"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Injectors/Glow Plugs (#6, #8)",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of LH side of left valve cover",
+    "CONN_NAME": "C1003",
+    "LOCPAGE": "1",
+    "ZONE": "B10",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "17",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "17"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Line Heater",
+    "PARTNO": "9J294",
+    "LOCATION": "Top center of engine",
+    "CONN_NAME": "C1018",
+    "LOCPAGE": "1",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Pump",
+    "PARTNO": "NA",
+    "LOCATION": "LH rear of engine compartment",
+    "CONN_NAME": "C111"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Pump Cutoff Relay",
+    "PARTNO": "NA",
+    "LOCATION": "In Bi-Fuel relay module"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "5.4L Bi-Fuel",
+    "PARTNO": "9H307",
+    "LOCATION": "Below vehicle, in fuel tank",
+    "CONN_NAME": "C347",
+    "LOCPAGE": "24",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "except 5.4L Bi-Fuel",
+    "PARTNO": "9H307",
+    "LOCATION": "Below vehicle, in fuel tank",
+    "CONN_NAME": "C347",
+    "LOCPAGE": "16",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Pump Relay",
+    "PARTNO": "14B192",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "25",
+    "CONN_PAGE": "14",
+    "HCCF_CELL": "25",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Rail Cut-Off Valve",
+    "PARTNO": "9D278",
+    "LOCATION": "Right bank of engine, on fuel rail",
+    "CONN_NAME": "C1014",
+    "LOCPAGE": "7",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Rail Temperature Sensor",
+    "PARTNO": "9F951",
+    "LOCATION": "Right bank of engine, on fuel rail",
+    "CONN_NAME": "C1015",
+    "LOCPAGE": "7",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine compartment",
+    "CONN_NAME": "C4050",
+    "LOCPAGE": "24",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Under LH center of vehicle",
+    "CONN_NAME": "C349",
+    "LOCPAGE": "18",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Pressure Transducer (FTPT)",
+    "PARTNO": "NA",
+    "LOCATION": "Under center rear of vehicle, near fuel tank",
+    "CONN_NAME": "C305",
+    "LOCPAGE": "16",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Sender",
+    "PARTNO": "NA",
+    "LOCATION": "Under LH center of vehicle",
+    "CONN_NAME": "C352",
+    "LOCPAGE": "18",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Temperature Sensor",
+    "QUALIFIER": "5.4L Bi-Fuel",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body, near fuel tank",
+    "CONN_NAME": "C4227",
+    "LOCPAGE": "24",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuel Tank Temperature Sensor",
+    "QUALIFIER": "except 5.4L Bi-Fuel",
+    "PARTNO": "NA",
+    "LOCATION": "Under LH center of vehicle",
+    "CONN_NAME": "C351",
+    "LOCPAGE": "18",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Function Selector Switch",
+    "PARTNO": "18519",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C204",
+    "LOCPAGE": "12",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link A",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link B",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link C",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link D",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link E",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link F",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link G",
+    "PARTNO": "NA",
+    "LOCATION": "At starter motor relay"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Fuse Link H",
+    "PARTNO": "NA",
+    "LOCATION": "On engine near battery"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Generator",
+    "PARTNO": "NA",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C198",
+    "LOCPAGE": "22",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Generator",
+    "PARTNO": "NA",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C199",
+    "LOCPAGE": "22",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Generator (Primary)",
+    "PARTNO": "NA",
+    "LOCATION": "Top RH side of engine",
+    "CONN_NAME": "C1020",
+    "LOCPAGE": "23",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Generator (Secondary)",
+    "PARTNO": "NA",
+    "LOCATION": "RH side of engine, below (primary) generator",
+    "CONN_NAME": "C1198",
+    "LOCPAGE": "23",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #1",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #2",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #3",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #4",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near front of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #5",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #6",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #7",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of RH side of right valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug #8",
+    "QUALIFIER": "with electric fuel pump",
+    "PARTNO": "NA",
+    "LOCATION": "Near rear of LH side of left valve cover",
+    "LOCPAGE": "1",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Glow Plug Relay",
+    "PARTNO": "12B533",
+    "LOCATION": "Top RH side of engine",
+    "LOCPAGE": "1",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower right rear of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "3",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower right rear of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "5",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F472",
+    "LOCATION": "Lower right rear of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "7",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F472",
+    "LOCATION": "Right rear of engine",
+    "CONN_NAME": "C127",
+    "LOCPAGE": "9",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle, on right side of transmission",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "20",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle, on right side of transmission",
+    "CONN_NAME": "C106",
+    "LOCPAGE": "20",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #21",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "3",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #21",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "5",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #21",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Lower left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "7",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #21",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine",
+    "CONN_NAME": "C128",
+    "LOCPAGE": "9",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #22",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle, near left rear of transmission",
+    "CONN_NAME": "C107",
+    "LOCPAGE": "20",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #22",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle, near left rear of transmission",
+    "CONN_NAME": "C107",
+    "LOCPAGE": "20",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #22",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle",
+    "CONN_NAME": "C105",
+    "LOCPAGE": "20",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Heated Oxygen Sensor (HO2S) #22",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9F472",
+    "LOCATION": "Beneath center of vehicle",
+    "CONN_NAME": "C105",
+    "LOCPAGE": "20",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "High Flow Injector Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine compartment",
+    "CONN_NAME": "C4013"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "High Mounted Stoplamp",
+    "PARTNO": "13A613",
+    "LOCATION": "Top rear of vehicle",
+    "CONN_NAME": "C411",
+    "LOCPAGE": "16",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "High Pitch Horn",
+    "PARTNO": "13801",
+    "LOCATION": "Lower right front of engine compartment, behind grille",
+    "CONN_NAME": "C192",
+    "LOCPAGE": "10",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Horn Relay",
+    "PARTNO": "14B192",
+    "LOCATION": "Left front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "44",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "44",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Horn Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Center of steering wheel"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "12B526",
+    "LOCATION": "RH side of engine, near ignition coil",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "3",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "12B526",
+    "LOCATION": "Rear of engine, near intake",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "5",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "12B526",
+    "LOCATION": "Top center rear of engine, near air intake",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "7",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "12B526",
+    "LOCATION": "Top center rear of engine, near air intake",
+    "CONN_NAME": "C129",
+    "LOCPAGE": "9",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Idle Validation Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of I/P",
+    "CONN_NAME": "C247",
+    "LOCPAGE": "14",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "IDM Relay",
+    "PARTNO": "NA",
+    "LOCATION": "LH front of engine compartment, in engine compartment fuse box",
+    "LOCPAGE": "10",
+    "ZONE": "E9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "12029",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C130",
+    "LOCPAGE": "3",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "12029",
+    "LOCATION": "Left front of engine",
+    "CONN_NAME": "C175",
+    "LOCPAGE": "4",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "12029",
+    "LOCATION": "Right front of engine",
+    "CONN_NAME": "C169",
+    "LOCPAGE": "4",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Ignition Switch",
+    "PARTNO": "11572",
+    "LOCATION": "Lower RH side of steering column",
+    "CONN_NAME": "C240",
+    "LOCPAGE": "14",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Illuminated Entry Module",
+    "PARTNO": "13C718",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C215",
+    "LOCPAGE": "12",
+    "ZONE": "F6",
+    "CONN_CELL": "94",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "94",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "In-Transit Fuel Pump Module",
+    "PARTNO": "9C407",
+    "LOCATION": "Below vehicle, along LH frame rail",
+    "CONN_NAME": "C344"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Indicator Light Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of dash, near steering column",
+    "CONN_NAME": "C4004",
+    "LOCPAGE": "24",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Indicator Light Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of dash, near steering column",
+    "CONN_NAME": "C4005",
+    "LOCPAGE": "24",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Indicator Light Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of dash, near steering column",
+    "CONN_NAME": "C4006",
+    "LOCPAGE": "24",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Indicator Light Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left side of dash, near steering column",
+    "CONN_NAME": "C4007",
+    "LOCPAGE": "24",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Inertia Fuel Shutoff (IFS) Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Behind RH kick panel",
+    "CONN_NAME": "C236",
+    "LOCPAGE": "15",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Injection Control Pressure (ICP) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Top of engine",
+    "CONN_NAME": "C1009",
+    "LOCPAGE": "1",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Injection Pressure Regulator (IPR)",
+    "PARTNO": "NA",
+    "LOCATION": "Center top of engine",
+    "CONN_NAME": "C1006",
+    "LOCPAGE": "1",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Injection Pressure Sensor (IPS)",
+    "PARTNO": "9F972",
+    "LOCATION": "Right bank of engine, on fuel rail",
+    "CONN_NAME": "C1016",
+    "LOCPAGE": "7",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Injector Driver Module (IDM)",
+    "PARTNO": "NA",
+    "LOCATION": "Left front side of engine compartment",
+    "CONN_NAME": "C1157",
+    "LOCPAGE": "11",
+    "ZONE": "D10",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "12",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Inlet Air Control Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "NA",
+    "LOCATION": "LH front of engine",
+    "CONN_NAME": "C173",
+    "LOCPAGE": "4",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Inlet Air Control Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "LH front of engine",
+    "CONN_NAME": "C173",
+    "LOCPAGE": "6",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10K843",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C224",
+    "LOCPAGE": "13",
+    "ZONE": "A3",
+    "CONN_CELL": "60",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "60",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10K843",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C225",
+    "LOCPAGE": "13",
+    "ZONE": "A3",
+    "CONN_CELL": "60",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "60",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrument Cluster",
+    "PARTNO": "10K843",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C226",
+    "LOCPAGE": "13",
+    "ZONE": "A3",
+    "CONN_CELL": "60",
+    "CONN_PAGE": "8",
+    "HCCF_CELL": "60",
+    "HCCF_PAGE": "8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrumentation Engine Coolant Temperature Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "10884",
+    "LOCATION": "RH rear of engine, near fuel injector #6",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "2",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrumentation Engine Coolant Temperature Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "10884",
+    "LOCATION": "Top front center of engine",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "4",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrumentation Engine Coolant Temperature Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "10884",
+    "LOCATION": "Top LH side of engine, on lower intake manifold",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "6",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrumentation Engine Coolant Temperature Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "10884",
+    "LOCATION": "Upper left front of engine",
+    "CONN_NAME": "C137",
+    "LOCPAGE": "8",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Instrumentation Engine Coolant Temperature Sensor",
+    "QUALIFIER": "7.3L",
+    "PARTNO": "NA",
+    "LOCATION": "Upper left front of engine",
+    "CONN_NAME": "C137"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "PARTNO": "12A697",
+    "LOCATION": "Center of engine compartment, part of clean air tube",
+    "CONN_NAME": "C156",
+    "LOCPAGE": "10",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Interior Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "In front headliner",
+    "CONN_NAME": "C902",
+    "LOCPAGE": "18",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Interior Switch/Lamp",
+    "PARTNO": "13788",
+    "LOCATION": "Middle of rear headliner",
+    "CONN_NAME": "C904",
+    "LOCPAGE": "18",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Interior/Map Switch and Lamp",
+    "PARTNO": "13788",
+    "LOCATION": "In front headliner",
+    "CONN_NAME": "C903",
+    "LOCPAGE": "16",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Key Warning Switch",
+    "PARTNO": "NA",
+    "LOCATION": "In steering column, near key cylinder"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Knock Sensor (KS)",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "12A699",
+    "LOCATION": "Right rear side of engine",
+    "CONN_NAME": "C140",
+    "LOCPAGE": "3",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Knock Sensor (KS)",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "12A699",
+    "LOCATION": "Top right rear side of engine",
+    "CONN_NAME": "C140",
+    "LOCPAGE": "5",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Knock Sensor (KS)",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "12A699",
+    "LOCATION": "Top right rear of engine",
+    "CONN_NAME": "C140"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Knock Sensor (KS)",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "12A699",
+    "LOCATION": "Top right rear side of engine",
+    "CONN_NAME": "C140",
+    "LOCPAGE": "9",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Knock Sensor (KS) Shield",
+    "PARTNO": "NA",
+    "LOCATION": "In wiring harness, between knock sensor and PCM"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Courtesy Lamp Switch",
+    "PARTNO": "13A786",
+    "LOCATION": "Mounted in LH door jamb",
+    "CONN_NAME": "C328",
+    "LOCPAGE": "14",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Exterior Rear View Mirror",
+    "PARTNO": "17683",
+    "LOCATION": "Front of left front door",
+    "CONN_NAME": "C507",
+    "LOCPAGE": "18",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Front Door Lock Actuator",
+    "PARTNO": "218A40",
+    "LOCATION": "Rear of left front door",
+    "CONN_NAME": "C501",
+    "LOCPAGE": "18",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Front Door Speaker",
+    "PARTNO": "18808",
+    "LOCATION": "Top right corner of LH door",
+    "CONN_NAME": "C504",
+    "LOCPAGE": "18",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Front Park/Turn Lamp",
+    "PARTNO": "13200",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C190",
+    "LOCPAGE": "11",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Front Wheel Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH front wheel",
+    "CONN_NAME": "C102",
+    "LOCPAGE": "16",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Left Stop/Park/Turn Lamp",
+    "PARTNO": "13405",
+    "LOCATION": "LH rear of vehicle",
+    "CONN_NAME": "C410",
+    "LOCPAGE": "17",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Aero Headlamp",
+    "PARTNO": "NA",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C189",
+    "LOCPAGE": "11",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Door Handle Switch",
+    "PARTNO": "13752",
+    "LOCATION": "Top left corner of LH door",
+    "CONN_NAME": "C506",
+    "LOCPAGE": "18",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Headlamp",
+    "PARTNO": "13306",
+    "LOCATION": "LH front of vehicle",
+    "CONN_NAME": "C196",
+    "LOCPAGE": "11",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Mid Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Behind LH \"B\" pillar",
+    "CONN_NAME": "C332",
+    "LOCPAGE": "16",
+    "ZONE": "A1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Power Window Motor",
+    "PARTNO": "14529",
+    "LOCATION": "Lower center of left front door",
+    "CONN_NAME": "C502",
+    "LOCPAGE": "18",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Rear Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Mounted on LH rear door panel",
+    "CONN_NAME": "C413",
+    "LOCPAGE": "19",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Reversing Lamp",
+    "PARTNO": "13405",
+    "LOCATION": "LH rear of vehicle",
+    "CONN_NAME": "C409",
+    "LOCPAGE": "17",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LH Visor Lamp",
+    "PARTNO": "17A679",
+    "LOCATION": "LH side of front headliner",
+    "CONN_NAME": "C921",
+    "LOCPAGE": "16",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "License Lamp",
+    "PARTNO": "13550",
+    "LOCATION": "In right rear door",
+    "CONN_NAME": "C408",
+    "LOCPAGE": "19",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Lock Jumper",
+    "QUALIFIER": "With Hinged Door",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH \"B\" pillar",
+    "CONN_NAME": "C330",
+    "LOCPAGE": "17",
+    "ZONE": "F6",
+    "CONN_CELL": "110",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Lock Off Diode",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of body compartment"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Lock Off Solenoid",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of body compartment"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Low Flow Injector Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine compartment",
+    "CONN_NAME": "C4014"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Low Pitch Horn",
+    "PARTNO": "13801",
+    "LOCATION": "Lower right front of engine compartment, behind grille",
+    "CONN_NAME": "C192",
+    "LOCPAGE": "10",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Low Vacuum Warning Switch",
+    "PARTNO": "12A182",
+    "LOCATION": "Left front of engine compartment",
+    "CONN_NAME": "C164",
+    "LOCPAGE": "11",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "LPG Sender",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body near fuel tank",
+    "CONN_NAME": "C4303",
+    "LOCPAGE": "24",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Main Light Switch",
+    "PARTNO": "11654",
+    "LOCATION": "LH side of I/P",
+    "CONN_NAME": "C227",
+    "LOCPAGE": "12",
+    "ZONE": "C1",
+    "CONN_CELL": "13",
+    "CONN_PAGE": "29",
+    "HCCF_CELL": "13",
+    "HCCF_PAGE": "29"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Manifold Absolute Pressure (MAP) Sensor",
+    "PARTNO": "9F479",
+    "LOCATION": "Right side of engine compartment",
+    "CONN_NAME": "C1155"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Manifold Intake Air Heater Relay",
+    "PARTNO": "12B533",
+    "LOCATION": "Top of engine"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "12B579",
+    "LOCATION": "Center of engine compartment",
+    "CONN_NAME": "C1029",
+    "LOCPAGE": "10",
+    "ZONE": "A5",
+    "CONN_CELL": "24",
+    "CONN_PAGE": "14",
+    "HCCF_CELL": "24",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Except 4.2L",
+    "PARTNO": "12B579",
+    "LOCATION": "Center of engine compartment",
+    "CONN_NAME": "C155",
+    "LOCPAGE": "10",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Master Window/Door Lock Control Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Mounted on LH door panel",
+    "CONN_NAME": "C500",
+    "LOCPAGE": "18",
+    "ZONE": "A3",
+    "CONN_CELL": "100",
+    "CONN_PAGE": "3",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Memory Lock Module",
+    "QUALIFIER": "With Sliding Door",
+    "PARTNO": "14A093",
+    "LOCATION": "Behind LH \"B\" pillar",
+    "CONN_NAME": "C330",
+    "LOCPAGE": "17",
+    "ZONE": "F6",
+    "CONN_CELL": "110",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "110",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Midship Fuel Tank Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Under LH center of vehicle, near midship fuel tank",
+    "CONN_NAME": "C348",
+    "LOCPAGE": "18",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Modified Vehicle Power",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear corner of engine compartment",
+    "CONN_NAME": "C148"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Modified Vehicle Power",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C233",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Modified Vehicle Power",
+    "PARTNO": "NA",
+    "LOCATION": "At base of LH \"B\" pillar",
+    "CONN_NAME": "C331",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Top side of steering column",
+    "CONN_NAME": "C250",
+    "LOCPAGE": "13",
+    "ZONE": "C1",
+    "CONN_CELL": "90",
+    "CONN_PAGE": "4",
+    "HCCF_CELL": "90",
+    "HCCF_PAGE": "4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Multifunction Switch",
+    "PARTNO": "13K359",
+    "LOCATION": "Top side of steering column",
+    "CONN_NAME": "C251",
+    "LOCPAGE": "13",
+    "ZONE": "C1",
+    "CONN_CELL": "85",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "85",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "NGV Module",
+    "PARTNO": "NA",
+    "LOCATION": "LH side inner fender of engine compartment",
+    "CONN_NAME": "C1012",
+    "LOCPAGE": "11",
+    "ZONE": "A10",
+    "CONN_CELL": "28",
+    "CONN_PAGE": "14",
+    "HCCF_CELL": "28",
+    "HCCF_PAGE": "14"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "NGV Timer Jumper",
+    "PARTNO": "NA",
+    "LOCATION": "LH rear of engine compartment near PCM",
+    "CONN_NAME": "C1013",
+    "LOCPAGE": "11",
+    "ZONE": "A6",
+    "CONN_CELL": "28",
+    "CONN_PAGE": "15",
+    "HCCF_CELL": "28",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Output Shaft Speed (OSS) Sensor",
+    "PARTNO": "7H103",
+    "LOCATION": "Under vehicle, on left side of transmission",
+    "CONN_NAME": "C109",
+    "LOCPAGE": "20",
+    "ZONE": "A9",
+    "CONN_CELL": "29",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "29",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Overdrive Cancel Switch",
+    "PARTNO": "NA",
+    "LOCATION": "RH side of steering column",
+    "CONN_NAME": "C222",
+    "LOCPAGE": "12",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Parking Brake Switch",
+    "PARTNO": "15A851",
+    "LOCATION": "Near LH kick panel",
+    "CONN_NAME": "C243",
+    "LOCPAGE": "14",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Passenger Air Bag",
+    "PARTNO": "NA",
+    "LOCATION": "Behind RH side of I/P",
+    "CONN_NAME": "C209",
+    "LOCPAGE": "12",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Passenger Safety Belt",
+    "PARTNO": "NA",
+    "LOCATION": "On left side of front passenger seat",
+    "CONN_NAME": "C342"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "PCM Power Relay",
+    "PARTNO": "14B192",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "15",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "15"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Power Plug",
+    "PARTNO": "NA",
+    "LOCATION": "Behind center I/P, near cigar lighter",
+    "CONN_NAME": "C219",
+    "LOCPAGE": "13",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "24",
+    "CONN_PAGE": "12",
+    "HCCF_CELL": "24",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "25",
+    "CONN_PAGE": "12",
+    "HCCF_CELL": "25",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "26",
+    "CONN_PAGE": "10",
+    "HCCF_CELL": "26",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "5.4L Bi-Fuel",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "5.4L NGV",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "28",
+    "CONN_PAGE": "12",
+    "HCCF_CELL": "28",
+    "HCCF_PAGE": "12"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "27",
+    "CONN_PAGE": "10",
+    "HCCF_CELL": "27",
+    "HCCF_PAGE": "10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "7.3L",
+    "PARTNO": "12A650",
+    "LOCATION": "Left rear of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C154",
+    "LOCPAGE": "11",
+    "ZONE": "A9",
+    "CONN_CELL": "23",
+    "CONN_PAGE": "13",
+    "HCCF_CELL": "23",
+    "HCCF_PAGE": "13"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RABS Diagnostic Connector",
+    "PARTNO": "NA",
+    "LOCATION": "Below RH side of I/P",
+    "CONN_NAME": "C208",
+    "LOCPAGE": "13",
+    "ZONE": "F7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio",
+    "PARTNO": "19B131",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C212",
+    "LOCPAGE": "12",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio",
+    "PARTNO": "19B131",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C213",
+    "LOCPAGE": "12",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio",
+    "PARTNO": "19B131",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C231",
+    "LOCPAGE": "12",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #1",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "18827",
+    "LOCATION": "Top side of engine, attached to ignition coil",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "3",
+    "ZONE": "A3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #1",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "18827",
+    "LOCATION": "Right front of engine, attached to ignition coil",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "4",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #1",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "18827",
+    "LOCATION": "Upper left rear of engine",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "7",
+    "ZONE": "C1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #1",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Upper left rear of engine",
+    "CONN_NAME": "C131",
+    "LOCPAGE": "9",
+    "ZONE": "A2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #2",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "18827",
+    "LOCATION": "LH side of engine, attached to ignition coil",
+    "CONN_NAME": "C174",
+    "LOCPAGE": "4",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #2",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "NA",
+    "LOCATION": "Right rear of engine",
+    "CONN_NAME": "C174",
+    "LOCPAGE": "7",
+    "ZONE": "F8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Radio Capacitor #2",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "NA",
+    "LOCATION": "Upper RH rear of engine",
+    "CONN_NAME": "C174",
+    "LOCPAGE": "9",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Aft-Axle Fuel Tank Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Under rear of vehicle, near aft-axle fuel tank assembly",
+    "CONN_NAME": "C354",
+    "LOCPAGE": "18",
+    "ZONE": "E1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Anti-Lock Brake System (RABS) Module",
+    "PARTNO": "NA",
+    "LOCATION": "Behind center side of I/P",
+    "CONN_NAME": "C217",
+    "LOCPAGE": "13",
+    "ZONE": "A5",
+    "CONN_CELL": "42",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "42",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Auxiliary Blower Switch",
+    "PARTNO": "19A642",
+    "LOCATION": "Middle of rear headliner",
+    "CONN_NAME": "C916",
+    "LOCPAGE": "17",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Axle Speed Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Below rear of vehicle, mounted on differential",
+    "CONN_NAME": "C415",
+    "LOCPAGE": "16",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Courtesy Lamp Switch",
+    "PARTNO": "13A786",
+    "LOCATION": "In RH rear door jamb",
+    "CONN_NAME": "C414",
+    "LOCPAGE": "17",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Door Lock Actuator",
+    "PARTNO": "NA",
+    "LOCATION": "Left center of right rear door",
+    "CONN_NAME": "C423",
+    "LOCPAGE": "19",
+    "ZONE": "F6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Interior/Map Switch and Lamp",
+    "PARTNO": "13788",
+    "LOCATION": "In rear of rear headliner",
+    "CONN_NAME": "C901",
+    "LOCPAGE": "16",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Power Door Lock Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Left center of right rear door",
+    "CONN_NAME": "C425",
+    "LOCPAGE": "19",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Rear Tank Valve",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body, near fuel tank",
+    "CONN_NAME": "C4121",
+    "LOCPAGE": "24",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Remote Keyless Entry Module",
+    "PARTNO": "19A379",
+    "LOCATION": "Behind LH \"B\" pillar",
+    "CONN_NAME": "C335",
+    "LOCPAGE": "16",
+    "ZONE": "C1",
+    "CONN_CELL": "111",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Remote Keyless Entry Module",
+    "PARTNO": "19A379",
+    "LOCATION": "Behind LH \"B\" pillar",
+    "CONN_NAME": "C336",
+    "LOCPAGE": "16",
+    "ZONE": "C1",
+    "CONN_CELL": "111",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "111",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Resistor",
+    "PARTNO": "NA",
+    "LOCATION": "Left rear of engine compartment"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Aero Headlamp",
+    "PARTNO": "NA",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C195",
+    "LOCPAGE": "10",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Door Handle Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Top rear of right front door",
+    "CONN_NAME": "C605",
+    "LOCPAGE": "18",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Headlamp",
+    "PARTNO": "NA",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C197",
+    "LOCPAGE": "11",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Power Door Lock/Window Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Center of right front door",
+    "CONN_NAME": "C600",
+    "LOCPAGE": "18",
+    "ZONE": "C10",
+    "CONN_CELL": "100",
+    "CONN_PAGE": "3",
+    "HCCF_CELL": "100",
+    "HCCF_PAGE": "3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Power Window Motor",
+    "PARTNO": "23394",
+    "LOCATION": "Lower center of right front door",
+    "CONN_NAME": "C601",
+    "LOCPAGE": "18",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Rear Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Mounted in RH rear door",
+    "CONN_NAME": "C421",
+    "LOCPAGE": "19",
+    "ZONE": "B1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Reversing Lamp",
+    "PARTNO": "134404",
+    "LOCATION": "RH rear of vehicle",
+    "CONN_NAME": "C400",
+    "LOCPAGE": "17",
+    "ZONE": "F4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Side Door Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "Front center of side door",
+    "CONN_NAME": "C311",
+    "LOCPAGE": "16",
+    "ZONE": "F9"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RH Visor Lamp",
+    "PARTNO": "NA",
+    "LOCATION": "RH side of front headliner",
+    "CONN_NAME": "C922",
+    "LOCPAGE": "16",
+    "ZONE": "A8"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Courtesy Lamp Switch",
+    "PARTNO": "13A786",
+    "LOCATION": "In RH door jamb",
+    "CONN_NAME": "C327",
+    "LOCPAGE": "15",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Exterior Rear View Mirror",
+    "PARTNO": "17683",
+    "LOCATION": "Front of right front door",
+    "CONN_NAME": "C606",
+    "LOCPAGE": "18",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Front Door Lock Actuator",
+    "PARTNO": "218A40",
+    "LOCATION": "Top rear of right front door",
+    "CONN_NAME": "C602",
+    "LOCPAGE": "18",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Front Door Speaker",
+    "PARTNO": "18971",
+    "LOCATION": "In front center of right front door",
+    "CONN_NAME": "C604",
+    "LOCPAGE": "18",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Front Park/Turn Lamp",
+    "PARTNO": "13200",
+    "LOCATION": "RH front of vehicle",
+    "CONN_NAME": "C194",
+    "LOCPAGE": "10",
+    "ZONE": "F2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Front Wheel Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Near right front wheel",
+    "CONN_NAME": "C103",
+    "LOCPAGE": "16",
+    "ZONE": "C10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Right Stop/Park/Turn Lamp",
+    "PARTNO": "13404",
+    "LOCATION": "RH rear of vehicle",
+    "CONN_NAME": "C401",
+    "LOCPAGE": "17",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "RKE Data Link Connector (DLC)",
+    "PARTNO": "NA",
+    "LOCATION": "Behind LH side of I/P",
+    "CONN_NAME": "C245",
+    "LOCPAGE": "14",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Shift Lock Actuator",
+    "PARTNO": "NA",
+    "LOCATION": "Below RH side of steering column",
+    "CONN_NAME": "C221",
+    "LOCPAGE": "13",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Side Door Courtesy Lamp Switch",
+    "PARTNO": "13A786",
+    "LOCATION": "Behind RH \"B\" pillar in door jamb",
+    "CONN_NAME": "C308",
+    "LOCPAGE": "16",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Side Door Courtesy Lamp Switch",
+    "PARTNO": "13A786",
+    "LOCATION": "Behind RH \"B\" pillar in door jamb",
+    "CONN_NAME": "C312",
+    "LOCPAGE": "17",
+    "ZONE": "E10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Side Door Lock Actuator",
+    "PARTNO": "NA",
+    "LOCATION": "Mounted in side door",
+    "CONN_NAME": "C315",
+    "LOCPAGE": "16",
+    "ZONE": "D10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Speed Control Servo",
+    "PARTNO": "9A825",
+    "LOCATION": "LH side of engine compartment, near brake master cylinder",
+    "CONN_NAME": "C146",
+    "LOCPAGE": "11",
+    "ZONE": "B10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Speed Control Switch Assembly",
+    "PARTNO": "NA",
+    "LOCATION": "Top of steering column",
+    "CONN_NAME": "C253"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Starter",
+    "PARTNO": "NA",
+    "LOCATION": "Lower RH side of engine",
+    "LOCPAGE": "1",
+    "ZONE": "D1"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Starter Motor Relay",
+    "PARTNO": "11450",
+    "LOCATION": "RH front corner of engine compartment, near battery"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Tank Valve Diode",
+    "PARTNO": "NA",
+    "LOCATION": "Rear of body, near fuel tank"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Temperature Control Switch",
+    "PARTNO": "NA",
+    "LOCATION": "Center of I/P",
+    "CONN_NAME": "C206",
+    "LOCPAGE": "13",
+    "ZONE": "A10"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "4.2L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top of engine, near air intake",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "2",
+    "ZONE": "A4"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "4.6L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top of engine, near air intake",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "4",
+    "ZONE": "A5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "5.4L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top of engine, near air intake",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "6",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "6.8L",
+    "PARTNO": "9B989",
+    "LOCATION": "Top of engine, near air intake",
+    "CONN_NAME": "C117",
+    "LOCPAGE": "8",
+    "ZONE": "A6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Trailer Battery Charge Relay",
+    "PARTNO": "14A301",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Trailer Reversing Lamp Relay",
+    "PARTNO": "14A301",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Trailer Running Lamp Relay",
+    "PARTNO": "14A301",
+    "LOCATION": "LH front of engine compartment, in battery junction box",
+    "LOCPAGE": "10",
+    "ZONE": "E9",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "6",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Trailer/Camper Adapter (Class I)",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of rear bumper",
+    "CONN_NAME": "C422",
+    "LOCPAGE": "18",
+    "ZONE": "F3"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Trailer/Camper Adapter (Class II)",
+    "PARTNO": "NA",
+    "LOCATION": "Below LH side of rear bumper",
+    "CONN_NAME": "C419",
+    "LOCPAGE": "16",
+    "ZONE": "F2",
+    "CONN_CELL": "95",
+    "CONN_PAGE": "7",
+    "HCCF_CELL": "95",
+    "HCCF_PAGE": "7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Turbine Shaft Speed (TSS) Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Under vehicle, on right side of transmission",
+    "CONN_NAME": "C1021"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Vehicle Speed Sensor (VSS)",
+    "PARTNO": "NA",
+    "LOCATION": "Under vehicle, on left side of transmission",
+    "CONN_NAME": "C108",
+    "LOCPAGE": "20",
+    "ZONE": "C6"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Warning Buzzer Module",
+    "PARTNO": "10B924",
+    "LOCATION": "Behind center of I/P",
+    "CONN_NAME": "C214",
+    "LOCPAGE": "12",
+    "ZONE": "F7",
+    "CONN_CELL": "66",
+    "CONN_PAGE": "2",
+    "HCCF_CELL": "66",
+    "HCCF_PAGE": "2"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Washer Pump",
+    "PARTNO": "17664",
+    "LOCATION": "Attached to washer fluid reservoir on RH fender apron",
+    "CONN_NAME": "C157",
+    "LOCPAGE": "11",
+    "ZONE": "F5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Water In Fuel Sensor",
+    "PARTNO": "NA",
+    "LOCATION": "Top left center of engine",
+    "CONN_NAME": "C1998",
+    "LOCPAGE": "1",
+    "ZONE": "A7"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Windshield Wiper Motor",
+    "PARTNO": "17A511",
+    "LOCATION": "LH rear of engine compartment, mounted on top of cowl",
+    "CONN_NAME": "C147",
+    "LOCPAGE": "10",
+    "ZONE": "A8",
+    "CONN_CELL": "81",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "5"
+  },
+  {
+    "EVTM": "EXm",
+    "NAME": "Wiper Control Module",
+    "PARTNO": "17A553",
+    "LOCATION": "Behind center side of I/P",
+    "CONN_NAME": "C216",
+    "LOCPAGE": "12",
+    "ZONE": "F4",
+    "CONN_CELL": "81",
+    "CONN_PAGE": "5",
+    "HCCF_CELL": "81",
+    "HCCF_PAGE": "5"
+  }
+]

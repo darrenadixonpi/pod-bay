@@ -1,0 +1,352 @@
+EVTM,NAME,QUALIFIER,PARTNO,LOCATION,CONN_NAME,LOCPAGE,ZONE,CONN_CELL,CONN_PAGE,HCCF_CELL,HCCF_PAGE,ITEMID_,FREQUENCY
+EXQ,A/C Clutch Field Coil,,19703,"LH side of engine, part of A/C compressor assembly",C104,2,F7,,,,,0,0
+EXQ,A/C Compressor Overtemp Indicator,,N/A,On center of I/P,C279,10,A5,,,,,0,0
+EXQ,A/C Compressor Overtemp Switch,,19A945,"LH side of engine, near A/C clutch field coil",C159,2,E10,,,,,0,0
+EXQ,A/C High Pressure Switch,Tilt Hood,19E561,RH front of engine,C185,6,F4,,,,,0,0
+EXQ,A/C High Pressure Switch,Fixed Hood,19E561,RH front of engine,C185,8,C1,,,,,0,0
+EXQ,A/C Low Pressure Switch,,19E561,"RH rear of engine compartment, on A/C accumulator",C1029,1,B1,,,,,0,0
+EXQ,A/C-Heater Blower Switch,,18502,Center of I/P,C266,9,A4,54,4,54,4,0,0
+EXQ,A/C-Heater Control Illumination,,N/A,"Center of I/P, above A/C-heater controls",C267,10,F5,,,,,0,0
+EXQ,ABS Data Link Connector,,N/A,"Inside rear cab floor, behind passenger seat",C321,14,D1,,,,,0,0
+EXQ,ABS Front Controller,,N/A,On center of front frame crossmember,C139,14,C1,,,,,0,0
+EXQ,ABS Rear Controller,,N/A,"Over rear axle, attached to ABS module",C404,14,A10,,,,,0,0
+EXQ,Air Dryer,,2063,"On RH frame rail, near rear of cab",C314,14,A6,,,,,0,0
+EXQ,Air Intake Heater Glow Plug,,N/A,RH top of engine,C1094,17,A2,,,,,0,0
+EXQ,Air Intake Heater Glow Plug,,N/A,RH top of engine,C1095,17,A2,,,,,0,0
+EXQ,Air Intake Heater Glow Plug,,N/A,RH top of engine,C1096,17,A2,,,,,0,0
+EXQ,Air Intake Heater Module,,N/A,RH side of engine compartment,C133,,,23,4,23,4,0,0
+EXQ,Air Intake Heater Module,,N/A,RH side of engine compartment,C134,,,23,4,23,4,0,0
+EXQ,Air Intake Heater Module,,N/A,RH side of engine compartment,C157,,,23,4,23,4,0,0
+EXQ,Air Intake Heater Module,,N/A,RH side of engine compartment,C158,,,23,4,23,4,0,0
+EXQ,Air Pressure Gauge Illumination,Cowl,N/A,"Center of I/P, near air pressure gauge",C232,,,,,,,0,0
+EXQ,Air Pressure Gauge Illumination,Cab,N/A,"Center of I/P, near air pressure gauge",C280,,,,,,,0,0
+EXQ,Anti-lock Brakes System (ABS) Module,,2B373,"On frame, over rear axle",C405,14,A9,42,3,42,3,0,0
+EXQ,Backup Lamp Switch,Automatic,15520,Lower RH side of transmission,C328,15,B2,,,,,0,0
+EXQ,Backup Lamp Switch,Automatic,15520,Lower RH side of transmission,C329,15,B2,,,,,0,0
+EXQ,Backup Lamp Switch,Manual,15520,RH top of transmission,C327,15,C7,,,,,0,0
+EXQ,Battery,,N/A,"On frame rail, near rear of cab",,,,,,,,0,0
+EXQ,Blower Motor,LPG,19805,RH side of safety wall,C171,,,,,,,0,0
+EXQ,Blower Motor,MFI,19805,RH side of safety wall,C171,2,B1,,,,,0,0
+EXQ,Blower Motor,Diesel,19805,RH side of safety wall,C171,8,A1,,,,,0,0
+EXQ,Blower Motor Resistor,Deluxe,19A706,"RH side of safety wall, near LH side of blower motor",C170,1,A2,,,,,0,0
+EXQ,Blower Motor Resistor,Standard,18591,"RH side of safety wall, near LH side of blower motor",C1053,1,A2,,,,,0,0
+EXQ,Brake Low Fluid Level Switch,,N/A,"LH rear of engine compartment, on brake fluid reservoir",C1017,3,A10,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Cab with Air Brakes,13480,Below LH side of I/P,C2046,9,F6,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Cowl with Air Brakes,13480,Below LH side of I/P,C2046,12,F7,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Cab with Hydraulic Brakes,13480,"Below LH side of I/P, top of brake pedal support",C288,9,F7,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Cowl with Hydraulic Brakes,13480,"Below LH side of I/P, top of brake pedal support",C288,12,A7,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Tractor,13480,Lower center rear of cab,C409,13,E2,,,,,0,0
+EXQ,Brake Pedal Position (BPP) Switch,Tractor,13480,Lower center rear of cab,C410,13,E2,,,,,0,0
+EXQ,Brake Warning Indicator,,N/A,"LH side of I/P, near instrument cluster",C219,10,A5,,,,,0,0
+EXQ,Buzzer Module,,N/A,"RH side of I/P, above glove compartment",C215,12,A2,65,12,65,12,0,0
+EXQ,C.D.R.L. Park Brake Switch,Fixed Hood,15A581,LH rear of engine compartment,C160,3,A9,,,,,0,0
+EXQ,C.D.R.L. Park Brake Switch,Tilt Hood,15A581,LH rear of engine compartment,C160,4,A8,,,,,0,0
+EXQ,Center Roof Marker Lamp,,N/A,Top of roof,C302,13,A4,,,,,0,0
+EXQ,Center Speaker,,N/A,Center of I/P,C259,,,,,,,0,0
+EXQ,Cigar Lighter,,N/A,Center of I/P,C297,9,F3,,,,,0,0
+EXQ,Coolant Temperature Sensor,5.9L Diesel,10884,Top RH side of engine,C1021,6,F7,,,,,0,0
+EXQ,Coolant Temperature Sensor,8.3L Diesel,10884,Top RH side of engine,C1021,7,A4,,,,,0,0
+EXQ,Coolant Temperature Sensor,LPG,10884,Top RH side of engine,C1021,3,A8,,,,,0,0
+EXQ,Coolant Temperature Sensor,MFI,10884,Top RH side of engine,C1021,1,F6,,,,,0,0
+EXQ,Coolant Temperature Sensor,Encore,10884,Top RH side of engine,C1021,17,B9,,,,,0,0
+EXQ,Coolant Temperature Switch,5.9L Diesel,N/A,RH front of engine,C1015,5,F5,,,,,0,0
+EXQ,Coolant Temperature Switch,5.9L Diesel with Fan Clutch,N/A,RH front of engine,C186,5,F5,,,,,0,0
+EXQ,Coolant Temperature Switch,8.3L Diesel,10884,Top RH side of engine,C1015,8,B1,,,,,0,0
+EXQ,Coolant Temperature Switch,8.3L Diesel with Fan Clutch,10884,Top RH side of engine,C186,8,B1,,,,,0,0
+EXQ,Customer Access,,N/A,RH side rear of engine compartment,C119,,,26,8,26,8,0,0
+EXQ,Data Link Connector,,N/A,Behind drivers seat,C3005,16,A6,29,12,29,12,0,0
+EXQ,Data Link Diagnostic Connector,,N/A,LH side of I/P,C2135,,,,,,,0,0
+EXQ,Daytime Running Lamps (DRL) Jumper,without Daytime Running Lamps,N/A,Behind RH side of I/P,C291,2,E10,,,,,0,0
+EXQ,Daytime Running Lamps (DRL) Module,with Daytime Running Lamps,N/A,Behind RH side of I/P,C291,2,E10,97,3,97,3,0,0
+EXQ,Diagnostic Switch,,N/A,Behind LH side of I/P,C2130,,,,,,,0,0
+EXQ,Differential Lockout Warning Indicator,,N/A,Center of I/P,C270,,,,,,,0,0
+EXQ,Differential Lockout Warning Indicator Lamp Switch,,10B853,Center of I/P,C2033,9,A7,,,,,0,0
+EXQ,Differential Lockout Warning Indicator Lamp Switch,,10B853,Center of I/P,C2047,9,A7,,,,,0,0
+EXQ,Dimmer Switch,Cab,13A024,"Below LH side of I/P, on floor, near cowl",C2007,10,F8,,,,,0,0
+EXQ,Dimmer Switch,Cowl,13A024,"Below LH side of I/P, on floor, near cowl",C2007,11,F8,,,,,0,0
+EXQ,Distributor,LPG,N/A,Top center of engine,C1010,3,F7,,,,,0,0
+EXQ,Distributor,MFI,N/A,Top center of engine,C194,1,F7,21,3,21,3,0,0
+EXQ,Dome Lamp,,N/A,Top of roof panel,C325,14,A5,,,,,0,0
+EXQ,EGR Control Solenoid,,N/A,LH rear of engine,C1047,2,A9,,,,,0,0
+EXQ,EGR Valve Position Sensor,,N/A,"Top rear of engine, near windshield wiper motor",C1050,2,A8,,,,,0,0
+EXQ,EGR Warning Indicator,,N/A,"Behind I/P, LH side of cluster",C2005,9,F7,,,,,0,0
+EXQ,Electric Start Assist Valve,,9D474,"Top RH side of engine, near carburetor",C1061,3,A5,,,,,0,0
+EXQ,Electronic Allison Transmission,,N/A,Rear lower RH side of transmission,C1093,,,29,8,29,8,0,0
+EXQ,Electronic Control Unit,,N/A,Behind drivers seat,C3001,16,D10,29,9,29,9,0,0
+EXQ,Electronic Control Unit,,N/A,Behind drivers seat,C3002,16,D10,29,10,29,10,0,0
+EXQ,Engine Alarm/Shutdown Module,Cab,N/A,Behind RH side of I/P,C241,10,A2,65,11,65,11,0,0
+EXQ,Engine Alarm/Shutdown Module,Cab,N/A,Behind RH side of I/P,C242,10,A2,65,11,65,11,0,0
+EXQ,Engine Alarm/Shutdown Module,Cowl,N/A,Behind RH side of I/P,C241,12,F5,65,11,65,11,0,0
+EXQ,Engine Alarm/Shutdown Module,Cowl,N/A,Behind RH side of I/P,C242,12,F5,65,11,65,11,0,0
+EXQ,Engine Coolant Temperature (ECT) Sensor,,N/A,Top LH front of engine,C1051,2,F6,,,,,0,0
+EXQ,Engine Governor Control Module,LPG,9D474,"Top RH side of engine, near carburetor",C2041,9,A2,24,2,24,2,0,0
+EXQ,Engine Governor Control Module,MFI,N/A,RH side of I/P,C261,9,A2,25,7,25,7,0,0
+EXQ,Engine Governor Control Module,MFI,N/A,RH side of I/P,C262,9,A2,25,7,25,7,0,0
+EXQ,Engine Governor Test Input Connector,,N/A,Behind RH side of I/P,C2039,9,C1,,,,,0,0
+EXQ,Engine Governor Test Output Connector,,N/A,Behind RH side of I/P,C263,10,E1,25,7,25,7,0,0
+EXQ,Engine Idle Switch,,N/A,LH side of I/P,C2140,,,26,9,26,9,0,0
+EXQ,Engine Inferred Mileage Control Module,,N/A,"Behind I/P, left of steering column",C2016,,,,,,,0,0
+EXQ,Engine Speed Sensor,,N/A,RH side of transmission,C1090,,,,,,,0,0
+EXQ,Ether Valve,,N/A,On LH side of safety wall,C109,,,,,,,0,0
+EXQ,Evaporative Emission Canister Purge Solenoid No. 1,,N/A,RH side of engine,C1035,1,A5,,,,,0,0
+EXQ,Evaporative Emission Canister Purge Solenoid No. 2,,N/A,RH side of engine,C1036,1,A4,,,,,0,0
+EXQ,Exhaust Brake Clutch Switch,,N/A,"Behind LH side of I/P, top of clutch pedal",C2010,10,F6,,,,,0,0
+EXQ,Exhaust Brake Control Solenoid,,N/A,"On frame rail, near exhaust brake control solenoid",C183,14,F7,,,,,0,0
+EXQ,Exhaust Brake Indicator,,N/A,On LH side of I/P,C211,9,A5,,,,,0,0
+EXQ,Exhaust Brake Switch,,13K724,Behind LH side of I/P,C275,10,A5,39,3,39,3,0,0
+EXQ,Fan Clutch Solenoid,,N/A,"In engine compartment, on LH side of safety wall",C184,8,A8,,,,,0,0
+EXQ,Fan Clutch Timer,,N/A,On center of safety wall,C167,5,A5,33,4,33,4,0,0
+EXQ,Fuel Filter Heater,,N/A,RH side of engine,C123,,,,,,,0,0
+EXQ,Fuel Heater,,N/A,RH side of engine,C115,,,,,,,0,0
+EXQ,Fuel Heater Relay,,N/A,Lower LH side of I/P,C2120,,,26,9,26,9,0,0
+EXQ,Fuel Inertia Diode,,N/A,Behind RH side of I/P,,,,,,,,0,0
+EXQ,Fuel Injector No. 1,,N/A,Top of no. 1 cylinder,C1037,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 2,,N/A,Top of no. 2 cylinder,C1038,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 3,,N/A,Top of no. 3 cylinder,C1039,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 4,,N/A,Top of no. 4 cylinder,C1040,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 5,,N/A,Top of no. 5 cylinder,C1041,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 6,,N/A,Top of no. 6 cylinder,C1042,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 7,,N/A,Top of no. 7 cylinder,C1043,1,A5,,,,,0,0
+EXQ,Fuel Injector No. 8,,N/A,Top of no. 8 cylinder,C1044,1,A5,,,,,0,0
+EXQ,Fuel Pump Relay,,N/A,Behind RH side of I/P,C283,9,B1,49,2,49,2,0,0
+EXQ,Fuel Pump Selector Relay,,9345,"Behind LH side of I/P, near cowl",C272,9,E10,49,2,49,2,0,0
+EXQ,Fuel Shutoff Relay,Cab,9P704,Behind RH side of I/P,C287,9,E10,23,4,23,4,0,0
+EXQ,Fuel Shutoff Relay,Cowl,9P704,"Behind RH side of I/P, near cowl",C287,12,E2,23,4,23,4,0,0
+EXQ,Fuel Shutoff Solenoid,Tilt Hood,5A594,Top center of engine,C182,6,D10,,,,,0,0
+EXQ,Fuel Shutoff Solenoid,Fixed hood,5A594,Top center of engine,C182,8,A9,,,,,0,0
+EXQ,Fuel Tank Selector Switch,,9A050,Lower LH side of I/P,C2024,,,49,3,49,3,0,0
+EXQ,Fuel Valve Solenoid,,N/A,RH side of engine,C188,,,,,,,0,0
+EXQ,Function Selector Switch,,N/A,Center of I/P,C2035,10,F3,,,,,0,0
+EXQ,Fuse Link A,LPG,14526,"LH side of engine compartment, at starter relay",,3,F9,,,,,0,0
+EXQ,Fuse Link A,Diesel,14526,"LH side of engine compartment, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link A,MFI,14526,"LH side of engine compartment, at starter relay",,,,,,,,0,0
+EXQ,Fuse Link B,,14526,"LH side of engine compartment, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link C,,14526,"LH side of engine compartment, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link E,,14526,"LH side of engine compartment, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link G,,14526,"RH side of engine compartment, near starter",,1,D1,,,,,0,0
+EXQ,Fuse Link H,,14526,LH side of engine compartment,,8,B10,,,,,0,0
+EXQ,Fuse Link J,Diesel with Tilt Hood,14526,"LH side of engine, at starter motor",,5,A6,,,,,0,0
+EXQ,Fuse Link J,Diesel with Fixed Hood,14526,"LH side of engine, at starter motor",,8,A5,,,,,0,0
+EXQ,Fuse Link J,LPG,14526,"LH side of engine, at starter motor",,,,,,,,0,0
+EXQ,Fuse Link J,MFI,14526,"LH side of engine, at starter motor",,,,,,,,0,0
+EXQ,Fuse Link K,,14289,"LH side of engine, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link L,Diesel with Fixed Hood,14526,"LH side of engine, at starter motor",,8,A5,,,,,0,0
+EXQ,Fuse Link L,Diesel with Tilt Hood,14526,"LH side of engine, at starter motor",,5,A6,,,,,0,0
+EXQ,Fuse Link L,LPG,14526,"RH side of engine, at starter motor",,,,,,,,0,0
+EXQ,Fuse Link L,MFI,14526,"RH side of engine, at starter motor",,1,D1,,,,,0,0
+EXQ,Fuse Link M,,14526,"LH side of engine, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link P,LPG,14526,"LH side of engine, at starter relay",,3,F9,,,,,0,0
+EXQ,Fuse Link P,Diesel,14526,"LH side of engine, at starter relay",,8,B10,,,,,0,0
+EXQ,Fuse Link P,MFI,14526,"LH side of engine, at starter relay",,,,,,,,0,0
+EXQ,Fuse Link S,,14526,Near positive battery terminal,,14,B1,,,,,0,0
+EXQ,Fuse Link T,,14526,Near positive battery terminal,,14,B1,,,,,0,0
+EXQ,Fuse Link U,,14526,Near positive battery terminal,,14,B1,,,,,0,0
+EXQ,Fuse Link V,,14526,Near positive battery terminal,,14,B1,,,,,0,0
+EXQ,Fuse Panel,Cowl,14A067,Below lower LH side of I/P,,12,D10,,,,,0,0
+EXQ,Fuse Panel,Cab,14A067,Below lower LH side of I/P,,9,F9,,,,,0,0
+EXQ,Generator,LPG,N/A,Top RH side of engine,C154,4,F5,,,,,0,0
+EXQ,Generator,LPG,N/A,Top RH side of engine,C156,4,F5,,,,,0,0
+EXQ,Generator,LPG,N/A,Top RH side of engine,C1008,,,,,,,0,0
+EXQ,Generator,LPG,N/A,Top RH side of engine,C1066,4,F5,,,,,0,0
+EXQ,Generator,Diesel,N/A,Top RH side of engine,C1008,,,,,,,0,0
+EXQ,Generator,Diesel,N/A,Top RH side of engine,C1066,,,,,,,0,0
+EXQ,Generator,Diesel,N/A,Top RH side of engine,C154,8,F6,,,,,0,0
+EXQ,Generator,Diesel,N/A,Top RH side of engine,C156,8,F6,,,,,0,0
+EXQ,Generator,MFI,N/A,Top RH side of engine,C1008,2,F5,,,,,0,0
+EXQ,Generator,MFI,N/A,Top RH side of engine,C154,,,,,,,0,0
+EXQ,Generator,MFI,N/A,Top RH side of engine,C156,,,,,,,0,0
+EXQ,Generator,MFI,N/A,Top RH side of engine,C1066,,,,,,,0,0
+EXQ,Generator Resistor,,10C346,"Lower RH side of engine, Generator",,,,,,,,0,0
+EXQ,Governor Control Solenoid,,9507,Top RH side of engine,C198,3,F6,,,,,0,0
+EXQ,Governor Servo,,N/A,LH rear of engine compartment,C1034,,,25,1,25,1,0,0
+EXQ,Heated Oxygen Sensor (HO2S),,N/A,"In exhaust pipe, 5-6 inches in front of muffler",C175,,,,,,,0,0
+EXQ,High Pitch Horn,Fixed Hood,13832,"Front of LH fender apron, near windshield washer fluid reservoir",C1025,1,D10,,,,,0,0
+EXQ,High Pitch Horn,Fixed Hood,13832,"Front of LH fender apron, near windshield washer fluid reservoir",C1004,1,D10,,,,,0,0
+EXQ,High Pitch Horn,Tilt Hood,13832,LH front of engine compartment hood,C1025,,,,,,,0,0
+EXQ,High Pitch Horn,Tilt Hood,13832,LH front of engine compartment hood,C1004,,,,,,,0,0
+EXQ,Hydro-max Flow Switch and Motor,,2C185,LH rear of engine compartment,C1023,3,B10,,,,,0,0
+EXQ,Hydro-max Flow Switch and Motor,,2C185,LH rear of engine compartment,C1024,3,B10,,,,,0,0
+EXQ,Hydro-max Monitor,Cab,2C012,"Below I/P, near LH side of steering column",C274,9,D10,47,2,47,2,0,0
+EXQ,Hydro-max Monitor,Cowl,2C012,"Below I/P, near LH side of steering column",C274,11,E10,47,2,47,2,0,0
+EXQ,Hydro-max Motor Indicator,,N/A,"LH side of I/P, in instrument panel",C2019,10,B9,,,,,0,0
+EXQ,Hydro-max Relay,,2A449,"LH rear of engine compartment, on LH side of brake master cylinder",C1022,3,A10,47,2,47,2,0,0
+EXQ,Idle Air Control (IAC) Solenoid,,N/A,"Top of engine, behind distributor",C1045,1,F7,,,,,0,0
+EXQ,Ignition Coil,LPG,12029,Top LH side of engine,C1009,3,A6,,,,,0,0
+EXQ,Ignition Coil,MFI,N/A,Top LH side of engine,C192,2,D10,,,,,0,0
+EXQ,Ignition Control Module (ICM),LPG,N/A,RH side of engine compartment,C112,3,F4,,,,,0,0
+EXQ,Ignition Control Module (ICM),LPG,N/A,RH side of engine compartment,C113,3,F4,,,,,0,0
+EXQ,Ignition Control Module (ICM),MFI,N/A,"Top center of engine compartment, on safety wall",C190,2,A5,21,3,21,3,0,0
+EXQ,Ignition Suppression Resistor,,N/A,"LH rear of engine compartment, on fuel charge harness",,,,,,,,0,0
+EXQ,Ignition Switch,Cab,11572,Top RH side of steering column,C290,9,A8,12,7,12,7,0,0
+EXQ,Ignition Switch,Cowl,11572,Top RH side of steering column,C290,12,C10,12,7,12,7,0,0
+EXQ,In-line Fuse,15 Amp,14526,"Taped to harness, near ether valve",C110,,,,,,,0,0
+EXQ,In-line Fuse,10 Amp,14526,"Rear of engine, near starter motor",C1092,,,,,,,0,0
+EXQ,Inline Resistor,,N/A,N/A,C126,,,,,,,0,0
+EXQ,Inertia Fuel Shutoff Switch,,N/A,Behind RH side of I/P,C2013,9,E1,,,,,0,0
+EXQ,Instrument Cluster,2 Gauge,9271,Top LH side of I/P,C214,,,60,10,60,10,0,0
+EXQ,Instrument Cluster,4 Gauge,9271,Top LH side of I/P,C213,,,60,12,60,12,0,0
+EXQ,Instrument Cluster,Cowl,9271,Top LH side of I/P,C212,12,A6,60,11,60,11,0,0
+EXQ,Intake Air Temperature (IAT) Sensor,,N/A,Top center of engine,C1052,2,D1,,,,,0,0
+EXQ,Junction Block,,14448,Behind LH cowl panel,,11,D10,,,,,0,0
+EXQ,Lamp Module,,N/A,"Behind center of I/P, near warning lamp module",C2102,,,65,12,65,12,0,0
+EXQ,Left Center Roof Marker Lamp,,N/A,Top of roof,C301,13,A5,,,,,0,0
+EXQ,Left Courtesy Lamp Switch,,13713,Left door jamb area,C2008,10,D9,,,,,0,0
+EXQ,Left Door Speaker,,N/A,In left door,C502,13,D10,,,,,0,0
+EXQ,Left Front Fender Park/Turn Lamp,MFI with Fixed Hood,N/A,On left front fender,C176,1,E10,,,,,0,0
+EXQ,Left Front Fender Park/Turn Lamp,Diesel with Fixed Hood,N/A,On left front fender,C176,8,C10,,,,,0,0
+EXQ,Left Front Fender Park/Turn Lamp,LPG with Fixed Hood,N/A,On left front fender,C176,,,,,,,0,0
+EXQ,Left Front Fender Turn Lamp,Tilt Hood,N/A,On left front fender,C176,5,F10,,,,,0,0
+EXQ,Left Front Park/Turn Lamp,Fixed Hood,N/A,"Front of vehicle, near left headlamp",C178,1,F9,,,,,0,0
+EXQ,Left Front Park/Turn Lamp,Tilt Hood,N/A,"Front of vehicle, near left headlamp",C178,5,E10,,,,,0,0
+EXQ,Left Fuel Gauge Sensor,,9275,Top of left fuel tank,C310,13,E5,,,,,0,0
+EXQ,Fuel Gauge Sensor,,9275,Top of fuel tank,C339,,,,,,,0,0
+EXQ,Left Fuel Pump Motor,,9350,Top of left fuel tank,C311,13,E4,,,,,0,0
+EXQ,Left Headlamp,Fixed Hood,N/A,LH front of vehicle,C177,1,F10,,,,,0,0
+EXQ,Left Headlamp,Tilt Hood,N/A,LH front of vehicle,C177,5,E10,,,,,0,0
+EXQ,Left Mirror Marker Lamp,,N/A,On left mirror,C500,13,D10,,,,,0,0
+EXQ,Left Roof Marker Lamp,,N/A,Top of roof,C300,13,A5,,,,,0,0
+EXQ,Left Side Marker Lamp,MFI,N/A,Left front of vehicle,C179,1,E10,,,,,0,0
+EXQ,Left Side Marker Lamp,Diesel,N/A,Left front of vehicle,C179,8,D10,,,,,0,0
+EXQ,Left Side Marker Lamp,LPG,N/A,Left front of vehicle,C179,,,,,,,0,0
+EXQ,LH Front Wheel Speed Sensor,,N/A,"On LH frame, at front axle centerline",C140,14,F5,,,,,0,0
+EXQ,LH Heated Moisture Ejector Valve No. 1,,2A131,"Rear of cab, on side of LH air supply tank",C316,13,E3,,,,,0,0
+EXQ,LH Heated Moisture Ejector Valve No. 2,,2A131,"Rear of cab, on side of LH air supply tank",C317,13,D7,,,,,0,0
+EXQ,LH Heated Moisture Ejector Valve No. 3,,2A131,"Rear of cab, on side of LH air supply tank",C318,13,D7,,,,,0,0
+EXQ,LH Rear Axle Speed Sensor,,N/A,"On rear axle, near differential",C422,14,C10,,,,,0,0
+EXQ,LH Rear Combination Lamp,,N/A,Left rear of vehicle,C407,13,B10,,,,,0,0
+EXQ,Low Air Pressure Switch,Cowl,2A574,"Behind I/P, above steering column",C2020,11,A6,,,,,0,0
+EXQ,Low Air Pressure Switch,Cowl,2A574,"Behind I/P, above steering column",C2021,11,A6,,,,,0,0
+EXQ,Low Air Pressure Switch,Cab,2A574,"Behind I/P, above steering column",C2021,9,F5,,,,,0,0
+EXQ,Low Air Pressure Switch,Cab,2A574,"Behind I/P, above steering column",C2020,9,F5,,,,,0,0
+EXQ,Low Coolant Level Sensor,Fixed Hood,N/A,Top of radiator,C166,7,F7,,,,,0,0
+EXQ,Park Brake Switch,Cowl,10B924,Near fuse panel,C221,11,E10,,,,,0,0
+EXQ,Park Brake Warning Switch,,N/A,Below center of I/P,C2043,11,A5,,,,,0,0
+EXQ,Park/Neutral Position Switch,,7A247,LH side of transmission,C132,15,D3,,,,,0,0
+EXQ,PCM Data Link Connector,,N/A,Behind RH side of I/P,C2011,10,D1,25,11,25,11,0,0
+EXQ,PCM Data Link Input Connector,,N/A,Behind RH side of I/P,C2038,9,C1,,,,,0,0
+EXQ,PCM Power Relay,,N/A,Behind RH side of I/P,C282,9,B1,25,8,25,8,0,0
+EXQ,PIA Engine Harness,,N/A,Rear RH side of engine compartment,C127,17,A6,26,7,26,7,0,0
+EXQ,Power Contactor Solenoid #1,,N/A,RH side of engine compartment,,,,,,,,0,0
+EXQ,Power Contactor Solenoid #2,,N/A,RH side of engine compartment,,,,,,,,0,0
+EXQ,Powertrain Control Module (PCM),All Except Encore,N/A,Behind RH side of I/P,C284,10,C1,25,9,25,9,0,0
+EXQ,Powertrain Control Module (PCM),Encore,N/A,Rear RH side of engine compartment,C121,17,A4,26,6,26,6,0,0
+EXQ,PRNDL Illumination,Pin 8,N/A,On steering column,C224,,,90,5,90,5,0,0
+EXQ,Radio,,18805,Center of I/P,C257,9,A4,130,3,130,3,0,0
+EXQ,Radio,,18805,Center of I/P,C258,9,A4,130,3,130,3,0,0
+EXQ,Radio Capacitor,,N/A,"Top LH side of engine, next to ignition coil",C193,,,,,,,0,0
+EXQ,Rear Axle Shift Control Relay,,N/A,Behind LH side of I/P,C2029,9,E10,35,3,35,3,0,0
+EXQ,Rear Axle Shift Control Switch,Automatic,N/A,Mounted on the lower center of I/P,C2027,9,A9,,,,,0,0
+EXQ,Rear Axle Shift Control Switch,Manual,N/A,Mounted on manual gear selector,C2026,9,F4,,,,,0,0
+EXQ,Rear Axle Shift Control Valve,,4100,LH side of rear crossmember,C412,13,C10,,,,,0,0
+EXQ,Remote Serial Interface Connector,,N/A,Bhind drivers seat,C3010,,,29,13,29,13,0,0
+EXQ,Retarder Disable Relay,,N/A,Behind LH side of I/P,C208,9,F10,42,4,42,4,0,0
+EXQ,RH Front Wheel Speed Sensor,,N/A,"On RH frame, to front axle centerline",C141,14,E1,,,,,0,0
+EXQ,Secondary Air Injection Diverter (AIRD) Solenoid,,N/A,LH rear of engine compartment,C1046,2,C10,,,,,0,0
+EXQ,Shift Module,,N/A,"RH side of engine, near transmission",C129,,,,,,,0,0
+EXQ,Speedometer,Cowl,N/A,LH side of I/P,C269,12,A5,,,,,0,0
+EXQ,Speedometer,Cab,N/A,LH side of I/P,C269,10,B9,,,,,0,0
+EXQ,Speedometer Sensor,Automatic,17B384,LH rear of transmission,C330,15,B4,,,,,0,0
+EXQ,Speedometer Sensor,Manual,17B384,RH rear of transmission,C336,15,C8,,,,,0,0
+EXQ,Speedometer Shield,,N/A,"In wire harness, between speedometer and speedometer sensor",,,,,,,,0,0
+EXQ,SPOUT Test Connector,,N/A,"RH side of engine compartment, near ignition control module",C1016,,,,,,,0,0
+EXQ,Starter Motor,Diesel,11002,Lower LH rear of engine,C1057,6,A6,,,,,0,0
+EXQ,Starter Motor,Diesel,11002,Lower LH rear of engine,C1058,6,A6,,,,,0,0
+EXQ,Starter Motor,Diesel,11002,Lower LH rear of engine,C1059,6,A6,,,,,0,0
+EXQ,Starter Motor,LPG,11002,Lower RH rear of engine,C1057,,,,,,,0,0
+EXQ,Starter Motor,LPG,11002,Lower RH rear of engine,C1058,,,,,,,0,0
+EXQ,Starter Motor,MFI,11002,Lower RH rear of engine,C1057,1,F5,,,,,0,0
+EXQ,Starter Motor,MFI,11002,Lower RH rear of engine,C1058,1,F5,,,,,0,0
+EXQ,Starter Relay,Diesel with Fixed Hood,11450,LH rear of engine compartment,C1054,,,,,,,0,0
+EXQ,Starter Relay,Diesel with Fixed Hood,11450,LH rear of engine compartment,C1055,,,,,,,0,0
+EXQ,Starter Relay,Diesel with Fixed Hood,11450,LH rear of engine compartment,C1056,,,,,,,0,0
+EXQ,Starter Relay,MFI with Fixed Hood,11450,LH rear of engine compartment,C1054,1,A10,,,,,0,0
+EXQ,Starter Relay,MFI with Fixed Hood,11450,LH rear of engine compartment,C1055,1,A10,,,,,0,0
+EXQ,Starter Relay,MFI with Fixed Hood,11450,LH rear of engine compartment,C1056,1,A10,,,,,0,0
+EXQ,Starter Relay,LPG with Fixed Hood,11450,LH rear of engine compartment,C1054,3,D10,,,,,0,0
+EXQ,Transmission Temperature Diode,,10B921,Behind top LH side of I/P,C2015,9,A6,,,,,0,0
+EXQ,Turn Signal/Hazard Flasher,Cab,13350,"Behind I/P, on fuse panel",C295,10,F7,,,,,0,0
+EXQ,Turn Signal/Hazard Flasher,Cowl,N/A,LH side of steering column support,C296,11,F7,,,,,0,0
+EXQ,Two-speed Axle Selector Motor,,4100,Front LH side of rear axle,C411,13,B10,,,,,0,0
+EXQ,Vacuum Pump In-line Fuse,,NA,Center rear of engine compartment,C1030,,,,,,,0,0
+EXQ,Vacuum Pump Motor,Fixed Hood,18D322,RH rear of engine compartment,C1031,3,F3,,,,,0,0
+EXQ,Vacuum Pump Motor,Tilt Hood,18D322,RH rear of engine compartment,C1031,4,E1,,,,,0,0
+EXQ,Vehicle Interface Connector,,N/A,On floor at rear of cab,C3004,,,29,11,29,11,0,0
+EXQ,Vehicle Interface Module (VIM),,N/A,Behind drivers seat,C334,16,B10,29,7,29,7,0,0
+EXQ,Vehicle Interface Module (VIM),,N/A,Behind drivers seat,C3006,16,C10,29,12,29,12,0,0
+EXQ,Voltmeter Relay,,14512,"Behind LH side of I/P, near main light switch",C292,12,B10,12,7,12,7,0,0
+EXQ,Warning Indicator Module,,10B987,Behind center of I/P,C2017,12,A9,65,10,65,10,0,0
+EXQ,Warning Lamps Module,,N/A,"Top LH side of I/P, near instrument cluster",C264,10,F3,65,10,65,10,0,0
+EXQ,Water In Fuel Sensor,,N/A,RH side of engine compartment,C122,,,,,,,0,0
+EXQ,Wheel to Wheel Differential Lockout Position Switch,Front Tandem Axle,4W058,Front of differential housing,C413,13,A9,,,,,0,0
+EXQ,Wheel to Wheel Differential Lockout Position Switch,Rear Tandem Axle,N/A,On rear rear axle,C414,,,,,,,0,0
+EXQ,Wheel to Wheel Differential Lockout Position Switch,Rear Tandem Axle,4W058,Front of differential housing,C413,13,A9,,,,,0,0
+EXQ,Wheel to Wheel Differential Lockout Position Switch,Single Axle,4W058,Front of differential housing,C413,13,A9,,,,,0,0
+EXQ,Wheel to Wheel Interlock Control Switch,,N/A,On center of I/P,C2034,,,38,2,38,2,0,0
+EXQ,Low Coolant Level Sensor,Tilt Hood,10D968,"Front of engine compartment, top of coolant reservoir",C166,5,F6,,,,,0,0
+EXQ,Low Pitch Horn,Fixed Hood,13832,"Front of LH fender apron, near windshield washer fluid reservoir",C1026,1,F8,,,,,0,0
+EXQ,Low Pitch Horn,Fixed Hood,13832,LH front of hood,C1006,1,F8,,,,,0,0
+EXQ,Low Pitch Horn,Tilt Hood,13832,LH front of hood,C1026,5,F7,,,,,0,0
+EXQ,Low Pitch Horn,Tilt Hood,13832,LH front of hood,C1006,5,F7,,,,,0,0
+EXQ,Main Light Switch,Cab,11654,"LH side of I/P, near top of cowl",C276,9,C10,85,2,85,2,0,0
+EXQ,Main Light Switch,Cowl,11654,"LH side of I/P, near top of cowl",C276,12,B10,85,2,85,2,0,0
+EXQ,Main Light Switch Illumination,,N/A,"On LH side of I/P, near main light switch",C268,9,A10,,,,,0,0
+EXQ,Malfunction Indicator Lamp (MIL),,N/A,LH side of I/P,C2004,10,B9,,,,,0,0
+EXQ,Manifold Absolute Pressure (MAP) Sensor,,N/A,"On RH side of engine compartment, on safety wall",C1033,1,A3,,,,,0,0
+EXQ,Multi-Function Switch,Cowl,13K359,Top LH side of steering column,C224,11,C10,90,5,90,5,0,0
+EXQ,Multi-Function Switch,Cab,13K359,Top LH side of steering column,C224,10,F7,90,5,90,5,0,0
+EXQ,Oil Pressure Sensor,Diesel,N/A,"LH rear of engine compartment, near safety wall",C1020,7,A7,,,,,0,0
+EXQ,Oil Pressure Sensor,LPG,N/A,"LH rear of engine compartment, near safety wall",C1020,4,A6,,,,,0,0
+EXQ,Oil Pressure Sensor,MFI,N/A,"LH rear of engine compartment, near safety wall",C1020,1,A6,,,,,0,0
+EXQ,Oil Pressure Switch,without Air Intake Heater,9278,"LH rear of engine compartment, near safety wall",C1003,6,A7,,,,,0,0
+EXQ,Oil Pressure Switch,with Air Intake Heater,N/A,RH side of engine,C1062,,,,,,,0,0
+EXQ,Output Speed Sensor,,N/A,RH side of transmission,C1091,,,,,,,0,0
+EXQ,Park Brake Diode,,10C912,"Behind I/P, above steering column",,11,F5,,,,,0,0
+EXQ,Park Brake Switch,Cab,10B924,Near fuse panel,C221,10,E10,,,,,0,0
+EXQ,RH Heated Moisture Ejector Valve,,2A131,"Rear of cab, on side of RH air supply tank",C319,13,D7,,,,,0,0
+EXQ,RH Rear Axle Speed Sensor,,N/A,"On rear axle, near differential",C423,14,F9,,,,,0,0
+EXQ,RH Rear Combination Lamp,,N/A,Right rear of vehicle,C408,13,A10,,,,,0,0
+EXQ,Right Center Roof Marker Lamp,,N/A,Top of roof,C303,13,A4,,,,,0,0
+EXQ,Right Courtesy Lamp Switch,,13713,Right door jamb area,C298,10,C1,,,,,0,0
+EXQ,Right Door Speaker,,N/A,In right door,C602,13,A2,,,,,0,0
+EXQ,Right Front Fender Park/Turn Lamp,MFI with Fixed Hood,N/A,On right front fender,C163,1,F2,,,,,0,0
+EXQ,Right Front Fender Park/Turn Lamp,Diesel with Fixed Hood,N/A,On right front fender,C163,8,E1,,,,,0,0
+EXQ,Right Front Fender Park/Turn Lamp,LPG with Fixed Hood,N/A,On right front fender,C163,,,,,,,0,0
+EXQ,Right Front Fender Turn Lamp,Tilt Hood,N/A,On right front fender,C163,5,F3,,,,,0,0
+EXQ,Right Front Park/Turn Lamp,Fixed Hood,N/A,"Front of vehicle, near right headlamp",C165,1,F4,,,,,0,0
+EXQ,Right Front Park/Turn Lamp,Tilt Hood,N/A,"Front of vehicle, near right headlamp",C165,5,E1,,,,,0,0
+EXQ,Right Fuel Gauge Sensor,,9275,Top of right fuel tank,C312,13,C1,,,,,0,0
+EXQ,Right Fuel Pump Motor,,9350,Top of right fuel tank,C313,13,B1,,,,,0,0
+EXQ,Right Headlamp,Fixed Hood,N/A,RH front of vehicle,C162,1,F3,,,,,0,0
+EXQ,Right Headlamp,Tilt Hood,N/A,RH front of vehicle,C162,5,E1,,,,,0,0
+EXQ,Right Mirror Marker Lamp,,N/A,On right mirror,C600,13,A2,,,,,0,0
+EXQ,Right Roof Marker Lamp,,N/A,Top of roof,C304,13,A4,,,,,0,0
+EXQ,Right Side Marker Lamp,Diesel,N/A,Right front of vehicle,C164,8,D1,,,,,0,0
+EXQ,Right Side Marker Lamp,MFI,N/A,Right front of vehicle,C164,1,E1,,,,,0,0
+EXQ,Right Side Marker Lamp,LPG,N/A,Right front of vehicle,C164,,,,,,,0,0
+EXQ,Secondary Air Injection Bypass (AIRB) Solenoid,,N/A,LH rear of engine compartment,C1048,2,B10,,,,,0,0
+EXQ,Starter Relay,LPG with Fixed Hood,11450,LH rear of engine compartment,C1055,3,D10,,,,,0,0
+EXQ,Starter Relay,LPG with Fixed Hood,11450,LH rear of engine compartment,C1056,3,D10,,,,,0,0
+EXQ,Starter Relay,Tilt Hood,11450,LH rear of engine compartment,C1054,5,A8,,,,,0,0
+EXQ,Starter Relay,Tilt Hood,11450,LH rear of engine compartment,C1055,5,A8,,,,,0,0
+EXQ,Starter Relay,Tilt Hood,11450,LH rear of engine compartment,C1056,5,A8,,,,,0,0
+EXQ,Stop Lamp Diode,,N/A,"Behind LH side of I/P, on stop lamp diode",C289,12,F8,,,,,0,0
+EXQ,Stop Lamp Low Pressure Operating Switch,,13A631,Lower center rear of cab,C419,13,A6,,,,,0,0
+EXQ,Stop Lamp Low Pressure Operating Switch,,13A631,Lower center rear of cab,C420,13,A6,,,,,0,0
+EXQ,Stop Lamp Low Pressure Operating Switch,,13A631,Lower center rear of cab,C421,13,A6,,,,,0,0
+EXQ,Stop Lamp Relay,,N/A,"Behind I/P, on LH side of steering column",C271,,,90,5,90,5,0,0
+EXQ,Tachometer,,N/A,Center of instrument cluster,C278,12,B10,60,13,60,13,0,0
+EXQ,Tachometer Sensor,,17B384,Center rear of engine,C161,6,A5,,,,,0,0
+EXQ,Temperature Sensor,with Air Intake Heater,N/A,RH side of engine,C125,,,,,,,0,0
+EXQ,Temperature Switch,,N/A,"Top of engine, in water manifold",C111,7,F6,,,,,0,0
+EXQ,Throttle Position (TP) Sensor,,N/A,"Top rear of engine, left of center",C1049,2,A6,,,,,0,0
+EXQ,Throttle Position (TP) Sensor,,N/A,Behind RH side of I/P,C2051,,,26,7,26,7,0,0
+EXQ,Throttle Position Switch,Fixed Hood,N/A,"Top of engine, on side of throttle body",C1027,8,A6,,,,,0,0
+EXQ,Throttle Position Switch,Tilt Hood,N/A,"Top of engine, on side of throttle body",C1027,6,A10,,,,,0,0
+EXQ,Trailer Connector,,N/A,Center rear of cab,C400,13,A3,95,3,95,3,0,0
+EXQ,Transmission Oil Temperature Switch,,10B921,Top front of transmission,C315,,,,,,,0,0
+EXQ,Transmission Temperature Diode,,10B921,Behind top LH side of I/P,C2014,9,A6,,,,,0,0
+EXQ,Windshield Washer Pump Motor,Fixed Hood,17664,"LH front of engine compartment, in windshield washer fluid reservoir",C1002,1,D10,,,,,0,0
+EXQ,Windshield Washer Pump Motor,Tilt Hood,17664,"LH rear of engine compartment, in windshield washer fluid reservoir",C1001,4,B10,,,,,0,0
+EXQ,Windshield Wiper Motor,Fixed Hood,17508,Center of safety wall,C102,2,A6,,,,,0,0
+EXQ,Windshield Wiper Motor,Tilt Hood,17508,Center of safety wall,C102,5,A6,,,,,0,0
+EXQ,Windshield Wiper/Washer Switch,,17A553,"On I/P, left of steering column",C2000,11,A9,80,2,80,2,0,0

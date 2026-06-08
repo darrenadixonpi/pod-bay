@@ -1,0 +1,5101 @@
+[
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F3",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F3",
+    "NAME": "A/C Clutch Field Coil",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "E10",
+    "NAME": "A/C High Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F9",
+    "NAME": "A/C High Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C1",
+    "NAME": "A/C Low Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B1",
+    "NAME": "A/C Low Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "A/C-Heater Control Assembly",
+    "QUALIFIER": "W/ A/C",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "C10",
+    "NAME": "ABS Main Relay",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C10",
+    "NAME": "ABS Main Relay",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E10",
+    "NAME": "Air Bag Diagnostic Monitor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F4",
+    "NAME": "Air Bag Sliding Contact",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A4",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A4",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F5",
+    "NAME": "Anti-Lock Brake Control Module",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D10",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D10",
+    "NAME": "Anti-Theft Hood Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A3",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "B1",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A1",
+    "NAME": "Automatic Transaxle Selector Illumination Lamp",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A9",
+    "NAME": "Battery",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A9",
+    "NAME": "Battery",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "Battery Junction Box",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B10",
+    "NAME": "Blower Motor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Blower Motor Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B10",
+    "NAME": "Blower Motor Resistor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "C10",
+    "NAME": "Blower Motor Resistor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A6",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A7",
+    "NAME": "Brake Fluid Level Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A3",
+    "NAME": "Brake Pedal Position (BPP) Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A6",
+    "NAME": "C100",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A3",
+    "NAME": "C100",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A7",
+    "NAME": "C101",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A2",
+    "NAME": "C101",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E10",
+    "NAME": "C102",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E10",
+    "NAME": "C102",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "D1",
+    "NAME": "C103",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D1",
+    "NAME": "C103",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E10",
+    "NAME": "C104",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A9",
+    "NAME": "C105",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A10",
+    "NAME": "C105",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C1",
+    "NAME": "C106",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D10",
+    "NAME": "C107",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D10",
+    "NAME": "C107",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C108",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C109",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C110",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C111",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "B10",
+    "NAME": "C114",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B10",
+    "NAME": "C114",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "B10",
+    "NAME": "C115",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B10",
+    "NAME": "C115",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "C10",
+    "NAME": "C116",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C10",
+    "NAME": "C116",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A10",
+    "NAME": "C117",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B10",
+    "NAME": "C117",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A1",
+    "NAME": "C118",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A1",
+    "NAME": "C118",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A4",
+    "NAME": "C119",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F2",
+    "NAME": "C119",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F6",
+    "NAME": "C120",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C1",
+    "NAME": "C120",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F4",
+    "NAME": "C121",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F3",
+    "NAME": "C121",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F9",
+    "NAME": "C122",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F7",
+    "NAME": "C122",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "C123",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "C123",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "C124",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "C124",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "C125",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "C125",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "C126",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "C126",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C10",
+    "NAME": "C127",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C10",
+    "NAME": "C127",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F5",
+    "NAME": "C128",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F8",
+    "NAME": "C128",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A6",
+    "NAME": "C129",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A7",
+    "NAME": "C129",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F4",
+    "NAME": "C130",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F4",
+    "NAME": "C130",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F5",
+    "NAME": "C131",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F5",
+    "NAME": "C131",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F7",
+    "NAME": "C132",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F4",
+    "NAME": "C132",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C133",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F8",
+    "NAME": "C134",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A5",
+    "NAME": "C134",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F6",
+    "NAME": "C135",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F5",
+    "NAME": "C135",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F7",
+    "NAME": "C136",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F6",
+    "NAME": "C136",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A6",
+    "NAME": "C137",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A4",
+    "NAME": "C138",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F7",
+    "NAME": "C138",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A4",
+    "NAME": "C139",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A6",
+    "NAME": "C140",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E1",
+    "NAME": "C141",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F3",
+    "NAME": "C141",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C1",
+    "NAME": "C142",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B1",
+    "NAME": "C142",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A6",
+    "NAME": "C144",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A5",
+    "NAME": "C144",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F2",
+    "NAME": "C145",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A7",
+    "NAME": "C145",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C10",
+    "NAME": "C146",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D10",
+    "NAME": "C146",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "D10",
+    "NAME": "C147",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E10",
+    "NAME": "C147",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "B1",
+    "NAME": "C148",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B1",
+    "NAME": "C148",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B10",
+    "NAME": "C149",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F6",
+    "NAME": "C150",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A4",
+    "NAME": "C150",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A8",
+    "NAME": "C151",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A8",
+    "NAME": "C151",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C1",
+    "NAME": "C153",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E1",
+    "NAME": "C153",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A9",
+    "NAME": "C154",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A9",
+    "NAME": "C154",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A9",
+    "NAME": "C155",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A9",
+    "NAME": "C155",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C156",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C157",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C10",
+    "NAME": "C158",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E1",
+    "NAME": "C158",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C1",
+    "NAME": "C159",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E1",
+    "NAME": "C159",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C1",
+    "NAME": "C160",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E1",
+    "NAME": "C160",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A10",
+    "NAME": "C161",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F9",
+    "NAME": "C162",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F9",
+    "NAME": "C162",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E10",
+    "NAME": "C164",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F10",
+    "NAME": "C164",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D1",
+    "NAME": "C165",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D1",
+    "NAME": "C165",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E10",
+    "NAME": "C166",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F10",
+    "NAME": "C166",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D1",
+    "NAME": "C167",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D1",
+    "NAME": "C167",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F6",
+    "NAME": "C168",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F6",
+    "NAME": "C168",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "B1",
+    "NAME": "C169",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A3",
+    "NAME": "C170",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D1",
+    "NAME": "C170",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A6",
+    "NAME": "C171",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A7",
+    "NAME": "C171",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F8",
+    "NAME": "C172",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F8",
+    "NAME": "C172",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F4",
+    "NAME": "C174",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F2",
+    "NAME": "C174",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F3",
+    "NAME": "C175",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F4",
+    "NAME": "C175",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "B10",
+    "NAME": "C176",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "C1",
+    "NAME": "C177",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C1",
+    "NAME": "C177",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F4",
+    "NAME": "C179",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F3",
+    "NAME": "C179",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A2",
+    "NAME": "C182",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B1",
+    "NAME": "C182",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "D10",
+    "NAME": "C183",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F6",
+    "NAME": "C183",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A4",
+    "NAME": "C184",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A3",
+    "NAME": "C184",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F3",
+    "NAME": "C187",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B1",
+    "NAME": "C187",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "E10",
+    "NAME": "C188",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F9",
+    "NAME": "C188",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F5",
+    "NAME": "C191",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D10",
+    "NAME": "C191",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C10",
+    "NAME": "C192",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D10",
+    "NAME": "C192",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E10",
+    "NAME": "C195",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "E1",
+    "NAME": "C196",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E1",
+    "NAME": "C196",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A8",
+    "NAME": "C198",
+    "QUALIFIER": "Zetec",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A9",
+    "NAME": "C198",
+    "QUALIFIER": "2.0L",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C200",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F6",
+    "NAME": "C201",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F6",
+    "NAME": "C202",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "C205",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "C10",
+    "NAME": "C206",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A9",
+    "NAME": "C207",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A3",
+    "NAME": "C208",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "C10",
+    "NAME": "C209",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C210",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C210",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C210",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A7",
+    "NAME": "C211",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F8",
+    "NAME": "C212",
+    "QUALIFIER": "Sedan/Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A3",
+    "NAME": "C213",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F5",
+    "NAME": "C217",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "B1",
+    "NAME": "C218",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F5",
+    "NAME": "C219",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C220",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C220",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C220",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F5",
+    "NAME": "C221",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F3",
+    "NAME": "C222",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F2",
+    "NAME": "C223",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E1",
+    "NAME": "C224",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E1",
+    "NAME": "C225",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F8",
+    "NAME": "C226",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C227",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F5",
+    "NAME": "C229",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C230",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C230",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C230",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C231",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C231",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C231",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "C1",
+    "NAME": "C233",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F8",
+    "NAME": "C239",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C240",
+    "QUALIFIER": "Sedan",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "C240",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A3",
+    "NAME": "C245",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "C246",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "C247",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F4",
+    "NAME": "C248",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "C249",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "C250",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "C251",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A4",
+    "NAME": "C252",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A4",
+    "NAME": "C253",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A4",
+    "NAME": "C254",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F4",
+    "NAME": "C255",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "D10",
+    "NAME": "C256",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "B1",
+    "NAME": "C259",
+    "QUALIFIER": "Automatic",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "E1",
+    "NAME": "C259",
+    "QUALIFIER": "Manual",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F3",
+    "NAME": "C260",
+    "QUALIFIER": "Coupe",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "C10",
+    "NAME": "C261",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "D10",
+    "NAME": "C262",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E10",
+    "NAME": "C264",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A8",
+    "NAME": "C266",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F4",
+    "NAME": "C267",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A8",
+    "NAME": "C268",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "B10",
+    "NAME": "C269",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "B10",
+    "NAME": "C269",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "B1",
+    "NAME": "C270",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "D10",
+    "NAME": "C271",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "C272",
+    "QUALIFIER": "W/O A/C",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "C272",
+    "QUALIFIER": "W/ A/C",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "C273",
+    "QUALIFIER": "W/ A/C",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "C273",
+    "QUALIFIER": "W/O A/C",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "C274",
+    "QUALIFIER": "Premium Sound",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "C274",
+    "QUALIFIER": "AM/FM",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "C275",
+    "QUALIFIER": "Premium Sound",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "C275",
+    "QUALIFIER": "AM/FM",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A9",
+    "NAME": "C277",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A7",
+    "NAME": "C279",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A4",
+    "NAME": "C280",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A4",
+    "NAME": "C282",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B10",
+    "NAME": "C287",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "C10",
+    "NAME": "C288",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B10",
+    "NAME": "C289",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F2",
+    "NAME": "C290",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B10",
+    "NAME": "C291",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A2",
+    "NAME": "C292",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A5",
+    "NAME": "C301",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A8",
+    "NAME": "C310",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A3",
+    "NAME": "C314",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A4",
+    "NAME": "C315",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "D1",
+    "NAME": "C316",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A6",
+    "NAME": "C318",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F3",
+    "NAME": "C323",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "E1",
+    "NAME": "C324",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A2",
+    "NAME": "C375",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A1",
+    "NAME": "C384",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "D10",
+    "NAME": "C400",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F9",
+    "NAME": "C401",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F6",
+    "NAME": "C404",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F6",
+    "NAME": "C405",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F5",
+    "NAME": "C406",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "C10",
+    "NAME": "C409",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "E10",
+    "NAME": "C416",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F8",
+    "NAME": "C417",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "D10",
+    "NAME": "C419",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F7",
+    "NAME": "C420",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "E10",
+    "NAME": "C421",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A7",
+    "NAME": "C437",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "B10",
+    "NAME": "C438",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F2",
+    "NAME": "C444",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A9",
+    "NAME": "C445",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "C1",
+    "NAME": "C505",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "C1",
+    "NAME": "C509",
+    "QUALIFIER": "Wagon",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A5",
+    "NAME": "C611",
+    "TYPE": "CON"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F6",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A4",
+    "NAME": "Camshaft Position (CMP) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A7",
+    "NAME": "CD Changer",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F7",
+    "NAME": "CD Changer",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "F4",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F3",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F3",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F3",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "B1",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A1",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "C1",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "B1",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "C1",
+    "NAME": "Central Junction Box",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A2",
+    "NAME": "Clutch Pedal Position Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "E1",
+    "NAME": "Clutch Start Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "B1",
+    "NAME": "Clutch Start Switch Jumper",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "D10",
+    "NAME": "Constant Control Relay Module (CCRM)",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E10",
+    "NAME": "Constant Control Relay Module (CCRM)",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F6",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C1",
+    "NAME": "Crankshaft Position (CKP) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F4",
+    "NAME": "Data Link Connector (DLC)",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A3",
+    "NAME": "Deactivator Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A6",
+    "NAME": "Differential Pressure Feedback EGR (DPFE) Sensor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A3",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A2",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A1",
+    "NAME": "Door Lock/Unlock Relay",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A8",
+    "NAME": "Driver Air Bag",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "D1",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "D1",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "D1",
+    "NAME": "Driver Safety Belt Buckle Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A2",
+    "NAME": "DRL Fuse",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B1",
+    "NAME": "DRL Fuse",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A2",
+    "NAME": "DRL Resistor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B1",
+    "NAME": "DRL Resistor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A4",
+    "NAME": "EGR Vacuum Regulator (EVR)",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F6",
+    "NAME": "Electric Cooling Fan",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F6",
+    "NAME": "Electric Cooling Fan",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A3",
+    "NAME": "Engine Coolant Level Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D1",
+    "NAME": "Engine Coolant Level Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F5",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F8",
+    "NAME": "Engine Coolant Temperature (ECT) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A4",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F2",
+    "NAME": "Engine Oil Pressure Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A4",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F7",
+    "NAME": "EVAP Canister Purge Valve",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F7",
+    "NAME": "EVAP Canister Vent Solenoid",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "B1",
+    "NAME": "Exterior Rear View Mirror Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B1",
+    "NAME": "Fog Lamp Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "Fuel Injector #1",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "Fuel Injector #2",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "Fuel Injector #3",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A5",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A3",
+    "NAME": "Fuel Injector #4",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "F5",
+    "NAME": "Fuel Pump Driver Module",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F6",
+    "NAME": "Fuel Pump Driver Module",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A4",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F6",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F5",
+    "NAME": "Fuel Pump Module",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A5",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F4",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F4",
+    "NAME": "Fuel Tank Pressure Sensor",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A5",
+    "NAME": "G100",
+    "QUALIFIER": "Zetec",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A4",
+    "NAME": "G100",
+    "QUALIFIER": "2.0L",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "E10",
+    "NAME": "G104",
+    "QUALIFIER": "Zetec",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E10",
+    "NAME": "G104",
+    "QUALIFIER": "2.0L",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C1",
+    "NAME": "G106",
+    "QUALIFIER": "2.0L",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C10",
+    "NAME": "G146",
+    "QUALIFIER": "Zetec",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D10",
+    "NAME": "G146",
+    "QUALIFIER": "2.0L",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "B10",
+    "NAME": "G201",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F7",
+    "NAME": "G202",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F6",
+    "NAME": "G203",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E1",
+    "NAME": "G224",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F4",
+    "NAME": "G300",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F9",
+    "NAME": "G401",
+    "QUALIFIER": "Wagon",
+    "TYPE": "GRD"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C1",
+    "NAME": "Generator",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E1",
+    "NAME": "Generator",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Headlamp Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E1",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F3",
+    "NAME": "Heated Oxygen Sensor (HO2S) #11",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "A6",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A7",
+    "NAME": "Heated Oxygen Sensor (HO2S) #12",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "E10",
+    "NAME": "Heater Control Assembly",
+    "QUALIFIER": "W/O A/C",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "C10",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A8",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A7",
+    "NAME": "High Mounted Stoplamp",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Horn Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A7",
+    "NAME": "Horn Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "B10",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B10",
+    "NAME": "Hydraulic Control Unit",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F2",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A7",
+    "NAME": "Idle Air Control (IAC) Valve",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F7",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F6",
+    "NAME": "Ignition Coil",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "F2",
+    "NAME": "Inertia Fuel Shutoff Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F3",
+    "NAME": "Inertia Fuel Shutoff Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C10",
+    "NAME": "Injection Pressure Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E1",
+    "NAME": "Injection Pressure Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A4",
+    "NAME": "Instrument Cluster",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F8",
+    "NAME": "Instrument Panel Cigar Lighter",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "F5",
+    "NAME": "Instrument Panel Dimming Module",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F5",
+    "NAME": "Instrumentation Engine Coolant Temperature (ECT) Sender",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F5",
+    "NAME": "Instrumentation Engine Coolant Temperature (ECT) Sender",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B10",
+    "NAME": "Intake Air Temperature (IAT) Sensor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A6",
+    "NAME": "Intake Manifold Runner Control (IMRC) Solenoid",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "AM/FM",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "Integrated Control Panel (ICP)",
+    "QUALIFIER": "Premium Sound",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A6",
+    "NAME": "Integrated Control Panel (ICP) Jumper",
+    "QUALIFIER": "Premium Sound",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A5",
+    "NAME": "Interior/Map Lamp Assembly",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A5",
+    "NAME": "Interior/Map Lamp Assembly",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D1",
+    "NAME": "Joint Connector #1",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C1",
+    "NAME": "Joint Connector #1",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "C10",
+    "NAME": "Joint Connector #10",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A3",
+    "NAME": "Joint Connector #12",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "E10",
+    "NAME": "Joint Connector #2",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E10",
+    "NAME": "Joint Connector #2",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "E1",
+    "NAME": "Joint Connector #3",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A9",
+    "NAME": "Joint Connector #5",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "C10",
+    "NAME": "Joint Connector #6",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D10",
+    "NAME": "Joint Connector #6",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "A7",
+    "NAME": "Joint Connector #7",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F9",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F10",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "C10",
+    "NAME": "Joint Connector #8",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F8",
+    "NAME": "Joint Connector #9",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "E10",
+    "NAME": "Joint Connector #9",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F3",
+    "NAME": "Knock Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B1",
+    "NAME": "Knock Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "B1",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "C1",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "C1",
+    "NAME": "Left Exterior Rear View Mirror",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F9",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F9",
+    "NAME": "Left Fog Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A10",
+    "NAME": "Left Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "B10",
+    "NAME": "Left Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "E1",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F2",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F3",
+    "NAME": "Left Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "E1",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "E1",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "E1",
+    "NAME": "Left Front Door Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "D1",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F3",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F2",
+    "NAME": "Left Front Door Speaker",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F8",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F8",
+    "NAME": "Left Front Park/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E10",
+    "NAME": "Left Front Side/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "E10",
+    "NAME": "Left Front Side/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "C1",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F2",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "D1",
+    "NAME": "Left Front Window Motor",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "E10",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F10",
+    "NAME": "Left Headlamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E10",
+    "NAME": "Left Horn",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "E10",
+    "NAME": "Left License Lamp",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F2",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F5",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F6",
+    "NAME": "Left Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F3",
+    "NAME": "Left Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F3",
+    "NAME": "Left Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F5",
+    "NAME": "Left Rear Door Lock Actuator",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F9",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F9",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F8",
+    "NAME": "Left Rear Park/Stop/Turn Lamp #2",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F7",
+    "NAME": "Left Rear Side Lamp",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A7",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "E10",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "E10",
+    "NAME": "Left Rear Speaker",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F6",
+    "NAME": "Left Rear Window Motor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "B1",
+    "NAME": "Left Rear Window Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F7",
+    "NAME": "Left Reversing Lamp",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F8",
+    "NAME": "Left Reversing Lamp",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "F8",
+    "NAME": "License Lamps",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "F9",
+    "NAME": "License Lamps",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "F9",
+    "NAME": "Liftgate Latch Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "D10",
+    "NAME": "Liftgate Lock Actuator",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "E10",
+    "NAME": "Liftgate Washer Pump Motor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "E10",
+    "NAME": "Liftgate Wiper Motor",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A10",
+    "NAME": "Luggage Compartment Lamp",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A9",
+    "NAME": "Luggage Compartment Lamp",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "E10",
+    "NAME": "Luggage Compartment Release Solenoid",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "E10",
+    "NAME": "Luggage Compartment Release Solenoid",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F10",
+    "NAME": "Luggage Compartment Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "F10",
+    "NAME": "Luggage Compartment Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A4",
+    "NAME": "Map Lamp Assembly",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "B10",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C10",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "C10",
+    "NAME": "Mass Air Flow (MAF) Sensor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "C1",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "D1",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "C1",
+    "NAME": "Master Window/Door Lock Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "A6",
+    "NAME": "Multifunction Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F8",
+    "NAME": "Neutral Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A5",
+    "NAME": "Neutral Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "B1",
+    "NAME": "One Touch Down Control Unit",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A2",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F7",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "F4",
+    "NAME": "Park Brake Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Park Lamp Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A8",
+    "NAME": "Passenger Air Bag",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "B1",
+    "NAME": "Power Steering Pressure (PSP) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "B1",
+    "NAME": "Power Steering Pressure (PSP) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F8",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F8",
+    "NAME": "Powertrain Control Module (PCM)",
+    "QUALIFIER": "Sedan/Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "E1",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "B1",
+    "NAME": "Premium Sound Amplifier",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F6",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F5",
+    "NAME": "Radio Noise Capacitor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Rear Window Defogger Relay",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "B10",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "F6",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A5",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A6",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A8",
+    "NAME": "Rear Window Defrost Grid",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "008",
+    "ZONE": "D10",
+    "NAME": "Rear Window Defrost Switch",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "006",
+    "ZONE": "A1",
+    "NAME": "Relay Box",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F6",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "C10",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "B10",
+    "NAME": "Remote Anti-Theft Personality (RAP) Module",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "F5",
+    "NAME": "Remote Keyless Entry (RKE) Diode",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "D10",
+    "NAME": "Reversing/Upshift Switch",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F6",
+    "NAME": "Reversing/Upshift Switch",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A4",
+    "NAME": "Right Exterior Rear View Mirror",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A3",
+    "NAME": "Right Exterior Rear View Mirror",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F4",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F4",
+    "NAME": "Right Fog Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A1",
+    "NAME": "Right Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A1",
+    "NAME": "Right Front Anti-Lock Brake Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A6",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A6",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A7",
+    "NAME": "Right Front Door Courtesy Lamp Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A7",
+    "NAME": "Right Front Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A6",
+    "NAME": "Right Front Door Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "F8",
+    "NAME": "Right Front Door Speaker",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A4",
+    "NAME": "Right Front Door Speaker",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F4",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F2",
+    "NAME": "Right Front Park/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "D1",
+    "NAME": "Right Front Side/Turn Lamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D1",
+    "NAME": "Right Front Side/Turn Lamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A3",
+    "NAME": "Right Front Window Motor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "D1",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "D1",
+    "NAME": "Right Headlamp",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "E1",
+    "NAME": "Right Horn",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "E1",
+    "NAME": "Right Horn",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "E10",
+    "NAME": "Right License Lamp",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A6",
+    "NAME": "Right Power Window/Door Lock Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A5",
+    "NAME": "Right Power Window/Door Lock Switch",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A9",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "C10",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "A9",
+    "NAME": "Right Rear Anti-Lock Brake Sensor",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A8",
+    "NAME": "Right Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "B10",
+    "NAME": "Right Rear Door Courtesy Lamp Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A9",
+    "NAME": "Right Rear Door Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "B10",
+    "NAME": "Right Rear Door Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "D10",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "C10",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #1",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "C10",
+    "NAME": "Right Rear Park/Stop/Turn Lamp #2",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "D10",
+    "NAME": "Right Rear Side Lamp",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "B10",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A9",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A8",
+    "NAME": "Right Rear Speaker",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A8",
+    "NAME": "Right Rear Window Motor",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A9",
+    "NAME": "Right Rear Window Motor",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "010",
+    "ZONE": "A7",
+    "NAME": "Right Rear Window Switch",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "012",
+    "ZONE": "A8",
+    "NAME": "Right Rear Window Switch",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "D10",
+    "NAME": "Right Reversing Lamp",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "014",
+    "ZONE": "D10",
+    "NAME": "Right Reversing Lamp",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "009",
+    "ZONE": "A1",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Wagon",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "011",
+    "ZONE": "A2",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Sedan",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "013",
+    "ZONE": "A2",
+    "NAME": "Shift Lock Actuator",
+    "QUALIFIER": "Coupe",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "C1",
+    "NAME": "Speed Control Servo",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "C1",
+    "NAME": "Speed Control Servo",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "B10",
+    "NAME": "Speed Control Switch Assembly",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F4",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F3",
+    "NAME": "Starter Assembly",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "A6",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A5",
+    "NAME": "Throttle Position (TP) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "F5",
+    "NAME": "Transaxle (Solenoid Control Assembly)",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D10",
+    "NAME": "Transaxle (Solenoid Control Assembly)",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "F9",
+    "NAME": "Transmission Range (TR) Sensor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "F7",
+    "NAME": "Transmission Range (TR) Sensor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "001",
+    "ZONE": "C10",
+    "NAME": "Turbine Speed Sensor (TSS)",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "D10",
+    "NAME": "Turbine Speed Sensor (TSS)",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "B1",
+    "NAME": "Variable Valve Timing Solenoid",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "003",
+    "ZONE": "F7",
+    "NAME": "Vehicle Speed Sensor (VSS)",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "F4",
+    "NAME": "Vehicle Speed Sensor (VSS)",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "007",
+    "ZONE": "F2",
+    "NAME": "Warning Chime Module",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A4",
+    "NAME": "Windshield Washer Pump Motor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "004",
+    "ZONE": "A3",
+    "NAME": "Windshield Washer Pump Motor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "002",
+    "ZONE": "A8",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "Zetec",
+    "TYPE": "COM"
+  },
+  {
+    "EVTM": "EXF",
+    "CELL": "151",
+    "LOCPAGE": "005",
+    "ZONE": "A8",
+    "NAME": "Windshield Wiper Motor",
+    "QUALIFIER": "2.0L",
+    "TYPE": "COM"
+  }
+]
