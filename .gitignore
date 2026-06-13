@@ -11,6 +11,9 @@ venv/
 .env
 *.env
 
+# Self-signed TLS certs for LAN HTTPS serving (run_lan.py) — machine-local
+.certs/
+
 # Local server logs
 uvlog.txt
 uvout.txt

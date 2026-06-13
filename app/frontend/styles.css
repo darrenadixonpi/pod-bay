@@ -20,6 +20,7 @@ html, body {
   color: var(--text);
   font: 15px/1.55 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
+body { display: flex; flex-direction: column; }
 
 header {
   display: flex;
@@ -49,7 +50,7 @@ header .vehicle { color: var(--muted); font-size: 13px; }
 main {
   display: grid;
   grid-template-columns: 1fr 420px;
-  height: calc(100% - 49px);
+  flex: 1 1 0;   /* fill body's remaining height (body is now flex-column) */
   min-height: 0; /* allow grid children to shrink so their content scrolls */
 }
 
@@ -95,17 +96,126 @@ button.example:hover { border-color: var(--accent); }
 .dot-flash::after { content: "…"; animation: dots 1.2s steps(4, end) infinite; }
 @keyframes dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75% { content: "..."; } }
 
-#composer { display: flex; gap: 10px; padding: 14px 20px; border-top: 1px solid var(--border); background: var(--panel); }
+/* Streaming assistant bubble — two zones stacked inside .bubble */
+.stream-text { }   /* no extra styles; inherits all .bubble p / table / code rules */
+.tool-status {
+  color: var(--muted);
+  font-size: 13px;
+}
+.tool-status[hidden] { display: none; }
+/* When tools are called after text has already been streamed, add a divider */
+.tool-status.after-text {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+#composer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 20px 14px;
+  border-top: 1px solid var(--border);
+  background: var(--panel);
+}
+
+/* Attached image preview strip */
+#attach-preview {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+#attach-preview[hidden] { display: none; }
+#attach-thumb {
+  height: 56px;
+  width: auto;
+  max-width: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: #fff;
+  cursor: zoom-in;
+}
+#attach-label { font-size: 12px; color: var(--muted); flex: 1; }
+#clear-attach {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  font-size: 15px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+#clear-attach:hover { border-color: var(--accent); color: var(--text); }
+
+/* Input row (buttons + textarea) */
+.input-row { display: flex; gap: 8px; align-items: flex-end; }
+
 #input {
   flex: 1; resize: none; background: var(--bg); color: var(--text);
   border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; font: inherit; max-height: 160px;
 }
 #input:focus { outline: none; border-color: var(--accent); }
+
+/* Photo + mic buttons */
+#photo-btn, #mic-btn {
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  width: 42px;
+  height: 42px;
+  cursor: pointer;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: border-color 0.15s, color 0.15s;
+}
+#photo-btn:hover, #mic-btn:hover { border-color: var(--accent); color: var(--text); }
+#mic-btn.listening {
+  border-color: #e05252;
+  color: #e05252;
+  animation: mic-pulse 1.1s ease-in-out infinite;
+}
+@keyframes mic-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(224,82,82,0.35); }
+  50%       { box-shadow: 0 0 0 7px rgba(224,82,82,0); }
+}
+
 #send {
   background: var(--accent); color: #1a1207; border: none; border-radius: 10px;
-  padding: 0 20px; font-weight: 600; cursor: pointer;
+  padding: 0 20px; height: 42px; font-weight: 600; cursor: pointer; flex-shrink: 0;
 }
 #send:disabled { opacity: 0.5; cursor: default; }
+
+/* User bubble — attached photo */
+.msg.user .bubble .user-image {
+  display: block;
+  max-width: 100%;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 6px;
+  cursor: zoom-in;
+  object-fit: contain;
+  background: rgba(255,255,255,0.1);
+}
+
+/* Drop target highlight when dragging an image onto the chat */
+#messages.drag-over { outline: 2px dashed var(--accent); outline-offset: -6px; }
 
 /* ---- Reference column ---- */
 #ref-col { display: flex; flex-direction: column; background: var(--panel); min-width: 0; min-height: 0; }
@@ -139,3 +249,249 @@ button.example:hover { border-color: var(--accent); }
 }
 #lightbox.open { display: flex; }
 #lightbox img { max-width: 100%; max-height: 100%; background: #fff; border-radius: 8px; }
+
+/* ── Panel toggle button (mobile only — opens the reference drawer) ───────── */
+#panel-toggle {
+  display: none; /* hidden on desktop; shown via @media below */
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: border-color 0.15s, color 0.15s;
+}
+#panel-toggle:hover { border-color: var(--accent); color: var(--text); }
+/* Badge-pulse when new trace items arrive while drawer is closed */
+#panel-toggle.has-update {
+  border-color: var(--accent);
+  color: var(--accent);
+  animation: panel-pulse 1.4s ease-in-out 3;
+}
+@keyframes panel-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(240,136,62,0.35); }
+  50%       { box-shadow: 0 0 0 7px rgba(240,136,62,0); }
+}
+
+/* ── Drawer backdrop ─────────────────────────────────────────────────────── */
+#drawer-backdrop {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 4;
+}
+#drawer-backdrop.show { display: block; }
+
+/* ── Mobile layout (<768 px) ─────────────────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Header: vertically-centered, tighter, vehicle-select expands */
+  header { align-items: center; padding: 10px 14px; gap: 8px; }
+  header h1 { font-size: 15px; }
+  #vehicle-select { flex: 1; min-width: 0; max-width: none; }
+  #panel-toggle { display: flex; }
+
+  /* Single-column main — ref-col is fixed/overlaid, not in flow */
+  main { grid-template-columns: 1fr; }
+  #chat-col { border-right: none; }
+
+  /* Reference panel: fixed bottom drawer, hidden off-screen by default */
+  #ref-col {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 65vh;
+    max-height: 85vh;
+    z-index: 5;
+    transform: translateY(100%);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 14px 14px 0 0;
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+  }
+  #ref-col.open { transform: translateY(0); }
+
+  /* Drag-handle affordance at the top of the drawer */
+  #ref-col::before {
+    content: "";
+    display: block;
+    width: 36px;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    margin: 10px auto 4px;
+    flex-shrink: 0;
+  }
+
+  /* Touch-friendly composer and message area */
+  #composer { padding: 8px 14px 14px; }
+  #messages { padding: 14px; }
+
+  /* Larger tap targets (Apple HIG: 44 px minimum) */
+  #photo-btn, #mic-btn { width: 46px; height: 46px; }
+  #send { height: 46px; }
+
+  /* >=16 px prevents iOS from auto-zooming the viewport on input focus */
+  #input { font-size: 16px; }
+}
+
+/* ── New chat button ─────────────────────────────────────────────────────── */
+#new-chat {
+  background: var(--panel-2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: border-color 0.15s, color 0.15s;
+}
+#new-chat:hover { border-color: var(--accent); color: var(--text); }
+
+/* ── Section browser ─────────────────────────────────────────────────────── */
+.section-group-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  color: var(--muted);
+  padding: 12px 0 6px;
+}
+.section-group-label:first-child { padding-top: 0; }
+
+.section-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  width: 100%;
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  transition: border-color 0.15s;
+}
+.section-item:hover { border-color: var(--accent); }
+
+.section-id {
+  font-family: ui-monospace, monospace;
+  font-size: 12px;
+  color: var(--accent);
+  flex-shrink: 0;
+  min-width: 44px;
+}
+.section-name {
+  font-size: 13px;
+  flex: 1;
+  word-break: break-word;
+}
+.section-meta {
+  font-size: 11px;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+/* Search mode footer inside the Sections panel */
+.search-info {
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+  color: var(--muted);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.search-pill {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+}
+.search-pill.hybrid  { background: rgba(240,136,62,0.15); color: var(--accent); }
+.search-pill.keyword { background: var(--panel-2); color: var(--muted); border: 1px solid var(--border); }
+
+/* On mobile, hide New chat text and show only the icon */
+@media (max-width: 480px) {
+  #new-chat { padding: 6px 8px; font-size: 15px; }
+}
+
+/* ── SW update toast ─────────────────────────────────────────────────────── */
+.update-toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--panel);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 10px 16px;
+  font-size: 13px;
+  color: var(--text);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 20;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  white-space: nowrap;
+}
+.update-toast button {
+  background: var(--accent);
+  color: #1a1207;
+  border: none;
+  border-radius: 7px;
+  padding: 5px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* ── Connectivity banner ─────────────────────────────────────────────────── */
+#net-banner {
+  flex: 0 0 auto;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.4;
+  padding: 8px 16px;
+  border-bottom: 1px solid var(--border);
+}
+#net-banner[hidden] { display: none; }
+#net-banner.offline      { background: rgba(240,136,62,0.13); color: var(--accent); }
+#net-banner.backend-down { background: rgba(224,82,82,0.13);  color: #e05252; }
+
+/* Disabled composer buttons (offline / backend down / mid-request) */
+#send:disabled,
+#photo-btn:disabled,
+#mic-btn:disabled { opacity: 0.4; cursor: default; }
+#photo-btn:disabled:hover,
+#mic-btn:disabled:hover { border-color: var(--border); color: var(--muted); }
+
+/* ── Clickable section citations in answers ──────────────────────────────── */
+.section-cite {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+  cursor: pointer;
+}
+.section-cite:hover { border-bottom-style: solid; }
+
+/* Brief highlight when a citation jumps to its section in the browser */
+.section-item.flash { animation: section-flash 1.6s ease-out; }
+@keyframes section-flash {
+  0%   { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(240,136,62,0.55); }
+  100% { border-color: var(--border); box-shadow: 0 0 0 0 rgba(240,136,62,0); }
+}

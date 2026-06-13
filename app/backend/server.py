@@ -14,12 +14,14 @@ import sys
 
 from anthropic import Anthropic, APIStatusError, APIError
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 import config
+import retrieval
 import tools
+import vectorstore
 
 app = FastAPI(title="Pod Bay backend", version="0.2.0")
 client = Anthropic()  # reads ANTHROPIC_API_KEY from env
@@ -145,7 +147,16 @@ def _log_usage(vehicle_id: str, usage) -> None:
 
 @app.get("/api/health")
 def health():
-    return {"status": "ok", "default_vehicle": config.DEFAULT_VEHICLE_ID, "model": config.MODEL}
+    vec_ok = vectorstore.available()
+    configured = config.SEARCH_MODE
+    # Effective mode: falls back to keyword when vector dependency is missing
+    effective = configured if (configured == "keyword" or vec_ok) else "keyword"
+    return {
+        "status": "ok",
+        "default_vehicle": config.DEFAULT_VEHICLE_ID,
+        "model": config.MODEL,
+        "search": {"configured": configured, "vector_available": vec_ok, "effective": effective},
+    }
 
 
 @app.get("/api/vehicles")
@@ -156,10 +167,39 @@ def vehicles():
 
 @app.get("/api/vehicle")
 def vehicle(vehicle_id: str | None = None):
-    """Vehicle label + available diagram filenames for the UI."""
+    """Vehicle label + available diagram filenames + search mode for the UI."""
     v = _resolve_vehicle(vehicle_id)
     diagrams = sorted(p.name for p in v.diagrams_dir.glob("*.gif"))
-    return {"id": v.id, "label": v.label, "diagrams": diagrams}
+    # Whether the vector index has been built for this vehicle
+    index_built = v.index_dir.exists() and any(v.index_dir.iterdir())
+    vec_ok = vectorstore.available()
+    configured = config.SEARCH_MODE
+    effective = configured if (configured == "keyword" or (vec_ok and index_built)) else "keyword"
+    return {
+        "id": v.id,
+        "label": v.label,
+        "diagrams": diagrams,
+        "search": {"configured": configured, "vector_available": vec_ok,
+                   "index_built": index_built, "effective": effective},
+    }
+
+
+@app.get("/api/sections")
+def sections(vehicle_id: str | None = None):
+    """Workshop section index + owner's chapter list for the section browser UI."""
+    v = _resolve_vehicle(vehicle_id)
+    workshop = []
+    if v.section_index.exists():
+        for s in json.loads(v.section_index.read_text(encoding="utf-8")):
+            workshop.append({
+                "section": s.get("section", ""),
+                "name": s.get("name", "").strip(),
+                "page_count": s.get("page_count", 0),
+                "first_page": s.get("first_page"),
+                "last_page": s.get("last_page"),
+            })
+    owners = [c["chapter"] for c in retrieval._owners_chapters(v.id)]
+    return {"vehicle_id": v.id, "workshop": workshop, "owners": owners}
 
 
 @app.get("/diagrams/{vehicle_id}/{filename}")
@@ -251,6 +291,104 @@ def chat(req: ChatRequest):
         reply="(stopped: exceeded tool-call budget without a final answer)",
         tool_calls=trace,
         diagrams=diagrams,
+    )
+
+
+@app.post("/api/chat/stream")
+def chat_stream(req: ChatRequest):
+    """Streaming variant of /api/chat — returns text/event-stream (SSE).
+
+    Events (each line: ``data: <json>\\n\\n``):
+      {"type": "text",      "delta": "..."}               – text token from Claude
+      {"type": "tool_call", "tool": "...", "input": {...}} – tool being called
+      {"type": "done",      "tool_calls": [...], "diagrams": [...]} – finished
+      {"type": "error",     "message": "..."}              – something went wrong
+
+    The existing /api/chat endpoint is unchanged and kept for API clients.
+    """
+    vehicle = _resolve_vehicle(req.vehicle_id)
+    messages = _trim_history(req.messages)
+    trace: list[dict] = []
+    diagrams: list[dict] = []
+
+    def generate():
+        for _ in range(MAX_TOOL_ROUNDS):
+            # ── Stream one Claude API call ──────────────────────────────────
+            try:
+                with client.messages.stream(
+                    model=config.MODEL,
+                    max_tokens=2048,
+                    system=_cached_system(vehicle.label),
+                    tools=_cached_tools(),
+                    messages=_with_cache_breakpoint(messages),
+                ) as stream:
+                    for text_chunk in stream.text_stream:
+                        yield f"data: {json.dumps({'type': 'text', 'delta': text_chunk})}\n\n"
+                    final = stream.get_final_message()
+                    _log_usage(vehicle.id, final.usage)
+
+            except APIStatusError as e:
+                if e.status_code == 429:
+                    msg = ("Rate limit hit — your tier allows a limited tokens/min. "
+                           "Wait ~30 s and try again.")
+                elif e.status_code in (500, 502, 503, 529):
+                    msg = "Anthropic API temporarily unavailable. Try again shortly."
+                else:
+                    msg = f"Anthropic API error ({e.status_code}). Try again."
+                yield f"data: {json.dumps({'type': 'error', 'message': msg})}\n\n"
+                return
+            except APIError as e:
+                yield f"data: {json.dumps({'type': 'error', 'message': str(e)})}\n\n"
+                return
+
+            # ── No more tools — done ────────────────────────────────────────
+            if final.stop_reason != "tool_use":
+                yield f"data: {json.dumps({'type': 'done', 'tool_calls': trace, 'diagrams': diagrams})}\n\n"
+                return
+
+            # ── Execute every tool in this turn, then loop ──────────────────
+            messages.append({
+                "role": "assistant",
+                "content": [b.model_dump() for b in final.content],
+            })
+            results = []
+            for block in final.content:
+                if block.type != "tool_use":
+                    continue
+
+                yield f"data: {json.dumps({'type': 'tool_call', 'tool': block.name, 'input': block.input})}\n\n"
+
+                output = tools.run_tool(block.name, block.input, vehicle.id)
+                trace.append({"tool": block.name, "input": block.input})
+
+                if block.name == "get_diagram":
+                    parsed = json.loads(output)
+                    if parsed.get("resolved") and not any(d["url"] == parsed["url"] for d in diagrams):
+                        diagrams.append({"figure_id": parsed["figure_id"], "url": parsed["url"]})
+                elif block.name == "get_wiring_diagram":
+                    parsed = json.loads(output)
+                    for d in parsed.get("diagrams", []):
+                        if not any(x["url"] == d["url"] for x in diagrams):
+                            diagrams.append({"figure_id": d["diagram_id"], "url": d["url"]})
+
+                results.append({
+                    "type": "tool_result",
+                    "tool_use_id": block.id,
+                    "content": output,
+                })
+            messages.append({"role": "user", "content": results})
+
+        # Ran out of tool rounds without a final text answer
+        yield f"data: {json.dumps({'type': 'done', 'tool_calls': trace, 'diagrams': diagrams})}\n\n"
+
+    return StreamingResponse(
+        generate(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "X-Accel-Buffering": "no",
+            "Connection": "keep-alive",
+        },
     )
 
 

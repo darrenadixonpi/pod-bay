@@ -1,0 +1,7 @@
+# Development / test dependencies. Install with:
+#   pip install -r requirements-dev.txt
+#
+# The test suite (tests/) is hermetic — it exercises the IDICOMP decompressor,
+# archive parsing, and the retrieval scorers using synthetic inputs, so it needs
+# no vehicle data and none of the backend's runtime third-party packages.
+pytest>=8.0

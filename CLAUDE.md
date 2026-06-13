@@ -15,7 +15,7 @@ Pod Bay is a platform for extracting factory automotive service manuals from pro
 
 ## Commands
 
-The extractor scripts are plain Python 3.8+ with **no third-party dependencies for the core ARC pipeline** (only stdlib). There is no build step, no test suite, no linter configured.
+The extractor scripts are plain Python 3.8+ with **no third-party dependencies for the core ARC pipeline** (only stdlib). There is no build step or linter configured. A hermetic pytest suite lives in `tests/` (no vehicle data or backend runtime deps needed): `pip install -r requirements-dev.txt && python -m pytest`. It pins the IDICOMP decompressor and archive parsing (via an independent encoder) and the retrieval scorers (BM25/RRF, snippet, section windowing) against synthetic inputs.
 
 The source archives live under `archive/.ARC files/` (the folder name contains a space and a leading dot, so quote the path).
 

@@ -3,6 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#161b22" />
+  <meta name="description" content="Factory Ford workshop manual and wiring database assistant" />
+  <!-- PWA / install -->
+  <link rel="manifest" href="/manifest.json" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Pod Bay" />
+  <link rel="apple-touch-icon" href="/icons/icon-192.png" />
   <title>Pod Bay — Service Assistant</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <link rel="stylesheet" href="styles.css" />
@@ -13,8 +21,12 @@
     <select id="vehicle-select" class="vehicle" title="Switch vehicle (starts a new conversation)">
       <option>loading…</option>
     </select>
+    <button id="new-chat" type="button" title="Clear conversation and start fresh">↺ New chat</button>
+    <button id="panel-toggle" type="button" aria-label="Sources &amp; diagrams">📋 Sources</button>
     <button id="export" type="button" title="Download the full conversation (messages, tool calls, diagrams) as JSON for debugging">⬇ Export</button>
   </header>
+
+  <div id="net-banner" hidden></div>
 
   <main>
     <!-- Chat column -->
@@ -34,8 +46,20 @@
         </div>
       </div>
       <form id="composer">
-        <textarea id="input" rows="1" placeholder="Describe the problem or ask a question…" autocomplete="off"></textarea>
-        <button id="send" type="submit">Send</button>
+        <!-- Image preview strip — visible when a photo is attached -->
+        <div id="attach-preview" hidden>
+          <img id="attach-thumb" alt="attached photo" />
+          <span id="attach-label">Photo attached</span>
+          <button id="clear-attach" type="button" title="Remove photo">×</button>
+        </div>
+        <!-- Input row -->
+        <div class="input-row">
+          <input type="file" id="photo-input" accept="image/*" hidden />
+          <button id="photo-btn" type="button" title="Attach a photo — or drag &amp; drop / paste Ctrl+V">📎</button>
+          <textarea id="input" rows="1" placeholder="Describe the problem or ask a question…" autocomplete="off"></textarea>
+          <button id="mic-btn" type="button" title="Voice input">🎤</button>
+          <button id="send" type="submit">Send</button>
+        </div>
       </form>
     </section>
 
@@ -44,6 +68,7 @@
       <div class="tabs">
         <button class="tab active" data-tab="trace">What I looked at</button>
         <button class="tab" data-tab="diagrams">Diagrams</button>
+        <button class="tab" data-tab="sections">Sections</button>
       </div>
       <div id="trace" class="panel active">
         <p class="placeholder">Tool calls the assistant makes will show up here —
@@ -52,9 +77,13 @@
       <div id="diagrams" class="panel">
         <p class="placeholder">Loading diagrams…</p>
       </div>
+      <div id="sections" class="panel">
+        <p class="placeholder">Loading sections…</p>
+      </div>
     </aside>
   </main>
 
+  <div id="drawer-backdrop"></div>
   <script src="app.js"></script>
 </body>
 </html>

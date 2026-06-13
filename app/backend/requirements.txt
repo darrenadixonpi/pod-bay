@@ -7,3 +7,8 @@ pydantic>=2.0.0
 # (all-MiniLM-L6-v2) so the manual is never sent to an embedding API. Optional:
 # without it, search_manual falls back to keyword-only (PODBAY_SEARCH=keyword).
 chromadb>=1.0.0
+
+# Optional: only needed to serve the PWA over HTTPS on your LAN so it can be
+# installed on a phone (run_lan.py generates a self-signed cert). Not required
+# for normal localhost development. See docs/MOBILE_ACCESS.md.
+# cryptography>=42.0.0
